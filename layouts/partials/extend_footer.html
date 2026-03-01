@@ -1,0 +1,14 @@
+{{/* Add home-page class for custom styling */}}
+{{ if .IsHome }}
+<script>document.body.classList.add('home-page');</script>
+<script>
+(function() {
+  var profile = document.querySelector('.profile_inner');
+  if (!profile) return;
+  var cta = document.createElement('div');
+  cta.className = 'personal-cta';
+  cta.innerHTML = '<p>This may be all about AI, but a real person is behind it.</p><div class="cta-actions"><a href="mailto:spencerscottdigital@gmail.com" class="cta-email">Email Spencer</a><span class="cta-phone">or call <a href="tel:5612128244">561-212-8244</a></span></div>';
+  profile.appendChild(cta);
+})();
+</script>
+{{ end }}

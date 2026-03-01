@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 520" width="300" height="520">
+  <defs>
+    <clipPath id="njShape">
+      <path d="M158 8 L165 15 L172 28 L178 42 L183 58 L186 72 L190 88 L194 105 L197 120 L200 138 L204 155 L208 172 L212 190 L216 208 L220 225 L224 242 L228 258 L230 275 L228 292 L222 308 L214 322 L204 338 L192 352 L178 365 L162 378 L148 388 L135 396 L122 404 L112 410 L105 418 L100 428 L98 438 L100 448 L108 455 L118 458 L130 456 L142 450 L152 440 L158 428 L160 416 L156 404 L150 394 L148 382 L152 368 L160 355 L170 340 L178 325 L184 308 L188 290 L190 272 L190 252 L188 232 L184 212 L180 195 L175 178 L170 160 L165 142 L160 125 L155 108 L150 90 L148 72 L148 55 L150 38 L155 22 L158 8Z"/>
+    </clipPath>
+    <style>
+      .binary { font-family: 'Courier New', monospace; font-size: 11px; fill: rgba(34,87,122,0.12); }
+    </style>
+  </defs>
+  <g clip-path="url(#njShape)">
+    <text class="binary" x="90" y="15">10110100</text>
+    <text class="binary" x="95" y="28">01101011</text>
+    <text class="binary" x="100" y="41">10010110</text>
+    <text class="binary" x="105" y="54">01110101</text>
+    <text class="binary" x="100" y="67">10101100</text>
+    <text class="binary" x="95" y="80">01011010</text>
+    <text class="binary" x="100" y="93">11001011</text>
+    <text class="binary" x="105" y="106">01100101</text>
+    <text class="binary" x="100" y="119">10110010</text>
+    <text class="binary" x="105" y="132">01010110</text>
+    <text class="binary" x="110" y="145">10101001</text>
+    <text class="binary" x="105" y="158">01101101</text>
+    <text class="binary" x="110" y="171">10010110</text>
+    <text class="binary" x="115" y="184">01110100</text>
+    <text class="binary" x="110" y="197">10101011</text>
+    <text class="binary" x="115" y="210">01011010</text>
+    <text class="binary" x="120" y="223">10110101</text>
+    <text class="binary" x="125" y="236">01100110</text>
+    <text class="binary" x="130" y="249">10011011</text>
+    <text class="binary" x="125" y="262">01110010</text>
+    <text class="binary" x="130" y="275">10101100</text>
+    <text class="binary" x="125" y="288">01010101</text>
+    <text class="binary" x="120" y="301">10110110</text>
+    <text class="binary" x="115" y="314">01101001</text>
+    <text class="binary" x="110" y="327">10010101</text>
+    <text class="binary" x="105" y="340">01110010</text>
+    <text class="binary" x="100" y="353">10101101</text>
+    <text class="binary" x="95" y="366">01011010</text>
+    <text class="binary" x="90" y="379">10100110</text>
+    <text class="binary" x="85" y="392">01101011</text>
+    <text class="binary" x="80" y="405">10010101</text>
+    <text class="binary" x="75" y="418">01110010</text>
+    <text class="binary" x="80" y="431">10101100</text>
+    <text class="binary" x="85" y="444">01010110</text>
+    <text class="binary" x="90" y="457">10110010</text>
+    <text class="binary" x="100" y="470">01101010</text>
+  </g>
+  <!-- Subtle outline stroke -->
+  <path d="M158 8 L165 15 L172 28 L178 42 L183 58 L186 72 L190 88 L194 105 L197 120 L200 138 L204 155 L208 172 L212 190 L216 208 L220 225 L224 242 L228 258 L230 275 L228 292 L222 308 L214 322 L204 338 L192 352 L178 365 L162 378 L148 388 L135 396 L122 404 L112 410 L105 418 L100 428 L98 438 L100 448 L108 455 L118 458 L130 456 L142 450 L152 440 L158 428 L160 416 L156 404 L150 394 L148 382 L152 368 L160 355 L170 340 L178 325 L184 308 L188 290 L190 272 L190 252 L188 232 L184 212 L180 195 L175 178 L170 160 L165 142 L160 125 L155 108 L150 90 L148 72 L148 55 L150 38 L155 22 L158 8Z" fill="none" stroke="rgba(34,87,122,0.08)" stroke-width="1.5"/>
+</svg>

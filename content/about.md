@@ -1,24 +1,29 @@
 ---
 title: "About AI Local Business"
-description: "AI Local Business is a digital marketing agency based in Glen Rock, NJ helping Bergen County businesses get found on Google and AI search platforms."
+description: "AI Local Business is a Bergen County based digital marketing agency helping businesses in Paramus, Fair Lawn, Hackensack and all of North Jersey get found on Google and AI search platforms like ChatGPT and Perplexity."
 url: /about/
 layout: "single"
 hidemeta: true
 showtoc: false
 keywords:
   - AI Local Business
-  - digital marketing Glen Rock NJ
+  - digital marketing Bergen County NJ
   - Bergen County SEO expert
   - local SEO consultant
+  - Paramus digital marketing
+  - Fair Lawn SEO
+  - Hackensack digital marketing
 ---
+
+AI Local Business is a Bergen County based digital marketing agency helping businesses in Paramus, Fair Lawn, Hackensack and all of North Jersey get found on Google and AI search platforms like ChatGPT and Perplexity.
 
 ## Hi, I'm Spencer.
 
-I'm a digital marketer based in Glen Rock, New Jersey, and I started AI Local Business to solve a problem I kept seeing in my own community: great local businesses that were invisible online.
+I'm a digital marketer with over a decade of experience in SEO and performance marketing living in Bergen County, New Jersey. I started *AI Local Business* to solve a problem I kept seeing in my own community: great local businesses that were invisible online.
 
-The Bergen County area is home to some of the best service professionals, restaurants, and small businesses in the state. But most of them are relying on word of mouth and a Google listing they set up years ago. Meanwhile, the way people find local businesses is changing fast — and it's not just Google anymore.
+The Bergen County area is home to some of the best service professionals, restaurants, and small businesses in the state. But most of them are relying on word of mouth and a Google listing they set up years ago — if they have a website or digital presence at all.
 
-When someone asks ChatGPT "who's the best HVAC company near Ridgewood?" or asks Perplexity about "top-rated plumbers in Bergen County," your business should be part of that answer. Right now, for most local businesses, it isn't.
+Meanwhile, the way people find local businesses is changing fast — and it's not just Google anymore. When someone asks ChatGPT "who's the best HVAC company near Ridgewood?" or asks Perplexity about "top-rated plumbers in Teaneck," your business should be part of that answer. Right now, for most local businesses, it isn't.
 
 **That's what I fix.**
 
