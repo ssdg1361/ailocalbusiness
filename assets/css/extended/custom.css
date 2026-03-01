@@ -262,9 +262,9 @@ body.home-page::after {
 }
 
 .personal-cta p {
-  font-size: 0.9rem;
-  color: #888;
-  margin-bottom: 12px;
+  font-size: 0.85rem;
+  color: #999;
+  margin-bottom: 14px;
   font-style: italic;
 }
 
@@ -272,41 +272,26 @@ body.home-page::after {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 16px;
-  flex-wrap: wrap;
+  gap: 20px;
 }
 
-.cta-email {
-  display: inline-block;
-  padding: 10px 24px;
-  background: var(--accent-primary);
-  color: white !important;
-  border-radius: 6px;
-  text-decoration: none !important;
-  font-weight: 600;
-  font-size: 0.95rem;
+.cta-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background: rgba(34, 87, 122, 0.08);
+  color: var(--accent-primary);
   transition: all 0.2s;
 }
 
-.cta-email:hover {
-  background: #1a4560;
+.cta-icon:hover {
+  background: var(--accent-primary);
+  color: white;
   transform: translateY(-1px);
-  box-shadow: 0 4px 12px rgba(34,87,122,0.25);
-}
-
-.cta-phone {
-  font-size: 0.85rem;
-  color: #999;
-}
-
-.cta-phone a {
-  color: var(--accent-primary);
-  text-decoration: none;
-  font-weight: 500;
-}
-
-.cta-phone a:hover {
-  text-decoration: underline;
+  box-shadow: 0 4px 12px rgba(34,87,122,0.2);
 }
 
 .dark .personal-cta {
@@ -314,19 +299,17 @@ body.home-page::after {
 }
 
 .dark .personal-cta p {
-  color: #aaa;
-}
-
-.dark .cta-email {
-  background: #4a9cc7;
-}
-
-.dark .cta-phone {
   color: #888;
 }
 
-.dark .cta-phone a {
+.dark .cta-icon {
+  background: rgba(74, 156, 199, 0.12);
   color: #4a9cc7;
+}
+
+.dark .cta-icon:hover {
+  background: #4a9cc7;
+  color: white;
 }
 
 /* --- Responsive adjustments --- */
