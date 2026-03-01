@@ -1,0 +1,136 @@
+baseURL = "https://ailocalbusiness.biz/"
+languageCode = "en-us"
+title = "AI Local Business"
+theme = "PaperMod"
+[pagination]
+  pagerSize = 10
+
+enableRobotsTXT = true
+buildDrafts = false
+buildFuture = false
+buildExpired = false
+enableEmoji = false
+
+[minify]
+  disableXML = true
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
+[params]
+  env = "production"
+  author = "Spencer Scott"
+  description = "Local SEO & AI Search Optimization for Bergen County businesses. Get found on Google, ChatGPT, Perplexity, and every platform your customers are searching."
+  keywords = ["local SEO", "AI search optimization", "Bergen County", "digital marketing", "Glen Rock NJ", "AEO", "ChatGPT optimization", "local business marketing"]
+  defaultTheme = "light"
+  disableThemeToggle = false
+  ShowReadingTime = true
+  ShowShareButtons = true
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = false
+  ShowWordCount = false
+  ShowRssButtonInSectionTermList = true
+  UseHugoToc = true
+  disableSpecial1stPost = false
+  disableScrollToTop = false
+  comments = false
+  hidemeta = false
+  hideSummary = false
+  showtoc = true
+  tocopen = false
+  mainSections = ["blog"]
+
+  [params.assets]
+    favicon = "/favicon.ico"
+    disableHLJS = true
+
+  [params.profileMode]
+    enabled = true
+    title = "AI Local Business"
+    subtitle = "Helping Bergen County businesses get found — on Google, ChatGPT, and everywhere your customers are searching."
+    imageUrl = ""
+    imageWidth = 120
+    imageHeight = 120
+    imageTitle = ""
+
+    [[params.profileMode.buttons]]
+      name = "Blog"
+      url = "/blog/"
+
+    [[params.profileMode.buttons]]
+      name = "Services"
+      url = "/services/"
+
+    [[params.profileMode.buttons]]
+      name = "Free AI Search Audit"
+      url = "/audit/"
+
+  [params.homeInfoParams]
+    Title = "AI Local Business"
+    Content = "Local SEO & AI Search Optimization for Bergen County businesses"
+
+  [[params.socialIcons]]
+    name = "email"
+    url = "mailto:spencerscottdigital@gmail.com"
+
+  # SEO / Open Graph / Twitter
+  [params.cover]
+    hidden = false
+    hiddenInList = false
+    hiddenInSingle = false
+
+  [params.fuseOpts]
+    isCaseSensitive = false
+    shouldSort = true
+    location = 0
+    distance = 1000
+    threshold = 0.4
+    minMatchCharLength = 0
+    keys = ["title", "permalink", "summary", "content"]
+
+# Main navigation menu
+[menu]
+  [[menu.main]]
+    identifier = "blog"
+    name = "Blog"
+    url = "/blog/"
+    weight = 10
+
+  [[menu.main]]
+    identifier = "services"
+    name = "Services"
+    url = "/services/"
+    weight = 20
+
+  [[menu.main]]
+    identifier = "audit"
+    name = "Free AI Audit"
+    url = "/audit/"
+    weight = 30
+
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = 40
+
+  [[menu.main]]
+    identifier = "search"
+    name = "Search"
+    url = "/search/"
+    weight = 50
+
+# Taxonomies for content organization
+[taxonomies]
+  category = "categories"
+  tag = "tags"
+  series = "series"
+
+# Markup settings
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+  [markup.highlight]
+    noClasses = false

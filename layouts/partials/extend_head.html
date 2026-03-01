@@ -1,0 +1,87 @@
+{{/* Custom SEO enhancements */}}
+
+{{/* Local Business Schema.org structured data - homepage only */}}
+{{ if .IsHome }}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ProfessionalService",
+  "name": "AI Local Business",
+  "description": "Local SEO and AI Search Optimization for Bergen County businesses",
+  "url": "{{ .Site.BaseURL }}",
+  "areaServed": [
+    {
+      "@type": "City",
+      "name": "Glen Rock",
+      "containedInPlace": {
+        "@type": "State",
+        "name": "New Jersey"
+      }
+    },
+    {
+      "@type": "AdministrativeArea",
+      "name": "Bergen County"
+    }
+  ],
+  "serviceType": ["Search Engine Optimization", "AI Search Optimization", "Local SEO", "Digital Marketing"],
+  "knowsAbout": ["SEO", "Local SEO", "AI Search Optimization", "Google Business Profile", "ChatGPT", "Perplexity", "Answer Engine Optimization"]
+}
+</script>
+{{ end }}
+
+{{/* Article Schema for blog posts */}}
+{{ if and (eq .Section "blog") (not .IsSection) }}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "{{ .Title }}",
+  "description": "{{ .Description | default .Summary | plainify | truncate 160 }}",
+  "author": {
+    "@type": "Person",
+    "name": "{{ .Site.Params.author }}"
+  },
+  "datePublished": "{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}",
+  "dateModified": "{{ .Lastmod.Format "2006-01-02T15:04:05Z07:00" }}",
+  "publisher": {
+    "@type": "Organization",
+    "name": "AI Local Business"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "{{ .Permalink }}"
+  }
+  {{ if .Params.keywords }},
+  "keywords": "{{ delimit .Params.keywords ", " }}"
+  {{ end }}
+}
+</script>
+{{ end }}
+
+{{/* FAQ Schema - if page has faq param */}}
+{{ if .Params.faq }}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {{ range $i, $item := .Params.faq }}
+    {{ if $i }},{{ end }}
+    {
+      "@type": "Question",
+      "name": "{{ $item.question }}",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "{{ $item.answer }}"
+      }
+    }
+    {{ end }}
+  ]
+}
+</script>
+{{ end }}
+
+{{/* Canonical URL */}}
+{{ if .Params.canonical }}
+<link rel="canonical" href="{{ .Params.canonical }}" />
+{{ end }}
