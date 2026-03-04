@@ -7,6 +7,22 @@ gtag('js', new Date());
 gtag('config', 'AW-17986235360');
 </script>
 
+{{/* Google Ads conversion event - fires on contact clicks */}}
+<script>
+function gtag_report_conversion(url) {
+  var callback = function () {
+    if (typeof(url) != 'undefined') {
+      window.location = url;
+    }
+  };
+  gtag('event', 'conversion', {
+      'send_to': 'AW-17986235360/nFsXCO-ozoIcEODXwIBD',
+      'event_callback': callback
+  });
+  return false;
+}
+</script>
+
 {{/* Custom SEO enhancements */}}
 
 {{/* Local Business Schema.org structured data - homepage only */}}
