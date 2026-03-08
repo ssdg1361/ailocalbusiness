@@ -1,3 +1,15 @@
+{{/* Open Graph / Social Sharing */}}
+<meta property="og:title" content="{{ if .IsHome }}AI Local Business | Local SEO & AI Search for Bergen County{{ else }}{{ .Title }} | AI Local Business{{ end }}">
+<meta property="og:description" content="{{ with .Description }}{{ . }}{{ else }}Helping Bergen County businesses get found on Google and AI search. Local SEO, fast websites, and AI search optimization from Spencer Scott Digital.{{ end }}">
+<meta property="og:image" content="https://ailocalbusiness.biz/images/og-image.png">
+<meta property="og:url" content="{{ .Permalink }}">
+<meta property="og:type" content="{{ if .IsPage }}article{{ else }}website{{ end }}">
+<meta property="og:site_name" content="AI Local Business">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="{{ if .IsHome }}AI Local Business | Local SEO & AI Search for Bergen County{{ else }}{{ .Title }}{{ end }}">
+<meta name="twitter:description" content="{{ with .Description }}{{ . }}{{ else }}Helping Bergen County businesses get found on Google and AI search.{{ end }}">
+<meta name="twitter:image" content="https://ailocalbusiness.biz/images/og-image.png">
+
 {{/* Google Ads conversion tracking */}}
 <script async src="https://www.googletagmanager.com/gtag/js?id=AW-17986235360"></script>
 <script>
