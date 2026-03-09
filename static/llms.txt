@@ -1,0 +1,26 @@
+# AI Local Business
+
+> AI Local Business is a digital marketing agency in Bergen County, New Jersey, specializing in local SEO and AI search optimization (AEO) for service-area businesses. We help local trades and small businesses get found on Google, Google Maps, ChatGPT, Perplexity, and other AI search platforms. Founded by Spencer Scott.
+
+AI Local Business works with HVAC contractors, plumbers, landscapers, bakeries, and other local service businesses in Northern New Jersey — primarily Bergen County towns like Glen Rock, Ridgewood, Wyckoff, Paramus, Hackensack, Teaneck, and Fair Lawn.
+
+Our core services include Google Business Profile setup and optimization, fast Hugo-based website builds, local SEO strategy, and AI search optimization (AEO) — helping businesses become the answer when customers ask AI tools for local recommendations.
+
+Contact: spencerscottdigital@gmail.com | Phone: (561) 212-8244 | Website: https://ailocalbusiness.biz
+
+## Core Pages
+
+- [Services](https://ailocalbusiness.biz/services/): Full list of local SEO, website, and AI search optimization services offered
+- [About](https://ailocalbusiness.biz/about/): Background on Spencer Scott and the agency's approach
+- [Free AI Search Audit](https://ailocalbusiness.biz/audit/): Free audit offering for local businesses to see how they appear in AI search results
+
+## Blog Posts
+
+- [Why Word-of-Mouth in Bergen County Isn't Enough Anymore](https://ailocalbusiness.biz/blog/word-of-mouth-bergen-county-not-enough/): How local service businesses in Northern NJ can get found on Google Maps and AI search
+- [How to Get Your Business on ChatGPT](https://ailocalbusiness.biz/blog/how-to-get-your-business-on-chatgpt/): Guide for local businesses on appearing in AI-generated answers
+- [What Is AI Search Optimization?](https://ailocalbusiness.biz/blog/what-is-ai-search-optimization/): Explainer on AEO and why it matters for local businesses
+- [Local SEO Basics for Bergen County](https://ailocalbusiness.biz/blog/local-seo-basics-bergen-county/): Foundation guide for Bergen County businesses getting started with local SEO
+
+## Optional
+
+- [Search](https://ailocalbusiness.biz/search/): Site search page
