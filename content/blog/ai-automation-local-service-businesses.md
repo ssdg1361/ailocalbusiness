@@ -75,4 +75,4 @@ AI doesn't replace that. It protects your time so you can do more of it.
 
 This is exactly what we do at Spencer Scott Digital. We work with local service businesses to identify where you're losing time, recommend the right AI tools for your specific operation, and get everything connected and running — without a massive consulting bill.
 
-If any of this sounds familiar and you want to talk through what makes sense for your business, [reach out here](/contact) or give us a call. No pitch, no pressure — just a real conversation about what would actually move the needle for you.
+If any of this sounds familiar and you want to talk through what makes sense for your business, [reach out here](mailto:spencerscottdigital@gmail.com) or give us a call. No pitch, no pressure — just a real conversation about what would actually move the needle for you.
