@@ -1,1 +1,5689 @@
-var ALL = [{"request_info": {"success": true, "topup_credits_remaining": 97, "credits_used_this_request": 3}, "search_parameters": {"q": "local seo agency", "location": "Ridgewood,New Jersey,United States", "gl": "us", "hl": "en", "google_domain": "google.com", "include_ai_overview": "true", "time_period": "last_week", "device": "mobile", "mobile_type": "iphone", "include_answer_box": "true", "page": "1", "max_page": "3", "output": "json", "include_html": "true", "engine": "google"}, "search_metadata": {"created_at": "2026-03-09T02:49:44.832Z", "processed_at": "2026-03-09T02:49:55.401Z", "total_time_taken": 10.57, "engine_url": "https://www.google.com/search?q=local+seo+agency&gl=us&hl=en&uule=w+CAIQICIiUmlkZ2V3b29kLE5ldyBKZXJzZXksVW5pdGVkIFN0YXRlcw&tbs=qdr%3Aw", "html_url": "https://api.valueserp.com/search?api_key=9DE6FB46E0CC4EAF917C5CEBD7CB14E9&q=local+seo+agency&location=Ridgewood%2CNew+Jersey%2CUnited+States&gl=us&hl=en&google_domain=google.com&include_ai_overview=true&time_period=last_week&device=mobile&mobile_type=iphone&include_answer_box=true&page=1&max_page=3&output=html&include_html=true&engine=google", "json_url": "https://api.valueserp.com/search?api_key=9DE6FB46E0CC4EAF917C5CEBD7CB14E9&q=local+seo+agency&location=Ridgewood%2CNew+Jersey%2CUnited+States&gl=us&hl=en&google_domain=google.com&include_ai_overview=true&time_period=last_week&device=mobile&mobile_type=iphone&include_answer_box=true&page=1&max_page=3&output=json&include_html=true&engine=google", "location_auto_message": "We have automatically set the 'google_domain', 'gl' and 'hl' parameters to match the supplied location of 'Ridgewood,New Jersey,United States'. You can stop this behaviour by setting the 'location_auto' parameter to 'false'."}, "search_information": {"original_query_yields_zero_results": false}, "organic_results": [{"position": 1, "block_position": 2, "title": "How to find local SEO/Ads/Marketing agencies that actually specializes in ...", "link": "https://www.reddit.com/r/PPC/comments/1rlnrlz/how_to_find_local_seoadsmarketing_agencies_that/", "domain": "www.reddit.com", "displayed_link": "10+ comments  \u00b7  3 days ago", "snippet": "\u00a0\u00a0\u00a0\u00b7\u00a03 votes\u00a0\u00a0", "rich_snippet": {"top": {"detected_extensions": {"reviewCount": 3}, "extensions": ["Do you care more about them having other clients in your same business or that they produce ...&nbsp;&nbsp;MoreTop answer&nbsp;", "&nbsp;3 votesI run ads for service based businesses but personally I like finding people via referral! ...&nbsp;&nbsp;More3 votesView all posts"]}}, "page": 1, "position_overall": 1}, {"position": 2, "block_position": 4, "title": "Local SEO Services to Grow Calls, Clicks & Customers", "link": "https://paperboxseo.com/services/local-seo/", "domain": "paperboxseo.com", "displayed_link": "https://paperboxseo.com", "snippet": "Local SEO services allow your business to show up when nearby customers search for your services on Google, Maps, or other local websites.", "page": 1, "position_overall": 2}, {"position": 3, "block_position": 5, "title": "Top-Rated SEO Agencies Specializing In Local Search ...", "link": "https://www.click4corp.com/blog/top-rated-seo-agencies-specializing-in-local-search-optimization/", "domain": "www.click4corp.com", "displayed_link": "https://www.click4corp.com", "snippet": "Get found by nearby customers with top-rated SEO agencies specializing in local search optimization. Reach out now for tailored SEO results!", "page": 1, "position_overall": 3}, {"position": 4, "block_position": 6, "title": "LOCAL SEO SERVICES AND WEB DESIGN BY MBNY SERVICES", "link": "https://m.yelp.com/biz/local-seo-services-and-web-design-by-mbny-services-west-hempstead-2", "domain": "m.yelp.com", "displayed_link": "https://m.yelp.com", "snippet": "Specialties: We offer web design and local seo services. Get found on Google, Yahoo and Bing as well as Apple Maps, Google Maps and Waze.", "page": 1, "position_overall": 4}, {"position": 5, "block_position": 7, "title": "White Label Local SEO Services: Rank Clients in Google Maps", "link": "https://almcorp.com/blog/white-label-local-seo-services/", "domain": "almcorp.com", "displayed_link": "https://almcorp.com", "snippet": "How agencies use white label local SEO to rank clients in Google Maps. Covers ranking factors, provider selection, pricing benchmarks, and a full campaign\u00a0...", "page": 1, "position_overall": 5}, {"position": 6, "block_position": 8, "title": "16 Affordable SEO Services for Small Businesses", "link": "https://seoprofy.com/blog/affordable-seo-services/", "domain": "seoprofy.com", "displayed_link": "https://seoprofy.com", "snippet": "Compare 10 affordable SEO agencies for small businesses. We've reviewed trusted providers to help you grow online without overspending.", "page": 1, "position_overall": 6}, {"position": 7, "block_position": 9, "title": "Local SEO in 2026: How to Dominate Google Maps and Local Search ...", "link": "https://atcdomainsolutions.com/local-seo-in-2026-how-to-dominate-google-maps-and-local-search-results/", "domain": "atcdomainsolutions.com", "displayed_link": "https://atcdomainsolutions.com", "snippet": "Local SEO is the only way to capture the 46% of all Google searches that have local intent. By optimizing your Google Business Profile and publishing weekly\u00a0...", "page": 1, "position_overall": 7}, {"position": 8, "block_position": 10, "title": "Local SEO \u2014 Professional SEO Service", "link": "https://reactll.com/services/local-seo", "domain": "reactll.com", "displayed_link": "https://reactll.com", "snippet": "Our proven process for local seo. 1. Local Audit. We audit your current local presence: GBP, citations, reviews, local rankings, and competitor analysis\u00a0...", "page": 1, "position_overall": 8}, {"position": 9, "block_position": 11, "title": "Local SEO for Small Business: The Step-by-Step Guide to Dominating ...", "link": "https://www.connectmediaagency.com/local-seo-for-small-business/", "domain": "www.connectmediaagency.com", "displayed_link": "https://www.connectmediaagency.com", "snippet": "Our expert team takes you through a step-by-step blueprint, uncovering the secrets behind stunning websites and implementing effective marketing strategies.", "page": 1, "position_overall": 9}, {"position": 1, "block_position": 1, "title": "Philadelphia Local SEO Agency | GEO & AI Search Optimization", "link": "https://www.localmighty.com/philadelphia/", "domain": "www.localmighty.com", "displayed_link": "https://www.localmighty.com", "snippet": "Backed by more than ten years of hands-on local SEO experience and advanced AI-driven strategies, we help Philadelphia local businesses earn top Google rankings\u00a0...", "page": 2, "position_overall": 10}, {"position": 2, "block_position": 2, "title": "Local SEO for Small Business: The Step-by-Step Guide to Dominating ...", "link": "https://www.connectmediaagency.com/local-seo-for-small-business/", "domain": "www.connectmediaagency.com", "displayed_link": "https://www.connectmediaagency.com", "snippet": "Our expert team takes you through a step-by-step blueprint, uncovering the secrets behind stunning websites and implementing effective marketing strategies.", "page": 2, "position_overall": 11}, {"position": 3, "block_position": 4, "title": "Rank higher and grow locally with a local SEO agency you can trust. Web ...", "link": "https://www.instagram.com/p/DVaI_2Jli_m/", "domain": "www.instagram.com", "displayed_link": "https://www.instagram.com", "snippet": "Web Cures Digital specializes in getting businesses noticed in their communities, including those in the USA, India, Dubai, Australia, Canada, Germany, and the\u00a0...", "page": 2, "position_overall": 12}, {"position": 4, "block_position": 5, "title": "9 Best SEO Agencies for Small Businesses to Choose in 2026", "link": "https://www.omnius.so/blog/best-seo-companies-for-small-businesses", "domain": "www.omnius.so", "displayed_link": "https://www.omnius.so", "snippet": "Discover the best SEO companies for small businesses and compare top-rated agencies that deliver affordable, results-driven strategies.", "page": 2, "position_overall": 13}, {"position": 5, "block_position": 6, "title": "Conversion-Focused Digital Marketing and Local SEO Services", "link": "https://ruleyourkingdom.com/services/local-seo/", "domain": "ruleyourkingdom.com", "displayed_link": "https://ruleyourkingdom.com", "snippet": "As a local SEO agency, we can optimize your business's online presence to improve its visibility in local search results and drive more potential customers to\u00a0...", "page": 2, "position_overall": 14}, {"position": 6, "block_position": 7, "title": "Web developer offers local SEO services", "link": "https://www.facebook.com/groups/1142115852478343/posts/26226649766931605/", "domain": "www.facebook.com", "displayed_link": "https://www.facebook.com", "snippet": "I run a local SEO agency for home service businesses, and we handle the work that actually moves the needle: \u2713 On-site SEO (structure, speed, indexing\u00a0...", "page": 2, "position_overall": 15}, {"position": 7, "block_position": 8, "title": "Local SEO Services | Point Source Marketing", "link": "https://pointsourcemarketing.com/performance-marketing/seo/local/", "domain": "pointsourcemarketing.com", "displayed_link": "https://pointsourcemarketing.com", "snippet": "Improve your local traffic with our local SEO services. Attract nearby customers and boost your visibility in the local SERP. Learn how.", "page": 2, "position_overall": 16}, {"position": 8, "block_position": 9, "title": "Webtage LLC Sets a New Industry Standard with AI, GEO, and AEO- ...", "link": "https://www.blufftontoday.com/press-release/story/57921/webtage-llc-sets-a-new-industry-standard-with-ai-geo-and-aeo-integrated-seo-solutions-for-local-and-global-businesses/", "domain": "www.blufftontoday.com", "displayed_link": "https://www.blufftontoday.com", "snippet": "Webtage LLC launches a new AI, GEO, and AEO powered SEO framework to help businesses adapt to AI search, conversational queries, and evolving digital\u00a0...", "page": 2, "position_overall": 17}, {"position": 9, "block_position": 10, "title": "Chicago, IL SEO", "link": "https://coalitiontechnologies.com/chicago-il-seo", "domain": "coalitiontechnologies.com", "displayed_link": "https://coalitiontechnologies.com", "snippet": "Top-Rated Chicago SEO Company. Coalition Technologies offers SEO services for Chicago businesses that need to increase search engine rankings.", "page": 2, "position_overall": 18}, {"position": 1, "block_position": 1, "title": "Local SEO GMB Marketing | Visibility is everything in today's digital world ...", "link": "https://www.instagram.com/p/DVl0jZGluAI/", "domain": "www.instagram.com", "displayed_link": "https://www.instagram.com", "snippet": "At 12AM Agency, we focus on google search optimization and measurable growth across SEO, ads, and conversion tracking. If you're comparing search engine\u00a0...", "page": 3, "position_overall": 19}, {"position": 2, "block_position": 3, "title": "Webtage LLC Sets a New Industry Standard with AI, GEO, and AEO- ...", "link": "https://www.blufftontoday.com/press-release/story/57921/webtage-llc-sets-a-new-industry-standard-with-ai-geo-and-aeo-integrated-seo-solutions-for-local-and-global-businesses/", "domain": "www.blufftontoday.com", "displayed_link": "https://www.blufftontoday.com", "snippet": "Webtage LLC launches a new AI, GEO, and AEO powered SEO framework to help businesses adapt to AI search, conversational queries, and evolving digital\u00a0...", "page": 3, "position_overall": 20}, {"position": 3, "block_position": 4, "title": "local SEO agency - Web Cures Digital", "link": "https://www.facebook.com/WebCuresDigital/posts/rank-higher-and-grow-locally-with-a-local-seo-agency-you-can-trust-web-cures-dig/1527470282719275/", "domain": "www.facebook.com", "displayed_link": "https://www.facebook.com", "snippet": "Rank higher and grow locally with a local SEO agency you can trust. Web Cures Digital specializes in getting businesses noticed in their communities,...", "page": 3, "position_overall": 21}, {"position": 4, "block_position": 5, "title": "SEO for Plumbing Companies Platform Launches to Address a ...", "link": "https://markets.financialcontent.com/stocks/article/abnewswire-2026-3-6-seo-for-plumbing-companies-platform-launches-to-address-a-growing-digital-visibility-gap-across-the-trades-sector", "domain": "markets.financialcontent.com", "displayed_link": "https://markets.financialcontent.com", "snippet": "SEO for Plumbing Companies, a niche plumbing SEO platform operating under Clixoni, has officially launched at seoforplumbingcompanies.com \u2014 offering a\u00a0...", "page": 3, "position_overall": 22}, {"position": 5, "block_position": 6, "title": "You're going to be tempted to bookmark this for later. Don't. Read it ...", "link": "https://x.com/bloggersarvesh/status/2030273151280742597", "domain": "x.com", "displayed_link": "260+ likes", "snippet": "this is where most local SEO agencies charge you $2,000 just for the audit. they manually crawl sites, build comparison spreadsheets, and research keywords one\u00a0...", "page": 3, "position_overall": 23}, {"position": 6, "block_position": 7, "title": "Webtage LLC Sets a New Industry Standard with AI, GEO, and AEO- ...", "link": "https://www.desmoinesregister.com/press-release/story/44843/webtage-llc-sets-a-new-industry-standard-with-ai-geo-and-aeo-integrated-seo-solutions-for-local-and-global-businesses/", "domain": "www.desmoinesregister.com", "displayed_link": "https://www.desmoinesregister.com", "snippet": "Webtage LLC launches a new AI, GEO, and AEO powered SEO framework to help businesses adapt to AI search, conversational queries, and evolving digital\u00a0...", "page": 3, "position_overall": 24}, {"position": 7, "block_position": 8, "title": "SEO Company values-driven Maryland SEO Company", "link": "https://www.seoprrocket.com/portfolio-category/seo/", "domain": "www.seoprrocket.com", "displayed_link": "https://www.seoprrocket.com", "snippet": "We are a full service Maryland SEO agency that deliver compelling web design & development, digital marketing and search engine optimization (SEO) solution.", "page": 3, "position_overall": 25}, {"position": 8, "block_position": 9, "title": "Dominate Local SEO in Kansas City | Small Biz Guide", "link": "https://revolutexdigital.com/local-seo-kansas-city-small-business/", "domain": "revolutexdigital.com", "displayed_link": "https://revolutexdigital.com", "snippet": "Revolute X Digital is a Kansas City\u2013based SEO agency specializing in: Local SEO; Google Maps ranking; Multi-location optimization; Lead generation systems\u00a0...", "page": 3, "position_overall": 26}, {"position": 9, "block_position": 10, "title": "\ud83d\udccd Want more local customers to find your business? Local SEO helps ...", "link": "https://www.instagram.com/p/DVjvmdsjxr5/", "domain": "www.instagram.com", "displayed_link": "https://www.instagram.com", "snippet": "At 99 Creatives, we help businesses strengthen their online presence with smart local SEO strategies designed to improve rankings and reach the right audience.", "page": 3, "position_overall": 27}], "local_results": [{"position": 1, "title": "Wowbix", "data_cid": "17726622255917559456", "snippet": "\u2066Provides: \u2069\u2066Local SEO Agency\u2069", "rating": 5, "reviews": 17, "address": "Paramus, NJ", "business_type": "Internet marketing service", "sponsored": false, "block_position": 1}, {"position": 2, "title": "Briax Digital", "data_cid": "8620952453514838005", "snippet": "\u2066Provides: \u2069\u2066Ai SEO marketing\u2069", "rating": 5, "reviews": 97, "address": "Paramus, NJ", "business_type": "Internet marketing service", "sponsored": false, "block_position": 1}, {"position": 3, "title": "SmartSites", "data_cid": "13088002377036500101", "snippet": "\u2066Provides: \u2069\u2066Seo Marketing\u2069", "rating": 4.9, "reviews": 856, "address": "Paramus, NJ", "business_type": "Internet marketing service", "sponsored": false, "block_position": 1}], "related_searches": [{"query": "Seo agency near New York, NY", "link": "https://www.google.com/search?sca_esv=7d303b0970f2298d&gl=us&hl=en&tbs=qdr:w&q=Seo+agency+near+New+York,+NY&sa=X&ved=2ahUKEwjpwJul55GTAxVjJkQIHUS-PdcQ1QJ6BAgVEAE", "block_position": 3}, {"query": "Seo agency near Ridgewood, NJ", "link": "https://www.google.com/search?sca_esv=7d303b0970f2298d&gl=us&hl=en&tbs=qdr:w&q=Seo+agency+near+Ridgewood,+NJ&sa=X&ved=2ahUKEwjpwJul55GTAxVjJkQIHUS-PdcQ1QJ6BAgTEAE", "block_position": 3}, {"query": "Local seo agency reddit", "link": "https://www.google.com/search?sca_esv=7d303b0970f2298d&gl=us&hl=en&tbs=qdr:w&q=Local+seo+agency+reddit&sa=X&ved=2ahUKEwjpwJul55GTAxVjJkQIHUS-PdcQ1QJ6BAgSEAE", "block_position": 3}, {"query": "Local seo agency reviews", "link": "https://www.google.com/search?sca_esv=7d303b0970f2298d&gl=us&hl=en&tbs=qdr:w&q=Local+seo+agency+reviews&sa=X&ved=2ahUKEwjpwJul55GTAxVjJkQIHUS-PdcQ1QJ6BAgUEAE", "block_position": 3}], "pagination": {"pages": [{"current": 1, "next": "https://www.google.com/search?q=local+seo+agency&sca_esv=7d303b0970f2298d&gl=us&hl=en&tbs=qdr:w&prmd=minv&ei=SjWuaenzGePMkPIPxPz2uQ0&start=10&sa=N", "other_pages": [{"page": 2, "link": "https://www.google.com/search?q=local%20seo%20agency&sca_esv=7d303b0970f2298d&gl=us&hl=en&tbs=qdr%3Aw&prmd=minv&ei=SjWuaenzGePMkPIPxPz2uQ0&start=10&sa=N&uule=w+CAIQICIiUmlkZ2V3b29kLE5ldyBKZXJzZXksVW5pdGVkIFN0YXRlcw"}, {"page": 3, "link": "https://www.google.com/search?q=local%20seo%20agency&sca_esv=7d303b0970f2298d&gl=us&hl=en&tbs=qdr%3Aw&prmd=minv&ei=SjWuaenzGePMkPIPxPz2uQ0&start=20&sa=N&uule=w+CAIQICIiUmlkZ2V3b29kLE5ldyBKZXJzZXksVW5pdGVkIFN0YXRlcw"}], "api_pagination": {"next": "https://api.valueserp.com/search?api_key=9DE6FB46E0CC4EAF917C5CEBD7CB14E9&q=local%20seo%20agency&location=Ridgewood,New%20Jersey,United%20States&gl=us&hl=en&google_domain=google.com&include_ai_overview=true&time_period=last_week&device=mobile&mobile_type=iphone&include_answer_box=true&max_page=3&output=json&include_html=true&id=req0&page=2", "other_pages": [{"page": 2, "link": "https://api.valueserp.com/search?api_key=9DE6FB46E0CC4EAF917C5CEBD7CB14E9&q=local%20seo%20agency&location=Ridgewood,New%20Jersey,United%20States&gl=us&hl=en&google_domain=google.com&include_ai_overview=true&time_period=last_week&device=mobile&mobile_type=iphone&include_answer_box=true&max_page=3&output=json&include_html=true&id=req0&page=2"}, {"page": 3, "link": "https://api.valueserp.com/search?api_key=9DE6FB46E0CC4EAF917C5CEBD7CB14E9&q=local%20seo%20agency&location=Ridgewood,New%20Jersey,United%20States&gl=us&hl=en&google_domain=google.com&include_ai_overview=true&time_period=last_week&device=mobile&mobile_type=iphone&include_answer_box=true&max_page=3&output=json&include_html=true&id=req0&page=3"}]}, "from_sticky_session": true}, {"current": 2, "next": "https://google.com/search?q=local+seo+agency&sca_esv=7d303b0970f2298d&gl=us&hl=en&tbs=qdr:w&prmd=minv&ei=UTWuaeDzMYeF9u8PveCZsA8&start=20&sa=N", "api_pagination": {"next": "https://api.valueserp.com/search?api_key=9DE6FB46E0CC4EAF917C5CEBD7CB14E9&q=local%20seo%20agency&location=Ridgewood,New%20Jersey,United%20States&gl=us&hl=en&google_domain=google.com&include_ai_overview=true&time_period=last_week&device=mobile&mobile_type=iphone&include_answer_box=true&output=json&include_html=true&page=3"}, "from_sticky_session": false}, {"current": 3, "next": "https://google.com/search?q=local+seo+agency&sca_esv=7d303b0970f2298d&gl=us&hl=en&tbs=qdr:w&prmd=minv&ei=UTWuabPeMIC5qtsPhNO4gA0&start=30&sa=N", "api_pagination": {"next": "https://api.valueserp.com/search?api_key=9DE6FB46E0CC4EAF917C5CEBD7CB14E9&q=local%20seo%20agency&location=Ridgewood,New%20Jersey,United%20States&gl=us&hl=en&google_domain=google.com&include_ai_overview=true&time_period=last_week&device=mobile&mobile_type=iphone&include_answer_box=true&output=json&include_html=true&page=4"}, "from_sticky_session": false}]}}, {"request_info": {"success": true, "credits_used": 26419, "credits_used_this_request": 2, "credits_remaining": 973581, "credits_reset_at": "2023-03-11T15:48:26.000Z"}, "search_parameters": {"q": "where can I get a slice of pizza in seattle", "engine": "google", "location": "98146,Washington,United States", "google_domain": "google.com", "gl": "us", "hl": "en", "device": "desktop", "output": "json", "include_ai_overview": "true"}, "search_metadata": {"created_at": "2024-11-13T22:59:27.563Z", "processed_at": "2024-11-13T22:59:34.699Z", "total_time_taken": 5.14, "engine_url": "https://www.google.com/search?q=where+can+I+get+a+slice+of+pizza+in+seattle&gl=us&hl=en&uule=w+CAIQICIeOTgxNDYsV2FzaGluZ3RvbixVbml0ZWQgU3RhdGVz", "html_url": "https://api.valueserp.com/live/search?api_key=API_KEY&q=where+can+I+get+a+slice+of+pizza+in+seattle&engine=google&location=98146%2CWashington%2CUnited+States&google_domain=google.com&gl=us&hl=en&device=desktop&output=html&include_ai_overview=true", "json_url": "https://api.valueserp.com/live/search?api_key=API_KEY&q=where+can+I+get+a+slice+of+pizza+in+seattle&engine=google&location=98146%2CWashington%2CUnited+States&google_domain=google.com&gl=us&hl=en&device=desktop&output=json&include_ai_overview=true", "location_auto_message": "We have automatically set the 'google_domain', 'gl' and 'hl' parameters to match the supplied location of '98146,Washington,United States'. You can stop this behaviour by setting the 'location_auto' parameter to 'false'."}, "search_information": {"original_query_yields_zero_results": false, "total_results": 8280000}, "ai_overview": {"ai_overview_banner": "AI Overview", "ai_overview_contents": [{"type": "header", "text": "There are many places to get pizza by the slice in Seattle, including pizza chains, local spots, and places with a bar:"}, {"type": "list", "list": [{"header": "Rocco's", "text": "A cool bar with craft beer and cocktails, plus classic and unique pizzas"}, {"header": "Serious Pie", "text": "A pizza chain with multiple locations in the Seattle area, including Ballard, Belltown, South Lake Union, and inside the Starbucks Reserve Roastery on Capitol Hill"}, {"header": "Bar Del Corso", "text": "A Beacon Hill spot with lightly priced, savory pizzas that can be a meal or an appetizer"}, {"header": "Post Alley Pizza", "text": "A slice shop located in the back of a parking garage a few blocks from Pike Place Market and the Seattle waterfront"}, {"header": "Windy City Pie", "text": "A Chicago-style pizza place with a sweet and spongy crust and a caramelized cheesy edge"}, {"header": "Tutta Bella Neapolitan Pizzeria", "text": "An LGBTQ-owned business that serves authentic wood-fired pizza"}, {"header": "Hot Mama's Pizza", "text": "A budget-friendly place for New York-style pizza, with slices ranging from $3 to $5"}, {"header": "Stevie's Famous", "text": "A New York-style pizza place with a famous slice that's opening a counter space inside Clock-Out Lounge on Beacon Hill"}]}], "ai_overview_sources": [{"source_title": "The Best Pizza in Seattle", "source_description": "Oct 31, 2024 \u2014 Bar Del Corso. The pizza at Beacon Hill's Bar del Corso are lightly priced, wonderfully savory, and consistent. Though...", "source_url": "https://seattle.eater.com/maps/best-pizza-places-seattle-restaurants#:~:text=Bar%20Del%20Corso.%20The%20pizza%20at%20Beacon,into%20a%20menu%20of%20inspired%20Italian%20fare.", "source_domain": "eater.com", "source_name": "Eater Seattle"}, {"source_title": "This 'famous' pizza slice from Burien will expand to Beacon Hill", "source_description": "Dec 29, 2023 \u2014 That buzzy New York-style slice that's all the rage in the South End is coming to Seattle. Stevie's Famous in Burien w...", "source_url": "https://www.seattletimes.com/life/food-drink/this-famous-pizza-slice-from-burien-will-expand-to-beacon-hill/#:~:text=That%20buzzy%20New%20York%2Dstyle,Hill%20starting%20next%20Friday%20(Jan.", "source_domain": "seattletimes.com", "source_name": "The Seattle Times"}, {"source_title": "Seattle Southside by the Slice | Best Pizza in Seattle ...", "source_description": "Seattle Southside by the Slice \u00b7 Find Your Slice Of Heaven \u00b7 1Tandoori Slice \u00b7 2Stevie's Famous \u00b7 3Pizzas Locas \u00b7 4Via Marina Wood...", "source_url": "https://www.seattlesouthside.com/blog/seattle-southside-by-the-slice/#:~:text=Seattle%20Southside%20by%20the%20Slice%20%C2%B7%20Find,&%20Pasta%20%C2%B7%207Ulysses%20Pub%20&%20Pizzeria.", "source_domain": "seattlesouthside.com", "source_name": "Seattle Southside"}]}, "organic_results": [{"position": 1, "block_position": 3, "title": "TOP 10 BEST Pizza by the Slice in Seattle, WA", "link": "https://www.yelp.com/search?find_desc=Pizza+By+The+Slice&find_loc=Seattle%2C+WA", "domain": "www.yelp.com", "displayed_link": "https://www.yelp.com \u203a Restaurants", "snippet": "Top 10 Best Pizza By The Slice Near Seattle, Washington \u00b7 1. Hot Mama's Pizza \u00b7 2. Rocco's \u00b7 3. My Friend Derek's \u00b7 4. Supreme \u00b7 5. Big Mario's Pizza \u00b7 6. Big ...", "prerender": false}, {"position": 2, "block_position": 6, "title": "Pizza by the slice : r/Seattle", "link": "https://www.reddit.com/r/Seattle/comments/py8zjw/pizza_by_the_slice/", "domain": "www.reddit.com", "displayed_link": "10+ comments  \u00b7  3 years ago", "snippet": "Off the top of my head, Pagliacci, Big Mario's, Hot Mama's and Supreme all sell pizza by the slice. EDIT: There's also Talarico's, ...", "prerender": false, "sitelinks": {"expanded": [{"title": "Best pizza in Seattle? - Reddit", "link": "https://www.reddit.com/r/Seattle/comments/15j2011/best_pizza_in_seattle/", "snippet": "", "date_raw": "Aug 5, 2023", "date": "2023-08-05T00:00:00.000Z", "answers": null, "answers_raw": ""}, {"title": "Best \u201dcheap\u201d by-the-slice pizza in downtown(ish) Seattle?", "link": "https://www.reddit.com/r/Seattle/comments/cicn6w/best_cheap_bytheslice_pizza_in_downtownish_seattle/", "snippet": "", "date_raw": "Jul 27, 2019", "date": "2019-07-27T00:00:00.000Z", "answers": null, "answers_raw": ""}, {"title": "This was a 6$ slice in Seattle : r/PizzaCrimes - Reddit", "link": "https://www.reddit.com/r/PizzaCrimes/comments/1f2nibh/this_was_a_6_slice_in_seattle/", "snippet": "", "date_raw": "Aug 27, 2024", "date": "2024-08-27T00:00:00.000Z", "answers": null, "answers_raw": ""}, {"title": "What's your favorite Seattle area pizza? : r/SeattleWA - Reddit", "link": "https://www.reddit.com/r/SeattleWA/comments/17e84fs/whats_your_favorite_seattle_area_pizza/", "snippet": "", "date_raw": "Oct 23, 2023", "date": "2023-10-23T00:00:00.000Z", "answers": null, "answers_raw": ""}, {"title": "More results from www.reddit.com", "link": "/search?q=where+can+I+get+a+slice+of+pizza+in+seattle+site:www.reddit.com&num=20&sca_esv=39fb0d0e4486b304&gl=us&hl=en&sa=X&ved=2ahUKEwjkjPjJtNqJAxWQt4QIHZ74JwwQrQIoBHoECE8QBQ", "snippet": "", "date_raw": "", "date": null, "answers": null, "answers_raw": null}]}, "sitelinks_search_box": false}, {"position": 3, "block_position": 7, "title": "Slice Box Pizza | Seattle, WA", "link": "https://www.sliceboxpizza.com/", "domain": "www.sliceboxpizza.com", "displayed_link": "https://www.sliceboxpizza.com", "snippet": "Slice Box Pizza serves a variety of pizzas, available for pickup and delivery. Located in Seattle, WA.", "prerender": false}, {"position": 4, "block_position": 8, "title": "Best Pizza Places in Seattle 2024", "link": "https://slicelife.com/pizza-delivery/wa-seattle", "domain": "slicelife.com", "displayed_link": "https://slicelife.com \u203a Washington", "snippet": "Pizza Delivery in Seattle \u00b7 1) Humble Pie \u00b7 2) Slice Box Pizza \u00b7 3) Outsider Pizza \u00b7 4) Dino's Tomato Pie \u00b7 5) Italian Family Pizza \u00b7 6) Breezy Town Pizza \u00b7 7) ...", "prerender": false}, {"position": 5, "block_position": 9, "title": "SLICES - 809 Olive Way, Seattle, Washington", "link": "https://www.yelp.com/biz/slices-seattle-4", "domain": "www.yelp.com", "displayed_link": "https://www.yelp.com \u203a Seattle, WA \u203a Restaurants \u203a Pizza", "snippet": "Yelpers report this location has closed. Find a similar spot. Slices 3.4 (68 reviews) $Inexpensive Pizza, Sandwiches, Italian", "prerender": false, "rich_snippet": {"top": {"detected_extensions": {"price": 3.4, "symbol": "$", "currency": {"name": "United States Dollar", "code": "USD", "symbol": "$"}}, "extensions": ["3.4(68)", "Price range: $"]}}}, {"position": 6, "block_position": 10, "title": "Seattle's Best Pizza Slices", "link": "https://www.seattlemet.com/eat-and-drink/2016/02/seattle-s-best-pizza-slices", "domain": "www.seattlemet.com", "displayed_link": "https://www.seattlemet.com \u203a eat-and-drink \u203a 2016/02", "snippet": "Feb 4, 2016 \u2014 These days pie lovers enjoy all kinds of greatness at performers like Serious Pie, the Independent Pizzeria, Flying Squirrel, and Delancey. But they only ...", "prerender": false, "date": "Feb 4, 2016", "date_utc": "2016-02-04T00:00:00.000Z"}, {"position": 7, "block_position": 11, "title": "Pagliacci Pizza: Seattle Area Pizza & Delivery | Pagliacci Pizza", "link": "https://www.pagliacci.com/", "domain": "www.pagliacci.com", "displayed_link": "https://www.pagliacci.com", "snippet": "Pagliacci Pizza, serving Seattle's best pizza since 1979. Offering pizza by the slice and pizza delivery service to homes and businesses.", "prerender": false}, {"position": 8, "block_position": 12, "title": "The Best Pizza in Seattle", "link": "https://seattle.eater.com/maps/best-pizza-places-seattle-restaurants", "domain": "seattle.eater.com", "displayed_link": "https://seattle.eater.com \u203a maps \u203a best-pizza-places-seattle...", "snippet": "Oct 31, 2024 \u2014 The Best Pizza in Seattle \u00b7 Sunny Hill \u00b7 Moto \u00b7 Delancey \u00b7 Proletariat Pizza \u00b7 Lupo \u00b7 Tivoli \u00b7 Stevie's Famous.", "prerender": false, "date": "Oct 31, 2024", "date_utc": "2024-10-31T00:00:00.000Z"}, {"position": 9, "block_position": 13, "title": "Serious Pie Pizza Dining & Take-Out | Downtown Seattle ...", "link": "https://www.seriouspieseattle.com/", "domain": "www.seriouspieseattle.com", "displayed_link": "https://www.seriouspieseattle.com", "snippet": "Serious Pie, is a Tom Douglas pizzeria for the bread baker's soul. Visit our downtown Seattle restaurant or order take-out from our Ballard location.", "prerender": false, "sitelinks": {"inline": [{"title": "Downtown Seattle", "link": "https://www.seriouspieseattle.com/location/serious-pie-downtown/"}, {"title": "Menu | Downtown Seattle", "link": "https://www.seriouspieseattle.com/serious-pie-downtown/"}, {"title": "Take-Out Pizza Menu for...", "link": "https://www.seriouspieseattle.com/serious-take-out-ballard/"}, {"title": "Events", "link": "https://www.seriouspieseattle.com/events/"}]}, "rich_snippet": {"top": {"detected_extensions": {}, "extensions": ["\u200eDowntown Seattle", "\u200eMenu | Downtown Seattle", "\u200eTake-Out Pizza Menu for...", "\u200eEvents"]}}}, {"position": 10, "block_position": 14, "title": "Magnolia Menu | Slice Box Pizza in Seattle, WA", "link": "https://www.sliceboxpizza.com/magnolia-menu/", "domain": "www.sliceboxpizza.com", "displayed_link": "https://www.sliceboxpizza.com \u203a magnolia-menu", "snippet": "Magnolia Menu \u00b7 PIZZAS \u00b7 SALADS \u00b7 DRINKS \u00b7 SNACKS & SWEETS \u00b7 SLICES. Slice Box Pizza. 16\u201d Pizza.", "prerender": false}, {"position": 11, "block_position": 15, "title": "Seattle, WA | Pizza | Slices | Salads | Sticks", "link": "https://ianspizza.com/menu/seattle/", "domain": "ianspizza.com", "displayed_link": "https://ianspizza.com \u203a menu \u203a seattle", "snippet": "Seattle locations: Capitol Hill | Fremont Call it in: (206) 659-4721 Choose a location above to order online.", "prerender": false}, {"position": 12, "block_position": 16, "title": "SLICES, Seattle - Photos & Restaurant Reviews", "link": "https://www.tripadvisor.com/Restaurant_Review-g60878-d23906328-Reviews-Slices-Seattle_Washington.html", "domain": "www.tripadvisor.com", "displayed_link": "https://www.tripadvisor.com \u203a ... \u203a Seattle Restaurants", "snippet": "Order food online at Slices, Seattle with Tripadvisor: See 3 unbiased reviews of Slices, ranked #1636 on Tripadvisor among 2566 restaurants in Seattle.", "prerender": false, "rich_snippet": {"top": {"detected_extensions": {"price": 4.5, "symbol": "$", "currency": {"name": "United States Dollar", "code": "USD", "symbol": "$"}}, "extensions": ["4.5(3)"]}}}, {"position": 13, "block_position": 17, "title": "Seattle's Best Pizza Is Nearby", "link": "https://www.seattlemet.com/eat-and-drink/seattle-s-best-pizza-from-thick-crust-to-thin", "domain": "www.seattlemet.com", "displayed_link": "https://www.seattlemet.com \u203a eat-and-drink \u203a seattle-s-be...", "snippet": "The pizza\u2014a little New York, a little bit Naples\u2014comes as whole 16-inch pies or slices. Toppings are classic, but with plenty of twists, like the smoked ...", "prerender": false}, {"position": 14, "block_position": 18, "title": "This slice shop is worth a pizza pilgrimage to Burien", "link": "https://www.seattletimes.com/life/food-drink/restaurant-review-this-slice-shop-is-worth-a-pizza-pilgrimage-to-burien/", "domain": "www.seattletimes.com", "displayed_link": "https://www.seattletimes.com \u203a Life \u203a Food & Drink", "snippet": "Aug 3, 2023 \u2014 Ah, hell, I'll make the call for him: The pizza at Stevie's is legit New York-style, with pies that are on par with any top-tier Seattle slice ...", "prerender": false, "date": "Aug 3, 2023", "date_utc": "2023-08-03T00:00:00.000Z"}, {"position": 15, "block_position": 19, "title": "The Best Pizza In Seattle", "link": "https://www.theinfatuation.com/seattle/guides/best-pizza-in-seattle", "domain": "www.theinfatuation.com", "displayed_link": "https://www.theinfatuation.com \u203a seattle \u203a guides \u203a best...", "snippet": "Oct 31, 2024 \u2014 Tivoli makes the best slice of pepperoni pizza in town. This place ... Seattle pizzeria that specializes in Chicago-style pizza. The ...", "prerender": false, "date": "Oct 31, 2024", "date_utc": "2024-10-31T00:00:00.000Z"}, {"position": 16, "block_position": 20, "title": "Order Pizza Delivery & Pickup in 98121 (Seattle)", "link": "https://slicelife.com/pizza-delivery/wa-seattle/98121", "domain": "slicelife.com", "displayed_link": "https://slicelife.com \u203a Pizza Places in Seattle, WA \u203a 98121", "snippet": "Find the Best Pizza Delivery in Seattle, Washington, 98121. Slice connects your favorite LOCAL pizza places in Seattle, Washington, 98121.", "prerender": false}, {"position": 17, "block_position": 22, "title": "Seattle Southside by the Slice | Best Pizza in ...", "link": "https://www.seattlesouthside.com/blog/seattle-southside-by-the-slice/", "domain": "www.seattlesouthside.com", "displayed_link": "https://www.seattlesouthside.com \u203a Blog", "snippet": "Seattle Southside by the Slice \u00b7 Find Your Slice Of Heaven \u00b7 1Tandoori Slice \u00b7 2Stevie's Famous \u00b7 3Pizzas Locas \u00b7 4Via Marina Wood Fired Pizza and Italian Caf\u00e9.", "prerender": false}], "local_results": [{"position": 1, "title": "A Pizza Mart - 35th Ave", "gps_coordinates": {"latitude": 47.51784, "longitude": -122.376335}, "snippet": "Italian counter-serve & delivery spot", "address": "9452 35th Ave SW", "business_type": "Pizza", "data_cid": "1653974070609462292", "image": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/4RRYRXhpZgAASUkqAAgAAAACADEBAgAHAAAAJgAAAGmHBAABAAAALgAAAAAAAABHb29nbGUAAAIAAJAHAAQAAAAwMjIwhpIHAAMUAABMAAAAAAAAAEFTQ0lJAAAACgAAAEpLSksVBgqMcf4AAP4BAQAo2wEAeqwBAAEAAAAAUwAAAFMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgABPAFURav0BAAAAAQBPQAIAarUBANM+///BCwAAT8n//yhZAQCH3f//bRIAAJwZ///10wEAkpkJAJKZCQCSmQkAkpkJAJKZCQCSmQkAQncHAEJ3BwBCdwcAQncHADJ3BwBCdwcAQSICADJ3BwCSmQkAkpkJAJKZCQCSmQkAkpkJAJKZCQCSmQkAkpkJAEJ3BwBBIgIAMSICADEiAgBBIgIAkpkJAEJ3BwAxIgIAkpkJAJKZCQCSmQkAkpkJAHFVBQBBIgIAkpkJAJKZCQBCdwcAUTMDADEiAgBBIgIAQSICAJKZCQCSmQkAMSICAJKZCQCSmQkAkpkJAJKZCQBxVQUAQSICACEiAgCSmQkAQSICAFEzAwAxIgIAQSICADEiAgAxIgIAkpkJADEiAgCSmQkAMSICAJKZCQCBmQkAgpkJAFEzAwAhIgIAMSICAEEiAgBBIgIAMSICAEEiAgAxIgIAMSICADEiAgAxIgIAkpkJADEiAgCSmQkAgpkJAIKZCQBRMwMAMSICAJKZCQAydwcAMSICAEEiAgAxIgIAMSICADEiAgAxIgIAMSICAJKZCQAxIgIAkpkJAIKZCQCCmQkAQSICACEiAgCSmQkAMSICACEiAgBBIgIAkREBACEiAgAxIgIAMSICADEiAgAidwcAMSICAJKZCQCCmQkAgpkJAEJ3BwAhIgIAkpkJADJ3BwAhIgIAISICACEiAgAhIgIAISICADEiAgAxIgIAMSICADEiAgCSmQkAgpkJAIKZCQBBIgIAISICADEiAgAxIgIAMSICADEiAgAhIgIAISICACEiAgAxIgIAMSICADEiAgAxIgIAkpkJAIKZCQCCmQkAQSICACEiAgAwIgIAMSICACEiAgAxIgIAISICADEiAgAxIgIAMSICADEiAgAxIgIAMSICAJKZCQCCmQkAgpkJAEEiAgAhIgIAISICACEiAgAxIgIAQSICADEiAgAxIgIAYVUFAEEiAgAxIgIAMSICADEiAgCSmQkAgpkJAIKZCQBBIgIAISICACEiAgAxIgIAQSICAEEiAgAxIgIAMSICAEEiAgBBIgIAMSICADEiAgAxIgIAkpkJAIKZCQCCmQkAQSICACEiAgCREQEAMSICAEEiAgBhVQUAQSICAEEiAgBBIgIAQSICADEiAgAxIgIAMSICAJKZCQBxZgYAYVUFAEEiAgCSmQkAcWYGAEEiAgBRMwMAgZkJAFEzAwBBIgIAMSICAEEiAgAxIgIAQSICADEiAgCSmQkAkpkJAHFmBgAxIgIAkpkJAGFmBgBRMwMAQSICAHFVBQBBIgIAQSICAEEiAgAxIgIAQSICAEEiAgAxIgIAkpkJAJKZCQCSmQkAkpkJAJKZCQCREQEAUTMDADEiAgAxIgIAMSICAEEiAgAhIgIAMncHAEEiAgBBIgIAQSICAL4a/w8ZIR8gBBAwJIQZABBFKwAAAAAAAOEV/w+2I7YWABAfHwAAAAAAAF0cABDmHAAAAAAAAAAAAAAAAMIfAxAtJMIfAxAtJMIfAxAtJMIfAxAtJMIfAxAtJMIfAxAtJMIfAxAtJAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABIAAAAqhoAEJohvhoAEBkhvhoAEBkhnB8AEAQlFiAAECYkFiAAECYk5RgAEGEshBkAEEUrhBkAEEUrAAAAAAAAAAAAAAAAAAAAAAAADBQAENEm4RUAELYj4RUAELYjxRIAENQkthYAEB8fthYAEB8fAABtALYAPwwAAAAA0EoAAABTAACq0v7/AQAAAAAACgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABABAAAAAAAAAAAAAAAAAAAAAAinwAAECaAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAARkFGQQMAhwBbAXEBAwB3ACgAAAChoTMBAAAAAEZBRkEoAHgAAAAAAAAAdgAAAOeTdQB3AAAAAAAAAHYAAADnk3cAdwAAAAAAAAB2AAAA56N4AHcAAAAAAAAAdgAAAOejeAB3AAAAAAAAAHYAAADn43gAdwAAAAAAAAB2AAAA58N4AHcAAAAAAAAAdgAAAOfDeAB3AAAAAAAAAHYAAADnw3gAdwAAAAAAAAB2AAAA58N0AHcAAAAAAAAAdgAAAOfDdgB3AAAAAAAAAHYAAADnw3gAdwAAAAAAAAB2AAAA58N4AHcAAAAAAAAAdgAAAOfDeQB3AAAAAAAAAHYAAADnw3oAdwAAAAAAAAB2AAAA58N3AHcAAAAAAAAAdgAAAOfDeAB3AAAAAAAAAHYAAADnw3kAdwAAAAAAAAB2AAAA58N4AHcAAAAAAAAAdgAAAOfDeAB3AAAAAAAAAHYAAADnw3gAdwAAAAAAAAB2AAAA58N4AHcAAAAAAAAAdgAAAOfDeAB3AAAAAAAAAHYAAADnw3gAdwAAAAAAAAB2AAAA58N5AHcAAAAAAAAAdgAAAOfDeQB3AAAAAAAAAHYAAADnw3kAdwAAAAAAAAB2AAAA58N5AHcAAAAAAAAAdgAAAOfDeQB3AAAAAAAAAHYAAADnw3kAdwAAAAAAAAB2AAAA58N5AHcAAAAAAAAAdgAAAOfDegB3AAAAAAAAAHYAAADnw3oAdwAAAAAAAAB2AAAA58N5AHcAAAAAAAAAdgAAAOfDeQB3AAAAAAAAAHYAAADnw3gAdwAAAAAAAAB2AAAA58N4AHcAAAAAAAAAdgAAAOfDeAB3AAAAAAAAADoAAADnw3gAdwAAAAAAAAA6AAAA58N4AHcAAAAAAAAAOgAAAOfDeABSAAAA+gAD0AoAAQAAAPAG+ATQCNgGRkFGQQEAawABAAAACgBHAAoAAAABAI0AAQAAAAEAIAEBAAAAAQB3AAEAAAACAH0AEQAAAAIAewDnAwAAAgB6AP8BAAACAIEAOgIAAAEAhAABAAAAAQB4AAEAAAABAHkAAQAAAAEAcAABAAAAAgCHAG0AAAACAIIA5wMAAAIAggDnAwAAAQCdAAEAAAACAHoAEQAAAAIAeQBqAgAAAgB7AOcDAAACAHoA5wMAAAIAfADnAwAAAgB4AA8AAAACAHMAEQAAAAEAiwABAAAAAgCBABYAAAACAH4A5wMAAAgAggAIAAAAAgCBAOcDAAAIAHsACAAAAAIAdgAPAAAAAgB2AOcDAAACAHcA5wMAAAIAeQDnAwAAAgB7AEsDAAACAHcATgEAAAIAgQARAAAAAQB3AAEAAAACAH4AHwAAAAIAfQDnAwAACAB/AAgAAAACAIAA5wMAAAgAdwAIAAAAAgB3AKcDAAACAHoA5wMAAAIAegDnAwAAAgByAOcDAAACAHsADwAAAAsAcgBWAwAAAgB/AKICAAACAIAARAAAAAIAgQAoAAAACAB4AAgAAAAIAIAACAAAAAIAfwDnAwAAAgB3AOcDAAACAHgA5wMAAAIAegDnAwAAAgB6AOcDAAACAHkA5wMAAAIAdwDnAwAACwB3AA8AAAACAH4A5wMAAAIAfQAPAAAAAgB+AKEAAAAKAFMACgAAAAgAgQAIAAAAAgCAAOcDAAACAHgA5wMAAAgAdwAIAAAACAB5AAgAAAAIAHgACAAAAAIAeADnAwAAAgB5AOcDAAACAHkA5wMAAAIAfgDnAwAAAgB/AA8AAAACAHoA/gAAAAIAfQDnAwAACACCAAgAAAACAH4A5wMAAAIAewDnAwAACAB4AAgAAAAIAHgACAAAAAIAdwDnAwAAAgB1AOcDAAACAHcA5wMAAAIAfADnAwAAAgB/AOcDAAACAHkADwAAAAIAfACyAAAAAgB+AOcDAAACAH8A5wMAAAIAgQDnAwAAAgB7ANICAAACAHsA5wMAAAIAegDnAwAACAB+AAgAAAACAHsA5wMAAAIAfADnAwAAAgB8AOcDAAACAH4A5wMAAAIAdwAPAAAAAgB4AMgAAAABAHsAAQAAAAIAfgDnAwAAAgCDALQCAAABAKQAAQAAAAIAgADnAwAAAgCAAOcDAAACAIEA5wMAAAIAfwDnAwAAAgB8AOcDAAACAHwADwAAAAIAfABiAwAAAgB4AA8AAAACAH0A5wMAAA0ACQACAHoA5wMAAP8BAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA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", "extensions": ["4.5(267) &middot; $10\u201320 &middot; Pizza", "9452 35th Ave SW", "Italian counter-serve & delivery spot"], "rating": 4.5, "reviews": 267, "block_position": 2}, {"position": 2, "title": "Numero Uno Pizza", "gps_coordinates": {"latitude": 47.601566, "longitude": -122.33438}, "snippet": "Casual venue serving pizza & wraps", "address": "103 1st Ave S", "business_type": "Pizza", "data_cid": "11580815790457852430", "image": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/4QAqRXhpZgAASUkqAAgAAAABADEBAgAHAAAAGgAAAAAAAABHb29nbGUAAP/bAIQAAwICCwoICgkIDwoLDwgLCwgQCgoKDQsLCQgIDQsICg8LCw4KCgoNCAoLCAoICgsKCgoNCgsLCA0OCgoODQoKCgEDBAQGBQYKBgYKEA0LDhAQEBAQEBAQDw8QEA8QDw0PDw4QDxANDw0QDw8NDg0ODw8NEA8PDw8PDRAPDQ0NDQ8N/8AAEQgAXABcAwERAAIRAQMRAf/EAB0AAAEFAQEBAQAAAAAAAAAAAAYDBAUHCAIBCQD/xAA/EAACAgECBAQDBQQHCQEAAAABAgMRBBIhAAUTMQYHIkEIMlEUI2FxgQkzQrEVNFKRocHRJENiY3KCkuHxJf/EABsBAAEFAQEAAAAAAAAAAAAAAAIBAwQFBgAH/8QAOREAAQMCBAIIBAQGAwEAAAAAAQACEQMhBBIxQQVREyJhcYGRsfBCocHRctLh8SMyM1KSwoKDohT/2gAMAwEAAhEDEQA/AMK+XUhI0Lq1RzLpCLqLvOjFhpG9hcAEUDZ2obnibhf6wHMEfVR8T/SK0v4K5a2PjECCWLIIY9SWTTqj3KgwO6FWp201ECRpJdhpVYvHcE+szsBHYe1WPAMXTY+Cblru61xspTxCjNlsGXd+ltpPZ9m7UKNm6H13s3x5i7DvpUmtMiM2vmvU+kpOqFzbzlnkfQ6W+vIrj5bJ18c6SA9RFijhF62kAsw/gDUTfft78WdNuakR2eio8bBNuaqzz28Gy4eUwpSkxSZWj1GMawdSagFQOGif0AtSBCD3pik8vPgjbHRjmFRXmBMWERPcs39wjQcajhYjNKzfFjIaFaHMfDaSDEDjd8WPILFju0k2SPqeyxKNq9uIvCWnJXnQVIHcGMPqSg4m+alMb5J83OH0QfkqpynEZVumshAFnWRG6ABuwBZlH+vbh7FtaaZBtJAnxB+ijhxgbqf8vHfqyIwlSQqoVIXKyv0458kKnTYSNrEcamMMQ4Kgr8ympfSL3tB6wg3IkSSxo2/EdNuxSKILXEtBEXPcJKIPhlkY5eXNHanIklkYlvUVsqE1nU4cFprKnUzSKBRUMbLENaYpvFmtA5ctvAK3wnDycMMWakZ3EREmxO89+yqbx5zkSZ+Uw7daSMAm6WI9Ab+4Ij1D232oUBbUWBlNrR73WYrmar4MwSJ57T46obn57MGILAgbLqiiYqg7C3iZqG4AvYcEaLCZI9R6EJG4io0Q11u4H1BRT4HyZsTmWdFiF1eCZ410E69UWR9kVQBu2pMmShRtxGQCa4n0n9HUa4mLqvqMz0y0CbLXvw45Of8A05gPlxzkGWVWkkxtgskEqAs7R6lBZl7Eb0O23DvGK7HYSoGuBMCLg/ECmeGUKjcRTJaQJM2I+E68rwt880vTRAI+lUP8K48p6c6EA++yF6M2nuCqu82/CQysGaArWtHokn0yaG6ZvUvyS6HHqFEDcGiHKWJeyq1zBFxPdvr2JatBrmEOPvZZR8S8rijw2jz2yMh2mD3j47kKFD7BtISvvSxbqMTbbE7G6EucCxsCOfuNFXUwKQIJnwhZ98a8sxWKMWON03IH2ptSuCAWB2WrtR2ah3/C+wAd1g0SqriEEtDjC5k5gDJGkB1lII41liYSxdFWkIWgpbUDMRqJrb8LINonDMdaAXkkdpDRY+GiTpaVd0Ou8NbBGwBdmDh25rEbgi8oJ59zU4xcAoCFZbKKl69Kn3s7fz7cRX0umAB0Bn1RPhmqa+SniWUc2jeLXIUjyZOjG7XK8ONNLGp0m6eVI0/NgPeuLFtJgAJaLdnoodSq8uIzG9tfVW/5V+MijS5MrOKx58gLKDJJO0scksS/aGkmd3VmSuvGwIZPXsIuIONB+C5zNsZFgRN77aLRNrhuFpUdshdqD1nzFiNp/RUBi2bLe3qJHbYF2P5Cia/Li13Cy2xKtjB5hjY0MUcuPy2dyglaTIilaUNMTIFYxnT90rLEPcBQD9eKCvWqPqOyPLQDESdrTqNdVbMoUgxuaCYkzG94vKgPOySTD8SZrwnptbZSld6dIPtcbCwfVHkwLIti9aA7ir02yo078PfGNz5ZYrz8gq7op1iMhVZgCfkFUCW2O3D9bDZWFwJ0UalWDn5SB77kb5Pxxc/iYqMvXpZ11NFGb6ZIHtRUgb132ojjNB+YkW/xb9lpega0A3/ycPqpgftEecqq65sUlu6vjoTtYJ9q3W9waut+/ABpLjDGkfhb9k7DGtEvcD+N33KKOQftD+aPFG7JiSGSaWHaIACPHjjnZrA2IWR2YHalFb93nUKWpY3yj6hRhVqzDXu85+6mOd/tHc2KJJFx8SUGR4WDWmlkSKVfl1fMJjsarTe98OYXBUK8y1rfA3/9hdiMTWokDO4/4/lKbYf7TWUt9/gYbAe6SPv+hUbfqb4iuwlJpIDR5uH+xT7MRVIBLz5N/KnOb+0Xxv8AectiawD6NBFH/qIOoVuK/U8AcFSOx8Hu/VEcTVbo6R2sH3ClOTfGtyuaPqNyyIawy/usdjW6Eb+zUQRdH34cHDR8L3j/ALD+UqK7Hn4mtP8AwH5kHebnxEcrOLNDjctxoZGjCK6LHCU2KJfSALomuxE1qbPymiDpYR4cHGo8jkXZv9R91IxVcM/hua2RAs0jQaa7aQslclz1DqspUIzqzsV1VECGc7KzfKp2UbmtrAq0qkta5zRJi3fePmqikA5zWuMCRPdIn5K7vGPxI4TzlosLBkWlAk+25WKXNeomHUoWmtRQogDjHYPhmKFP+LiX5pNgyla9h/IZstBiMRSY+KdNpFtXOnS+4tMx5pt8ZHLWi57i5EnoE0S6qthULlmApdRBjm6fyLZ2rueN0NLrLqqMCHCZApeO1ABvqqbA9/Qe/wCfFka7XNylVwoOa/MOansrl+I0ahZYxRbvMqggiv4yhuwPy4zgwkOJBHn91ozjQWgQfL7J6nlthtXTdG7X98G9hq+WT2Owr6cGWVcxiI20+6aa+llAMzvr+yMfD3hGBIemAi3PMoNMSkeTAIGdWPUAvQFZjVDtV6WadRqO15JemY09VCuR5dhcFkV9R+0RzgMGZmLxyxPdxwEKAqGwr76AQuoFXgx06QIhAHjmhrE8u3O1rw05ikMqLnI8MMknTavkL2O1DVZ/QKduGIEp7NaVLcp5TImLDKoBSQau9bNbg9tvx4nFx0Cr2ZZkqJ8d4modZtQY0KsaTvf537e3HU8wMHRSMS9tSanxE3Vfc6Y6AB/Hd0LJ0Uf7tWn/AN0QSc4DVR6dNz9AoLLwKrRbAqDYUimO5Bv3U+m1tSACD34HMOaPo3f2nyW3f2g+AHx8PIFWkjwWAe0qO+5oe8K1t3B/DiXsoe6T5HymD7NBkysjFAEGIhVuuxBMIUH5Z2rqyRffSSrb6I1Dla7Mc2/lb9P25gJ6oQGwBqPLn4fsn/gryTjz4SiRokmc5aBxCnTjVW6EEcaC6xHk+1ddh2XGx7aQktxDxGKNIsbJlzhYcjb6/LlJV/wzADE9M+2WnTc6TcS0SJkEGbDx5wDf3kh+zZgGE39PRwvNI5IGO8mmKEAKB1PQWdjqckKgAKqBtqazIcNCs8awfcsDe71PagPzj+BHl8OSmLyvGyZZGOkusk8qrK0b5CpvJoV+lEZSZGqitD34iuq1A7K2/O3v33LDcV45i2Yg4Xh1HO5oBe45i0Zohoi2aHB5BP8AKZgiSJXy9/ZsQ5XL8fIlmy8WSdS+iKUGlJOnZ0fS7IAzpfpNjaiBKzPHJazBvqPotOIblfuAZAQl5lfAt9g1as7PiBA0TTyK2NI/uriOpkI93aEooIYsd14h1cY6mYcO4zb1n5LQYXAsxDZY64N26GOYJGXwJB7Cqm84vKubB5cM5M15adMfpPEgQllZz08sE4sxVUZgsTSySDfTsxU8LihXMNFz3kedx80fEOHVMJOc6bGGPjaWGHeQI5EqrMPzBy48eKbr49SOwWJosV30qemxYNjl+mWUoo1X3ZQAdXEx1HO4tym0X25/v5Khp42HlgBsJJi19vK/6px5nHKWLH+1iADLByE6QAYaFjJDAVpFZCgbUx1/RTwzQrMeSG/DbTv+ytsXhalDL0kdYB1u0A/XZVnnytp0CqNHdQSrg91atQ29JF0QW9N6WAvfBhNUxaVFhmG3f8//AKOGSGlTW4h7RGq3t8W7DI5NM3cwvHP3J0066qv2CknvWnVVmrtgqUqm/L7xXBIuDiyx5udI8cePHiqI/s/qXohNRmErx9WMs63irF9+TIV1MYb6Zhz7W5zFvA/RPMc3OGwcx5a/Ow+fotbeTXldz7G8V8uz+ZRr0MsZETvjTxSopfFl6ZytMUY6heKGJHhijiQLDEjICY5mKVag6BMvOhIAn8Ou2wvz7JFanXptLW2pjVoJMGZ63ONibclvDO8RQxSxRSsFbJJRAQ33jrVgEArr9QIUkEqHYAhXKzIVWg7x34ihmxpPsMuMZ1LyRapdFZGhsRyfWg6ohd41EhFWrCqVgxWztYTTEu5e/qp3DqWHdiGjFEspk9YgTtAmJMWAJAJA0BIQt5N+E84yRS8wlVYcMv0cZJY3GoocZdbRswMUUUpVUkkk9bRtpRgGaqwjMW+p0mIMNAs20zpPVkRGlz4RfbcaxPBaGFOG4WzNUeetU65AYCHBrekAOYuAktaLAiXB0CzPMrxjHhYj5Eg11SLGO8sr+lV32AJ3ZjsihmagCeLWq5rGlztAsBTa57g1upWKPFfMmzcqH7Ysc6LPIem8X+ywmMBQ+Mo0qKDv/tJ1TKVdtSxuqcZirXfVY4tdk5AEDXmd9pEaaAlaujhmUXAPbnO5M7ch4GCTruE4zuXyCNhCkU6O4VYJJAnUjcNI5IcPG0Kopx0taAVWLSglTDAYerdrhF9dyLRe8Se8aJ4BwIJhzDmgaWsb84zADuOqxV8TnKRHzBI1CxqsDzLGjWkYUF2VFAKoNMYGlaWlFAbXpuHuzUy83JOvO8Sf1vzVTxAnOynNmiw1i0wOy1otysloPg6548aOvL8wh1Vgw6VMrDUD+9vcG9679h24ZqYmkXHrhN02dUBNj8G/O7I/o/P2/wCUPz766Pf2Jo2DuCAH/wBNP+8eYR5PcFXh4sgM2BmxSEfeYswQ99c4AMakCjpJuydhX5A6NphUUrIngrxe2PJiZcBGvGLEKRsCrtL3+jLk6TQ2379uFdSFWm+m7Q/X9krKrqFVlZurfL3dbi8u/i9aWPHwhJK02S8OJBFItdPJyXSGE66/dh3Uh/oNiooDC1+C13PAZ/IL2PK9uR9F6PR4/giw1SAah1Ea7EHYjnzX0idAsJQ2wVNFuDKT6dPqFFpGP8Qol9+98bEC0Beavl0xYmdrT3W8lTuJy/KP9cOsq+pX6WKunHYgqNWRiQsGZjIdSBCGKHRuRxDArDUnwy9nMd689wuH49SBGIqucc5IyGiRktAdmpsJOskAbW1AhPGHP8zpLHhxYuSC4V4giyr0pVQyMehkwWRJGdcZBD1C+vUHKvAvGvp9oVi/EcXZly0wbgGRMNIEus5okGREGRBnUBP4iPChTHxXhjMbSJI7Ir9Qx5WiLZXbUC4XrRByGoayukNITB4kf4bQdC4A+PPxjdejcLk1C46hjj3GNvmNPCFXcnhJ5TDLrVNDRksXs5EjnQqsCWhEgKfeaNStGDGrAOG4y9Z+UOa8h0yO7mZHfvGWzrwtRTY0ua5jSCLzBMiNNROgnWTI3sqeYKIDJ99iloWRsadtQViBJkBemZVE0SNK4kRmUw6W1QhSynTu8tEObqHN+KNLxuLwd7Tsm3tLgxzpDnEDKZESSNN4Nhz1g6r57+eWSZ+d5IvVcn2QEHcIG6agbbeljQYFlumLGydbgWhuHaRpr39vjqs/jnZsQ4Hu7uY8NFZnI2aJQMdpIr3AiYxDe+1MKBPv7+w7cQS0bqVqpDJ8U5pP9d5klCtKcwyUG34LNV/j7/QduA6Nn9o8k4HkaR5BF+H4dleIFQZNSOulUfZwpT+zVa6YUd171xqAw6rNEjRURznyVyoUZEiywhfWVOKMu33Ab7uG9SqSoYgFUJXUVZgXQyDKaMHVRnLeXzYmVBkhSsmDPDPGZsWSJVmx5FmiBGuNCutAaKkHt78KbiChAaDIWmuUfHbzeVkMkPJ5+kVYM6yBl9STLoYSppJeGN/cEothgBw2KIRl5Uxy34v5IAf/AM0gvG+Pqxua5C2siLET6uuetojWpWDPYss2/HdB2+hXZ0T8j+OzGQP14OeDUytpGVHlCFxK2RJ09SwuBLrMLoSVWIIsaxVfA9C5EHBPM34vOU5UAiysnmMKhT91k8uj/fMiRq2uAvL7TJIqseok2i9S63iYjDdIwsPny7bqRQrGm8VG6j3FkK+FPiTwNSMciGepFeRciIRRzxK4KCO4fQyN9+S0QY7lXiYCEZetwurIhsQIERHb2mdIjzN1oqePGU9e5OpnMPQWtcOv3WUi/mdjTSmZZceXq48zdNTGDHMhJRAWVZWDCSUxwxgB5dJR0VgS07CVmiCwgzM7HnoI75udFNp4mi+DmHIib/OHW2OwvckRh/k6CXmMkh7NLI4uiDqLFA11sx0qWray1bVxriMtKOwe+xZQGak9p7f3V38nisECjR7rsN+x07jcWqEGkUMSAduKtwVm0qRHJWO4v/t1AX77AGr77773t24byo1pXBwWHpvSB/L+Y7fUAfy1eZZstT3AgLE9hRvvuQDtuNiNj/ntfHSkLUX43LiQCDRXY2LWmokVYO+1HuBvRHdCVwanMnhKF/U0cDntqaMbbfQqx3ojuO3ffhMyHKun8DY7LWhVHb0kgdt/Sh2+u4G3vXCF0rsqGc/yRwmvUii9rSiTvffSTtsabtsTW/AzBRwhbnfwh4MoOhslDV/Mrnf80O1UDWw37eyF52Sho3VT85+ArV+5ylJG+nIx7o/i0cqDYUATHe25J4bz805lOyBeb/BTzGPV015dPp3CpK8DEdxYMQIvsfXX+PBWQrRPkL8LmFiQyNzGOHJlmkdyZoI5kjjcJpRC0nto6hbpatTOBIVI4h12uqWmAplF7WXIkq0M3yJ5QxAEGKNjtGZ8Y7/8Ubxx0AaIphW18VzsPVGjvfiFPbXpnUFDeT8O2KzN0IhpB00vMtVEexNMdQFWCxr68N9BW9x9090tLn6/ZE+Z4bUrpAYWSB+P0G4ogjuLUEmyarjQSqJdjwSI9L253IrsS1agB+ljctvW4Pp4UJCnWG2kgmx3O/bTuO3YeoGyQL2378LKBSEk+3pA3rswOoenuSPxK3R2K7je+lIvY5Ct6aN17CydjdhSLJXSLB7bNuaWVy4kNgtQFBj32WhsG2Ng3RGkaRZB2OoSV0JrErDcHbYnUpG3zbULFXtY2ruBwKKF5JHdjsT7jsTv/mtb6bqgL45wBEIgYSf2Ykhqo/J77pditxR+g/xNABtsiyIhJtiqTrXUD7m9iSPTtY2OoAbG7FDsScroS2QqsPbbe+34E/Wh779uEK5RLY4v3/8AKtjuPY/XgITwcnXKOZOELUrWT8utgm+qgp1i2pW02tfeMoBq3rJhOZPFLMw1UQfSDR2F2QFWyAgOo7gljtQCjjpQnVJcqzAQSy1dLp+X0Lt27+ki2DKFrUpNrpREKmMbmUZYl/an72A+5Y0LApSV3G/ve54VclIp1LEmiNP6Gza7AgU60BRJY7C+EXLjn2cOmEB0sWj3F0RrBcfhHoDM7MANLXpN6WRKmskLD1g0NSoDpDVew00Y23LCg1hd6G6sOJSAJeGQv8uk6asgaSR7UAzXqKgDYV66vZmSQjUXmZVEkVsFJGwrVZU9yQKvtvYC6fUCEKVcz5t6Wo+wsH0sdiBvqIGzeoKoQE3fcoiC42u7DEbHc+9d/lA7fQUPa+ySlTOWbc6SSBtsF29639t7BXYgg/XgpXLzPziI72NhWphYBZS/vvsUFWT73e1PJvZOOWsKNALZVfTYsN+v4/63wJQrnHGqNnbvqVa+obp9z823VIHqqgBR3vguUjy+yuuyCVL7UBem6qvl37e/vZsnlwSefIVjBUkGRyhINGqY/N81j2smvbsK5ckUgp4CCQXSaUsDRuGHYAfKEOsllA3IU7EA8CbJQuJ89jpUnZlJqh3ZjvdXY9t9v1Nto1+5dzFxSgkDcfidS67J76gzkqfbtuNuEJXIhhxAXbVZ3hO/cmUiNrOx7KK32378dKVRqwUCNyPRJv7mXXYbYalGn0h9VWTd6SFXKEy4gDIUAXXbHSP7ABUDv6V9v7O5BBs8CSiCe8pxDJGr6nTUNRCEBbO520k7/nwQC5f/2Q", "extensions": ["4.7(673) &middot; $10\u201320 &middot; Pizza", "103 1st Ave S", "Casual venue serving pizza & wraps"], "rating": 4.7, "reviews": 673, "block_position": 2}, {"position": 3, "title": "South Town Pie", "gps_coordinates": {"latitude": 47.526043, "longitude": -122.31514}, "snippet": "Restaurant and bar offering pizza with a variety of toppings, plus beer, wine and cocktails.", "address": "8611 14th Ave S", "business_type": "Pizza", "data_cid": "10102968809669010728", "image": "data:image/png;base64,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", "extensions": ["4.5(539) &middot; $10\u201320 &middot; Pizza", "8611 14th Ave S", "Restaurant and bar offering pizza with a variety of toppings, plus beer, wine and cocktails."], "rating": 4.5, "reviews": 539, "block_position": 2}], "search_refinement": {"items": [{"title": "Open now", "link": "https://www.google.com/search?num=20&sca_esv=39fb0d0e4486b304&gl=us&hl=en&q=where+can+I+get+a+slice+of+pizza+in+seattle+open+now&uds=ADvngMjcH0KdF7qGWtwTBrP0nt7dvVlvnyqNkzbwlR-HjG_cWT0xiyBWIwwNZBK8nLJ5V3FaNelC36tIor1cz_urjjGvgMQnbFbjlLnDeSjtJlvtYJJ9qaqx09-rseks5cQZFv_JW4k4H0h29M5enA6qY-juE0VbnCQNt-K9jvGnYHHz7z8Xfbm1mrlwRALj6IuvCqiy5TdtedgSwNNhh_o06CaJv51ZDzPYfCPTTUHgzVP8vcQCjM4&sa=X&ved=2ahUKEwjkjPjJtNqJAxWQt4QIHZ74JwwQxKsJegQIFBAB&ictx=0", "block_position": 1}, {"title": "Within 5 mi", "link": "https://www.google.com/search?num=20&sca_esv=39fb0d0e4486b304&gl=us&hl=en&q=where+can+I+get+a+slice+of+pizza+in+seattle+within+5+mi&uds=ADvngMjcH0KdF7qGWtwTBrP0nt7dkJNtgWCcH54x3RYHNvjNCI9e251pWMhkS6BhYAsFXjtBe98RRzmnb7ixmxy15QRuNSZpviBhSs3HcSDG4ImbUl-ykOAL0ipTW7qsukd9SJFWsUJ5yKQTkPO6jbaou7mTW06fp-JySrxXqSQHAw1QIouwkwL59rrn9UWD8xGmbkp36etQisKh71bh8BgVgR0tO3LdkgtjclYdOwfSt79pFBD4fMA&sa=X&ved=2ahUKEwjkjPjJtNqJAxWQt4QIHZ74JwwQxKsJegQIFRAB&ictx=0", "block_position": 1}, {"title": "Vibe", "block_position": 1}, {"title": "Top rated", "link": "https://www.google.com/search?num=20&sca_esv=39fb0d0e4486b304&gl=us&hl=en&q=top+rated+where+can+I+get+a+slice+of+pizza+in+seattle&uds=ADvngMjcH0KdF7qGWtwTBrP0nt7djSWIb0DxqEhKmqmKoILYlgISxEvfWpNeeKpZhpyZ239C4_b50bPo-OJqJ2aJILbPMGLgIiRdKoFaYsep00nU76XNa7148wi5YNPnJCu6MWvSfCOdTfl8A4ruFcTCesTi-3AcM5Qdbzf3t2HOIWoPW2dBWjnOxPrdOipD26MfM6HRikXwpTu5WIblC8sxVCwsNiFe_I5IQK8ePHR_KS4mbWTREdc&sa=X&ved=2ahUKEwjkjPjJtNqJAxWQt4QIHZ74JwwQxKsJegQIERAB&ictx=0", "block_position": 1}, {"title": "Recently opened", "link": "https://www.google.com/search?num=20&sca_esv=39fb0d0e4486b304&gl=us&hl=en&q=recently+opened+where+can+I+get+a+slice+of+pizza+in+seattle&uds=ADvngMjcH0KdF7qGWtwTBrP0nt7dPkY9OrD9FxiViDSQJT76dDUk28ZX1Xuvnw1Fadzri-lqqhu4d259bcBcIYyCcKfsZE0zLTIGNjdlJvn8Wmnvtge-IiGashgsTzZTg_LO0pXNforYiKfCypoUNHStgGvBIpFuxTgYS5vptWV-PJzruTSabtWqN8MwLs5YDmCaC-oJLYPuPR_WwhZYk9WnnQNHJcIxF7D9tXhVE-JRbQP4jMJCale-zUazPKfF_c_JB5r3-n0x&sa=X&ved=2ahUKEwjkjPjJtNqJAxWQt4QIHZ74JwwQxKsJegQIEhAB&ictx=0", "block_position": 1}]}, "related_searches": [{"query": "Best where can i get a slice of pizza in seattle", "link": "https://www.google.com/search?num=20&sca_esv=39fb0d0e4486b304&gl=us&hl=en&q=Best+where+can+i+get+a+slice+of+pizza+in+seattle&sa=X&ved=2ahUKEwjkjPjJtNqJAxWQt4QIHZ74JwwQ1QJ6BAhoEAE", "block_position": 23}, {"query": "Pizza by the slice Seattle", "link": "https://www.google.com/search?num=20&sca_esv=39fb0d0e4486b304&gl=us&hl=en&q=Pizza+by+the+slice+Seattle&sa=X&ved=2ahUKEwjkjPjJtNqJAxWQt4QIHZ74JwwQ1QJ6BAhnEAE", "block_position": 23}, {"query": "Pizza by the slice downtown Seattle", "link": "https://www.google.com/search?num=20&sca_esv=39fb0d0e4486b304&gl=us&hl=en&q=Pizza+by+the+slice+downtown+Seattle&sa=X&ved=2ahUKEwjkjPjJtNqJAxWQt4QIHZ74JwwQ1QJ6BAhmEAE", "block_position": 23}, {"query": "Slice box pizza seattle", "link": "https://www.google.com/search?num=20&sca_esv=39fb0d0e4486b304&gl=us&hl=en&q=Slice+box+pizza+seattle&sa=X&ved=2ahUKEwjkjPjJtNqJAxWQt4QIHZ74JwwQ1QJ6BAhkEAE", "block_position": 23}, {"query": "Slices Seattle", "link": "https://www.google.com/search?num=20&sca_esv=39fb0d0e4486b304&gl=us&hl=en&q=Slices+Seattle&sa=X&ved=2ahUKEwjkjPjJtNqJAxWQt4QIHZ74JwwQ1QJ6BAhhEAE", "block_position": 23}, {"query": "Pizza by the slice near me", "link": "https://www.google.com/search?num=20&sca_esv=39fb0d0e4486b304&gl=us&hl=en&q=Pizza+by+the+slice+near+me&sa=X&ved=2ahUKEwjkjPjJtNqJAxWQt4QIHZ74JwwQ1QJ6BAhjEAE", "block_position": 23}, {"query": "Pagliacci pizza", "link": "https://www.google.com/search?num=20&sca_esv=39fb0d0e4486b304&gl=us&hl=en&q=Pagliacci+pizza&sa=X&ved=2ahUKEwjkjPjJtNqJAxWQt4QIHZ74JwwQ1QJ6BAhiEAE", "block_position": 23}, {"query": "Zeeks Pizza", "link": "https://www.google.com/search?num=20&sca_esv=39fb0d0e4486b304&gl=us&hl=en&q=Zeeks+Pizza&sa=X&ved=2ahUKEwjkjPjJtNqJAxWQt4QIHZ74JwwQ1QJ6BAhlEAE", "block_position": 23}], "related_questions": [{"question": "What type of pizza is Seattle known for?", "answer": "The pizza is thin crust Neapolitan style.", "source": {"link": "https://www.quora.com/Can-anyone-define-Seattle-Style-pizza#:~:text=The%20pizza%20is%20thin%20crust%20Neapolitan%20style.", "displayed_link": "https://www.quora.com \u203a Can-anyone-define-Seattle-Styl...", "title": "Can anyone define 'Seattle-Style' pizza? - Quora"}, "search": {"link": "https://www.google.com/search?num=20&sca_esv=39fb0d0e4486b304&gl=us&hl=en&q=What+type+of+pizza+is+Seattle+known+for%3F&sa=X&ved=2ahUKEwjkjPjJtNqJAxWQt4QIHZ74JwwQzmd6BAh0EAY", "title": "What type of pizza is Seattle known for?"}, "block_position": 5}, {"question": "Which famous pizza slice from burien will expand to beacon hill?", "answer": "That buzzy New York-style slice that's all the rage in the South End is coming to Seattle. Stevie's Famous in Burien will open a counter space inside Clock-Out Lounge on Beacon Hill starting next Friday (Jan.", "source": {"link": "https://www.seattletimes.com/life/food-drink/this-famous-pizza-slice-from-burien-will-expand-to-beacon-hill/#:~:text=That%20buzzy%20New%20York%2Dstyle,Hill%20starting%20next%20Friday%20(Jan.", "displayed_link": "https://www.seattletimes.com \u203a life \u203a food-drink \u203a this-fa...", "title": "This 'famous' pizza slice from Burien will expand to Beacon Hill"}, "search": {"link": "https://www.google.com/search?num=20&sca_esv=39fb0d0e4486b304&gl=us&hl=en&q=Which+famous+pizza+slice+from+burien+will+expand+to+beacon+hill%3F&sa=X&ved=2ahUKEwjkjPjJtNqJAxWQt4QIHZ74JwwQzmd6BAh3EAY", "title": "Which famous pizza slice from burien will expand to beacon hill?"}, "block_position": 5}, {"question": "What is the number one pizza city in the US?", "answer": "That's right, #1. SEATTLE - Seattle isn't just a coffee town these days, its also a standout for pizza in the United States. A new Mandoe study shows analysis of 80 cities across the country, and Seattle topped the ranks.", "source": {"link": "https://www.fox13seattle.com/news/seattle-top-pizza-city-study#:~:text=That's%20right%2C%20%231.,and%20Seattle%20topped%20the%20ranks.", "displayed_link": "https://www.fox13seattle.com \u203a news \u203a seattle-top-pizza-...", "title": "Seattle reigns as top US pizza city in surprising study"}, "search": {"link": "https://www.google.com/search?num=20&sca_esv=39fb0d0e4486b304&gl=us&hl=en&q=What+is+the+number+one+pizza+city+in+the+US%3F&sa=X&ved=2ahUKEwjkjPjJtNqJAxWQt4QIHZ74JwwQzmd6BAh4EAY", "title": "What is the number one pizza city in the US?"}, "block_position": 5}, {"question": "How many people does 12 inch pizza feed?", "answer": "Ordering Salerno&#39;s Pizza for Large Amounts of People", "answer_list": [{"text": "Small (10&quot;)"}, {"text": "1-2 People"}, {"text": "Medium (12&quot;)"}, {"text": "2-3 People"}, {"text": "Large (14&quot;)"}, {"text": "3-4 People"}, {"text": "X-Large (16&quot;)"}, {"text": "4-5 People"}], "source": {"link": "https://salernospizza.com/pizza-facts/how-much-pizza-do-i-need/", "displayed_link": "https://salernospizza.com \u203a pizza-facts \u203a how-much-pizza...", "title": "How Much Pizza Do I Need to Order? | Salerno's Pizza"}, "search": {"link": "https://www.google.com/search?num=20&sca_esv=39fb0d0e4486b304&gl=us&hl=en&q=How+many+people+does+12+inch+pizza+feed%3F&sa=X&ved=2ahUKEwjkjPjJtNqJAxWQt4QIHZ74JwwQzmd6BAh5EAY", "title": "How many people does 12 inch pizza feed?"}, "block_position": 5}], "local_map": {"link": "https://www.google.com/search?sca_esv=39fb0d0e4486b304&gl=us&hl=en&tbm=lcl&q=where+can+I+get+a+slice+of+pizza+in+seattle&rflfq=1&num=10&uule=w+CAIQICIeOTgxNDYsV2FzaGluZ3RvbixVbml0ZWQgU3RhdGVz&sa=X&ved=2ahUKEwjkjPjJtNqJAxWQt4QIHZ74JwwQtgN6BAgfEAI"}, "discussions_and_forums": [{"discussion_title": "Best \u201dcheap\u201d by-the-slice pizza in downtown(ish) Seattle?", "link": "https://www.reddit.com/r/Seattle/comments/cicn6w/best_cheap_bytheslice_pizza_in_downtownish_seattle/", "source": {"source_title": "Reddit \u00b7 ", "domain": "www.reddit.com", "source_community": "r/Seattle ", "comments_count": " 50+ comments ", "time": " 5y ago"}, "block_position": 4}, {"discussion_title": "Where is the best place to find pizza in Seattle?", "link": "https://www.quora.com/Where-is-the-best-place-to-find-pizza-in-Seattle", "source": {"source_title": "Quora \u00b7 ", "domain": "www.quora.com", "comments_count": "5 answers ", "time": " 7y ago"}, "block_position": 4}, {"discussion_title": "What is the best pizza in Seattle?", "link": "https://www.quora.com/What-is-the-best-pizza-in-Seattle", "source": {"source_title": "Quora \u00b7 ", "domain": "www.quora.com", "comments_count": "40+ answers ", "time": " 15y ago"}, "block_position": 4}], "inline_videos": [{"position": 1, "title": "This is the best slice of pepperoni pizza in town. #Tivoli ...", "length": "0.31", "block_position": 21}]}];
+var ALL = [
+  {
+    "query": "bergen county seo",
+    "location": "Ridgewood NJ",
+    "label": "bergen county seo [Ridgewood NJ]",
+    "search_parameters": {
+      "q": "bergen county seo",
+      "location": "Ridgewood,New Jersey,United States",
+      "gl": "us",
+      "hl": "en",
+      "device": "desktop",
+      "num": "10",
+      "engine": "google"
+    },
+    "organic_results": [
+      {
+        "position": 1,
+        "block_position": 2,
+        "title": "Home Page - Bergen County Seo | Search Engine ...",
+        "link": "https://bergencountyseo.com/",
+        "domain": "bergencountyseo.com",
+        "displayed_link": "https://bergencountyseo.com",
+        "snippet": "REAL Google SEO Experts! THE #1 CHOICE OF BERGEN COUNTY HOME & PRO SERVICES BUSINESSES Want more calls, more customers & more money from your business?",
+        "prerender": false
+      },
+      {
+        "position": 2,
+        "block_position": 3,
+        "title": "Bergen county seo - ridgewood internet marketing",
+        "link": "https://sites.google.com/view/bergencountyseohe2/bergen-county-seo",
+        "domain": "sites.google.com",
+        "displayed_link": "https://sites.google.com \u203a view \u203a bergen-county-seo",
+        "snippet": "Learn more about Seo agency nj. wordpress experts bergen county. Bergen Ranks. 28 E Ridgewood Ave, Paramus, NJ 07652. (201) 971-3166.Read more",
+        "prerender": false
+      },
+      {
+        "position": 3,
+        "block_position": 4,
+        "title": "SEO Company Bergen County NJ - JKO Consulting",
+        "link": "https://jkoconsulting.com/service/search-engine-optimization-services-bergen-county-nj/",
+        "domain": "jkoconsulting.com",
+        "displayed_link": "https://jkoconsulting.com \u203a Services",
+        "snippet": "JKO Consulting, NJ's leading SEO and app design agency, transforms your online presence with innovative, results-driven strategies.",
+        "prerender": false
+      },
+      {
+        "position": 4,
+        "block_position": 6,
+        "title": "Bergen County Digital Marketing: Local SEO & PPC Guide ...",
+        "link": "https://digitalmarketingnewjersey.us/blog/bergen-county-digital-marketing-local-seo-ppc-guide-2026/",
+        "domain": "digitalmarketingnewjersey.us",
+        "displayed_link": "https://digitalmarketingnewjersey.us \u203a blog \u203a bergen-co...",
+        "snippet": "Jan 22, 2026 \u2014 Digital Marketing in Bergen County: Expert SEO, PPC & automation services that help local businesses get found & grow revenue.",
+        "prerender": false,
+        "date": "Jan 22, 2026",
+        "date_utc": "2026-01-22T00:00:00.000Z"
+      },
+      {
+        "position": 5,
+        "block_position": 7,
+        "title": "The Hard Truth for Bergen County Contractors. SEO Will ...",
+        "link": "https://organicalseo.com/bergen-county-contractors-seo-phone-ringing/",
+        "domain": "organicalseo.com",
+        "displayed_link": "https://organicalseo.com \u203a SEO For Contractors",
+        "snippet": "Oct 9, 2025 \u2014 Read And Learn Why Contractors In Bergen County Often Have Unrealistic Expectations When They Hire An SEO Agency! Your Phone Will Not Ring ...",
+        "prerender": false,
+        "date": "Oct 9, 2025",
+        "date_utc": "2025-10-09T00:00:00.000Z"
+      },
+      {
+        "position": 6,
+        "block_position": 8,
+        "title": "Bergen County SEO Services | Montvale, NJ in ...",
+        "link": "https://www.wpamplify.com/bergen-county/",
+        "domain": "www.wpamplify.com",
+        "displayed_link": "https://www.wpamplify.com \u203a bergen-county",
+        "snippet": "We provide WordPress marketing services including search engine optimization, custom website design, full-service blogging and website support.Read more",
+        "prerender": false
+      },
+      {
+        "position": 7,
+        "block_position": 10,
+        "title": "Our Services - Bergen County Seo",
+        "link": "https://bergencountyseo.com/our-services/",
+        "domain": "bergencountyseo.com",
+        "displayed_link": "https://bergencountyseo.com \u203a our-services",
+        "snippet": "We specialize in transforming your online presence through bespoke Google Business Profile optimization, comprehensive SEO strategies, and a full spectrum of ...Read more",
+        "prerender": false
+      },
+      {
+        "position": 8,
+        "block_position": 11,
+        "title": "SEO Bergen County, NJ - Improve Google Rankings, Local ...",
+        "link": "https://givemeservice.com/service-area/seo-bergen-county-nj/",
+        "domain": "givemeservice.com",
+        "displayed_link": "https://givemeservice.com \u203a Service Area",
+        "snippet": "Local SEO Services for businesses in Bergen County, NJ. For specific geographical areas, Local Search Engine Optimization or local SEO is used. Search results ...Read more",
+        "prerender": false
+      },
+      {
+        "position": 9,
+        "block_position": 12,
+        "title": "Bergen County, NJ Website Design & SEO Company",
+        "link": "https://www.pomediagroup.com/web-design-seo-bergen-county-nj.html",
+        "domain": "www.pomediagroup.com",
+        "displayed_link": "https://www.pomediagroup.com \u203a web-design-seo-berg...",
+        "snippet": "We are a Website Design company in Bergen County, NJ with over 10 years experience providing website development, SEO, website maintenance and online marketing ...Read more",
+        "prerender": false
+      }
+    ],
+    "local_results": [],
+    "ai_overview": null,
+    "related_questions": [
+      {
+        "question": "What is the richest neighborhood in Bergen County?",
+        "answer": "All Places in Bergen County",
+        "source": {
+          "link": "https://datacommons.org/ranking/Median_Income_Person/CensusCountyDivision/geoId/34003?h=geoId/3400324420&unit=$",
+          "displayed_link": "https://datacommons.org \u203a CensusCountyDivision \u203a geoId",
+          "title": "Ranking by Median Individual Income - Places in Bergen County"
+        },
+        "block_position": 5
+      },
+      {
+        "question": "What is the least populated town in Bergen County?",
+        "answer": "Each has an estimated population between roughly 26,000 and 34,000 residents, reflecting the county's role as one of New Jersey's most developed and densely settled areas. At the other end of the spectrum, Teterboro ranks as the least populated municipality in Bergen County, with an estimated 70 residents.",
+        "source": {
+          "link": "https://www.northjersey.com/story/news/bergen/2026/01/08/bergen-county-nj-towns-highest-lowest-populations/88049081007/#:~:text=Each%20has%20an%20estimated%20population,with%20an%20estimated%2070%20residents.",
+          "displayed_link": "https://www.northjersey.com \u203a bergen \u203a 2026/01/08 \u203a be...",
+          "title": "Bergen County NJ towns with highest, lowest populations"
+        },
+        "block_position": 5
+      },
+      {
+        "question": "What are the three cities in Bergen County, NJ?",
+        "answer": "Bergen County Cities & Towns \ud83d\uddfa\ufe0f | Explore Bergen County New Jersey Cities by Population. #1. Hackensack.#2. Teaneck.#3. Fort Lee.#4. Garfield.#5. Fair Lawn.#6. Englewood.#7. Bergenfield.#8. Paramus.",
+        "answer_list": [
+          {
+            "text": "#1. Hackensack."
+          },
+          {
+            "text": "#2. Teaneck."
+          },
+          {
+            "text": "#3. Fort Lee."
+          },
+          {
+            "text": "#4. Garfield."
+          },
+          {
+            "text": "#5. Fair Lawn."
+          },
+          {
+            "text": "#6. Englewood."
+          },
+          {
+            "text": "#7. Bergenfield."
+          },
+          {
+            "text": "#8. Paramus."
+          }
+        ],
+        "source": {
+          "link": "https://harringtonmovers.com/blog/bergen-county-cities-towns/",
+          "displayed_link": "https://harringtonmovers.com \u203a blog \u203a bergen-county-cit...",
+          "title": "Explore Bergen County New Jersey Cities by Population"
+        },
+        "block_position": 5
+      },
+      {
+        "question": "What is the best neighborhood in Bergen County?",
+        "answer": "The Best Neighborhoods in Bergen County, NJ for Luxury-End Buyers in 2026",
+        "answer_list": [
+          {
+            "text": "Alpine: The Gold Standard for Prestige and Privacy. ..."
+          },
+          {
+            "text": "Franklin Lakes: Estate Living With a True Suburban Feel. ..."
+          },
+          {
+            "text": "Tenafly: Refined Living with NYC Accessibility. ..."
+          },
+          {
+            "text": "Englewood Cliffs: Elevated Living Close to the City."
+          }
+        ],
+        "source": {
+          "link": "https://www.theakkusgroup.com/blog/what-are-the-best-luxury-neighborhoods-in-bergen-county-nj/",
+          "displayed_link": "https://www.theakkusgroup.com \u203a blog \u203a what-are-the-b...",
+          "title": "What Are the Best Luxury Neighborhoods in Bergen County ..."
+        },
+        "block_position": 5
+      }
+    ],
+    "discussions_and_forums": [],
+    "related_searches": []
+  },
+  {
+    "query": "seo bergen",
+    "location": "Ridgewood NJ",
+    "label": "seo bergen [Ridgewood NJ]",
+    "search_parameters": {
+      "q": "seo bergen",
+      "location": "Ridgewood,New Jersey,United States",
+      "gl": "us",
+      "hl": "en",
+      "device": "desktop",
+      "num": "10",
+      "engine": "google"
+    },
+    "organic_results": [
+      {
+        "position": 1,
+        "block_position": 2,
+        "title": "Home Page - Bergen County Seo | Search Engine ...",
+        "link": "https://bergencountyseo.com/",
+        "domain": "bergencountyseo.com",
+        "displayed_link": "https://bergencountyseo.com",
+        "snippet": "25 years+ of internet marketing to small business in Bergen County, NJ & surrounding area. Speak To An Expert: (201) 971-2848Read more",
+        "prerender": false
+      },
+      {
+        "position": 2,
+        "block_position": 3,
+        "title": "SEO Company Bergen County NJ - JKO Consulting",
+        "link": "https://jkoconsulting.com/service/search-engine-optimization-services-bergen-county-nj/",
+        "domain": "jkoconsulting.com",
+        "displayed_link": "https://jkoconsulting.com \u203a Services",
+        "snippet": "JKO Consulting, NJ's leading SEO and app design agency, transforms your online presence with innovative, results-driven strategies.",
+        "prerender": false
+      },
+      {
+        "position": 3,
+        "block_position": 4,
+        "title": "Bergen county seo - ridgewood internet marketing",
+        "link": "https://sites.google.com/view/bergencountyseohe2/bergen-county-seo",
+        "domain": "sites.google.com",
+        "displayed_link": "https://sites.google.com \u203a view \u203a bergen-county-seo",
+        "snippet": "Learn more about Seo agency nj. wordpress experts bergen county. Bergen Ranks. 28 E Ridgewood Ave, Paramus, NJ 07652. (201) 971-3166.Read more",
+        "prerender": false
+      },
+      {
+        "position": 4,
+        "block_position": 5,
+        "title": "Bergen County NJ SEO Agency | Bergen Ranks: Home",
+        "link": "https://bergenranks.com/",
+        "domain": "bergenranks.com",
+        "displayed_link": "https://bergenranks.com",
+        "snippet": "We have a team of highly-educated, experienced and creative web developers. With nearly 10 years of experience, we're confident to help you build a website that ...Read more",
+        "prerender": false
+      },
+      {
+        "position": 5,
+        "block_position": 6,
+        "title": "The #1 Rated SEO Agency For Small Businesses in New ...",
+        "link": "https://organicalseo.com/",
+        "domain": "organicalseo.com",
+        "displayed_link": "https://organicalseo.com",
+        "snippet": "Organical SEO is located in Bergen County, NJ. We do all of our work in-house. It's not just emails and a voIce on the other line. Our SEO experts meet you ...Read more",
+        "prerender": false
+      },
+      {
+        "position": 6,
+        "block_position": 7,
+        "title": "Bergen County SEO Services | Montvale, NJ in ...",
+        "link": "https://www.wpamplify.com/bergen-county/",
+        "domain": "www.wpamplify.com",
+        "displayed_link": "https://www.wpamplify.com \u203a bergen-county",
+        "snippet": "We provide WordPress marketing services including search engine optimization, custom website design, full-service blogging and website support.Read more",
+        "prerender": false
+      },
+      {
+        "position": 7,
+        "block_position": 8,
+        "title": "Top SEO & Web Growth Agency for 20+ Years | Bergen ...",
+        "link": "https://webpilot.co/",
+        "domain": "webpilot.co",
+        "displayed_link": "https://webpilot.co",
+        "snippet": "We help local & national businesses grow traffic, leads and revenue online without the guessing (or stressing ).",
+        "prerender": false
+      },
+      {
+        "position": 8,
+        "block_position": 9,
+        "title": "Custom Website Development with SEO in Bergen County ...",
+        "link": "https://gal-inc.com/web-development-cnty.asp?cnty=Bergen",
+        "domain": "gal-inc.com",
+        "displayed_link": "https://gal-inc.com \u203a web-development-cnty \u203a cnty=Ber...",
+        "snippet": "G.A.L. Inc. provides Custom Website Development with SEO in Bergen County, NJ for clients since 2001. Ranking is only half the battle\u2014your content must also ...Read more",
+        "prerender": false
+      },
+      {
+        "position": 9,
+        "block_position": 10,
+        "title": "SEO Marketing Services in Bergen County, New Jersey",
+        "link": "https://www.drawingboardmedia.com/seo-services-search-engine-optimization-new-jersey/",
+        "domain": "www.drawingboardmedia.com",
+        "displayed_link": "https://www.drawingboardmedia.com \u203a seo-services-sear...",
+        "snippet": "New Jersey's SEO Experts. Higher Visibility. Increased Sales. Proven Results. Polished SEO strategies that will drive traffic to your website.Read more",
+        "prerender": false
+      },
+      {
+        "position": 10,
+        "block_position": 11,
+        "title": "SEO Bergen County, NJ - Improve Google Rankings, Local ...",
+        "link": "https://givemeservice.com/service-area/seo-bergen-county-nj/",
+        "domain": "givemeservice.com",
+        "displayed_link": "https://givemeservice.com \u203a Service Area",
+        "snippet": "SEO Services for business in Bergen County, NJ. Search Engine Optimization (SEO) is an important component of any company's Internet marketing.Read more",
+        "prerender": false
+      }
+    ],
+    "local_results": [],
+    "ai_overview": {
+      "message": "Google offers an AI Overview for this search. To get AI overview result, please use the include_ai_overview=true request parameter. One extra credit applies if results exist."
+    },
+    "related_questions": [],
+    "discussions_and_forums": [],
+    "related_searches": [
+      {
+        "query": "Seo bergen reviews",
+        "link": "https://www.google.com/search?sca_esv=da50c45d53610c17&gl=us&hl=en&q=Seo+bergen+reviews&sa=X&ved=2ahUKEwi8gKLZ8a-TAxW1TDABHZXQBvEQ1QJ6BAhbEAE",
+        "block_position": 12
+      },
+      {
+        "query": "Zircon SEO",
+        "link": "https://www.google.com/search?sca_esv=da50c45d53610c17&gl=us&hl=en&q=Zircon+SEO&sa=X&ved=2ahUKEwi8gKLZ8a-TAxW1TDABHZXQBvEQ1QJ6BAhgEAE",
+        "block_position": 12
+      },
+      {
+        "query": "SEO Agency NJ",
+        "link": "https://www.google.com/search?sca_esv=da50c45d53610c17&gl=us&hl=en&q=SEO+Agency+NJ&sa=X&ved=2ahUKEwi8gKLZ8a-TAxW1TDABHZXQBvEQ1QJ6BAhfEAE",
+        "block_position": 12
+      },
+      {
+        "query": "Sagapixel SEO",
+        "link": "https://www.google.com/search?sca_esv=da50c45d53610c17&gl=us&hl=en&q=Sagapixel+SEO&sa=X&ved=2ahUKEwi8gKLZ8a-TAxW1TDABHZXQBvEQ1QJ6BAheEAE",
+        "block_position": 12
+      },
+      {
+        "query": "SEO co",
+        "link": "https://www.google.com/search?sca_esv=da50c45d53610c17&gl=us&hl=en&q=SEO+co&sa=X&ved=2ahUKEwi8gKLZ8a-TAxW1TDABHZXQBvEQ1QJ6BAhdEAE",
+        "block_position": 12
+      },
+      {
+        "query": "SEO Optimizers",
+        "link": "https://www.google.com/search?sca_esv=da50c45d53610c17&gl=us&hl=en&q=SEO+Optimizers&sa=X&ved=2ahUKEwi8gKLZ8a-TAxW1TDABHZXQBvEQ1QJ6BAhcEAE",
+        "block_position": 12
+      },
+      {
+        "query": "SEO Houston",
+        "link": "https://www.google.com/search?sca_esv=da50c45d53610c17&gl=us&hl=en&q=SEO+Houston&sa=X&ved=2ahUKEwi8gKLZ8a-TAxW1TDABHZXQBvEQ1QJ6BAhaEAE",
+        "block_position": 12
+      },
+      {
+        "query": "SEO Inc",
+        "link": "https://www.google.com/search?sca_esv=da50c45d53610c17&gl=us&hl=en&q=SEO+Inc&sa=X&ved=2ahUKEwi8gKLZ8a-TAxW1TDABHZXQBvEQ1QJ6BAhZEAE",
+        "block_position": 12
+      }
+    ]
+  },
+  {
+    "query": "local ai",
+    "location": "Ridgewood NJ",
+    "label": "local ai [Ridgewood NJ]",
+    "search_parameters": {
+      "q": "local ai",
+      "location": "Ridgewood,New Jersey,United States",
+      "gl": "us",
+      "hl": "en",
+      "device": "desktop",
+      "num": "10",
+      "engine": "google"
+    },
+    "organic_results": [
+      {
+        "position": 1,
+        "block_position": 2,
+        "title": "LocalAI",
+        "link": "https://localai.io/",
+        "domain": "localai.io",
+        "displayed_link": "https://localai.io",
+        "snippet": "LLM Inferencing: LocalAI is a free, Open Source OpenAI alternative. Run LLMs, generate images, audio and more locally with consumer grade hardware. Agentic- ...Read more",
+        "prerender": false
+      },
+      {
+        "position": 2,
+        "block_position": 3,
+        "title": "Is local AI worth it? : r/LocalLLaMA",
+        "link": "https://www.reddit.com/r/LocalLLaMA/comments/1pisqnn/is_local_ai_worth_it/",
+        "domain": "www.reddit.com",
+        "displayed_link": "30+ comments  \u00b7  3 months ago",
+        "snippet": "It is super fast - really great - but it can't replace the online ai's. Right now it is useless (except for me test some stuff), but if you want ...Read more",
+        "prerender": false
+      },
+      {
+        "position": 3,
+        "block_position": 5,
+        "title": "mudler/LocalAI: :robot: The free, Open Source ...",
+        "link": "https://github.com/mudler/LocalAI",
+        "domain": "github.com",
+        "displayed_link": "https://github.com \u203a mudler \u203a LocalAI",
+        "snippet": "LocalAI is the free, Open Source OpenAI alternative. LocalAI act as a drop-in replacement REST API that's compatible with OpenAI (Elevenlabs, Anthropic... ) API ...Read more",
+        "prerender": false
+      },
+      {
+        "position": 4,
+        "block_position": 6,
+        "title": "Local AI Chat - App Store",
+        "link": "https://apps.apple.com/us/app/locally-ai-local-ai-chat/id6741426692",
+        "domain": "apps.apple.com",
+        "displayed_link": "https://apps.apple.com \u203a app \u203a locally-ai-local-ai-chat",
+        "snippet": "Run AI models like Llama, Gemma, Qwen, and more on your iPhone and iPad. Offline. Private. No login. No data collection. Powered by Apple MLX. Meet Locally ...Read more",
+        "prerender": false
+      },
+      {
+        "position": 5,
+        "block_position": 8,
+        "title": "LM Studio - Local AI on your computer",
+        "link": "https://lmstudio.ai/",
+        "domain": "lmstudio.ai",
+        "displayed_link": "https://lmstudio.ai",
+        "snippet": "Connect to remote instances of LM Studio, load your models, and use them as if they were local. Get started. Run AI models, locally and privately.Read more",
+        "prerender": false
+      },
+      {
+        "position": 6,
+        "block_position": 9,
+        "title": "The Local AI Playground",
+        "link": "https://www.localai.app/",
+        "domain": "www.localai.app",
+        "displayed_link": "https://www.localai.app",
+        "snippet": "Local AI Management, Verification, & Inferencing. Experiment with AI offline, in private. No GPU required! - A native app made to simplify the whole process ...Read more",
+        "prerender": false
+      },
+      {
+        "position": 7,
+        "block_position": 10,
+        "title": "How to Run AI Models Locally (2026) : Tools, Setup & Tips",
+        "link": "https://www.clarifai.com/blog/how-to-run-ai-models-locally-2025-tools-setup-tips",
+        "domain": "www.clarifai.com",
+        "displayed_link": "https://www.clarifai.com \u203a blog \u203a how-to-run-ai-models...",
+        "snippet": "Sep 11, 2025 \u2014 Local AI lets you run models entirely on your hardware. This gives you full control over your data, reduces latency, and often lowers costs.Read more",
+        "prerender": false,
+        "date": "Sep 11, 2025",
+        "date_utc": "2025-09-11T00:00:00.000Z"
+      },
+      {
+        "position": 8,
+        "block_position": 11,
+        "title": "Overview :: LocalAI",
+        "link": "https://localai.io/docs/overview/",
+        "domain": "localai.io",
+        "displayed_link": "https://localai.io \u203a docs \u203a overview",
+        "snippet": "LocalAI is your complete AI stack for running AI models locally. It's designed to be simple, efficient, and accessible, providing a drop-in replacement for ...Read more",
+        "prerender": false
+      }
+    ],
+    "local_results": [],
+    "ai_overview": {
+      "message": "Google offers an AI Overview for this search. To get AI overview result, please use the include_ai_overview=true request parameter. One extra credit applies if results exist."
+    },
+    "related_questions": [
+      {
+        "question": "Are there any local AI?",
+        "answer": "LocalAI. The free, OpenAI, Anthropic alternative. Your All-in-One Complete AI Stack - Run powerful language models, autonomous agents, and document intelligence locally on your hardware. No cloud, no limits, no compromise.",
+        "source": {
+          "link": "https://localai.io/#:~:text=LocalAI,%2C%20no%20limits%2C%20no%20compromise.",
+          "displayed_link": "https://localai.io",
+          "title": "LocalAI"
+        },
+        "block_position": 4
+      },
+      {
+        "question": "What is the 30% rule for AI?",
+        "block_position": 4
+      },
+      {
+        "question": "What is meant by local AI?",
+        "answer": "Local AI models are artificial intelligence systems that operate directly on a user's device or within a localized infrastructure, rather than relying on cloud-based services. These models are gaining popularity due to their ability to provide faster processing, enhanced privacy, and offline functionality.",
+        "source": {
+          "link": "https://www.lenovo.com/us/en/knowledgebase/local-ai-models-a-comprehensive-guide/#:~:text=Local%20AI%20models%20are%20artificial,enhanced%20privacy%2C%20and%20offline%20functionality.",
+          "displayed_link": "https://www.lenovo.com \u203a knowledgebase \u203a local-ai-mo...",
+          "title": "Local AI Models: A Comprehensive Guide | Lenovo US"
+        },
+        "block_position": 4
+      },
+      {
+        "question": "Does local AI cost money?",
+        "answer": "Local AI isn't free. But it's cheaper than most people think. And the biggest cost isn't electricity. It's hardware followed by time.",
+        "source": {
+          "link": "https://medium.com/illumination/i-measured-the-real-cost-of-running-local-ai-for-30-days-41820acc5222#:~:text=Local%20AI%20isn't%20free,It's%20hardware%20followed%20by%20time.",
+          "displayed_link": "https://medium.com \u203a illumination \u203a i-measured-the-real-...",
+          "title": "I Measured the Real Cost of Running Local AI for 30 Days - Medium"
+        },
+        "block_position": 4
+      }
+    ],
+    "discussions_and_forums": [],
+    "related_searches": [
+      {
+        "query": "Local AI GPT",
+        "link": "https://www.google.com/search?sca_esv=da50c45d53610c17&gl=us&hl=en&q=Local+AI+GPT&sa=X&ved=2ahUKEwjCusLb8a-TAxU5S_EDHSwSBIQQ1QJ6BAg5EAE",
+        "block_position": 12
+      },
+      {
+        "query": "Local AI free",
+        "link": "https://www.google.com/search?sca_esv=da50c45d53610c17&gl=us&hl=en&q=Local+AI+free&sa=X&ved=2ahUKEwjCusLb8a-TAxU5S_EDHSwSBIQQ1QJ6BAhFEAE",
+        "block_position": 12
+      },
+      {
+        "query": "Local AI download",
+        "link": "https://www.google.com/search?sca_esv=da50c45d53610c17&gl=us&hl=en&q=Local+AI+download&sa=X&ved=2ahUKEwjCusLb8a-TAxU5S_EDHSwSBIQQ1QJ6BAhDEAE",
+        "block_position": 12
+      },
+      {
+        "query": "Local AI Ollama",
+        "link": "https://www.google.com/search?sca_esv=da50c45d53610c17&gl=us&hl=en&q=Local+AI+Ollama&sa=X&ved=2ahUKEwjCusLb8a-TAxU5S_EDHSwSBIQQ1QJ6BAhCEAE",
+        "block_position": 12
+      },
+      {
+        "query": "Local AI Windows",
+        "link": "https://www.google.com/search?sca_esv=da50c45d53610c17&gl=us&hl=en&q=Local+AI+Windows&sa=X&ved=2ahUKEwjCusLb8a-TAxU5S_EDHSwSBIQQ1QJ6BAhAEAE",
+        "block_position": 12
+      },
+      {
+        "query": "Local AI device",
+        "link": "https://www.google.com/search?sca_esv=da50c45d53610c17&gl=us&hl=en&q=Local+AI+device&sa=X&ved=2ahUKEwjCusLb8a-TAxU5S_EDHSwSBIQQ1QJ6BAg_EAE",
+        "block_position": 12
+      },
+      {
+        "query": "Local AI Android",
+        "link": "https://www.google.com/search?sca_esv=da50c45d53610c17&gl=us&hl=en&q=Local+AI+Android&sa=X&ved=2ahUKEwjCusLb8a-TAxU5S_EDHSwSBIQQ1QJ6BAg8EAE",
+        "block_position": 12
+      },
+      {
+        "query": "Local AI Linux",
+        "link": "https://www.google.com/search?sca_esv=da50c45d53610c17&gl=us&hl=en&q=Local+AI+Linux&sa=X&ved=2ahUKEwjCusLb8a-TAxU5S_EDHSwSBIQQ1QJ6BAg6EAE",
+        "block_position": 12
+      }
+    ]
+  },
+  {
+    "query": "ai",
+    "location": "Ridgewood NJ",
+    "label": "ai [Ridgewood NJ]",
+    "search_parameters": {
+      "q": "ai",
+      "location": "Ridgewood,New Jersey,United States",
+      "gl": "us",
+      "hl": "en",
+      "device": "desktop",
+      "num": "10",
+      "engine": "google"
+    },
+    "organic_results": [
+      {
+        "position": 1,
+        "block_position": 1,
+        "title": "OpenAI",
+        "link": "https://openai.com/",
+        "domain": "openai.com",
+        "displayed_link": "https://openai.com",
+        "snippet": "We believe our research will eventually lead to artificial general intelligence, a system that can solve human-level problems. Building safe and beneficial ...",
+        "prerender": false
+      },
+      {
+        "position": 2,
+        "block_position": 2,
+        "title": "Google Gemini",
+        "link": "https://gemini.google.com/",
+        "domain": "gemini.google.com",
+        "displayed_link": "https://gemini.google.com",
+        "snippet": "Meet Gemini, Google's AI assistant. Get help with writing, planning, brainstorming, and more. Experience the power of generative AI.",
+        "prerender": false
+      },
+      {
+        "position": 3,
+        "block_position": 3,
+        "title": "Perplexity AI",
+        "link": "https://www.perplexity.ai/",
+        "domain": "www.perplexity.ai",
+        "displayed_link": "https://www.perplexity.ai",
+        "snippet": "Perplexity is a free AI-powered answer engine that provides accurate, trusted, and real-time answers to any question.",
+        "prerender": false
+      },
+      {
+        "position": 4,
+        "block_position": 4,
+        "title": "ChatGPT",
+        "link": "https://chatgpt.com/",
+        "domain": "chatgpt.com",
+        "displayed_link": "https://chatgpt.com",
+        "snippet": "ChatGPT is your AI chatbot for everyday use. Chat with the most advanced AI to explore ideas, solve problems, and learn faster.",
+        "prerender": false
+      },
+      {
+        "position": 5,
+        "block_position": 6,
+        "title": "Google AI - How we're making AI helpful for everyone",
+        "link": "https://ai.google/",
+        "domain": "ai.google",
+        "displayed_link": "https://ai.google",
+        "snippet": "Discover how Google AI is committed to enriching knowledge, solving complex challenges and helping people grow by building useful AI tools and technologies.",
+        "prerender": false
+      },
+      {
+        "position": 6,
+        "block_position": 8,
+        "title": "Artificial intelligence",
+        "link": "https://en.wikipedia.org/wiki/Artificial_intelligence",
+        "domain": "en.wikipedia.org",
+        "displayed_link": "https://en.wikipedia.org \u203a wiki \u203a Artificial_intelligence",
+        "snippet": "Artificial intelligence (AI) is the capability of computational systems to perform tasks typically associated with human intelligenceRead more",
+        "prerender": false
+      },
+      {
+        "position": 7,
+        "block_position": 9,
+        "title": "What is Artificial Intelligence (AI)?",
+        "link": "https://cloud.google.com/learn/what-is-artificial-intelligence",
+        "domain": "cloud.google.com",
+        "displayed_link": "https://cloud.google.com \u203a learn \u203a what-is-artificial-intell...",
+        "snippet": "Artificial intelligence (AI) is a set of technologies that empowers computers to learn, reason, and perform a variety of advanced tasks in ways that used to ...Read more",
+        "prerender": false
+      }
+    ],
+    "local_results": [],
+    "ai_overview": {
+      "message": "Google offers an AI Overview for this search. To get AI overview result, please use the include_ai_overview=true request parameter. One extra credit applies if results exist."
+    },
+    "related_questions": [
+      {
+        "question": "Is there any AI for free?",
+        "answer": "QuillBot's free AI Chatbot works with you to generate and improve content, break down complex information, and make connections between ideas.",
+        "source": {
+          "link": "https://quillbot.com/ai-chat#:~:text=QuillBot's%20free%20AI%20Chatbot%20works,and%20make%20connections%20between%20ideas.",
+          "displayed_link": "https://quillbot.com \u203a ai-chat",
+          "title": "AI Chat - QuillBot"
+        },
+        "block_position": 5
+      },
+      {
+        "question": "Can AI write a resignation letter?",
+        "answer": "Grammarly's AI resignation letter generator helps you create a well-formatted, professional letter of resignation in just a few clicks. Type the name of the person or group you are writing the letter to.",
+        "source": {
+          "link": "https://www.grammarly.com/ai/ai-writing-tools/resignation-letter-generator#:~:text=Grammarly's%20AI%20resignation%20letter,in%20just%20a%20few%20clicks.&text=Type%20the%20name%20of%20the,are%20writing%20the%20letter%20to.",
+          "displayed_link": "https://www.grammarly.com \u203a ai \u203a ai-writing-tools \u203a resi...",
+          "title": "AI Resignation Letter Writer - Grammarly"
+        },
+        "block_position": 5
+      },
+      {
+        "question": "Does the Bible mention AI?",
+        "search": {
+          "link": "https://www.google.com/search?sca_esv=da50c45d53610c17&gl=us&hl=en&udm=50&q=Does+the+Bible+mention+AI%3F+Tell+me+more+about+the+city+of+Ai&aep=64&sa=X&ved=2ahUKEwiKr6Le8a-TAxVLke4BHWnxAdcQy8AQKAB6BAhDEAc",
+          "title": "An error has occurred. Please try again later."
+        },
+        "block_position": 5
+      },
+      {
+        "question": "Which 3 jobs will survive AI?",
+        "search": {
+          "link": "https://www.google.com/search?sca_esv=da50c45d53610c17&gl=us&hl=en&udm=50&q=Which+3+jobs+will+survive+AI%3F+Tell+me+more+about+AI+specialists&aep=64&sa=X&ved=2ahUKEwiKr6Le8a-TAxVLke4BHWnxAdcQy8AQKAB6BAg8EAc",
+          "title": "An error has occurred. Please try again later."
+        },
+        "block_position": 5
+      }
+    ],
+    "discussions_and_forums": [],
+    "related_searches": []
+  },
+  {
+    "query": "bergen seo",
+    "location": "Ridgewood NJ",
+    "label": "bergen seo [Ridgewood NJ]",
+    "search_parameters": {
+      "q": "bergen seo",
+      "location": "Ridgewood,New Jersey,United States",
+      "gl": "us",
+      "hl": "en",
+      "device": "desktop",
+      "num": "10",
+      "engine": "google"
+    },
+    "organic_results": [
+      {
+        "position": 1,
+        "block_position": 2,
+        "title": "Home Page - Bergen County Seo | Search Engine ...",
+        "link": "https://bergencountyseo.com/",
+        "domain": "bergencountyseo.com",
+        "displayed_link": "https://bergencountyseo.com",
+        "snippet": "25 years+ of internet marketing to small business in Bergen County, NJ & surrounding area. Speak To An Expert: (201) 971-2848Read more",
+        "prerender": false
+      },
+      {
+        "position": 2,
+        "block_position": 3,
+        "title": "Bergen county seo - ridgewood internet marketing",
+        "link": "https://sites.google.com/view/bergencountyseohe2/bergen-county-seo",
+        "domain": "sites.google.com",
+        "displayed_link": "https://sites.google.com \u203a view \u203a bergen-county-seo",
+        "snippet": "Learn more about Seo agency nj. wordpress experts bergen county. Bergen Ranks. 28 E Ridgewood Ave, Paramus, NJ 07652. (201) 971-3166.Read more",
+        "prerender": false
+      },
+      {
+        "position": 3,
+        "block_position": 4,
+        "title": "Bergen County NJ SEO Agency | Bergen Ranks: Home",
+        "link": "https://bergenranks.com/",
+        "domain": "bergenranks.com",
+        "displayed_link": "https://bergenranks.com",
+        "snippet": "We have a team of highly-educated, experienced and creative web developers. With nearly 10 years of experience, we're confident to help you build a website that ...Read more",
+        "prerender": false
+      },
+      {
+        "position": 4,
+        "block_position": 5,
+        "title": "SEO Company Bergen County NJ - JKO Consulting",
+        "link": "https://jkoconsulting.com/service/search-engine-optimization-services-bergen-county-nj/",
+        "domain": "jkoconsulting.com",
+        "displayed_link": "https://jkoconsulting.com \u203a Services",
+        "snippet": "JKO Consulting, NJ's leading SEO and app design agency, transforms your online presence with innovative, results-driven strategies.",
+        "prerender": false
+      },
+      {
+        "position": 5,
+        "block_position": 6,
+        "title": "Bergen County SEO Services | Montvale, NJ in ...",
+        "link": "https://www.wpamplify.com/bergen-county/",
+        "domain": "www.wpamplify.com",
+        "displayed_link": "https://www.wpamplify.com \u203a bergen-county",
+        "snippet": "We provide WordPress marketing services including search engine optimization, custom website design, full-service blogging and website support.Read more",
+        "prerender": false
+      },
+      {
+        "position": 6,
+        "block_position": 7,
+        "title": "Our Services - Bergen County Seo",
+        "link": "https://bergencountyseo.com/our-services/",
+        "domain": "bergencountyseo.com",
+        "displayed_link": "https://bergencountyseo.com \u203a our-services",
+        "snippet": "We specialize in transforming your online presence through bespoke Google Business Profile optimization, comprehensive SEO strategies, and a full spectrum of ...Read more",
+        "prerender": false
+      },
+      {
+        "position": 7,
+        "block_position": 9,
+        "title": "SEO Marketing Services in Bergen County, New Jersey",
+        "link": "https://www.drawingboardmedia.com/seo-services-search-engine-optimization-new-jersey/",
+        "domain": "www.drawingboardmedia.com",
+        "displayed_link": "https://www.drawingboardmedia.com \u203a seo-services-sear...",
+        "snippet": "New Jersey's SEO Experts. Higher Visibility. Increased Sales. Proven Results. Polished SEO strategies that will drive traffic to your website.Read more",
+        "prerender": false
+      },
+      {
+        "position": 8,
+        "block_position": 10,
+        "title": "SEO Bergen County, NJ - Improve Google Rankings, Local ...",
+        "link": "https://givemeservice.com/service-area/seo-bergen-county-nj/",
+        "domain": "givemeservice.com",
+        "displayed_link": "https://givemeservice.com \u203a Service Area",
+        "snippet": "Local SEO Services for businesses in Bergen County, NJ. For specific geographical areas, Local Search Engine Optimization or local SEO is used. Search results ...Read more",
+        "prerender": false
+      },
+      {
+        "position": 9,
+        "block_position": 11,
+        "title": "Premier SEO In Bergen County - Web Design",
+        "link": "https://webdesignakron.com/areas-we-serve/bergen-county-seo/",
+        "domain": "webdesignakron.com",
+        "displayed_link": "https://webdesignakron.com \u203a areas-we-serve \u203a bergen-...",
+        "snippet": "Discover top SEO services in Bergen County. Our experts boost your online presence and drive results. Contact us for the best SEO in Bergen County.",
+        "prerender": false
+      }
+    ],
+    "local_results": [],
+    "ai_overview": null,
+    "related_questions": [],
+    "discussions_and_forums": [],
+    "related_searches": []
+  },
+  {
+    "query": "seo bergen county",
+    "location": "Ridgewood NJ",
+    "label": "seo bergen county [Ridgewood NJ]",
+    "search_parameters": {
+      "q": "seo bergen county",
+      "location": "Ridgewood,New Jersey,United States",
+      "gl": "us",
+      "hl": "en",
+      "device": "desktop",
+      "num": "10",
+      "engine": "google"
+    },
+    "organic_results": [
+      {
+        "position": 1,
+        "block_position": 3,
+        "title": "Home Page - Bergen County Seo | Search Engine ...",
+        "link": "https://bergencountyseo.com/",
+        "domain": "bergencountyseo.com",
+        "displayed_link": "https://bergencountyseo.com",
+        "snippet": "25 years+ of internet marketing to small business in Bergen County, NJ & surrounding area. Speak To An Expert: (201) 971-2848Read more",
+        "prerender": false
+      },
+      {
+        "position": 2,
+        "block_position": 4,
+        "title": "Bergen county seo - ridgewood internet marketing",
+        "link": "https://sites.google.com/view/bergencountyseohe2/bergen-county-seo",
+        "domain": "sites.google.com",
+        "displayed_link": "https://sites.google.com \u203a view \u203a bergen-county-seo",
+        "snippet": "Learn more about Seo agency nj. wordpress experts bergen county. Bergen Ranks. 28 E Ridgewood Ave, Paramus, NJ 07652. (201) 971-3166.Read more",
+        "prerender": false
+      },
+      {
+        "position": 3,
+        "block_position": 5,
+        "title": "SEO Company Bergen County NJ - JKO Consulting",
+        "link": "https://jkoconsulting.com/service/search-engine-optimization-services-bergen-county-nj/",
+        "domain": "jkoconsulting.com",
+        "displayed_link": "https://jkoconsulting.com \u203a Services",
+        "snippet": "JKO Consulting, NJ's leading SEO and app design agency, transforms your online presence with innovative, results-driven strategies.",
+        "prerender": false
+      },
+      {
+        "position": 4,
+        "block_position": 6,
+        "title": "Bergen County SEO Services | Montvale, NJ in ...",
+        "link": "https://www.wpamplify.com/bergen-county/",
+        "domain": "www.wpamplify.com",
+        "displayed_link": "https://www.wpamplify.com \u203a bergen-county",
+        "snippet": "We provide WordPress marketing services including search engine optimization, custom website design, full-service blogging and website support.Read more",
+        "prerender": false
+      },
+      {
+        "position": 5,
+        "block_position": 7,
+        "title": "Local SEO Services For Bergen County NJ",
+        "link": "https://kineticknowledge.com/bergen-county-nj-seo-kinetic-knowledge/",
+        "domain": "kineticknowledge.com",
+        "displayed_link": "https://kineticknowledge.com \u203a bergen-county-nj-seo-k...",
+        "snippet": "Kinetic Knowledge offers affordable, experienced (for over 20 years now), local SEO service to Bergen County, NJ, business owners. Pursuing trusted, fundamental ...Read more",
+        "prerender": false
+      },
+      {
+        "position": 6,
+        "block_position": 8,
+        "title": "The #1 Rated SEO Agency For Small Businesses in New ...",
+        "link": "https://organicalseo.com/",
+        "domain": "organicalseo.com",
+        "displayed_link": "https://organicalseo.com",
+        "snippet": "Organical SEO is located in Bergen County, NJ. We do all of our work in-house. It's not just emails and a voIce on the other line. Our SEO experts meet you ...Read more",
+        "prerender": false
+      },
+      {
+        "position": 7,
+        "block_position": 9,
+        "title": "Custom Website Development with SEO in Bergen County ...",
+        "link": "https://gal-inc.com/web-development-cnty.asp?cnty=Bergen",
+        "domain": "gal-inc.com",
+        "displayed_link": "https://gal-inc.com \u203a web-development-cnty \u203a cnty=Ber...",
+        "snippet": "G.A.L. Inc. provides Custom Website Development with SEO in Bergen County, NJ for clients since 2001. Ranking is only half the battle\u2014your content must also ...Read more",
+        "prerender": false
+      },
+      {
+        "position": 8,
+        "block_position": 11,
+        "title": "Top SEO & Web Growth Agency for 20+ Years | Bergen ...",
+        "link": "https://webpilot.co/",
+        "domain": "webpilot.co",
+        "displayed_link": "https://webpilot.co",
+        "snippet": "We help local & national businesses grow traffic, leads and revenue online without the guessing (or stressing ).",
+        "prerender": false
+      },
+      {
+        "position": 9,
+        "block_position": 12,
+        "title": "Bergen County Digital Marketing: Local SEO & PPC Guide ...",
+        "link": "https://digitalmarketingnewjersey.us/blog/bergen-county-digital-marketing-local-seo-ppc-guide-2026/",
+        "domain": "digitalmarketingnewjersey.us",
+        "displayed_link": "https://digitalmarketingnewjersey.us \u203a blog \u203a bergen-co...",
+        "snippet": "Jan 22, 2026 \u2014 Digital Marketing in Bergen County: Expert SEO, PPC & automation services that help local businesses get found & grow revenue.",
+        "prerender": false,
+        "date": "Jan 22, 2026",
+        "date_utc": "2026-01-22T00:00:00.000Z"
+      }
+    ],
+    "local_results": [
+      {
+        "position": 1,
+        "title": "BERGEN COUNTY SEO",
+        "gps_coordinates": {
+          "latitude": 40.97824,
+          "longitude": -74.113686
+        },
+        "link": "https://bergencountyseo.com/",
+        "address": "Ridgewood, NJ",
+        "business_type": "Internet marketing service",
+        "phone": "(201) 971-2848",
+        "data_cid": "13457528125323399766",
+        "extensions": [
+          "No reviews &middot; Internet marketing service",
+          "3+ years in business &middot; Ridgewood, NJ &middot; (201) 971-2848",
+          "Closed",
+          "Opens 7\u202fAM Mon"
+        ],
+        "block_position": 2,
+        "knowledge_graph_id": "/g/11s2n8hxmv"
+      },
+      {
+        "position": 2,
+        "title": "Organical - The SEO Experts",
+        "gps_coordinates": {
+          "latitude": 40.88557,
+          "longitude": -74.04184
+        },
+        "link": "https://organicalseo.com/",
+        "snippet": "Onsite services&middot;Online appointments",
+        "address": "Hackensack, NJ",
+        "business_type": "Marketing agency",
+        "phone": "(201) 836-1492",
+        "data_cid": "2901815186301409621",
+        "extensions": [
+          "5.0(38) &middot; Marketing agency",
+          "30+ years in business &middot; Hackensack, NJ &middot; (201) 836-1492",
+          "Closed",
+          "Opens 9\u202fAM Mon",
+          "Onsite services&middot;Online appointments"
+        ],
+        "rating": 5,
+        "reviews": 38,
+        "block_position": 2,
+        "knowledge_graph_id": "/g/11f_4s68tn"
+      },
+      {
+        "position": 3,
+        "title": "Briax Digital",
+        "gps_coordinates": {
+          "latitude": 40.954678,
+          "longitude": -74.071594
+        },
+        "link": "https://briaxdigital.com/",
+        "snippet": "       \"They have done an excellent job with SEO and ads for two of my businesses!\"",
+        "address": "Paramus, NJ",
+        "business_type": "Internet marketing service",
+        "phone": "(973) 797-9610",
+        "data_cid": "8620952453514838005",
+        "extensions": [
+          "5.0(98) &middot; Internet marketing service",
+          "20+ years in business &middot; Paramus, NJ &middot; (973) 797-9610",
+          "Closed",
+          "Opens 9\u202fAM Sat",
+          "\"They have done an excellent job with SEO and ads for two of my businesses!\""
+        ],
+        "rating": 5,
+        "reviews": 98,
+        "block_position": 2,
+        "knowledge_graph_id": "/g/11y48xz2kl"
+      }
+    ],
+    "ai_overview": null,
+    "related_questions": [
+      {
+        "question": "What is the richest neighborhood in Bergen County?",
+        "answer": "All Places in Bergen County",
+        "source": {
+          "link": "https://datacommons.org/ranking/Median_Income_Person/CensusCountyDivision/geoId/34003?h=geoId/3400324420&unit=$",
+          "displayed_link": "https://datacommons.org \u203a CensusCountyDivision \u203a geoId",
+          "title": "Ranking by Median Individual Income - Places in Bergen County"
+        },
+        "block_position": 10
+      },
+      {
+        "question": "Does local SEO still work?",
+        "answer": "Local SEO Is Now a Long Term Play Short term tactics may still create brief spikes in visibility, but they rarely last. AI generated content, keyword stuffed pages, and review manipulation are increasingly filtered out by Google.",
+        "source": {
+          "link": "https://vigilante.marketing/blog/local-seo-2026/#:~:text=Local%20SEO%20Is%20Now%20a,increasingly%20filtered%20out%20by%20Google.",
+          "displayed_link": "https://vigilante.marketing \u203a blog \u203a local-seo-2026",
+          "title": "Local SEO in 2026: What Still Works and What's No Longer Enough"
+        },
+        "block_position": 10
+      },
+      {
+        "question": "What is the most expensive place to live in Bergen County?",
+        "answer": "Alpine's 07620 ZIP code was named the most expensive ZIP code in New Jersey and 13th on PropertyShark's list. This Bergen County community has a record-high median sales price $4.35 million so far in 2025, marking the first time a ZIP code in the Garden State has surpassed $4 million.",
+        "source": {
+          "link": "https://www.northjersey.com/story/money/real-estate/2025/12/30/us-priciest-zip-codes-list-2025-nj-towns-alpine-deal-stone-harbor-short-hills-avalon-allenhurst/87957144007/#:~:text=Alpine's%2007620%20ZIP%20code%20was,State%20has%20surpassed%20%244%20million.",
+          "displayed_link": "https://www.northjersey.com \u203a real-estate \u203a 2025/12/30",
+          "title": "Bergen town No. 13 on list of nation's 100 priciest ZIP codes in 2025"
+        },
+        "block_position": 10
+      },
+      {
+        "question": "What is a local SEO agency?",
+        "answer": "Local SEO is a type of search engine optimization designed to help a business appear in local search results on Google. It's valuable for businesses with physical locations or those serving specific geographic areas.",
+        "source": {
+          "link": "https://mailchimp.com/resources/what-is-local-seo/#:~:text=Local%20SEO%20is%20a%20type,those%20serving%20specific%20geographic%20areas.",
+          "displayed_link": "https://mailchimp.com \u203a resources \u203a what-is-local-seo",
+          "title": "Understanding Local SEO - Mailchimp"
+        },
+        "block_position": 10
+      }
+    ],
+    "discussions_and_forums": [],
+    "related_searches": []
+  },
+  {
+    "query": "ai search optimization nyc",
+    "location": "Ridgewood NJ",
+    "label": "ai search optimization nyc [Ridgewood NJ]",
+    "search_parameters": {
+      "q": "ai search optimization nyc",
+      "location": "Ridgewood,New Jersey,United States",
+      "gl": "us",
+      "hl": "en",
+      "device": "desktop",
+      "num": "10",
+      "engine": "google"
+    },
+    "organic_results": [
+      {
+        "position": 1,
+        "block_position": 1,
+        "title": "Profound",
+        "link": "https://www.tryprofound.com/",
+        "domain": "www.tryprofound.com",
+        "displayed_link": "https://www.tryprofound.com",
+        "snippet": "Profound helps brands gain visibility in AI-generated answers, optimize their presence in LLM-based answer engines, and stay competitive in the zero-click ...",
+        "prerender": false
+      },
+      {
+        "position": 2,
+        "block_position": 2,
+        "title": "Best AI Search Optimization Agencies in New York 2026",
+        "link": "https://agencies.semrush.com/list/ai-optimization/new-york/",
+        "domain": "agencies.semrush.com",
+        "displayed_link": "https://agencies.semrush.com \u203a list \u203a new-york",
+        "snippet": "New York's and Long Island Leading SEO Agency. Partner with Mimvi, the New York SEO company that increases your leads, traffic, and sales online.Read more",
+        "prerender": false
+      },
+      {
+        "position": 3,
+        "block_position": 3,
+        "title": "NYC Local SEO Agency | GEO & AI Search Optimization",
+        "link": "https://www.localmighty.com/new-york-city/",
+        "domain": "www.localmighty.com",
+        "displayed_link": "https://www.localmighty.com \u203a new-york-city",
+        "snippet": "Partner with a top NYC local SEO company. Rank higher on Google, Maps, and AI search. We help you get more leads. Get a free SEO audit.",
+        "prerender": false
+      },
+      {
+        "position": 4,
+        "block_position": 4,
+        "title": "Best AI SEO Agency in Manhattan NYC | Top GEO Experts ...",
+        "link": "https://primaryposition.com/",
+        "domain": "primaryposition.com",
+        "displayed_link": "https://primaryposition.com",
+        "snippet": "Primary Position is a New York based SEO and Internet marketing agency with many years of experience working with US and International clients.Read more",
+        "prerender": false
+      },
+      {
+        "position": 5,
+        "block_position": 5,
+        "title": "Top AI SEO Agencies in New York",
+        "link": "https://www.uforocks.com/blog/top-ai-seo-agencies-in-new-york/",
+        "domain": "www.uforocks.com",
+        "displayed_link": "https://www.uforocks.com \u203a blog \u203a top-ai-seo-agencies-i...",
+        "snippet": "Nov 13, 2025 \u2014 Coalition Technologies is a full-service digital marketing agency based in NYC that has integrated AI-search awareness into its SEO offering.Read more",
+        "prerender": false,
+        "date": "Nov 13, 2025",
+        "date_utc": "2025-11-13T00:00:00.000Z"
+      },
+      {
+        "position": 6,
+        "block_position": 6,
+        "title": "AI Search Optimization in NY | Stay Competitive",
+        "link": "https://www.synscribe.com/service/ai-search-optimization-ny",
+        "domain": "www.synscribe.com",
+        "displayed_link": "https://www.synscribe.com \u203a service \u203a ai-search-optimiza...",
+        "snippet": "AI Search Optimization in NY is crucial for staying competitive. Our proprietary Generative Engine Optimization (GEO) ensures your brand appears in AI answers",
+        "prerender": false,
+        "missing_words": [
+          "nyc"
+        ]
+      },
+      {
+        "position": 7,
+        "block_position": 7,
+        "title": "AI Search Optimization Services | Boost Brand's Visibility",
+        "link": "https://www.hozio.com/services/seo-services/ai-search-optimization/",
+        "domain": "www.hozio.com",
+        "displayed_link": "https://www.hozio.com \u203a Services \u203a SEO Services",
+        "snippet": "AI Search Optimization helps your business rank first when users ask AI platforms like ChatGPT or Google Gemini, giving you visibility even in zero-click search ...Read more",
+        "prerender": false
+      },
+      {
+        "position": 8,
+        "block_position": 8,
+        "title": "SEO company in New York, NY 10016",
+        "link": "https://www.cbidigital.com/services/search-engine-optimization-nyc",
+        "domain": "www.cbidigital.com",
+        "displayed_link": "https://www.cbidigital.com \u203a services \u203a search-engine-op...",
+        "snippet": "Our professional white-hat SEO services will boost your traffic & revenue from organic search. Call CBI agency in New York at 01-646-688-4899 to drive your ...",
+        "prerender": false
+      },
+      {
+        "position": 9,
+        "block_position": 9,
+        "title": "SEO / AI Search Engine Optimization - Get Found Online",
+        "link": "https://avenuez.com/services/seo-ai-search/",
+        "domain": "avenuez.com",
+        "displayed_link": "https://avenuez.com \u203a Our Services",
+        "snippet": "Expert SEO / AI Search Engine Optimization services to enhance your website's visibility on traditional search engines and emerging AI search platforms.",
+        "prerender": false,
+        "missing_words": [
+          "nyc"
+        ]
+      },
+      {
+        "position": 10,
+        "block_position": 11,
+        "title": "SEO for Google & AI Optimization Services in New York",
+        "link": "https://trydecoding.com/ai-seo-services/",
+        "domain": "trydecoding.com",
+        "displayed_link": "https://trydecoding.com \u203a ai-seo-services",
+        "snippet": "We help you run your SEO & AI strategy, execute technical, content improvements, optimize for citations, and build links. Using our proprietary tools to ...Read more",
+        "prerender": false
+      }
+    ],
+    "local_results": [],
+    "ai_overview": {
+      "message": "Google offers an AI Overview for this search. To get AI overview result, please use the include_ai_overview=true request parameter. One extra credit applies if results exist."
+    },
+    "related_questions": [
+      {
+        "question": "How much does AI SEO cost?",
+        "block_position": 10
+      },
+      {
+        "question": "Is SEO dying out?",
+        "answer": "For the last two decades, people have been saying that SEO is a dying art. But, time and time again, SEO has proven its staying power, evolving to meet changes in search behavior and algorithm updates. 2026 is no different.",
+        "source": {
+          "link": "https://www.jumpfly.com/blog/why-you-absolutely-still-need-an-seo-agency-in-2026/#:~:text=For%20the%20last%20two%20decades,2026%20is%20no%20different.",
+          "displayed_link": "https://www.jumpfly.com \u203a blog \u203a why-you-absolutely-s...",
+          "title": "Why You Absolutely Still Need an SEO Agency in 2026 - JumpFly"
+        },
+        "block_position": 10
+      },
+      {
+        "question": "What is the 80/20 rule in SEO?",
+        "block_position": 10
+      },
+      {
+        "question": "How much does SEO cost in New York?",
+        "answer": "The cost of SEO services varies depending on what is included. Most SEO projects in 2022 cost between $750-$2,500 per month depending on the scope of the project. A one-time project will cost between $5,000-$30,000 and hourly rates for consultants will range between $80-$200 per hour.",
+        "source": {
+          "link": "https://usaseomarketingplanstartegyseopricing.quora.com/How-much-Does-SEO-Cost-in-New-York-Bay-Area-The-cost-of-SEO-services-varies-depending-on-what-is-included-Most-SEO#:~:text=York%20%26%20Bay%20Area%20%2D-,The%20cost%20of%20SEO%20services%20varies%20depending%20on%20what%20is,%2480%2D%24200%20per%20hour.",
+          "displayed_link": "https://usaseomarketingplanstartegyseopricing.quora.com \u203a ...",
+          "title": "How much Does SEO Cost in New York & Bay Area"
+        },
+        "block_position": 10
+      }
+    ],
+    "discussions_and_forums": [],
+    "related_searches": [
+      {
+        "query": "Best ai search optimization nyc",
+        "link": "https://www.google.com/search?sca_esv=da50c45d53610c17&gl=us&hl=en&q=Best+ai+search+optimization+nyc&sa=X&ved=2ahUKEwiZt8Hp8a-TAxXrElkFHfIuKvsQ1QJ6BAgqEAE",
+        "block_position": 12
+      },
+      {
+        "query": "Ai search optimization nyc reviews",
+        "link": "https://www.google.com/search?sca_esv=da50c45d53610c17&gl=us&hl=en&q=Ai+search+optimization+nyc+reviews&sa=X&ved=2ahUKEwiZt8Hp8a-TAxXrElkFHfIuKvsQ1QJ6BAgyEAE",
+        "block_position": 12
+      },
+      {
+        "query": "AI search optimization tools",
+        "link": "https://www.google.com/search?sca_esv=da50c45d53610c17&gl=us&hl=en&q=AI+search+optimization+tools&sa=X&ved=2ahUKEwiZt8Hp8a-TAxXrElkFHfIuKvsQ1QJ6BAgxEAE",
+        "block_position": 12
+      },
+      {
+        "query": "Profound AI",
+        "link": "https://www.google.com/search?sca_esv=da50c45d53610c17&gl=us&hl=en&q=Profound+AI&sa=X&ved=2ahUKEwiZt8Hp8a-TAxXrElkFHfIuKvsQ1QJ6BAgvEAE",
+        "block_position": 12
+      },
+      {
+        "query": "Athena ai search optimization",
+        "link": "https://www.google.com/search?sca_esv=da50c45d53610c17&gl=us&hl=en&q=Athena+ai+search+optimization&sa=X&ved=2ahUKEwiZt8Hp8a-TAxXrElkFHfIuKvsQ1QJ6BAguEAE",
+        "block_position": 12
+      },
+      {
+        "query": "Profound seo ai",
+        "link": "https://www.google.com/search?sca_esv=da50c45d53610c17&gl=us&hl=en&q=Profound+seo+ai&sa=X&ved=2ahUKEwiZt8Hp8a-TAxXrElkFHfIuKvsQ1QJ6BAgtEAE",
+        "block_position": 12
+      },
+      {
+        "query": "Profound AI linkedin",
+        "link": "https://www.google.com/search?sca_esv=da50c45d53610c17&gl=us&hl=en&q=Profound+AI+linkedin&sa=X&ved=2ahUKEwiZt8Hp8a-TAxXrElkFHfIuKvsQ1QJ6BAgsEAE",
+        "block_position": 12
+      },
+      {
+        "query": "NY SEO company",
+        "link": "https://www.google.com/search?sca_esv=da50c45d53610c17&gl=us&hl=en&q=NY+SEO+company&sa=X&ved=2ahUKEwiZt8Hp8a-TAxXrElkFHfIuKvsQ1QJ6BAgrEAE",
+        "block_position": 12
+      }
+    ]
+  },
+  {
+    "query": "ai search optimization nj",
+    "location": "Ridgewood NJ",
+    "label": "ai search optimization nj [Ridgewood NJ]",
+    "search_parameters": {
+      "q": "ai search optimization nj",
+      "location": "Ridgewood,New Jersey,United States",
+      "gl": "us",
+      "hl": "en",
+      "device": "desktop",
+      "num": "10",
+      "engine": "google"
+    },
+    "organic_results": [
+      {
+        "position": 1,
+        "block_position": 1,
+        "title": "Best AI Search Optimization Agencies in New Jersey 2026",
+        "link": "https://agencies.semrush.com/list/ai-optimization/new-jersey/",
+        "domain": "agencies.semrush.com",
+        "displayed_link": "https://agencies.semrush.com \u203a list \u203a new-jersey",
+        "snippet": "List of TOP 5 AI Search Optimization Agencies in New Jersey 2026. Discover the most skilled marketing agencies from our community to outsource your ...",
+        "prerender": false
+      },
+      {
+        "position": 2,
+        "block_position": 2,
+        "title": "AI Search Engine Optimization in New Jersey",
+        "link": "https://bullzeyemediamarketing.com/ai-search-engine-optimization-in-new-jersey/",
+        "domain": "bullzeyemediamarketing.com",
+        "displayed_link": "https://bullzeyemediamarketing.com \u203a ai-search-engine-...",
+        "snippet": "Jan 30, 2026 \u2014 This guide provides a professional framework for understanding and implementing AI search engine optimization tailored to the New Jersey market.Read more",
+        "prerender": false,
+        "date": "Jan 30, 2026",
+        "date_utc": "2026-01-30T00:00:00.000Z"
+      },
+      {
+        "position": 3,
+        "block_position": 3,
+        "title": "Trusted AI SEO Agency in New Jersey",
+        "link": "https://www.njlocalmarketing.com/ai-seo-agency-nj",
+        "domain": "www.njlocalmarketing.com",
+        "displayed_link": "https://www.njlocalmarketing.com \u203a ai-seo-agency-nj",
+        "snippet": "5 days ago \u2014 NJ Local Marketing is an AI SEO agency that strategically uses the most advanced technologies to accelerate businesses faster and smarter.Read more",
+        "prerender": false,
+        "date": "5 days ago",
+        "date_utc": "2026-03-16T01:56:50.716Z"
+      },
+      {
+        "position": 4,
+        "block_position": 4,
+        "title": "AI SEO Services NJ | AI-Powered Search Optimization",
+        "link": "https://njseoguys.com/ai-seo",
+        "domain": "njseoguys.com",
+        "displayed_link": "https://njseoguys.com \u203a ai-seo",
+        "snippet": "AI-powered SEO services that use machine learning for content optimization, search intent analysis, and competitive intelligence. NJ-based, human-led. Free",
+        "prerender": false
+      },
+      {
+        "position": 5,
+        "block_position": 5,
+        "title": "How AI Search Changes SEO for Businesses in West ...",
+        "link": "https://techdesigno.com/how-ai-search-is-changing-seo-for-businesses-and-why-investing-in-seo-matters-more-than-ever/",
+        "domain": "techdesigno.com",
+        "displayed_link": "https://techdesigno.com \u203a how-ai-search-is-changing-se...",
+        "snippet": "Jan 28, 2026 \u2014 AI search is transforming SEO. Learn why businesses in West Orange, NJ must invest in modern SEO to stay competitive online.",
+        "prerender": false,
+        "date": "Jan 28, 2026",
+        "date_utc": "2026-01-28T00:00:00.000Z"
+      },
+      {
+        "position": 6,
+        "block_position": 7,
+        "title": "AI Search Optimization: Essential Strategies for 2025",
+        "link": "https://digitalmarketingnewjersey.us/blog/ai-search-optimization-essential-strategies-for-2025/",
+        "domain": "digitalmarketingnewjersey.us",
+        "displayed_link": "https://digitalmarketingnewjersey.us \u203a blog \u203a ai-search-...",
+        "snippet": "Sep 15, 2025 \u2014 AI search optimization 2025: Master essential strategies for optimizing websites to perform better in AI-powered search environments.",
+        "prerender": false,
+        "date": "Sep 15, 2025",
+        "date_utc": "2025-09-15T00:00:00.000Z"
+      },
+      {
+        "position": 7,
+        "block_position": 8,
+        "title": "local SEO Services Central New Jersey - AI SEO Company NJ",
+        "link": "https://www.seonewjersey.net/seo",
+        "domain": "www.seonewjersey.net",
+        "displayed_link": "https://www.seonewjersey.net \u203a seo",
+        "snippet": "Local SEO Starting @ $300. Contact Us for Free Consultation ... With 20 plus years of experience in the SEO industry, our founder NJ SEO Expert Shailen Lodhia has ...Read more",
+        "prerender": false
+      },
+      {
+        "position": 8,
+        "block_position": 9,
+        "title": "New Jersey Website Development & AI Search Engine ...",
+        "link": "https://news.marketersmedia.com/new-jersey-website-development-andamp-ai-search-engine-optimization-service-expanded/89185609",
+        "domain": "news.marketersmedia.com",
+        "displayed_link": "https://news.marketersmedia.com \u203a new-jersey-website-d...",
+        "snippet": "Mar 10, 2026 \u2014 LeapEngine announces its expanded services to support NJ local businesses looking to improve visibility on both AI and traditional search ...",
+        "prerender": false,
+        "date": "Mar 10, 2026",
+        "date_utc": "2026-03-10T00:00:00.000Z"
+      },
+      {
+        "position": 9,
+        "block_position": 10,
+        "title": "NJ SEO - New Jersey",
+        "link": "https://caveni.com/locations/usa/new-jersey-nj/nj-seo/",
+        "domain": "caveni.com",
+        "displayed_link": "https://caveni.com \u203a Locations \u203a USA \u203a New Jersey",
+        "snippet": "Our team uses powerful artificial intelligence to work for you in the New Jersey SEO space. We utilize cutting edge technology to decide the best course of ...Read more",
+        "prerender": false
+      },
+      {
+        "position": 10,
+        "block_position": 11,
+        "title": "AI SEO Company Central New Jersey",
+        "link": "https://www.expreseo.com/seo",
+        "domain": "www.expreseo.com",
+        "displayed_link": "https://www.expreseo.com \u203a seo",
+        "snippet": "Optimize your website with SEO-friendly content and proven SEO marketing strategies. Our goal is to get you ranked #1 for your keyword phrase in your geo ...",
+        "prerender": false
+      }
+    ],
+    "local_results": [],
+    "ai_overview": {
+      "message": "Google offers an AI Overview for this search. To get AI overview result, please use the include_ai_overview=true request parameter. One extra credit applies if results exist."
+    },
+    "related_questions": [
+      {
+        "question": "What is the 30% rule in AI?",
+        "block_position": 6
+      },
+      {
+        "question": "Are there any AI data centers in NJ?",
+        "block_position": 6
+      },
+      {
+        "question": "Is SEO dying out?",
+        "answer": "For the last two decades, people have been saying that SEO is a dying art. But, time and time again, SEO has proven its staying power, evolving to meet changes in search behavior and algorithm updates. 2026 is no different.",
+        "source": {
+          "link": "https://www.jumpfly.com/blog/why-you-absolutely-still-need-an-seo-agency-in-2026/#:~:text=For%20the%20last%20two%20decades,2026%20is%20no%20different.",
+          "displayed_link": "https://www.jumpfly.com \u203a blog \u203a why-you-absolutely-s...",
+          "title": "Why You Absolutely Still Need an SEO Agency in 2026 - JumpFly"
+        },
+        "block_position": 6
+      },
+      {
+        "question": "Is SEO still worth it with AI?",
+        "answer": "The honest answer is yes\u2014AI SEO is worth it, but only when used with the right strategy and human expertise. AI alone cannot grow your business. But when combined with experience, planning, and creativity, it can deliver faster insights, smarter decisions, and long-term results.",
+        "source": {
+          "link": "https://www.v-xplore.com/is-ai-seo-worth-it/#:~:text=The%20honest%20answer%20is%20yes,%2C%20and%20long%2Dterm%20results.",
+          "displayed_link": "https://www.v-xplore.com \u203a is-ai-seo-worth-it",
+          "title": "Is AI SEO Worth It? - Vxplore Technologies"
+        },
+        "block_position": 6
+      }
+    ],
+    "discussions_and_forums": [],
+    "related_searches": []
+  },
+  {
+    "query": "ai search optimization new york city",
+    "location": "Ridgewood NJ",
+    "label": "ai search optimization new york city [Ridgewood NJ]",
+    "search_parameters": {
+      "q": "ai search optimization new york city",
+      "location": "Ridgewood,New Jersey,United States",
+      "gl": "us",
+      "hl": "en",
+      "device": "desktop",
+      "num": "10",
+      "engine": "google"
+    },
+    "organic_results": [
+      {
+        "position": 1,
+        "block_position": 1,
+        "title": "Best AI Search Optimization Agencies in New York 2026",
+        "link": "https://agencies.semrush.com/list/ai-optimization/new-york/",
+        "domain": "agencies.semrush.com",
+        "displayed_link": "https://agencies.semrush.com \u203a list \u203a new-york",
+        "snippet": "List of TOP 27 AI Search Optimization Agencies in New York 2026. Discover the most skilled marketing agencies from our community to outsource your marketing ...",
+        "prerender": false
+      },
+      {
+        "position": 2,
+        "block_position": 2,
+        "title": "Best AI SEO Agency in Manhattan NYC | Top GEO Experts ...",
+        "link": "https://primaryposition.com/",
+        "domain": "primaryposition.com",
+        "displayed_link": "https://primaryposition.com",
+        "snippet": "Primary Position is a New York based SEO and Internet marketing agency with many years of experience working with US and International clients.Read more",
+        "prerender": false
+      },
+      {
+        "position": 3,
+        "block_position": 3,
+        "title": "AI Search Optimization Services | Boost Brand's Visibility",
+        "link": "https://www.hozio.com/services/seo-services/ai-search-optimization/",
+        "domain": "www.hozio.com",
+        "displayed_link": "https://www.hozio.com \u203a Services \u203a SEO Services",
+        "snippet": "Stay ahead in the age of conversational search. Hozio's AI Search Optimization ensures your business appears in AI-driven search results, driving traffic.",
+        "prerender": false,
+        "missing_words": [
+          "city"
+        ]
+      },
+      {
+        "position": 4,
+        "block_position": 4,
+        "title": "NYC Local SEO Agency | GEO & AI Search Optimization",
+        "link": "https://www.localmighty.com/new-york-city/",
+        "domain": "www.localmighty.com",
+        "displayed_link": "https://www.localmighty.com \u203a new-york-city",
+        "snippet": "Backed by years of hands-on SEO experience and advanced AI-driven strategies, we help New York City local businesses earn top Google rankings, drive qualified ...Read more",
+        "prerender": false
+      },
+      {
+        "position": 5,
+        "block_position": 5,
+        "title": "Top AI SEO Agencies in New York",
+        "link": "https://www.uforocks.com/blog/top-ai-seo-agencies-in-new-york/",
+        "domain": "www.uforocks.com",
+        "displayed_link": "https://www.uforocks.com \u203a blog \u203a top-ai-seo-agencies-i...",
+        "snippet": "Nov 13, 2025 \u2014 This article highlights 15 leading AI-SEO agencies, each offering differentiated capabilities that bridge search visibility, generative engine ...Read more",
+        "prerender": false,
+        "missing_words": [
+          "city"
+        ],
+        "date": "Nov 13, 2025",
+        "date_utc": "2025-11-13T00:00:00.000Z"
+      },
+      {
+        "position": 6,
+        "block_position": 6,
+        "title": "SEO / AI Search Engine Optimization - Get Found Online",
+        "link": "https://avenuez.com/services/seo-ai-search/",
+        "domain": "avenuez.com",
+        "displayed_link": "https://avenuez.com \u203a Our Services",
+        "snippet": "Expert SEO / AI Search Engine Optimization services to enhance your website's visibility on traditional search engines and emerging AI search platforms.",
+        "prerender": false,
+        "missing_words": [
+          "city"
+        ]
+      },
+      {
+        "position": 7,
+        "block_position": 7,
+        "title": "AI Search Optimization in New York City, NY",
+        "link": "https://grindflame.com/areas-we-serve/new-york/new-york-city/ai-search-optimization/",
+        "domain": "grindflame.com",
+        "displayed_link": "https://grindflame.com \u203a ... \u203a New York \u203a New York City",
+        "snippet": "Track how your New York City business appears across major AI platforms and emerging search tools. Ongoing Optimization. AI search algorithms evolve constantly.Read more",
+        "prerender": false
+      },
+      {
+        "position": 8,
+        "block_position": 8,
+        "title": "AI Search Optimization in NY | Stay Competitive",
+        "link": "https://www.synscribe.com/service/ai-search-optimization-ny",
+        "domain": "www.synscribe.com",
+        "displayed_link": "https://www.synscribe.com \u203a service \u203a ai-search-optimiza...",
+        "snippet": "AI Search Optimization in NY is crucial for staying competitive. Our proprietary Generative Engine Optimization (GEO) ensures your brand appears in AI answers",
+        "prerender": false
+      },
+      {
+        "position": 9,
+        "block_position": 9,
+        "title": "AI & SEO Website Optimization Services",
+        "link": "https://krs-creative.com/services/ai-seo-optimization/",
+        "domain": "krs-creative.com",
+        "displayed_link": "https://krs-creative.com \u203a Services",
+        "snippet": "5 days ago \u2014 We optimize WordPress websites to be clear, fast, and structured in a way that works for both search engines and AI-powered discovery tools. We ...Read more",
+        "prerender": false,
+        "date": "5 days ago",
+        "date_utc": "2026-03-16T01:56:56.821Z"
+      },
+      {
+        "position": 10,
+        "block_position": 10,
+        "title": "SEO company in New York, NY 10016",
+        "link": "https://www.cbidigital.com/services/search-engine-optimization-nyc",
+        "domain": "www.cbidigital.com",
+        "displayed_link": "https://www.cbidigital.com \u203a services \u203a search-engine-op...",
+        "snippet": "Our professional white-hat SEO services will boost your traffic & revenue from organic search. Call CBI agency in New York at 01-646-688-4899 to drive your ...",
+        "prerender": false,
+        "missing_words": [
+          "city"
+        ]
+      }
+    ],
+    "local_results": [],
+    "ai_overview": {
+      "message": "Google offers an AI Overview for this search. To get AI overview result, please use the include_ai_overview=true request parameter. One extra credit applies if results exist."
+    },
+    "related_questions": [
+      {
+        "question": "Is SEO dying out?",
+        "answer": "For the last two decades, people have been saying that SEO is a dying art. But, time and time again, SEO has proven its staying power, evolving to meet changes in search behavior and algorithm updates. 2026 is no different.",
+        "source": {
+          "link": "https://www.jumpfly.com/blog/why-you-absolutely-still-need-an-seo-agency-in-2026/#:~:text=For%20the%20last%20two%20decades,2026%20is%20no%20different.",
+          "displayed_link": "https://www.jumpfly.com \u203a blog \u203a why-you-absolutely-s...",
+          "title": "Why You Absolutely Still Need an SEO Agency in 2026 - JumpFly"
+        },
+        "block_position": 11
+      },
+      {
+        "question": "How much does SEO cost in New York?",
+        "answer": "The cost of SEO services varies depending on what is included. Most SEO projects in 2022 cost between $750-$2,500 per month depending on the scope of the project. A one-time project will cost between $5,000-$30,000 and hourly rates for consultants will range between $80-$200 per hour.",
+        "source": {
+          "link": "https://usaseomarketingplanstartegyseopricing.quora.com/How-much-Does-SEO-Cost-in-New-York-Bay-Area-The-cost-of-SEO-services-varies-depending-on-what-is-included-Most-SEO#:~:text=York%20%26%20Bay%20Area%20%2D-,The%20cost%20of%20SEO%20services%20varies%20depending%20on%20what%20is,%2480%2D%24200%20per%20hour.",
+          "displayed_link": "https://usaseomarketingplanstartegyseopricing.quora.com \u203a ...",
+          "title": "How much Does SEO Cost in New York & Bay Area"
+        },
+        "block_position": 11
+      },
+      {
+        "question": "What is the 80/20 rule in SEO?",
+        "block_position": 11
+      },
+      {
+        "question": "What is the NYC AI strategy?",
+        "answer": "The City issued the first-of-its-kind AI Action Plan in October 2023, released by the NYC Office of Technology and Innovation (NYC OTI). This plan creates a blueprint for responsible AI use and identifies the opportunity for AI to improve services and processes across government.",
+        "source": {
+          "link": "https://newyork.theaisummit.com/latest-news/shaping-the-future-nycs-bold-vision-to-lead-the-world-in-applied-ai/#:~:text=The%20City%20issued%20the%20first,services%20and%20processes%20across%20government.",
+          "displayed_link": "https://newyork.theaisummit.com \u203a latest-news \u203a shaping...",
+          "title": "Shaping the Future: NYC's Bold Vision to Lead the World in Applied AI"
+        },
+        "block_position": 11
+      }
+    ],
+    "discussions_and_forums": [],
+    "related_searches": [
+      {
+        "query": "Best ai search optimization new york city",
+        "link": "https://www.google.com/search?sca_esv=da50c45d53610c17&gl=us&hl=en&q=Best+ai+search+optimization+new+york+city&sa=X&ved=2ahUKEwiC-K3t8a-TAxVVnCYFHY4BM20Q1QJ6BAgrEAE",
+        "block_position": 12
+      },
+      {
+        "query": "Ai search optimization new york city review",
+        "link": "https://www.google.com/search?sca_esv=da50c45d53610c17&gl=us&hl=en&q=Ai+search+optimization+new+york+city+review&sa=X&ved=2ahUKEwiC-K3t8a-TAxVVnCYFHY4BM20Q1QJ6BAg4EAE",
+        "block_position": 12
+      },
+      {
+        "query": "SEO services in New York",
+        "link": "https://www.google.com/search?sca_esv=da50c45d53610c17&gl=us&hl=en&q=SEO+services+in+New+York&sa=X&ved=2ahUKEwiC-K3t8a-TAxVVnCYFHY4BM20Q1QJ6BAg2EAE",
+        "block_position": 12
+      },
+      {
+        "query": "SEO expert in New York",
+        "link": "https://www.google.com/search?sca_esv=da50c45d53610c17&gl=us&hl=en&q=SEO+expert+in+New+York&sa=X&ved=2ahUKEwiC-K3t8a-TAxVVnCYFHY4BM20Q1QJ6BAg1EAE",
+        "block_position": 12
+      },
+      {
+        "query": "Digital marketing in new york city",
+        "link": "https://www.google.com/search?sca_esv=da50c45d53610c17&gl=us&hl=en&q=Digital+marketing+in+new+york+city&sa=X&ved=2ahUKEwiC-K3t8a-TAxVVnCYFHY4BM20Q1QJ6BAg0EAE",
+        "block_position": 12
+      },
+      {
+        "query": "Nyc seo pro",
+        "link": "https://www.google.com/search?sca_esv=da50c45d53610c17&gl=us&hl=en&q=Nyc+seo+pro&sa=X&ved=2ahUKEwiC-K3t8a-TAxVVnCYFHY4BM20Q1QJ6BAgwEAE",
+        "block_position": 12
+      },
+      {
+        "query": "Digital marketing services in new york",
+        "link": "https://www.google.com/search?sca_esv=da50c45d53610c17&gl=us&hl=en&q=Digital+marketing+services+in+new+york&sa=X&ved=2ahUKEwiC-K3t8a-TAxVVnCYFHY4BM20Q1QJ6BAguEAE",
+        "block_position": 12
+      },
+      {
+        "query": "Best digital marketing in new york",
+        "link": "https://www.google.com/search?sca_esv=da50c45d53610c17&gl=us&hl=en&q=Best+digital+marketing+in+new+york&sa=X&ved=2ahUKEwiC-K3t8a-TAxVVnCYFHY4BM20Q1QJ6BAgsEAE",
+        "block_position": 12
+      }
+    ]
+  },
+  {
+    "query": "ai local",
+    "location": "Ridgewood NJ",
+    "label": "ai local [Ridgewood NJ]",
+    "search_parameters": {
+      "q": "ai local",
+      "location": "Ridgewood,New Jersey,United States",
+      "gl": "us",
+      "hl": "en",
+      "device": "desktop",
+      "num": "10",
+      "engine": "google"
+    },
+    "organic_results": [
+      {
+        "position": 1,
+        "block_position": 1,
+        "title": "LocalAI",
+        "link": "https://localai.io/",
+        "domain": "localai.io",
+        "displayed_link": "https://localai.io",
+        "snippet": "The free, OpenAI, Anthropic alternative. Your All-in-One Complete AI Stack - Run powerful language models, autonomous agents, and document intelligence locally ...Read more",
+        "prerender": false
+      },
+      {
+        "position": 2,
+        "block_position": 2,
+        "title": "LM Studio - Local AI on your computer",
+        "link": "https://lmstudio.ai/",
+        "domain": "lmstudio.ai",
+        "displayed_link": "https://lmstudio.ai",
+        "snippet": "Connect to remote instances of LM Studio, load your models, and use them as if they were local. Get started. Run AI models, locally and privately.Read more",
+        "prerender": false
+      },
+      {
+        "position": 3,
+        "block_position": 4,
+        "title": "A Starter Guide for Playing with Your Own Local AI!",
+        "link": "https://www.reddit.com/r/LocalLLaMA/comments/16y95hk/a_starter_guide_for_playing_with_your_own_local_ai/",
+        "domain": "www.reddit.com",
+        "displayed_link": "110+ comments  \u00b7  2 years ago",
+        "snippet": "An LLM is the \"brains\" behind an AI. This is what does all the thinking and is something that we can run locally; like our own personal ChatGPT ...Read more",
+        "prerender": false
+      },
+      {
+        "position": 4,
+        "block_position": 5,
+        "title": "Local AI Chat - App Store",
+        "link": "https://apps.apple.com/us/app/locally-ai-local-ai-chat/id6741426692",
+        "domain": "apps.apple.com",
+        "displayed_link": "https://apps.apple.com \u203a app \u203a locally-ai-local-ai-chat",
+        "snippet": "Run AI models like Llama, Gemma, Qwen, and more on your iPhone and iPad. Offline. Private. No login. No data collection. Powered by Apple MLX. Meet Locally ...Read more",
+        "prerender": false
+      },
+      {
+        "position": 5,
+        "block_position": 6,
+        "title": "How to Run AI Models Locally (2026) : Tools, Setup & Tips",
+        "link": "https://www.clarifai.com/blog/how-to-run-ai-models-locally-2025-tools-setup-tips",
+        "domain": "www.clarifai.com",
+        "displayed_link": "https://www.clarifai.com \u203a blog \u203a how-to-run-ai-models...",
+        "snippet": "Sep 11, 2025 \u2014 How to Run a Local AI Model: Step\u2011By\u2011Step \u00b7 1. Choose Your Model \u00b7 3. Install a Runtime: \u00b7 4. Set Up an environment \u00b7 5. Run & test \u00b7 6. Scale & ...Read more",
+        "prerender": false,
+        "date": "Sep 11, 2025",
+        "date_utc": "2025-09-11T00:00:00.000Z"
+      },
+      {
+        "position": 6,
+        "block_position": 7,
+        "title": "mudler/LocalAI: :robot: The free, Open Source ...",
+        "link": "https://github.com/mudler/LocalAI",
+        "domain": "github.com",
+        "displayed_link": "https://github.com \u203a mudler \u203a LocalAI",
+        "snippet": "LocalAI is the free, Open Source OpenAI alternative. LocalAI act as a drop-in replacement REST API that's compatible with OpenAI (Elevenlabs, Anthropic.Read more",
+        "prerender": false
+      },
+      {
+        "position": 7,
+        "block_position": 8,
+        "title": "Use local AI with Microsoft Foundry on Windows",
+        "link": "https://learn.microsoft.com/en-us/windows/ai/overview",
+        "domain": "learn.microsoft.com",
+        "displayed_link": "https://learn.microsoft.com \u203a Learn \u203a Windows \u203a AI",
+        "snippet": "Jan 23, 2026 \u2014 Microsoft Foundry on Windows is the premier solution for developers looking to integrate local AI capabilities into their Windows apps.Read more",
+        "prerender": false,
+        "date": "Jan 23, 2026",
+        "date_utc": "2026-01-23T00:00:00.000Z"
+      },
+      {
+        "position": 8,
+        "block_position": 10,
+        "title": "How to run AI models locally as a beginner?",
+        "link": "https://jan.ai/post/run-ai-models-locally",
+        "domain": "jan.ai",
+        "displayed_link": "https://jan.ai \u203a post \u203a run-ai-models-locally",
+        "snippet": "How to run AI models locally as a beginner? \u00b7 1. Download Jan (opens in a new tab) \u00b7 2. Choose a model that fits your hardware \u00b7 3. Start using AI locally.Read more",
+        "prerender": false
+      }
+    ],
+    "local_results": [],
+    "ai_overview": {
+      "message": "Google offers an AI Overview for this search. To get AI overview result, please use the include_ai_overview=true request parameter. One extra credit applies if results exist."
+    },
+    "related_questions": [
+      {
+        "question": "Is it possible to use AI locally?",
+        "answer": "Local AI lets you run models entirely on your hardware. This gives you full control over your data, reduces latency, and often lowers costs. However, you'll need the right hardware, software, and strategies to tackle challenges like memory limits and model updates.",
+        "source": {
+          "link": "https://www.clarifai.com/blog/how-to-run-ai-models-locally-2025-tools-setup-tips#:~:text=Local%20AI%20lets%20you%20run,memory%20limits%20and%20model%20updates.",
+          "displayed_link": "https://www.clarifai.com \u203a blog \u203a how-to-run-ai-models...",
+          "title": "How to Run AI Models Locally (2026) : Tools, Setup & Tips"
+        },
+        "block_position": 9
+      },
+      {
+        "question": "Is locally AI free?",
+        "answer": "The free, OpenAI, Anthropic alternative. Your All-in-One Complete AI Stack - Run powerful language models, autonomous agents, and document intelligence locally on your hardware. No cloud, no limits, no compromise.",
+        "source": {
+          "link": "https://localai.io/#:~:text=The%20free%2C%20OpenAI%2C%20Anthropic%20alternative,%2C%20no%20limits%2C%20no%20compromise.",
+          "displayed_link": "https://localai.io",
+          "title": "LocalAI"
+        },
+        "block_position": 9
+      },
+      {
+        "question": "What is the local AI?",
+        "answer": "Local AI models are artificial intelligence systems that operate directly on a user's device or within a localized infrastructure, rather than relying on cloud-based services.",
+        "source": {
+          "link": "https://www.lenovo.com/us/en/knowledgebase/local-ai-models-a-comprehensive-guide/#:~:text=Local%20AI%20models%20are%20artificial,relying%20on%20cloud%2Dbased%20services.",
+          "displayed_link": "https://www.lenovo.com \u203a knowledgebase \u203a local-ai-mo...",
+          "title": "Local AI Models: A Comprehensive Guide | Lenovo US"
+        },
+        "block_position": 9
+      },
+      {
+        "question": "Who owns local AI?",
+        "answer": "Local AI was incorporated on February 21st, 2023, as an IKE and was registered to the relevant Chamber of Commerce with VAT no 802053224, \u0393\u0395\u039c\u0397 no 16899034500. It is owned 100% by Georgios Vlachodimitro...",
+        "source": {
+          "link": "https://www.f6s.com/company/local-ai#:~:text=Local%20AI%20was%20incorporated%20on,%25%20by%20Georgios%20Vlachodimitro...",
+          "displayed_link": "https://www.f6s.com \u203a company \u203a local-ai",
+          "title": "Local AI - F6S"
+        },
+        "block_position": 9
+      }
+    ],
+    "discussions_and_forums": [],
+    "related_searches": [
+      {
+        "query": "Local AI download",
+        "link": "https://www.google.com/search?sca_esv=da50c45d53610c17&gl=us&hl=en&q=Local+AI+download&sa=X&ved=2ahUKEwj3vqHw8a-TAxXKRfEDHQdFNY0Q1QJ6BAgmEAE",
+        "block_position": 11
+      },
+      {
+        "query": "Local AI Android",
+        "link": "https://www.google.com/search?sca_esv=da50c45d53610c17&gl=us&hl=en&q=Local+AI+Android&sa=X&ved=2ahUKEwj3vqHw8a-TAxXKRfEDHQdFNY0Q1QJ6BAgzEAE",
+        "block_position": 11
+      },
+      {
+        "query": "AI local model",
+        "link": "https://www.google.com/search?sca_esv=da50c45d53610c17&gl=us&hl=en&q=AI+local+model&sa=X&ved=2ahUKEwj3vqHw8a-TAxXKRfEDHQdFNY0Q1QJ6BAgyEAE",
+        "block_position": 11
+      },
+      {
+        "query": "Local AI Windows",
+        "link": "https://www.google.com/search?sca_esv=da50c45d53610c17&gl=us&hl=en&q=Local+AI+Windows&sa=X&ved=2ahUKEwj3vqHw8a-TAxXKRfEDHQdFNY0Q1QJ6BAgxEAE",
+        "block_position": 11
+      },
+      {
+        "query": "Local AI hardware",
+        "link": "https://www.google.com/search?sca_esv=da50c45d53610c17&gl=us&hl=en&q=Local+AI+hardware&sa=X&ved=2ahUKEwj3vqHw8a-TAxXKRfEDHQdFNY0Q1QJ6BAgtEAE",
+        "block_position": 11
+      },
+      {
+        "query": "Run AI locally Windows",
+        "link": "https://www.google.com/search?sca_esv=da50c45d53610c17&gl=us&hl=en&q=Run+AI+locally+Windows&sa=X&ved=2ahUKEwj3vqHw8a-TAxXKRfEDHQdFNY0Q1QJ6BAgrEAE",
+        "block_position": 11
+      },
+      {
+        "query": "Best local AI",
+        "link": "https://www.google.com/search?sca_esv=da50c45d53610c17&gl=us&hl=en&q=Best+local+AI&sa=X&ved=2ahUKEwj3vqHw8a-TAxXKRfEDHQdFNY0Q1QJ6BAgoEAE",
+        "block_position": 11
+      },
+      {
+        "query": "Local AI Ollama",
+        "link": "https://www.google.com/search?sca_esv=da50c45d53610c17&gl=us&hl=en&q=Local+AI+Ollama&sa=X&ved=2ahUKEwj3vqHw8a-TAxXKRfEDHQdFNY0Q1QJ6BAgnEAE",
+        "block_position": 11
+      }
+    ]
+  },
+  {
+    "query": "locally ai",
+    "location": "Ridgewood NJ",
+    "label": "locally ai [Ridgewood NJ]",
+    "search_parameters": {
+      "q": "locally ai",
+      "location": "Ridgewood,New Jersey,United States",
+      "gl": "us",
+      "hl": "en",
+      "device": "desktop",
+      "num": "10",
+      "engine": "google"
+    },
+    "organic_results": [
+      {
+        "position": 1,
+        "block_position": 1,
+        "title": "Locally AI - Run AI models locally on your iPhone, iPad, and ...",
+        "link": "https://locallyai.app/",
+        "domain": "locallyai.app",
+        "displayed_link": "https://locallyai.app",
+        "snippet": "Download Locally AI from the App Store or Mac App Store, choose an AI model to download, and start chatting. No account creation or login required, just ...Read more",
+        "prerender": false
+      },
+      {
+        "position": 2,
+        "block_position": 4,
+        "title": "Local AI Chat - App Store",
+        "link": "https://apps.apple.com/us/app/locally-ai-local-ai-chat/id6741426692",
+        "domain": "apps.apple.com",
+        "displayed_link": "https://apps.apple.com \u203a app \u203a locally-ai-local-ai-chat",
+        "snippet": "Run AI models like Llama, Gemma, Qwen, and more on your iPhone and iPad. Offline. Private. No login. No data collection. Powered by Apple MLX. Meet Locally ...Read more",
+        "prerender": false
+      },
+      {
+        "position": 3,
+        "block_position": 5,
+        "title": "Locally AI now taps into Apple Foundation models",
+        "link": "https://www.reddit.com/r/apple/comments/1nirfxn/locally_ai_now_taps_into_apple_foundation_models/",
+        "domain": "www.reddit.com",
+        "displayed_link": "30+ comments  \u00b7  6 months ago",
+        "snippet": "If you want to test Apple Foundation models, Locally AI allows you to tap into those models via a chatbot interface. Upvote 27. Downvote 36 Go ...Read more",
+        "prerender": false
+      },
+      {
+        "position": 4,
+        "block_position": 6,
+        "title": "LocalAI",
+        "link": "https://localai.io/",
+        "domain": "localai.io",
+        "displayed_link": "https://localai.io",
+        "snippet": "The free, OpenAI, Anthropic alternative. Your All-in-One Complete AI Stack - Run powerful language models, autonomous agents, and document intelligence locally ...Read more",
+        "prerender": false
+      },
+      {
+        "position": 5,
+        "block_position": 8,
+        "title": "LM Studio - Local AI on your computer",
+        "link": "https://lmstudio.ai/",
+        "domain": "lmstudio.ai",
+        "displayed_link": "https://lmstudio.ai",
+        "snippet": "Connect to remote instances of LM Studio, load your models, and use them as if they were local. Get started. Run AI models, locally and privately.Read more",
+        "prerender": false
+      },
+      {
+        "position": 6,
+        "block_position": 9,
+        "title": "How to Run AI Models Locally (2026) : Tools, Setup & Tips",
+        "link": "https://www.clarifai.com/blog/how-to-run-ai-models-locally-2025-tools-setup-tips",
+        "domain": "www.clarifai.com",
+        "displayed_link": "https://www.clarifai.com \u203a blog \u203a how-to-run-ai-models...",
+        "snippet": "Sep 11, 2025 \u2014 How to Run a Local AI Model: Step\u2011By\u2011Step \u00b7 1. Choose Your Model \u00b7 3. Install a Runtime: \u00b7 4. Set Up an environment \u00b7 5. Run & test \u00b7 6. Scale & ...Read more",
+        "prerender": false,
+        "date": "Sep 11, 2025",
+        "date_utc": "2025-09-11T00:00:00.000Z"
+      },
+      {
+        "position": 7,
+        "block_position": 10,
+        "title": "Local AI - Offline AI chatbot - Apps on Google Play",
+        "link": "https://play.google.com/store/apps/details?id=com.ishanvohra2.localai&hl=en_US",
+        "domain": "play.google.com",
+        "displayed_link": "https://play.google.com \u203a store \u203a apps \u203a details",
+        "snippet": "Unlock the power of AI with Local AI\u2014the ultimate chatbot that works entirely offline. No internet, no data sharing\u2014just smart, secure conversations anytime, ...Read more",
+        "prerender": false
+      }
+    ],
+    "local_results": [],
+    "ai_overview": {
+      "message": "Google offers an AI Overview for this search. To get AI overview result, please use the include_ai_overview=true request parameter. One extra credit applies if results exist."
+    },
+    "related_questions": [
+      {
+        "question": "Is it possible to use AI locally?",
+        "answer": "Local AI lets you run models entirely on your hardware. This gives you full control over your data, reduces latency, and often lowers costs. However, you'll need the right hardware, software, and strategies to tackle challenges like memory limits and model updates.",
+        "source": {
+          "link": "https://www.clarifai.com/blog/how-to-run-ai-models-locally-2025-tools-setup-tips#:~:text=Local%20AI%20lets%20you%20run,memory%20limits%20and%20model%20updates.",
+          "displayed_link": "https://www.clarifai.com \u203a blog \u203a how-to-run-ai-models...",
+          "title": "How to Run AI Models Locally (2026) : Tools, Setup & Tips"
+        },
+        "block_position": 3
+      },
+      {
+        "question": "Is locally AI free?",
+        "answer": "The free, OpenAI, Anthropic alternative. Your All-in-One Complete AI Stack - Run powerful language models, autonomous agents, and document intelligence locally on your hardware. No cloud, no limits, no compromise.",
+        "source": {
+          "link": "https://localai.io/#:~:text=The%20free%2C%20OpenAI%2C%20Anthropic%20alternative,%2C%20no%20limits%2C%20no%20compromise.",
+          "displayed_link": "https://localai.io",
+          "title": "LocalAI"
+        },
+        "block_position": 3
+      },
+      {
+        "question": "What AI works without internet?",
+        "answer": "Layla is an artificial intelligence that runs on your phone. No internet connection. Fully private.",
+        "source": {
+          "link": "https://www.layla-network.ai/#:~:text=Layla%20is%20an%20artificial%20intelligence%20that%20runs%20on%20your%20phone.&text=No%20internet%20connection.,Fully%20private.",
+          "displayed_link": "https://www.layla-network.ai",
+          "title": "Layla - Experience the Best Offline AI Assistant | Layla AI"
+        },
+        "block_position": 3
+      },
+      {
+        "question": "What is the 30% rule in AI?",
+        "block_position": 3
+      }
+    ],
+    "discussions_and_forums": [],
+    "related_searches": [
+      {
+        "query": "Locally AI app",
+        "link": "https://www.google.com/search?sca_esv=da50c45d53610c17&gl=us&hl=en&q=Locally+AI+app&sa=X&ved=2ahUKEwjSyO_y8a-TAxUKIzQIHc8YPTYQ1QJ6BAg9EAE",
+        "block_position": 11
+      },
+      {
+        "query": "Locally AI Android",
+        "link": "https://www.google.com/search?sca_esv=da50c45d53610c17&gl=us&hl=en&q=Locally+AI+Android&sa=X&ved=2ahUKEwjSyO_y8a-TAxUKIzQIHc8YPTYQ1QJ6BAhVEAE",
+        "block_position": 11
+      },
+      {
+        "query": "Locally AI reddit",
+        "link": "https://www.google.com/search?sca_esv=da50c45d53610c17&gl=us&hl=en&q=Locally+AI+reddit&sa=X&ved=2ahUKEwjSyO_y8a-TAxUKIzQIHc8YPTYQ1QJ6BAhUEAE",
+        "block_position": 11
+      },
+      {
+        "query": "Locally ai for windows",
+        "link": "https://www.google.com/search?sca_esv=da50c45d53610c17&gl=us&hl=en&q=Locally+ai+for+windows&sa=X&ved=2ahUKEwjSyO_y8a-TAxUKIzQIHc8YPTYQ1QJ6BAhSEAE",
+        "block_position": 11
+      },
+      {
+        "query": "Locally AI apk",
+        "link": "https://www.google.com/search?sca_esv=da50c45d53610c17&gl=us&hl=en&q=Locally+AI+apk&sa=X&ved=2ahUKEwjSyO_y8a-TAxUKIzQIHc8YPTYQ1QJ6BAhLEAE",
+        "block_position": 11
+      },
+      {
+        "query": "Locally AI GitHub",
+        "link": "https://www.google.com/search?sca_esv=da50c45d53610c17&gl=us&hl=en&q=Locally+AI+GitHub&sa=X&ved=2ahUKEwjSyO_y8a-TAxUKIzQIHc8YPTYQ1QJ6BAhGEAE",
+        "block_position": 11
+      },
+      {
+        "query": "Locally AI Mac",
+        "link": "https://www.google.com/search?sca_esv=da50c45d53610c17&gl=us&hl=en&q=Locally+AI+Mac&sa=X&ved=2ahUKEwjSyO_y8a-TAxUKIzQIHc8YPTYQ1QJ6BAhEEAE",
+        "block_position": 11
+      },
+      {
+        "query": "Locally AI iOS",
+        "link": "https://www.google.com/search?sca_esv=da50c45d53610c17&gl=us&hl=en&q=Locally+AI+iOS&sa=X&ved=2ahUKEwjSyO_y8a-TAxUKIzQIHc8YPTYQ1QJ6BAg-EAE",
+        "block_position": 11
+      }
+    ]
+  },
+  {
+    "query": "bergen county seo",
+    "location": "Jersey City NJ",
+    "label": "bergen county seo [Jersey City NJ]",
+    "search_parameters": {
+      "q": "bergen county seo",
+      "location": "Jersey City,New Jersey,United States",
+      "gl": "us",
+      "hl": "en",
+      "device": "desktop",
+      "num": "10",
+      "engine": "google"
+    },
+    "organic_results": [
+      {
+        "position": 1,
+        "block_position": 2,
+        "title": "Home Page - Bergen County Seo | Search Engine ...",
+        "link": "https://bergencountyseo.com/",
+        "domain": "bergencountyseo.com",
+        "displayed_link": "https://bergencountyseo.com",
+        "snippet": "25 years+ of internet marketing to small business in Bergen County, NJ & surrounding area. Speak To An Expert: (201) 971-2848Read more",
+        "prerender": false
+      },
+      {
+        "position": 2,
+        "block_position": 3,
+        "title": "Bergen county seo - ridgewood internet marketing",
+        "link": "https://sites.google.com/view/bergencountyseohe2/bergen-county-seo",
+        "domain": "sites.google.com",
+        "displayed_link": "https://sites.google.com \u203a view \u203a bergen-county-seo",
+        "snippet": "Learn more about Seo agency nj. wordpress experts bergen county. Bergen Ranks. 28 E Ridgewood Ave, Paramus, NJ 07652. (201) 971-3166.Read more",
+        "prerender": false
+      },
+      {
+        "position": 3,
+        "block_position": 4,
+        "title": "SEO Company Bergen County NJ - JKO Consulting",
+        "link": "https://jkoconsulting.com/service/search-engine-optimization-services-bergen-county-nj/",
+        "domain": "jkoconsulting.com",
+        "displayed_link": "https://jkoconsulting.com \u203a Services",
+        "snippet": "JKO Consulting, NJ's leading SEO and app design agency, transforms your online presence with innovative, results-driven strategies.",
+        "prerender": false
+      },
+      {
+        "position": 4,
+        "block_position": 5,
+        "title": "The Hard Truth for Bergen County Contractors. SEO Will ...",
+        "link": "https://organicalseo.com/bergen-county-contractors-seo-phone-ringing/",
+        "domain": "organicalseo.com",
+        "displayed_link": "https://organicalseo.com \u203a SEO For Contractors",
+        "snippet": "Oct 9, 2025 \u2014 Read And Learn Why Contractors In Bergen County Often Have Unrealistic Expectations When They Hire An SEO Agency! Your Phone Will Not Ring ...",
+        "prerender": false,
+        "date": "Oct 9, 2025",
+        "date_utc": "2025-10-09T00:00:00.000Z"
+      },
+      {
+        "position": 5,
+        "block_position": 6,
+        "title": "Bergen County SEO Services | Montvale, NJ in ...",
+        "link": "https://www.wpamplify.com/bergen-county/",
+        "domain": "www.wpamplify.com",
+        "displayed_link": "https://www.wpamplify.com \u203a bergen-county",
+        "snippet": "We provide WordPress marketing services including search engine optimization, custom website design, full-service blogging and website support.Read more",
+        "prerender": false
+      },
+      {
+        "position": 6,
+        "block_position": 7,
+        "title": "Bergen County Digital Marketing: Local SEO & PPC Guide ...",
+        "link": "https://digitalmarketingnewjersey.us/blog/bergen-county-digital-marketing-local-seo-ppc-guide-2026/",
+        "domain": "digitalmarketingnewjersey.us",
+        "displayed_link": "https://digitalmarketingnewjersey.us \u203a blog \u203a bergen-co...",
+        "snippet": "Jan 22, 2026 \u2014 Digital Marketing in Bergen County: Expert SEO, PPC & automation services that help local businesses get found & grow revenue.",
+        "prerender": false,
+        "date": "Jan 22, 2026",
+        "date_utc": "2026-01-22T00:00:00.000Z"
+      },
+      {
+        "position": 7,
+        "block_position": 9,
+        "title": "Our Services - Bergen County Seo",
+        "link": "https://bergencountyseo.com/our-services/",
+        "domain": "bergencountyseo.com",
+        "displayed_link": "https://bergencountyseo.com \u203a our-services",
+        "snippet": "We specialize in transforming your online presence through bespoke Google Business Profile optimization, comprehensive SEO strategies, and a full spectrum of ...Read more",
+        "prerender": false
+      },
+      {
+        "position": 8,
+        "block_position": 11,
+        "title": "SEO Bergen County, NJ - Improve Google Rankings, Local ...",
+        "link": "https://givemeservice.com/service-area/seo-bergen-county-nj/",
+        "domain": "givemeservice.com",
+        "displayed_link": "https://givemeservice.com \u203a Service Area",
+        "snippet": "Local SEO Services for businesses in Bergen County, NJ. For specific geographical areas, Local Search Engine Optimization or local SEO is used. Search results ...Read more",
+        "prerender": false
+      },
+      {
+        "position": 9,
+        "block_position": 12,
+        "title": "Best Local SEO Company For Bergen County NJ Businesses",
+        "link": "https://perfectclicks.com/local-seo-services-bergen-county-nj/",
+        "domain": "perfectclicks.com",
+        "displayed_link": "https://perfectclicks.com \u203a Blog",
+        "snippet": "Mar 28, 2022 \u2014 Professional local SEO services in Bergen County NJ can help your growing small business brand in so many amazing ways.Read more",
+        "prerender": false,
+        "date": "Mar 28, 2022",
+        "date_utc": "2022-03-28T00:00:00.000Z"
+      }
+    ],
+    "local_results": [],
+    "ai_overview": null,
+    "related_questions": [
+      {
+        "question": "What is the richest neighborhood in Bergen County?",
+        "answer": "All Places in Bergen County",
+        "source": {
+          "link": "https://datacommons.org/ranking/Median_Income_Person/CensusCountyDivision/geoId/34003?h=geoId/3400324420&unit=$",
+          "displayed_link": "https://datacommons.org \u203a CensusCountyDivision \u203a geoId",
+          "title": "Ranking by Median Individual Income - Places in Bergen County"
+        },
+        "block_position": 8
+      },
+      {
+        "question": "What is the least populated town in Bergen County?",
+        "answer": "Each has an estimated population between roughly 26,000 and 34,000 residents, reflecting the county's role as one of New Jersey's most developed and densely settled areas. At the other end of the spectrum, Teterboro ranks as the least populated municipality in Bergen County, with an estimated 70 residents.",
+        "source": {
+          "link": "https://www.northjersey.com/story/news/bergen/2026/01/08/bergen-county-nj-towns-highest-lowest-populations/88049081007/#:~:text=Each%20has%20an%20estimated%20population,with%20an%20estimated%2070%20residents.",
+          "displayed_link": "https://www.northjersey.com \u203a bergen \u203a 2026/01/08 \u203a be...",
+          "title": "Bergen County NJ towns with highest, lowest populations"
+        },
+        "block_position": 8
+      },
+      {
+        "question": "Can you drink tap water in Bergen County, NJ?",
+        "answer": "Not Safe to Drink Concerning news about our tap water: Bergen County ranks as the 4th highest on list of places in the U.S. with high levels of toxic PFAS chemicals in our tap water.",
+        "source": {
+          "link": "https://www.facebook.com/groups/FairLawnNJ/posts/10156367093597392/#:~:text=Not%20Safe%20to%20Drink%20Concerning,chemicals%20in%20our%20tap%20water.",
+          "displayed_link": "https://www.facebook.com \u203a groups \u203a FairLawnNJ \u203a posts",
+          "title": "Wyckoff NJ water quality concerns and safety - Facebook"
+        },
+        "block_position": 8
+      },
+      {
+        "question": "What are the three cities in Bergen County, NJ?",
+        "answer": "Bergen County Cities & Towns \ud83d\uddfa\ufe0f | Explore Bergen County New Jersey Cities by Population. #1. Hackensack.#2. Teaneck.#3. Fort Lee.#4. Garfield.#5. Fair Lawn.#6. Englewood.#7. Bergenfield.#8. Paramus.",
+        "answer_list": [
+          {
+            "text": "#1. Hackensack."
+          },
+          {
+            "text": "#2. Teaneck."
+          },
+          {
+            "text": "#3. Fort Lee."
+          },
+          {
+            "text": "#4. Garfield."
+          },
+          {
+            "text": "#5. Fair Lawn."
+          },
+          {
+            "text": "#6. Englewood."
+          },
+          {
+            "text": "#7. Bergenfield."
+          },
+          {
+            "text": "#8. Paramus."
+          }
+        ],
+        "source": {
+          "link": "https://harringtonmovers.com/blog/bergen-county-cities-towns/",
+          "displayed_link": "https://harringtonmovers.com \u203a blog \u203a bergen-county-cit...",
+          "title": "Explore Bergen County New Jersey Cities by Population"
+        },
+        "block_position": 8
+      }
+    ],
+    "discussions_and_forums": [],
+    "related_searches": []
+  },
+  {
+    "query": "seo bergen",
+    "location": "Jersey City NJ",
+    "label": "seo bergen [Jersey City NJ]",
+    "search_parameters": {
+      "q": "seo bergen",
+      "location": "Jersey City,New Jersey,United States",
+      "gl": "us",
+      "hl": "en",
+      "device": "desktop",
+      "num": "10",
+      "engine": "google"
+    },
+    "organic_results": [
+      {
+        "position": 1,
+        "block_position": 1,
+        "title": "SEO Company Bergen County NJ - JKO Consulting",
+        "link": "https://jkoconsulting.com/service/search-engine-optimization-services-bergen-county-nj/",
+        "domain": "jkoconsulting.com",
+        "displayed_link": "https://jkoconsulting.com \u203a Services",
+        "snippet": "JKO Consulting, NJ's leading SEO and app design agency, transforms your online presence with innovative, results-driven strategies.",
+        "prerender": false
+      },
+      {
+        "position": 2,
+        "block_position": 2,
+        "title": "Home Page - Bergen County Seo | Search Engine ...",
+        "link": "https://bergencountyseo.com/",
+        "domain": "bergencountyseo.com",
+        "displayed_link": "https://bergencountyseo.com",
+        "snippet": "25 years+ of internet marketing to small business in Bergen County, NJ & surrounding area. Speak To An Expert: (201) 971-2848Read more",
+        "prerender": false
+      },
+      {
+        "position": 3,
+        "block_position": 3,
+        "title": "Bergen County NJ SEO Agency | Bergen Ranks: Home",
+        "link": "https://bergenranks.com/",
+        "domain": "bergenranks.com",
+        "displayed_link": "https://bergenranks.com",
+        "snippet": "We have a team of highly-educated, experienced and creative web developers. With nearly 10 years of experience, we're confident to help you build a website that ...Read more",
+        "prerender": false
+      },
+      {
+        "position": 4,
+        "block_position": 4,
+        "title": "Custom Website Development with SEO in Bergen County ...",
+        "link": "https://gal-inc.com/web-development-cnty.asp?cnty=Bergen",
+        "domain": "gal-inc.com",
+        "displayed_link": "https://gal-inc.com \u203a web-development-cnty \u203a cnty=Ber...",
+        "snippet": "G.A.L. Inc. provides Custom Website Development with SEO in Bergen County, NJ for clients since 2001. Ranking is only half the battle\u2014your content must also ...Read more",
+        "prerender": false
+      },
+      {
+        "position": 5,
+        "block_position": 5,
+        "title": "The #1 Rated SEO Agency For Small Businesses in New ...",
+        "link": "https://organicalseo.com/",
+        "domain": "organicalseo.com",
+        "displayed_link": "https://organicalseo.com",
+        "snippet": "Organical SEO is located in Bergen County, NJ. We do all of our work in-house. It's not just emails and a voIce on the other line. Our SEO experts meet you ...Read more",
+        "prerender": false
+      },
+      {
+        "position": 6,
+        "block_position": 6,
+        "title": "Top SEO & Web Growth Agency for 20+ Years | Bergen ...",
+        "link": "https://webpilot.co/",
+        "domain": "webpilot.co",
+        "displayed_link": "https://webpilot.co",
+        "snippet": "We help local & national businesses grow traffic, leads and revenue online without the guessing (or stressing ).",
+        "prerender": false
+      },
+      {
+        "position": 7,
+        "block_position": 7,
+        "title": "Bergen County SEO Services | Montvale, NJ in ...",
+        "link": "https://www.wpamplify.com/bergen-county/",
+        "domain": "www.wpamplify.com",
+        "displayed_link": "https://www.wpamplify.com \u203a bergen-county",
+        "snippet": "We provide WordPress marketing services including search engine optimization, custom website design, full-service blogging and website support.Read more",
+        "prerender": false
+      },
+      {
+        "position": 8,
+        "block_position": 8,
+        "title": "SEO Marketing Services in Bergen County, New Jersey",
+        "link": "https://www.drawingboardmedia.com/seo-services-search-engine-optimization-new-jersey/",
+        "domain": "www.drawingboardmedia.com",
+        "displayed_link": "https://www.drawingboardmedia.com \u203a seo-services-sear...",
+        "snippet": "New Jersey's SEO Experts. Higher Visibility. Increased Sales. Proven Results. Polished SEO strategies that will drive traffic to your website.Read more",
+        "prerender": false
+      },
+      {
+        "position": 9,
+        "block_position": 9,
+        "title": "SEO Bergen County, NJ - Improve Google Rankings, Local ...",
+        "link": "https://givemeservice.com/service-area/seo-bergen-county-nj/",
+        "domain": "givemeservice.com",
+        "displayed_link": "https://givemeservice.com \u203a Service Area",
+        "snippet": "SEO Services for business in Bergen County, NJ. Search Engine Optimization (SEO) is an important component of any company's Internet marketing.Read more",
+        "prerender": false
+      },
+      {
+        "position": 10,
+        "block_position": 10,
+        "title": "Bergen county seo - ridgewood internet marketing",
+        "link": "https://sites.google.com/view/bergencountyseohe2/bergen-county-seo",
+        "domain": "sites.google.com",
+        "displayed_link": "https://sites.google.com \u203a view \u203a bergen-county-seo",
+        "snippet": "Learn more about Seo agency nj. wordpress experts bergen county. Bergen Ranks. 28 E Ridgewood Ave, Paramus, NJ 07652. (201) 971-3166.Read more",
+        "prerender": false
+      }
+    ],
+    "local_results": [],
+    "ai_overview": {
+      "message": "Google offers an AI Overview for this search. To get AI overview result, please use the include_ai_overview=true request parameter. One extra credit applies if results exist."
+    },
+    "related_questions": [],
+    "discussions_and_forums": [],
+    "related_searches": [
+      {
+        "query": "Seo bergen reviews",
+        "link": "https://www.google.com/search?sca_esv=da50c45d53610c17&gl=us&hl=en&q=Seo+bergen+reviews&sa=X&ved=2ahUKEwj-0cP28a-TAxVnCbwBHSovDtYQ1QJ6BAg6EAE",
+        "block_position": 11
+      },
+      {
+        "query": "Zircon SEO",
+        "link": "https://www.google.com/search?sca_esv=da50c45d53610c17&gl=us&hl=en&q=Zircon+SEO&sa=X&ved=2ahUKEwj-0cP28a-TAxVnCbwBHSovDtYQ1QJ6BAhFEAE",
+        "block_position": 11
+      },
+      {
+        "query": "Sagapixel SEO",
+        "link": "https://www.google.com/search?sca_esv=da50c45d53610c17&gl=us&hl=en&q=Sagapixel+SEO&sa=X&ved=2ahUKEwj-0cP28a-TAxVnCbwBHSovDtYQ1QJ6BAg-EAE",
+        "block_position": 11
+      },
+      {
+        "query": "SEO Optimizers",
+        "link": "https://www.google.com/search?sca_esv=da50c45d53610c17&gl=us&hl=en&q=SEO+Optimizers&sa=X&ved=2ahUKEwj-0cP28a-TAxVnCbwBHSovDtYQ1QJ6BAhCEAE",
+        "block_position": 11
+      },
+      {
+        "query": "SEO co",
+        "link": "https://www.google.com/search?sca_esv=da50c45d53610c17&gl=us&hl=en&q=SEO+co&sa=X&ved=2ahUKEwj-0cP28a-TAxVnCbwBHSovDtYQ1QJ6BAhBEAE",
+        "block_position": 11
+      },
+      {
+        "query": "SEO Inc",
+        "link": "https://www.google.com/search?sca_esv=da50c45d53610c17&gl=us&hl=en&q=SEO+Inc&sa=X&ved=2ahUKEwj-0cP28a-TAxVnCbwBHSovDtYQ1QJ6BAg9EAE",
+        "block_position": 11
+      },
+      {
+        "query": "SEO Houston",
+        "link": "https://www.google.com/search?sca_esv=da50c45d53610c17&gl=us&hl=en&q=SEO+Houston&sa=X&ved=2ahUKEwj-0cP28a-TAxVnCbwBHSovDtYQ1QJ6BAg8EAE",
+        "block_position": 11
+      },
+      {
+        "query": "Five Star seo",
+        "link": "https://www.google.com/search?sca_esv=da50c45d53610c17&gl=us&hl=en&q=Five+Star+seo&sa=X&ved=2ahUKEwj-0cP28a-TAxVnCbwBHSovDtYQ1QJ6BAg7EAE",
+        "block_position": 11
+      }
+    ]
+  },
+  {
+    "query": "local ai",
+    "location": "Jersey City NJ",
+    "label": "local ai [Jersey City NJ]",
+    "search_parameters": {
+      "q": "local ai",
+      "location": "Jersey City,New Jersey,United States",
+      "gl": "us",
+      "hl": "en",
+      "device": "desktop",
+      "num": "10",
+      "engine": "google"
+    },
+    "organic_results": [
+      {
+        "position": 1,
+        "block_position": 2,
+        "title": "LocalAI",
+        "link": "https://localai.io/",
+        "domain": "localai.io",
+        "displayed_link": "https://localai.io",
+        "snippet": "LLM Inferencing: LocalAI is a free, Open Source OpenAI alternative. Run LLMs, generate images, audio and more locally with consumer grade hardware. Agentic- ...Read more",
+        "prerender": false
+      },
+      {
+        "position": 2,
+        "block_position": 3,
+        "title": "Is local AI worth it? : r/LocalLLaMA",
+        "link": "https://www.reddit.com/r/LocalLLaMA/comments/1pisqnn/is_local_ai_worth_it/",
+        "domain": "www.reddit.com",
+        "displayed_link": "30+ comments  \u00b7  3 months ago",
+        "snippet": "It is super fast - really great - but it can't replace the online ai's. Right now it is useless (except for me test some stuff), but if you want ...Read more",
+        "prerender": false
+      },
+      {
+        "position": 3,
+        "block_position": 5,
+        "title": "mudler/LocalAI: :robot: The free, Open Source ...",
+        "link": "https://github.com/mudler/LocalAI",
+        "domain": "github.com",
+        "displayed_link": "https://github.com \u203a mudler \u203a LocalAI",
+        "snippet": "LocalAI is the free, Open Source OpenAI alternative. LocalAI act as a drop-in replacement REST API that's compatible with OpenAI (Elevenlabs, Anthropic... ) API ...Read more",
+        "prerender": false
+      },
+      {
+        "position": 4,
+        "block_position": 6,
+        "title": "Local AI Chat - App Store",
+        "link": "https://apps.apple.com/us/app/locally-ai-local-ai-chat/id6741426692",
+        "domain": "apps.apple.com",
+        "displayed_link": "https://apps.apple.com \u203a app \u203a locally-ai-local-ai-chat",
+        "snippet": "Run AI models like Llama, Gemma, Qwen, and more on your iPhone and iPad. Offline. Private. No login. No data collection. Powered by Apple MLX. Meet Locally ...Read more",
+        "prerender": false
+      },
+      {
+        "position": 5,
+        "block_position": 7,
+        "title": "LM Studio - Local AI on your computer",
+        "link": "https://lmstudio.ai/",
+        "domain": "lmstudio.ai",
+        "displayed_link": "https://lmstudio.ai",
+        "snippet": "Connect to remote instances of LM Studio, load your models, and use them as if they were local. Get started. Run AI models, locally and privately.Read more",
+        "prerender": false
+      },
+      {
+        "position": 6,
+        "block_position": 9,
+        "title": "The Local AI Playground",
+        "link": "https://www.localai.app/",
+        "domain": "www.localai.app",
+        "displayed_link": "https://www.localai.app",
+        "snippet": "Local AI Management, Verification, & Inferencing. Experiment with AI offline, in private. No GPU required! - A native app made to simplify the whole process ...Read more",
+        "prerender": false
+      },
+      {
+        "position": 7,
+        "block_position": 10,
+        "title": "How to Run AI Models Locally (2026) : Tools, Setup & Tips",
+        "link": "https://www.clarifai.com/blog/how-to-run-ai-models-locally-2025-tools-setup-tips",
+        "domain": "www.clarifai.com",
+        "displayed_link": "https://www.clarifai.com \u203a blog \u203a how-to-run-ai-models...",
+        "snippet": "Sep 11, 2025 \u2014 Local AI lets you run models entirely on your hardware. This gives you full control over your data, reduces latency, and often lowers costs.Read more",
+        "prerender": false,
+        "date": "Sep 11, 2025",
+        "date_utc": "2025-09-11T00:00:00.000Z"
+      },
+      {
+        "position": 8,
+        "block_position": 11,
+        "title": "Overview :: LocalAI",
+        "link": "https://localai.io/docs/overview/",
+        "domain": "localai.io",
+        "displayed_link": "https://localai.io \u203a docs \u203a overview",
+        "snippet": "LocalAI is your complete AI stack for running AI models locally. It's designed to be simple, efficient, and accessible, providing a drop-in replacement for ...Read more",
+        "prerender": false
+      }
+    ],
+    "local_results": [
+      {
+        "position": 1,
+        "title": "Hold My Hand AI Fluency and Support",
+        "gps_coordinates": {
+          "latitude": 40.737446,
+          "longitude": -74.04313
+        },
+        "link": "https://www.google.com/maps/dir//Hold+My+Hand+AI+Fluency+and+Support,+50+Harrison+St,+Hoboken,+NJ+07030/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x89c257f3c8f7b937:0xa2394435eb4a81cc?sa=X&ved=1t:57443&hl=en&gl=us&ictx=111",
+        "address": "Hoboken, NJ",
+        "business_type": "Educational consultant",
+        "phone": "(201) 749-5722",
+        "data_cid": "11689449306188317132",
+        "extensions": [
+          "No reviews &middot; Educational consultant",
+          "Hoboken, NJ &middot; (201) 749-5722"
+        ],
+        "block_position": 12,
+        "knowledge_graph_id": "/g/11z1jn345k"
+      },
+      {
+        "position": 2,
+        "title": "Local AI 360",
+        "gps_coordinates": {
+          "latitude": 40.704903,
+          "longitude": -74.00725
+        },
+        "link": "https://www.localai360.com/",
+        "snippet": "Online appointments&middot;Onsite services not available",
+        "address": "New York, NY",
+        "business_type": "Marketing agency",
+        "phone": "(929) 222-6812",
+        "data_cid": "18386829629474061735",
+        "extensions": [
+          "No reviews &middot; Marketing agency",
+          "New York, NY &middot; (929) 222-6812",
+          "Closed",
+          "Opens 9\u202fAM Mon",
+          "Online appointments&middot;Onsite services not available"
+        ],
+        "block_position": 12,
+        "knowledge_graph_id": "/g/11vk3q7lwt"
+      },
+      {
+        "position": 3,
+        "title": "Ai Mart",
+        "gps_coordinates": {
+          "latitude": 40.717445,
+          "longitude": -74.00006
+        },
+        "link": "https://aimartonline.com/",
+        "snippet": "Onsite services",
+        "address": "New York, NY",
+        "business_type": "Asian grocery store",
+        "phone": "(347) 368-0050",
+        "data_cid": "8991997024510611414",
+        "extensions": [
+          "4.7(38) &middot; Asian grocery store",
+          "New York, NY &middot; (347) 368-0050",
+          "Closes soon",
+          "10\u202fPM",
+          "Onsite services"
+        ],
+        "rating": 4.7,
+        "reviews": 38,
+        "block_position": 12,
+        "knowledge_graph_id": "/g/11xrc_dff6"
+      }
+    ],
+    "ai_overview": {
+      "message": "Google offers an AI Overview for this search. To get AI overview result, please use the include_ai_overview=true request parameter. One extra credit applies if results exist."
+    },
+    "related_questions": [
+      {
+        "question": "Are there any local AI?",
+        "block_position": 4
+      },
+      {
+        "question": "What is the 30% rule for AI?",
+        "block_position": 4
+      },
+      {
+        "question": "What is meant by local AI?",
+        "block_position": 4
+      },
+      {
+        "question": "Does local AI cost money?",
+        "block_position": 4
+      }
+    ],
+    "discussions_and_forums": [],
+    "related_searches": [
+      {
+        "query": "Local AI GPT",
+        "link": "https://www.google.com/search?sca_esv=da50c45d53610c17&gl=us&hl=en&q=Local+AI+GPT&sa=X&ved=2ahUKEwif7d348a-TAxUEAHkGHcYWGvsQ1QJ6BAhPEAE",
+        "block_position": 13
+      },
+      {
+        "query": "Local AI free",
+        "link": "https://www.google.com/search?sca_esv=da50c45d53610c17&gl=us&hl=en&q=Local+AI+free&sa=X&ved=2ahUKEwif7d348a-TAxUEAHkGHcYWGvsQ1QJ6BAhjEAE",
+        "block_position": 13
+      },
+      {
+        "query": "Local AI Ollama",
+        "link": "https://www.google.com/search?sca_esv=da50c45d53610c17&gl=us&hl=en&q=Local+AI+Ollama&sa=X&ved=2ahUKEwif7d348a-TAxUEAHkGHcYWGvsQ1QJ6BAhhEAE",
+        "block_position": 13
+      },
+      {
+        "query": "Local AI download",
+        "link": "https://www.google.com/search?sca_esv=da50c45d53610c17&gl=us&hl=en&q=Local+AI+download&sa=X&ved=2ahUKEwif7d348a-TAxUEAHkGHcYWGvsQ1QJ6BAhdEAE",
+        "block_position": 13
+      },
+      {
+        "query": "Local AI Windows",
+        "link": "https://www.google.com/search?sca_esv=da50c45d53610c17&gl=us&hl=en&q=Local+AI+Windows&sa=X&ved=2ahUKEwif7d348a-TAxUEAHkGHcYWGvsQ1QJ6BAhYEAE",
+        "block_position": 13
+      },
+      {
+        "query": "Local AI device",
+        "link": "https://www.google.com/search?sca_esv=da50c45d53610c17&gl=us&hl=en&q=Local+AI+device&sa=X&ved=2ahUKEwif7d348a-TAxUEAHkGHcYWGvsQ1QJ6BAhWEAE",
+        "block_position": 13
+      },
+      {
+        "query": "Local AI Android",
+        "link": "https://www.google.com/search?sca_esv=da50c45d53610c17&gl=us&hl=en&q=Local+AI+Android&sa=X&ved=2ahUKEwif7d348a-TAxUEAHkGHcYWGvsQ1QJ6BAhTEAE",
+        "block_position": 13
+      },
+      {
+        "query": "Local AI Linux",
+        "link": "https://www.google.com/search?sca_esv=da50c45d53610c17&gl=us&hl=en&q=Local+AI+Linux&sa=X&ved=2ahUKEwif7d348a-TAxUEAHkGHcYWGvsQ1QJ6BAhSEAE",
+        "block_position": 13
+      }
+    ]
+  },
+  {
+    "query": "ai",
+    "location": "Jersey City NJ",
+    "label": "ai [Jersey City NJ]",
+    "search_parameters": {
+      "q": "ai",
+      "location": "Jersey City,New Jersey,United States",
+      "gl": "us",
+      "hl": "en",
+      "device": "desktop",
+      "num": "10",
+      "engine": "google"
+    },
+    "organic_results": [
+      {
+        "position": 1,
+        "block_position": 1,
+        "title": "OpenAI",
+        "link": "https://openai.com/",
+        "domain": "openai.com",
+        "displayed_link": "https://openai.com",
+        "snippet": "We believe our research will eventually lead to artificial general intelligence, a system that can solve human-level problems. Building safe and beneficial ...",
+        "prerender": false
+      },
+      {
+        "position": 2,
+        "block_position": 2,
+        "title": "Google Gemini",
+        "link": "https://gemini.google.com/",
+        "domain": "gemini.google.com",
+        "displayed_link": "https://gemini.google.com",
+        "snippet": "Meet Gemini, Google's AI assistant. Get help with writing, planning, brainstorming, and more. Experience the power of generative AI.",
+        "prerender": false
+      },
+      {
+        "position": 3,
+        "block_position": 3,
+        "title": "ChatGPT",
+        "link": "https://chatgpt.com/",
+        "domain": "chatgpt.com",
+        "displayed_link": "https://chatgpt.com",
+        "snippet": "ChatGPT is your AI chatbot for everyday use. Chat with the most advanced AI to explore ideas, solve problems, and learn faster.",
+        "prerender": false
+      },
+      {
+        "position": 4,
+        "block_position": 6,
+        "title": "What is Artificial Intelligence (AI)?",
+        "link": "https://cloud.google.com/learn/what-is-artificial-intelligence",
+        "domain": "cloud.google.com",
+        "displayed_link": "https://cloud.google.com \u203a learn \u203a what-is-artificial-intell...",
+        "snippet": "Artificial intelligence (AI) is a set of technologies that empowers computers to learn, reason, and perform a variety of advanced tasks in ways that used to ...Read more",
+        "prerender": false
+      },
+      {
+        "position": 5,
+        "block_position": 7,
+        "title": "Perplexity AI",
+        "link": "https://www.perplexity.ai/",
+        "domain": "www.perplexity.ai",
+        "displayed_link": "https://www.perplexity.ai",
+        "snippet": "Perplexity is a free AI-powered answer engine that provides accurate, trusted, and real-time answers to any question.",
+        "prerender": false
+      },
+      {
+        "position": 6,
+        "block_position": 8,
+        "title": "Google AI - How we're making AI helpful for everyone",
+        "link": "https://ai.google/",
+        "domain": "ai.google",
+        "displayed_link": "https://ai.google",
+        "snippet": "Discover how Google AI is committed to enriching knowledge, solving complex challenges and helping people grow by building useful AI tools and technologies.",
+        "prerender": false
+      },
+      {
+        "position": 7,
+        "block_position": 9,
+        "title": "Artificial intelligence",
+        "link": "https://en.wikipedia.org/wiki/Artificial_intelligence",
+        "domain": "en.wikipedia.org",
+        "displayed_link": "https://en.wikipedia.org \u203a wiki \u203a Artificial_intelligence",
+        "snippet": "Artificial intelligence (AI) is the capability of computational systems to perform tasks typically associated with human intelligenceRead more",
+        "prerender": false
+      }
+    ],
+    "local_results": [],
+    "ai_overview": {
+      "message": "Google offers an AI Overview for this search. To get AI overview result, please use the include_ai_overview=true request parameter. One extra credit applies if results exist."
+    },
+    "related_questions": [
+      {
+        "question": "Is there any AI for free?",
+        "answer": "QuillBot's free AI Chatbot works with you to generate and improve content, break down complex information, and make connections between ideas.",
+        "source": {
+          "link": "https://quillbot.com/ai-chat#:~:text=QuillBot's%20free%20AI%20Chatbot%20works,and%20make%20connections%20between%20ideas.",
+          "displayed_link": "https://quillbot.com \u203a ai-chat",
+          "title": "AI Chat - QuillBot"
+        },
+        "block_position": 5
+      },
+      {
+        "question": "Can AI write a resignation letter?",
+        "answer": "Grammarly's AI resignation letter generator helps you create a well-formatted, professional letter of resignation in just a few clicks. Type the name of the person or group you are writing the letter to.",
+        "source": {
+          "link": "https://www.grammarly.com/ai/ai-writing-tools/resignation-letter-generator#:~:text=Grammarly's%20AI%20resignation%20letter,in%20just%20a%20few%20clicks.&text=Type%20the%20name%20of%20the,are%20writing%20the%20letter%20to.",
+          "displayed_link": "https://www.grammarly.com \u203a ai \u203a ai-writing-tools \u203a resi...",
+          "title": "AI Resignation Letter Writer - Grammarly"
+        },
+        "block_position": 5
+      },
+      {
+        "question": "Does the Bible mention AI?",
+        "search": {
+          "link": "https://www.google.com/search?sca_esv=da50c45d53610c17&gl=us&hl=en&udm=50&q=Does+the+Bible+mention+AI%3F+Tell+me+more+about+the+city+of+Ai&aep=64&sa=X&ved=2ahUKEwi7x4T68a-TAxU1_8kDHfZEGQMQy8AQKAB6BAgxEAc",
+          "title": "An error has occurred. Please try again later."
+        },
+        "block_position": 5
+      },
+      {
+        "question": "Which 3 jobs will survive AI?",
+        "search": {
+          "link": "https://www.google.com/search?sca_esv=da50c45d53610c17&gl=us&hl=en&udm=50&q=Which+3+jobs+will+survive+AI%3F+Tell+me+more+about+AI+specialists&aep=64&sa=X&ved=2ahUKEwi7x4T68a-TAxU1_8kDHfZEGQMQy8AQKAB6BAgyEAc",
+          "title": "An error has occurred. Please try again later."
+        },
+        "block_position": 5
+      }
+    ],
+    "discussions_and_forums": [],
+    "related_searches": []
+  },
+  {
+    "query": "bergen seo",
+    "location": "Jersey City NJ",
+    "label": "bergen seo [Jersey City NJ]",
+    "search_parameters": {
+      "q": "bergen seo",
+      "location": "Jersey City,New Jersey,United States",
+      "gl": "us",
+      "hl": "en",
+      "device": "desktop",
+      "num": "10",
+      "engine": "google"
+    },
+    "organic_results": [
+      {
+        "position": 1,
+        "block_position": 1,
+        "title": "Home Page - Bergen County Seo | Search Engine ...",
+        "link": "https://bergencountyseo.com/",
+        "domain": "bergencountyseo.com",
+        "displayed_link": "https://bergencountyseo.com",
+        "snippet": "25 years+ of internet marketing to small business in Bergen County, NJ & surrounding area. Speak To An Expert: (201) 971-2848Read more",
+        "prerender": false
+      },
+      {
+        "position": 2,
+        "block_position": 2,
+        "title": "Bergen County NJ SEO Agency | Bergen Ranks: Home",
+        "link": "https://bergenranks.com/",
+        "domain": "bergenranks.com",
+        "displayed_link": "https://bergenranks.com",
+        "snippet": "We have a team of highly-educated, experienced and creative web developers. With nearly 10 years of experience, we're confident to help you build a website that ...Read more",
+        "prerender": false
+      },
+      {
+        "position": 3,
+        "block_position": 3,
+        "title": "SEO Company Bergen County NJ - JKO Consulting",
+        "link": "https://jkoconsulting.com/service/search-engine-optimization-services-bergen-county-nj/",
+        "domain": "jkoconsulting.com",
+        "displayed_link": "https://jkoconsulting.com \u203a Services",
+        "snippet": "JKO Consulting, NJ's leading SEO and app design agency, transforms your online presence with innovative, results-driven strategies.",
+        "prerender": false
+      },
+      {
+        "position": 4,
+        "block_position": 4,
+        "title": "Top SEO & Web Growth Agency for 20+ Years | Bergen ...",
+        "link": "https://webpilot.co/",
+        "domain": "webpilot.co",
+        "displayed_link": "https://webpilot.co",
+        "snippet": "We help local & national businesses grow traffic, leads and revenue online without the guessing (or stressing ).",
+        "prerender": false
+      },
+      {
+        "position": 5,
+        "block_position": 5,
+        "title": "Bergen county seo - ridgewood internet marketing",
+        "link": "https://sites.google.com/view/bergencountyseohe2/bergen-county-seo",
+        "domain": "sites.google.com",
+        "displayed_link": "https://sites.google.com \u203a view \u203a bergen-county-seo",
+        "snippet": "Learn more about Seo agency nj. wordpress experts bergen county. Bergen Ranks. 28 E Ridgewood Ave, Paramus, NJ 07652. (201) 971-3166.Read more",
+        "prerender": false
+      },
+      {
+        "position": 6,
+        "block_position": 6,
+        "title": "Bergen County SEO Services | Montvale, NJ in ...",
+        "link": "https://www.wpamplify.com/bergen-county/",
+        "domain": "www.wpamplify.com",
+        "displayed_link": "https://www.wpamplify.com \u203a bergen-county",
+        "snippet": "We provide WordPress marketing services including search engine optimization, custom website design, full-service blogging and website support.Read more",
+        "prerender": false
+      },
+      {
+        "position": 7,
+        "block_position": 7,
+        "title": "Seo With Bergen Ranks",
+        "link": "https://bergenranks.com/seo/",
+        "domain": "bergenranks.com",
+        "displayed_link": "https://bergenranks.com \u203a seo",
+        "snippet": "Bergen Ranks is an SEO agency that specializes in optimizing websites for higher rankings on major search engines such as Google, Yahoo, and Bing.Read more",
+        "prerender": false
+      },
+      {
+        "position": 8,
+        "block_position": 8,
+        "title": "The Hard Truth for Bergen County Contractors. SEO Will ...",
+        "link": "https://organicalseo.com/bergen-county-contractors-seo-phone-ringing/",
+        "domain": "organicalseo.com",
+        "displayed_link": "https://organicalseo.com \u203a SEO For Contractors",
+        "snippet": "Oct 9, 2025 \u2014 Read And Learn Why Contractors In Bergen County Often Have Unrealistic Expectations When They Hire An SEO Agency! Your Phone Will Not Ring ...",
+        "prerender": false,
+        "date": "Oct 9, 2025",
+        "date_utc": "2025-10-09T00:00:00.000Z"
+      },
+      {
+        "position": 9,
+        "block_position": 9,
+        "title": "SEO Marketing Services in Bergen County, New Jersey",
+        "link": "https://www.drawingboardmedia.com/seo-services-search-engine-optimization-new-jersey/",
+        "domain": "www.drawingboardmedia.com",
+        "displayed_link": "https://www.drawingboardmedia.com \u203a seo-services-sear...",
+        "snippet": "New Jersey's SEO Experts. Higher Visibility. Increased Sales. Proven Results. Polished SEO strategies that will drive traffic to your website.Read more",
+        "prerender": false
+      },
+      {
+        "position": 10,
+        "block_position": 10,
+        "title": "Website Design Bergen County NJ Digital Marketing SEO",
+        "link": "https://njwebsiteandgraphicdesign.com/",
+        "domain": "njwebsiteandgraphicdesign.com",
+        "displayed_link": "https://njwebsiteandgraphicdesign.com",
+        "snippet": "Responsive website design and development. We specialize in WordPress, Shopify, WooCommerce, Wix and many more website platforms. WEBSITE DESIGN BUTTON. SEO ...Read more",
+        "prerender": false
+      }
+    ],
+    "local_results": [],
+    "ai_overview": {
+      "message": "Google offers an AI Overview for this search. To get AI overview result, please use the include_ai_overview=true request parameter. One extra credit applies if results exist."
+    },
+    "related_questions": [],
+    "discussions_and_forums": [],
+    "related_searches": []
+  },
+  {
+    "query": "seo bergen county",
+    "location": "Jersey City NJ",
+    "label": "seo bergen county [Jersey City NJ]",
+    "search_parameters": {
+      "q": "seo bergen county",
+      "location": "Jersey City,New Jersey,United States",
+      "gl": "us",
+      "hl": "en",
+      "device": "desktop",
+      "num": "10",
+      "engine": "google"
+    },
+    "organic_results": [
+      {
+        "position": 1,
+        "block_position": 2,
+        "title": "Home Page - Bergen County Seo | Search Engine ...",
+        "link": "https://bergencountyseo.com/",
+        "domain": "bergencountyseo.com",
+        "displayed_link": "https://bergencountyseo.com",
+        "snippet": "25 years+ of internet marketing to small business in Bergen County, NJ & surrounding area. Speak To An Expert: (201) 971-2848Read more",
+        "prerender": false
+      },
+      {
+        "position": 2,
+        "block_position": 4,
+        "title": "SEO Company Bergen County NJ - JKO Consulting",
+        "link": "https://jkoconsulting.com/service/search-engine-optimization-services-bergen-county-nj/",
+        "domain": "jkoconsulting.com",
+        "displayed_link": "https://jkoconsulting.com \u203a Services",
+        "snippet": "JKO Consulting, NJ's leading SEO and app design agency, transforms your online presence with innovative, results-driven strategies.",
+        "prerender": false
+      },
+      {
+        "position": 3,
+        "block_position": 5,
+        "title": "Bergen county seo - ridgewood internet marketing",
+        "link": "https://sites.google.com/view/bergencountyseohe2/bergen-county-seo",
+        "domain": "sites.google.com",
+        "displayed_link": "https://sites.google.com \u203a view \u203a bergen-county-seo",
+        "snippet": "Learn more about Seo agency nj. wordpress experts bergen county. Bergen Ranks. 28 E Ridgewood Ave, Paramus, NJ 07652. (201) 971-3166.Read more",
+        "prerender": false
+      },
+      {
+        "position": 4,
+        "block_position": 6,
+        "title": "Bergen County SEO Services | Montvale, NJ in ...",
+        "link": "https://www.wpamplify.com/bergen-county/",
+        "domain": "www.wpamplify.com",
+        "displayed_link": "https://www.wpamplify.com \u203a bergen-county",
+        "snippet": "We provide WordPress marketing services including search engine optimization, custom website design, full-service blogging and website support.Read more",
+        "prerender": false
+      },
+      {
+        "position": 5,
+        "block_position": 7,
+        "title": "Premier SEO In Bergen County - Web Design",
+        "link": "https://webdesignakron.com/areas-we-serve/bergen-county-seo/",
+        "domain": "webdesignakron.com",
+        "displayed_link": "https://webdesignakron.com \u203a areas-we-serve \u203a bergen-...",
+        "snippet": "Discover top SEO services in Bergen County. Our experts boost your online presence and drive results. Contact us for the best SEO in Bergen County.",
+        "prerender": false
+      },
+      {
+        "position": 6,
+        "block_position": 8,
+        "title": "Local SEO Services For Bergen County NJ",
+        "link": "https://kineticknowledge.com/bergen-county-nj-seo-kinetic-knowledge/",
+        "domain": "kineticknowledge.com",
+        "displayed_link": "https://kineticknowledge.com \u203a bergen-county-nj-seo-k...",
+        "snippet": "Kinetic Knowledge offers affordable, experienced (for over 20 years now), local SEO service to Bergen County, NJ, business owners. Pursuing trusted, fundamental ...Read more",
+        "prerender": false
+      },
+      {
+        "position": 7,
+        "block_position": 9,
+        "title": "Bergen County Digital Marketing: Local SEO & PPC Guide ...",
+        "link": "https://digitalmarketingnewjersey.us/blog/bergen-county-digital-marketing-local-seo-ppc-guide-2026/",
+        "domain": "digitalmarketingnewjersey.us",
+        "displayed_link": "https://digitalmarketingnewjersey.us \u203a blog \u203a bergen-co...",
+        "snippet": "Jan 22, 2026 \u2014 Digital Marketing in Bergen County: Expert SEO, PPC & automation services that help local businesses get found & grow revenue.",
+        "prerender": false,
+        "date": "Jan 22, 2026",
+        "date_utc": "2026-01-22T00:00:00.000Z"
+      },
+      {
+        "position": 8,
+        "block_position": 10,
+        "title": "Bergen County NJ SEO Agency | Bergen Ranks: Home",
+        "link": "https://bergenranks.com/",
+        "domain": "bergenranks.com",
+        "displayed_link": "https://bergenranks.com",
+        "snippet": "We have a team of highly-educated, experienced and creative web developers. With nearly 10 years of experience, we're confident to help you build a website that ...Read more",
+        "prerender": false
+      },
+      {
+        "position": 9,
+        "block_position": 11,
+        "title": "The Hard Truth for Bergen County Contractors. SEO Will ...",
+        "link": "https://organicalseo.com/bergen-county-contractors-seo-phone-ringing/",
+        "domain": "organicalseo.com",
+        "displayed_link": "https://organicalseo.com \u203a SEO For Contractors",
+        "snippet": "Oct 9, 2025 \u2014 Read And Learn Why Contractors In Bergen County Often Have Unrealistic Expectations When They Hire An SEO Agency! Your Phone Will Not Ring ...",
+        "prerender": false,
+        "date": "Oct 9, 2025",
+        "date_utc": "2025-10-09T00:00:00.000Z"
+      },
+      {
+        "position": 10,
+        "block_position": 12,
+        "title": "Top SEO & Web Growth Agency for 20+ Years | Bergen ...",
+        "link": "https://webpilot.co/",
+        "domain": "webpilot.co",
+        "displayed_link": "https://webpilot.co",
+        "snippet": "We help local & national businesses grow traffic, leads and revenue online without the guessing (or stressing ).",
+        "prerender": false
+      }
+    ],
+    "local_results": [
+      {
+        "position": 1,
+        "title": "Organical - The SEO Experts",
+        "gps_coordinates": {
+          "latitude": 40.88557,
+          "longitude": -74.04184
+        },
+        "link": "https://organicalseo.com/",
+        "snippet": "Onsite services&middot;Online appointments",
+        "address": "Hackensack, NJ",
+        "business_type": "Marketing agency",
+        "data_cid": "2901815186301409621",
+        "extensions": [
+          "5.0(38) &middot; Marketing agency",
+          "30+ years in business &middot; Hackensack, NJ",
+          "Closed",
+          "Opens 9\u202fAM Mon &middot; (201) 836-1492",
+          "Onsite services&middot;Online appointments"
+        ],
+        "rating": 5,
+        "reviews": 38,
+        "block_position": 3,
+        "knowledge_graph_id": "/g/11f_4s68tn"
+      },
+      {
+        "position": 2,
+        "title": "Digital Marketing New Jersey | SEO, SEM, PPC Management & Web Design",
+        "gps_coordinates": {
+          "latitude": 40.804893,
+          "longitude": -74.10104
+        },
+        "link": "https://digitalmarketingnewjersey.us/",
+        "snippet": "Onsite services&middot;Online appointments",
+        "address": "Lyndhurst, NJ",
+        "business_type": "Internet marketing service",
+        "data_cid": "1344551499053997745",
+        "extensions": [
+          "5.0(103) &middot; Internet marketing service",
+          "3+ years in business &middot; Lyndhurst, NJ",
+          "Closed",
+          "Opens 9\u202fAM Mon &middot; (973) 856-7114",
+          "Onsite services&middot;Online appointments"
+        ],
+        "rating": 5,
+        "reviews": 103,
+        "block_position": 3,
+        "knowledge_graph_id": "/g/11trsr1n5x"
+      },
+      {
+        "position": 3,
+        "title": "NJ SEO Agency | Sovereign",
+        "gps_coordinates": {
+          "latitude": 40.883377,
+          "longitude": -74.043236
+        },
+        "link": "https://sovereignrank.com/",
+        "address": "Hackensack, NJ",
+        "business_type": "Marketing agency",
+        "data_cid": "1754385531359491947",
+        "extensions": [
+          "5.0(4) &middot; Marketing agency",
+          "3+ years in business &middot; Hackensack, NJ",
+          "Closed",
+          "Opens 8\u202fAM Sat &middot; (862) 684-3809"
+        ],
+        "rating": 5,
+        "reviews": 4,
+        "block_position": 3,
+        "knowledge_graph_id": "/g/11szdv01sg"
+      }
+    ],
+    "ai_overview": null,
+    "related_questions": [],
+    "discussions_and_forums": [],
+    "related_searches": []
+  },
+  {
+    "query": "ai search optimization nyc",
+    "location": "Jersey City NJ",
+    "label": "ai search optimization nyc [Jersey City NJ]",
+    "search_parameters": {
+      "q": "ai search optimization nyc",
+      "location": "Jersey City,New Jersey,United States",
+      "gl": "us",
+      "hl": "en",
+      "device": "desktop",
+      "num": "10",
+      "engine": "google"
+    },
+    "organic_results": [
+      {
+        "position": 1,
+        "block_position": 1,
+        "title": "Profound",
+        "link": "https://www.tryprofound.com/",
+        "domain": "www.tryprofound.com",
+        "displayed_link": "https://www.tryprofound.com",
+        "snippet": "Profound helps brands gain visibility in AI-generated answers, optimize their presence in LLM-based answer engines, and stay competitive in the zero-click ...",
+        "prerender": false
+      },
+      {
+        "position": 2,
+        "block_position": 2,
+        "title": "Best AI Search Optimization Agencies in New York 2026",
+        "link": "https://agencies.semrush.com/list/ai-optimization/new-york/",
+        "domain": "agencies.semrush.com",
+        "displayed_link": "https://agencies.semrush.com \u203a list \u203a new-york",
+        "snippet": "New York's and Long Island Leading SEO Agency. Partner with Mimvi, the New York SEO company that increases your leads, traffic, and sales online.Read more",
+        "prerender": false
+      },
+      {
+        "position": 3,
+        "block_position": 3,
+        "title": "AI Search Optimization Workshop",
+        "link": "https://brainstation.io/workshops/ai-search-optimization/new-york",
+        "domain": "brainstation.io",
+        "displayed_link": "https://brainstation.io \u203a ai-search-optimization \u203a new-york",
+        "snippet": "Stay ahead of how AI is changing search and discovery. Optimize your content and brand presence for AI chat and search results in this expert-led workshop.",
+        "prerender": false
+      },
+      {
+        "position": 4,
+        "block_position": 4,
+        "title": "AI Visibility Optimization for Brands",
+        "link": "https://www.ericschwartzman.com/geo-consultant/",
+        "domain": "www.ericschwartzman.com",
+        "displayed_link": "https://www.ericschwartzman.com \u203a geo-consultant",
+        "snippet": "Our AI visibility consulting services give you control over how chatbots and generative engines summarize your company, leadership, and products. New York City ...Read more",
+        "prerender": false
+      },
+      {
+        "position": 5,
+        "block_position": 5,
+        "title": "Best AI SEO Agency in Manhattan NYC | Top GEO Experts ...",
+        "link": "https://primaryposition.com/",
+        "domain": "primaryposition.com",
+        "displayed_link": "https://primaryposition.com",
+        "snippet": "Primary Position is a New York based SEO and Internet marketing agency with many years of experience working with US and International clients.Read more",
+        "prerender": false
+      },
+      {
+        "position": 6,
+        "block_position": 6,
+        "title": "Top AI SEO Agencies in New York",
+        "link": "https://www.uforocks.com/blog/top-ai-seo-agencies-in-new-york/",
+        "domain": "www.uforocks.com",
+        "displayed_link": "https://www.uforocks.com \u203a blog \u203a top-ai-seo-agencies-i...",
+        "snippet": "Nov 13, 2025 \u2014 Coalition Technologies is a full-service digital marketing agency based in NYC that has integrated AI-search awareness into its SEO offering.Read more",
+        "prerender": false,
+        "date": "Nov 13, 2025",
+        "date_utc": "2025-11-13T00:00:00.000Z"
+      },
+      {
+        "position": 7,
+        "block_position": 7,
+        "title": "NYC Local SEO Agency | GEO & AI Search Optimization",
+        "link": "https://www.localmighty.com/new-york-city/",
+        "domain": "www.localmighty.com",
+        "displayed_link": "https://www.localmighty.com \u203a new-york-city",
+        "snippet": "Partner with a top NYC local SEO company. Rank higher on Google, Maps, and AI search. We help you get more leads. Get a free SEO audit.",
+        "prerender": false
+      },
+      {
+        "position": 8,
+        "block_position": 8,
+        "title": "Evertune | Improve Your Brand's Visibility in AI Search",
+        "link": "https://www.evertune.ai/",
+        "domain": "www.evertune.ai",
+        "displayed_link": "https://www.evertune.ai",
+        "snippet": "Evertune is the Generative Engine Optimization (GEO) platform that helps brands improve visibility in AI search across ChatGPT, AI Overview, Gemini, ...",
+        "prerender": false
+      },
+      {
+        "position": 9,
+        "block_position": 9,
+        "title": "Sosemo: AI Visibility, GEO, SEO, SEM, Social Media Agency ...",
+        "link": "https://sosemo.com/",
+        "domain": "sosemo.com",
+        "displayed_link": "https://sosemo.com",
+        "snippet": "Founded in NYC in 2012, we manage SEM, SEO, Paid Social, Programmatic, and AI-powered visibility \u2014 uniting data discipline with creative strategy. With AI.",
+        "prerender": false,
+        "prefix": "Founded in NYC in 2012, we manage SEM, SEO, Paid Social, Programmatic, and AI-powered visibility"
+      },
+      {
+        "position": 10,
+        "block_position": 10,
+        "title": "AI SEO Agency & AI Search Optimization Experts",
+        "link": "https://www.brainlabsdigital.com/services/ai-search-optimization/",
+        "domain": "www.brainlabsdigital.com",
+        "displayed_link": "https://www.brainlabsdigital.com \u203a services \u203a ai-search-...",
+        "snippet": "Brainlabs is a leading SEO agency working with brands like Microsoft, LEGO, & Adidas. Now we offer cutting-edge GEO & AI SEO services. Reach out!",
+        "prerender": false
+      }
+    ],
+    "local_results": [],
+    "ai_overview": {
+      "message": "Google offers an AI Overview for this search. To get AI overview result, please use the include_ai_overview=true request parameter. One extra credit applies if results exist."
+    },
+    "related_questions": [
+      {
+        "question": "What is the 30% rule for AI?",
+        "block_position": 11
+      },
+      {
+        "question": "How much does AI SEO cost?",
+        "block_position": 11
+      },
+      {
+        "question": "Is SEO dying out?",
+        "answer": "For the last two decades, people have been saying that SEO is a dying art. But, time and time again, SEO has proven its staying power, evolving to meet changes in search behavior and algorithm updates. 2026 is no different.",
+        "source": {
+          "link": "https://www.jumpfly.com/blog/why-you-absolutely-still-need-an-seo-agency-in-2026/#:~:text=For%20the%20last%20two%20decades,2026%20is%20no%20different.",
+          "displayed_link": "https://www.jumpfly.com \u203a blog \u203a why-you-absolutely-s...",
+          "title": "Why You Absolutely Still Need an SEO Agency in 2026 - JumpFly"
+        },
+        "block_position": 11
+      },
+      {
+        "question": "What is the 80/20 rule in SEO?",
+        "block_position": 11
+      }
+    ],
+    "discussions_and_forums": [],
+    "related_searches": [
+      {
+        "query": "Best ai search optimization nyc",
+        "link": "https://www.google.com/search?sca_esv=da50c45d53610c17&gl=us&hl=en&q=Best+ai+search+optimization+nyc&sa=X&ved=2ahUKEwi78M2C8q-TAxUinCYFHV2OIGkQ1QJ6BAgsEAE",
+        "block_position": 12
+      },
+      {
+        "query": "Ai search optimization nyc reviews",
+        "link": "https://www.google.com/search?sca_esv=da50c45d53610c17&gl=us&hl=en&q=Ai+search+optimization+nyc+reviews&sa=X&ved=2ahUKEwi78M2C8q-TAxUinCYFHV2OIGkQ1QJ6BAg4EAE",
+        "block_position": 12
+      },
+      {
+        "query": "AI search optimization tools",
+        "link": "https://www.google.com/search?sca_esv=da50c45d53610c17&gl=us&hl=en&q=AI+search+optimization+tools&sa=X&ved=2ahUKEwi78M2C8q-TAxUinCYFHV2OIGkQ1QJ6BAgzEAE",
+        "block_position": 12
+      },
+      {
+        "query": "Profound AI",
+        "link": "https://www.google.com/search?sca_esv=da50c45d53610c17&gl=us&hl=en&q=Profound+AI&sa=X&ved=2ahUKEwi78M2C8q-TAxUinCYFHV2OIGkQ1QJ6BAg0EAE",
+        "block_position": 12
+      },
+      {
+        "query": "NY SEO company",
+        "link": "https://www.google.com/search?sca_esv=da50c45d53610c17&gl=us&hl=en&q=NY+SEO+company&sa=X&ved=2ahUKEwi78M2C8q-TAxUinCYFHV2OIGkQ1QJ6BAgwEAE",
+        "block_position": 12
+      },
+      {
+        "query": "Athena ai search optimization",
+        "link": "https://www.google.com/search?sca_esv=da50c45d53610c17&gl=us&hl=en&q=Athena+ai+search+optimization&sa=X&ved=2ahUKEwi78M2C8q-TAxUinCYFHV2OIGkQ1QJ6BAgvEAE",
+        "block_position": 12
+      },
+      {
+        "query": "Profound seo ai",
+        "link": "https://www.google.com/search?sca_esv=da50c45d53610c17&gl=us&hl=en&q=Profound+seo+ai&sa=X&ved=2ahUKEwi78M2C8q-TAxUinCYFHV2OIGkQ1QJ6BAguEAE",
+        "block_position": 12
+      },
+      {
+        "query": "Profound AI linkedin",
+        "link": "https://www.google.com/search?sca_esv=da50c45d53610c17&gl=us&hl=en&q=Profound+AI+linkedin&sa=X&ved=2ahUKEwi78M2C8q-TAxUinCYFHV2OIGkQ1QJ6BAgtEAE",
+        "block_position": 12
+      }
+    ]
+  },
+  {
+    "query": "ai search optimization nj",
+    "location": "Jersey City NJ",
+    "label": "ai search optimization nj [Jersey City NJ]",
+    "search_parameters": {
+      "q": "ai search optimization nj",
+      "location": "Jersey City,New Jersey,United States",
+      "gl": "us",
+      "hl": "en",
+      "device": "desktop",
+      "num": "10",
+      "engine": "google"
+    },
+    "organic_results": [
+      {
+        "position": 1,
+        "block_position": 1,
+        "title": "AI Search Engine Optimization in New Jersey",
+        "link": "https://bullzeyemediamarketing.com/ai-search-engine-optimization-in-new-jersey/",
+        "domain": "bullzeyemediamarketing.com",
+        "displayed_link": "https://bullzeyemediamarketing.com \u203a ai-search-engine-...",
+        "snippet": "Jan 30, 2026 \u2014 This guide provides a professional framework for understanding and implementing AI search engine optimization tailored to the New Jersey market.Read more",
+        "prerender": false,
+        "date": "Jan 30, 2026",
+        "date_utc": "2026-01-30T00:00:00.000Z"
+      },
+      {
+        "position": 2,
+        "block_position": 2,
+        "title": "Trusted AI SEO Agency in New Jersey",
+        "link": "https://www.njlocalmarketing.com/ai-seo-agency-nj",
+        "domain": "www.njlocalmarketing.com",
+        "displayed_link": "https://www.njlocalmarketing.com \u203a ai-seo-agency-nj",
+        "snippet": "5 days ago \u2014 NJ Local Marketing is an AI SEO agency that strategically uses the most advanced technologies to accelerate businesses faster and smarter.Read more",
+        "prerender": false,
+        "date": "5 days ago",
+        "date_utc": "2026-03-16T01:57:43.470Z"
+      },
+      {
+        "position": 3,
+        "block_position": 3,
+        "title": "Best AI Search Optimization Agencies in New Jersey 2026",
+        "link": "https://agencies.semrush.com/list/ai-optimization/new-jersey/",
+        "domain": "agencies.semrush.com",
+        "displayed_link": "https://agencies.semrush.com \u203a list \u203a new-jersey",
+        "snippet": "List of TOP 5 AI Search Optimization Agencies in New Jersey 2026. Discover the most skilled marketing agencies from our community to outsource your ...",
+        "prerender": false
+      },
+      {
+        "position": 4,
+        "block_position": 4,
+        "title": "How AI Search Changes SEO for Businesses in West ...",
+        "link": "https://techdesigno.com/how-ai-search-is-changing-seo-for-businesses-and-why-investing-in-seo-matters-more-than-ever/",
+        "domain": "techdesigno.com",
+        "displayed_link": "https://techdesigno.com \u203a how-ai-search-is-changing-se...",
+        "snippet": "Jan 28, 2026 \u2014 AI search is transforming SEO. Learn why businesses in West Orange, NJ must invest in modern SEO to stay competitive online.",
+        "prerender": false,
+        "date": "Jan 28, 2026",
+        "date_utc": "2026-01-28T00:00:00.000Z"
+      },
+      {
+        "position": 5,
+        "block_position": 5,
+        "title": "AI Search Optimization: Essential Strategies for 2025",
+        "link": "https://digitalmarketingnewjersey.us/blog/ai-search-optimization-essential-strategies-for-2025/",
+        "domain": "digitalmarketingnewjersey.us",
+        "displayed_link": "https://digitalmarketingnewjersey.us \u203a blog \u203a ai-search-...",
+        "snippet": "Sep 15, 2025 \u2014 AI search optimization 2025: Master essential strategies for optimizing websites to perform better in AI-powered search environments.",
+        "prerender": false,
+        "date": "Sep 15, 2025",
+        "date_utc": "2025-09-15T00:00:00.000Z"
+      },
+      {
+        "position": 6,
+        "block_position": 6,
+        "title": "AI SEO Services NJ | AI-Powered Search Optimization",
+        "link": "https://njseoguys.com/ai-seo",
+        "domain": "njseoguys.com",
+        "displayed_link": "https://njseoguys.com \u203a ai-seo",
+        "snippet": "AI-powered SEO services that use machine learning for content optimization, search intent analysis, and competitive intelligence. NJ-based, human-led. Free",
+        "prerender": false
+      },
+      {
+        "position": 7,
+        "block_position": 8,
+        "title": "AI SEO Marketing Company NJ | Web Design ...",
+        "link": "https://www.expreseo.com/",
+        "domain": "www.expreseo.com",
+        "displayed_link": "https://www.expreseo.com",
+        "snippet": "We design websites that convert strangers into customers. Our affordable websites and SEO plans help you get ranked on top of Google.Read more",
+        "prerender": false
+      },
+      {
+        "position": 8,
+        "block_position": 9,
+        "title": "NJ SEO - New Jersey",
+        "link": "https://caveni.com/locations/usa/new-jersey-nj/nj-seo/",
+        "domain": "caveni.com",
+        "displayed_link": "https://caveni.com \u203a Locations \u203a USA \u203a New Jersey",
+        "snippet": "Our team uses powerful artificial intelligence to work for you in the New Jersey SEO space. We utilize cutting edge technology to decide the best course of ...Read more",
+        "prerender": false
+      },
+      {
+        "position": 9,
+        "block_position": 10,
+        "title": "local SEO Services Central New Jersey - AI SEO Company NJ",
+        "link": "https://www.seonewjersey.net/seo",
+        "domain": "www.seonewjersey.net",
+        "displayed_link": "https://www.seonewjersey.net \u203a seo",
+        "snippet": "Local SEO Starting @ $300. Contact Us for Free Consultation ... With 20 plus years of experience in the SEO industry, our founder NJ SEO Expert Shailen Lodhia has ...Read more",
+        "prerender": false
+      },
+      {
+        "position": 10,
+        "block_position": 11,
+        "title": "Local SEO NJ: Boost Your New Jersey Business's Local ...",
+        "link": "https://sgsolutionsllc.com/",
+        "domain": "sgsolutionsllc.com",
+        "displayed_link": "https://sgsolutionsllc.com",
+        "snippet": "Search Geek Solutions is a New Jersey\u2013based local SEO agency helping local businesses improve their website, SEO services, and digital marketing results.Read more",
+        "prerender": false
+      }
+    ],
+    "local_results": [],
+    "ai_overview": {
+      "message": "Google offers an AI Overview for this search. To get AI overview result, please use the include_ai_overview=true request parameter. One extra credit applies if results exist."
+    },
+    "related_questions": [
+      {
+        "question": "What is the 30% rule in AI?",
+        "block_position": 7
+      },
+      {
+        "question": "How much does AI SEO cost?",
+        "block_position": 7
+      },
+      {
+        "question": "Is there an AI data center in NJ?",
+        "search": {
+          "link": "https://www.google.com/search?sca_esv=da50c45d53610c17&gl=us&hl=en&udm=50&q=Is+there+an+AI+data+center+in+NJ%3F+Tell+me+more+about+CoreSite+NY3&aep=64&sa=X&ved=2ahUKEwjFlqqE8q-TAxUq9gIHHX8RPRMQy8AQKAB6BAhLEAc",
+          "title": "An error has occurred. Please try again later."
+        },
+        "block_position": 7
+      },
+      {
+        "question": "What is the 80 20 rule of SEO?",
+        "block_position": 7
+      }
+    ],
+    "discussions_and_forums": [],
+    "related_searches": [
+      {
+        "query": "SEO Agency NJ",
+        "link": "https://www.google.com/search?sca_esv=da50c45d53610c17&gl=us&hl=en&q=SEO+Agency+NJ&sa=X&ved=2ahUKEwjFlqqE8q-TAxUq9gIHHX8RPRMQ1QJ6BAg9EAE",
+        "block_position": 12
+      },
+      {
+        "query": "NJ Local Marketing",
+        "link": "https://www.google.com/search?sca_esv=da50c45d53610c17&gl=us&hl=en&q=NJ+Local+Marketing&sa=X&ved=2ahUKEwjFlqqE8q-TAxUq9gIHHX8RPRMQ1QJ6BAhWEAE",
+        "block_position": 12
+      },
+      {
+        "query": "Digital marketing agency New Jersey",
+        "link": "https://www.google.com/search?sca_esv=da50c45d53610c17&gl=us&hl=en&q=Digital+marketing+agency+New+Jersey&sa=X&ved=2ahUKEwjFlqqE8q-TAxUq9gIHHX8RPRMQ1QJ6BAhQEAE",
+        "block_position": 12
+      },
+      {
+        "query": "Advertising agencies in New Jersey",
+        "link": "https://www.google.com/search?sca_esv=da50c45d53610c17&gl=us&hl=en&q=Advertising+agencies+in+New+Jersey&sa=X&ved=2ahUKEwjFlqqE8q-TAxUq9gIHHX8RPRMQ1QJ6BAhNEAE",
+        "block_position": 12
+      },
+      {
+        "query": "Social media marketing nj",
+        "link": "https://www.google.com/search?sca_esv=da50c45d53610c17&gl=us&hl=en&q=Social+media+marketing+nj&sa=X&ved=2ahUKEwjFlqqE8q-TAxUq9gIHHX8RPRMQ1QJ6BAhMEAE",
+        "block_position": 12
+      },
+      {
+        "query": "Marketing agency monmouth county nj",
+        "link": "https://www.google.com/search?sca_esv=da50c45d53610c17&gl=us&hl=en&q=Marketing+agency+monmouth+county+nj&sa=X&ved=2ahUKEwjFlqqE8q-TAxUq9gIHHX8RPRMQ1QJ6BAhEEAE",
+        "block_position": 12
+      },
+      {
+        "query": "Organical seo",
+        "link": "https://www.google.com/search?sca_esv=da50c45d53610c17&gl=us&hl=en&q=Organical+seo&sa=X&ved=2ahUKEwjFlqqE8q-TAxUq9gIHHX8RPRMQ1QJ6BAhBEAE",
+        "block_position": 12
+      },
+      {
+        "query": "Media companies in NJ",
+        "link": "https://www.google.com/search?sca_esv=da50c45d53610c17&gl=us&hl=en&q=Media+companies+in+NJ&sa=X&ved=2ahUKEwjFlqqE8q-TAxUq9gIHHX8RPRMQ1QJ6BAg-EAE",
+        "block_position": 12
+      }
+    ]
+  },
+  {
+    "query": "ai search optimization new york city",
+    "location": "Jersey City NJ",
+    "label": "ai search optimization new york city [Jersey City NJ]",
+    "search_parameters": {
+      "q": "ai search optimization new york city",
+      "location": "Jersey City,New Jersey,United States",
+      "gl": "us",
+      "hl": "en",
+      "device": "desktop",
+      "num": "10",
+      "engine": "google"
+    },
+    "organic_results": [
+      {
+        "position": 1,
+        "block_position": 1,
+        "title": "Best AI Search Optimization Agencies in New York 2026",
+        "link": "https://agencies.semrush.com/list/ai-optimization/new-york/",
+        "domain": "agencies.semrush.com",
+        "displayed_link": "https://agencies.semrush.com \u203a list \u203a new-york",
+        "snippet": "List of TOP 27 AI Search Optimization Agencies in New York 2026. Discover the most skilled marketing agencies from our community to outsource your marketing ...",
+        "prerender": false
+      },
+      {
+        "position": 2,
+        "block_position": 2,
+        "title": "Best AI SEO Agency in Manhattan NYC | Top GEO Experts ...",
+        "link": "https://primaryposition.com/",
+        "domain": "primaryposition.com",
+        "displayed_link": "https://primaryposition.com",
+        "snippet": "Primary Position is a New York based SEO and Internet marketing agency with many years of experience working with US and International clients.Read more",
+        "prerender": false
+      },
+      {
+        "position": 3,
+        "block_position": 3,
+        "title": "AI Search Optimization Services | Boost Brand's Visibility",
+        "link": "https://www.hozio.com/services/seo-services/ai-search-optimization/",
+        "domain": "www.hozio.com",
+        "displayed_link": "https://www.hozio.com \u203a Services \u203a SEO Services",
+        "snippet": "Stay ahead in the age of conversational search. Hozio's AI Search Optimization ensures your business appears in AI-driven search results, driving traffic.",
+        "prerender": false,
+        "missing_words": [
+          "city"
+        ]
+      },
+      {
+        "position": 4,
+        "block_position": 4,
+        "title": "NYC Local SEO Agency | GEO & AI Search Optimization",
+        "link": "https://www.localmighty.com/new-york-city/",
+        "domain": "www.localmighty.com",
+        "displayed_link": "https://www.localmighty.com \u203a new-york-city",
+        "snippet": "Backed by years of hands-on SEO experience and advanced AI-driven strategies, we help New York City local businesses earn top Google rankings, drive qualified ...Read more",
+        "prerender": false
+      },
+      {
+        "position": 5,
+        "block_position": 5,
+        "title": "Top AI SEO Agencies in New York",
+        "link": "https://www.uforocks.com/blog/top-ai-seo-agencies-in-new-york/",
+        "domain": "www.uforocks.com",
+        "displayed_link": "https://www.uforocks.com \u203a blog \u203a top-ai-seo-agencies-i...",
+        "snippet": "Nov 13, 2025 \u2014 This article highlights 15 leading AI-SEO agencies, each offering differentiated capabilities that bridge search visibility, generative engine ...Read more",
+        "prerender": false,
+        "missing_words": [
+          "city"
+        ],
+        "date": "Nov 13, 2025",
+        "date_utc": "2025-11-13T00:00:00.000Z"
+      },
+      {
+        "position": 6,
+        "block_position": 6,
+        "title": "SEO / AI Search Engine Optimization - Get Found Online",
+        "link": "https://avenuez.com/services/seo-ai-search/",
+        "domain": "avenuez.com",
+        "displayed_link": "https://avenuez.com \u203a Our Services",
+        "snippet": "Expert SEO / AI Search Engine Optimization services to enhance your website's visibility on traditional search engines and emerging AI search platforms.",
+        "prerender": false,
+        "missing_words": [
+          "city"
+        ]
+      },
+      {
+        "position": 7,
+        "block_position": 7,
+        "title": "AI Search Optimization in New York City, NY",
+        "link": "https://grindflame.com/areas-we-serve/new-york/new-york-city/ai-search-optimization/",
+        "domain": "grindflame.com",
+        "displayed_link": "https://grindflame.com \u203a ... \u203a New York \u203a New York City",
+        "snippet": "Track how your New York City business appears across major AI platforms and emerging search tools. Ongoing Optimization. AI search algorithms evolve constantly.Read more",
+        "prerender": false
+      },
+      {
+        "position": 8,
+        "block_position": 8,
+        "title": "AI Search Optimization in NY | Stay Competitive",
+        "link": "https://www.synscribe.com/service/ai-search-optimization-ny",
+        "domain": "www.synscribe.com",
+        "displayed_link": "https://www.synscribe.com \u203a service \u203a ai-search-optimiza...",
+        "snippet": "AI Search Optimization in NY is crucial for staying competitive. Our proprietary Generative Engine Optimization (GEO) ensures your brand appears in AI answers",
+        "prerender": false
+      },
+      {
+        "position": 9,
+        "block_position": 9,
+        "title": "AI & SEO Website Optimization Services",
+        "link": "https://krs-creative.com/services/ai-seo-optimization/",
+        "domain": "krs-creative.com",
+        "displayed_link": "https://krs-creative.com \u203a Services",
+        "snippet": "5 days ago \u2014 We optimize WordPress websites to be clear, fast, and structured in a way that works for both search engines and AI-powered discovery tools. We ...Read more",
+        "prerender": false,
+        "date": "5 days ago",
+        "date_utc": "2026-03-16T01:57:45.603Z"
+      },
+      {
+        "position": 10,
+        "block_position": 10,
+        "title": "SEO company in New York, NY 10016",
+        "link": "https://www.cbidigital.com/services/search-engine-optimization-nyc",
+        "domain": "www.cbidigital.com",
+        "displayed_link": "https://www.cbidigital.com \u203a services \u203a search-engine-op...",
+        "snippet": "Our professional white-hat SEO services will boost your traffic & revenue from organic search. Call CBI agency in New York at 01-646-688-4899 to drive your ...",
+        "prerender": false,
+        "missing_words": [
+          "city"
+        ]
+      }
+    ],
+    "local_results": [],
+    "ai_overview": {
+      "message": "Google offers an AI Overview for this search. To get AI overview result, please use the include_ai_overview=true request parameter. One extra credit applies if results exist."
+    },
+    "related_questions": [],
+    "discussions_and_forums": [],
+    "related_searches": [
+      {
+        "query": "Best ai search optimization new york city",
+        "link": "https://www.google.com/search?sca_esv=da50c45d53610c17&gl=us&hl=en&q=Best+ai+search+optimization+new+york+city&sa=X&ved=2ahUKEwiCybSF8q-TAxUBj2oFHZzRBzQQ1QJ6BAguEAE",
+        "block_position": 11
+      },
+      {
+        "query": "Ai search optimization new york city review",
+        "link": "https://www.google.com/search?sca_esv=da50c45d53610c17&gl=us&hl=en&q=Ai+search+optimization+new+york+city+review&sa=X&ved=2ahUKEwiCybSF8q-TAxUBj2oFHZzRBzQQ1QJ6BAg1EAE",
+        "block_position": 11
+      },
+      {
+        "query": "SEO services in New York",
+        "link": "https://www.google.com/search?sca_esv=da50c45d53610c17&gl=us&hl=en&q=SEO+services+in+New+York&sa=X&ved=2ahUKEwiCybSF8q-TAxUBj2oFHZzRBzQQ1QJ6BAg0EAE",
+        "block_position": 11
+      },
+      {
+        "query": "SEO expert in New York",
+        "link": "https://www.google.com/search?sca_esv=da50c45d53610c17&gl=us&hl=en&q=SEO+expert+in+New+York&sa=X&ved=2ahUKEwiCybSF8q-TAxUBj2oFHZzRBzQQ1QJ6BAgzEAE",
+        "block_position": 11
+      },
+      {
+        "query": "Digital marketing in new york city",
+        "link": "https://www.google.com/search?sca_esv=da50c45d53610c17&gl=us&hl=en&q=Digital+marketing+in+new+york+city&sa=X&ved=2ahUKEwiCybSF8q-TAxUBj2oFHZzRBzQQ1QJ6BAgyEAE",
+        "block_position": 11
+      },
+      {
+        "query": "Nyc seo pro",
+        "link": "https://www.google.com/search?sca_esv=da50c45d53610c17&gl=us&hl=en&q=Nyc+seo+pro&sa=X&ved=2ahUKEwiCybSF8q-TAxUBj2oFHZzRBzQQ1QJ6BAgxEAE",
+        "block_position": 11
+      },
+      {
+        "query": "Digital marketing services in new york",
+        "link": "https://www.google.com/search?sca_esv=da50c45d53610c17&gl=us&hl=en&q=Digital+marketing+services+in+new+york&sa=X&ved=2ahUKEwiCybSF8q-TAxUBj2oFHZzRBzQQ1QJ6BAgvEAE",
+        "block_position": 11
+      },
+      {
+        "query": "Best digital marketing in new york",
+        "link": "https://www.google.com/search?sca_esv=da50c45d53610c17&gl=us&hl=en&q=Best+digital+marketing+in+new+york&sa=X&ved=2ahUKEwiCybSF8q-TAxUBj2oFHZzRBzQQ1QJ6BAgwEAE",
+        "block_position": 11
+      }
+    ]
+  },
+  {
+    "query": "ai local",
+    "location": "Jersey City NJ",
+    "label": "ai local [Jersey City NJ]",
+    "search_parameters": {
+      "q": "ai local",
+      "location": "Jersey City,New Jersey,United States",
+      "gl": "us",
+      "hl": "en",
+      "device": "desktop",
+      "num": "10",
+      "engine": "google"
+    },
+    "organic_results": [
+      {
+        "position": 1,
+        "block_position": 1,
+        "title": "LocalAI",
+        "link": "https://localai.io/",
+        "domain": "localai.io",
+        "displayed_link": "https://localai.io",
+        "snippet": "The free, OpenAI, Anthropic alternative. Your All-in-One Complete AI Stack - Run powerful language models, autonomous agents, and document intelligence locally ...Read more",
+        "prerender": false
+      },
+      {
+        "position": 2,
+        "block_position": 2,
+        "title": "LM Studio - Local AI on your computer",
+        "link": "https://lmstudio.ai/",
+        "domain": "lmstudio.ai",
+        "displayed_link": "https://lmstudio.ai",
+        "snippet": "Connect to remote instances of LM Studio, load your models, and use them as if they were local. Get started. Run AI models, locally and privately.Read more",
+        "prerender": false
+      },
+      {
+        "position": 3,
+        "block_position": 4,
+        "title": "A Starter Guide for Playing with Your Own Local AI!",
+        "link": "https://www.reddit.com/r/LocalLLaMA/comments/16y95hk/a_starter_guide_for_playing_with_your_own_local_ai/",
+        "domain": "www.reddit.com",
+        "displayed_link": "110+ comments  \u00b7  2 years ago",
+        "snippet": "An LLM is the \"brains\" behind an AI. This is what does all the thinking and is something that we can run locally; like our own personal ChatGPT ...Read more",
+        "prerender": false
+      },
+      {
+        "position": 4,
+        "block_position": 5,
+        "title": "Local AI Chat - App Store",
+        "link": "https://apps.apple.com/us/app/locally-ai-local-ai-chat/id6741426692",
+        "domain": "apps.apple.com",
+        "displayed_link": "https://apps.apple.com \u203a app \u203a locally-ai-local-ai-chat",
+        "snippet": "Run AI models like Llama, Gemma, Qwen, and more on your iPhone and iPad. Offline. Private. No login. No data collection. Powered by Apple MLX. Meet Locally ...Read more",
+        "prerender": false
+      },
+      {
+        "position": 5,
+        "block_position": 6,
+        "title": "How to Run AI Models Locally (2026) : Tools, Setup & Tips",
+        "link": "https://www.clarifai.com/blog/how-to-run-ai-models-locally-2025-tools-setup-tips",
+        "domain": "www.clarifai.com",
+        "displayed_link": "https://www.clarifai.com \u203a blog \u203a how-to-run-ai-models...",
+        "snippet": "Sep 11, 2025 \u2014 How to Run a Local AI Model: Step\u2011By\u2011Step \u00b7 1. Choose Your Model \u00b7 3. Install a Runtime: \u00b7 4. Set Up an environment \u00b7 5. Run & test \u00b7 6. Scale & ...Read more",
+        "prerender": false,
+        "date": "Sep 11, 2025",
+        "date_utc": "2025-09-11T00:00:00.000Z"
+      },
+      {
+        "position": 6,
+        "block_position": 7,
+        "title": "mudler/LocalAI: :robot: The free, Open Source ...",
+        "link": "https://github.com/mudler/LocalAI",
+        "domain": "github.com",
+        "displayed_link": "https://github.com \u203a mudler \u203a LocalAI",
+        "snippet": "LocalAI is the free, Open Source OpenAI alternative. LocalAI act as a drop-in replacement REST API that's compatible with OpenAI (Elevenlabs, Anthropic.Read more",
+        "prerender": false
+      },
+      {
+        "position": 7,
+        "block_position": 8,
+        "title": "The Local AI Playground",
+        "link": "https://www.localai.app/",
+        "domain": "www.localai.app",
+        "displayed_link": "https://www.localai.app",
+        "snippet": "Local AI Management, Verification, & Inferencing. Experiment with AI offline, in private. No GPU required! - A native app made to simplify the whole process ...Read more",
+        "prerender": false
+      },
+      {
+        "position": 8,
+        "block_position": 9,
+        "title": "Locally AI - Run AI models locally on your iPhone, iPad, and ...",
+        "link": "https://locallyai.app/",
+        "domain": "locallyai.app",
+        "displayed_link": "https://locallyai.app",
+        "snippet": "Download Locally AI from the App Store or Mac App Store, choose an AI model to download, and start chatting. No account creation or login required, just ...Read more",
+        "prerender": false
+      }
+    ],
+    "local_results": [],
+    "ai_overview": {
+      "message": "Google offers an AI Overview for this search. To get AI overview result, please use the include_ai_overview=true request parameter. One extra credit applies if results exist."
+    },
+    "related_questions": [],
+    "discussions_and_forums": [],
+    "related_searches": [
+      {
+        "query": "Local AI download",
+        "link": "https://www.google.com/search?sca_esv=ce4f24d74213acb6&gl=us&hl=en&q=Local+AI+download&sa=X&ved=2ahUKEwjYnZ6I8q-TAxXGlWoFHcVpAPIQ1QJ6BAgoEAE",
+        "block_position": 10
+      },
+      {
+        "query": "Local AI Android",
+        "link": "https://www.google.com/search?sca_esv=ce4f24d74213acb6&gl=us&hl=en&q=Local+AI+Android&sa=X&ved=2ahUKEwjYnZ6I8q-TAxXGlWoFHcVpAPIQ1QJ6BAguEAE",
+        "block_position": 10
+      },
+      {
+        "query": "AI local model",
+        "link": "https://www.google.com/search?sca_esv=ce4f24d74213acb6&gl=us&hl=en&q=AI+local+model&sa=X&ved=2ahUKEwjYnZ6I8q-TAxXGlWoFHcVpAPIQ1QJ6BAgtEAE",
+        "block_position": 10
+      },
+      {
+        "query": "Local AI Windows",
+        "link": "https://www.google.com/search?sca_esv=ce4f24d74213acb6&gl=us&hl=en&q=Local+AI+Windows&sa=X&ved=2ahUKEwjYnZ6I8q-TAxXGlWoFHcVpAPIQ1QJ6BAgsEAE",
+        "block_position": 10
+      },
+      {
+        "query": "Free local AI",
+        "link": "https://www.google.com/search?sca_esv=ce4f24d74213acb6&gl=us&hl=en&q=Free+local+AI&sa=X&ved=2ahUKEwjYnZ6I8q-TAxXGlWoFHcVpAPIQ1QJ6BAgrEAE",
+        "block_position": 10
+      },
+      {
+        "query": "Best local AI",
+        "link": "https://www.google.com/search?sca_esv=ce4f24d74213acb6&gl=us&hl=en&q=Best+local+AI&sa=X&ved=2ahUKEwjYnZ6I8q-TAxXGlWoFHcVpAPIQ1QJ6BAgqEAE",
+        "block_position": 10
+      },
+      {
+        "query": "Run AI locally Windows",
+        "link": "https://www.google.com/search?sca_esv=ce4f24d74213acb6&gl=us&hl=en&q=Run+AI+locally+Windows&sa=X&ved=2ahUKEwjYnZ6I8q-TAxXGlWoFHcVpAPIQ1QJ6BAgpEAE",
+        "block_position": 10
+      },
+      {
+        "query": "Locally AI app",
+        "link": "https://www.google.com/search?sca_esv=ce4f24d74213acb6&gl=us&hl=en&q=Locally+AI+app&sa=X&ved=2ahUKEwjYnZ6I8q-TAxXGlWoFHcVpAPIQ1QJ6BAgnEAE",
+        "block_position": 10
+      }
+    ]
+  },
+  {
+    "query": "locally ai",
+    "location": "Jersey City NJ",
+    "label": "locally ai [Jersey City NJ]",
+    "search_parameters": {
+      "q": "locally ai",
+      "location": "Jersey City,New Jersey,United States",
+      "gl": "us",
+      "hl": "en",
+      "device": "desktop",
+      "num": "10",
+      "engine": "google"
+    },
+    "organic_results": [
+      {
+        "position": 1,
+        "block_position": 1,
+        "title": "Locally AI - Run AI models locally on your iPhone, iPad, and ...",
+        "link": "https://www.locallyai.app/",
+        "domain": "www.locallyai.app",
+        "displayed_link": "https://www.locallyai.app",
+        "snippet": "Download Locally AI from the App Store or Mac App Store, choose an AI model to download, and start chatting. No account creation or login required, just ...Read more",
+        "prerender": false
+      },
+      {
+        "position": 2,
+        "block_position": 4,
+        "title": "Local AI Chat - App Store",
+        "link": "https://apps.apple.com/us/app/locally-ai-local-ai-chat/id6741426692",
+        "domain": "apps.apple.com",
+        "displayed_link": "https://apps.apple.com \u203a app \u203a locally-ai-local-ai-chat",
+        "snippet": "Run AI models like Llama, Gemma, Qwen, and more on your iPhone and iPad. Offline. Private. No login. No data collection. Powered by Apple MLX. Meet Locally ...Read more",
+        "prerender": false
+      },
+      {
+        "position": 3,
+        "block_position": 5,
+        "title": "LocalAI",
+        "link": "https://localai.io/",
+        "domain": "localai.io",
+        "displayed_link": "https://localai.io",
+        "snippet": "The free, OpenAI, Anthropic alternative. Your All-in-One Complete AI Stack - Run powerful language models, autonomous agents, and document intelligence locally ...Read more",
+        "prerender": false
+      },
+      {
+        "position": 4,
+        "block_position": 6,
+        "title": "Locally AI now taps into Apple Foundation models",
+        "link": "https://www.reddit.com/r/apple/comments/1nirfxn/locally_ai_now_taps_into_apple_foundation_models/",
+        "domain": "www.reddit.com",
+        "displayed_link": "30+ comments  \u00b7  6 months ago",
+        "snippet": "If you want to test Apple Foundation models, Locally AI allows you to tap into those models via a chatbot interface. Upvote 27. Downvote 36 Go ...Read more",
+        "prerender": false
+      },
+      {
+        "position": 5,
+        "block_position": 7,
+        "title": "LM Studio - Local AI on your computer",
+        "link": "https://lmstudio.ai/",
+        "domain": "lmstudio.ai",
+        "displayed_link": "https://lmstudio.ai",
+        "snippet": "Connect to remote instances of LM Studio, load your models, and use them as if they were local. Get started. Run AI models, locally and privately.Read more",
+        "prerender": false
+      },
+      {
+        "position": 6,
+        "block_position": 8,
+        "title": "How to Run AI Models Locally (2026) : Tools, Setup & Tips",
+        "link": "https://www.clarifai.com/blog/how-to-run-ai-models-locally-2025-tools-setup-tips",
+        "domain": "www.clarifai.com",
+        "displayed_link": "https://www.clarifai.com \u203a blog \u203a how-to-run-ai-models...",
+        "snippet": "Sep 11, 2025 \u2014 How to Run a Local AI Model: Step\u2011By\u2011Step \u00b7 1. Choose Your Model \u00b7 3. Install a Runtime: \u00b7 4. Set Up an environment \u00b7 5. Run & test \u00b7 6. Scale & ...Read more",
+        "prerender": false,
+        "date": "Sep 11, 2025",
+        "date_utc": "2025-09-11T00:00:00.000Z"
+      },
+      {
+        "position": 7,
+        "block_position": 9,
+        "title": "Local AI - Offline AI chatbot - Apps on Google Play",
+        "link": "https://play.google.com/store/apps/details?id=com.ishanvohra2.localai&hl=en_US",
+        "domain": "play.google.com",
+        "displayed_link": "https://play.google.com \u203a store \u203a apps \u203a details",
+        "snippet": "Unlock the power of AI with Local AI\u2014the ultimate chatbot that works entirely offline. No internet, no data sharing\u2014just smart, secure conversations anytime, ...Read more",
+        "prerender": false
+      },
+      {
+        "position": 8,
+        "block_position": 10,
+        "title": "Use local AI with Microsoft Foundry on Windows",
+        "link": "https://learn.microsoft.com/en-us/windows/ai/overview",
+        "domain": "learn.microsoft.com",
+        "displayed_link": "https://learn.microsoft.com \u203a Learn \u203a Windows \u203a AI",
+        "snippet": "Jan 23, 2026 \u2014 Microsoft Foundry on Windows is the premier solution for developers looking to integrate local AI capabilities into their Windows apps.Read more",
+        "prerender": false,
+        "date": "Jan 23, 2026",
+        "date_utc": "2026-01-23T00:00:00.000Z"
+      }
+    ],
+    "local_results": [],
+    "ai_overview": {
+      "message": "Google offers an AI Overview for this search. To get AI overview result, please use the include_ai_overview=true request parameter. One extra credit applies if results exist."
+    },
+    "related_questions": [
+      {
+        "question": "Is it possible to use AI locally?",
+        "answer": "Local AI lets you run models entirely on your hardware. This gives you full control over your data, reduces latency, and often lowers costs. However, you'll need the right hardware, software, and strategies to tackle challenges like memory limits and model updates.",
+        "source": {
+          "link": "https://www.clarifai.com/blog/how-to-run-ai-models-locally-2025-tools-setup-tips#:~:text=Local%20AI%20lets%20you%20run,memory%20limits%20and%20model%20updates.",
+          "displayed_link": "https://www.clarifai.com \u203a blog \u203a how-to-run-ai-models...",
+          "title": "How to Run AI Models Locally (2026) : Tools, Setup & Tips"
+        },
+        "block_position": 3
+      },
+      {
+        "question": "Is locally AI free?",
+        "answer": "The free, OpenAI, Anthropic alternative. Your All-in-One Complete AI Stack - Run powerful language models, autonomous agents, and document intelligence locally on your hardware. No cloud, no limits, no compromise.",
+        "source": {
+          "link": "https://localai.io/#:~:text=The%20free%2C%20OpenAI%2C%20Anthropic%20alternative,%2C%20no%20limits%2C%20no%20compromise.",
+          "displayed_link": "https://localai.io",
+          "title": "LocalAI"
+        },
+        "block_position": 3
+      },
+      {
+        "question": "What AI works without internet?",
+        "answer": "Layla is an artificial intelligence that runs on your phone. No internet connection. Fully private.",
+        "source": {
+          "link": "https://www.layla-network.ai/#:~:text=Layla%20is%20an%20artificial%20intelligence%20that%20runs%20on%20your%20phone.&text=No%20internet%20connection.,Fully%20private.",
+          "displayed_link": "https://www.layla-network.ai",
+          "title": "Layla - Experience the Best Offline AI Assistant | Layla AI"
+        },
+        "block_position": 3
+      },
+      {
+        "question": "What is the 30% rule in AI?",
+        "block_position": 3
+      }
+    ],
+    "discussions_and_forums": [],
+    "related_searches": [
+      {
+        "query": "Locally AI app",
+        "link": "https://www.google.com/search?sca_esv=da50c45d53610c17&gl=us&hl=en&q=Locally+AI+app&sa=X&ved=2ahUKEwjaqeCJ8q-TAxXFgP0HHYmMJx0Q1QJ6BAg9EAE",
+        "block_position": 11
+      },
+      {
+        "query": "Locally AI Android",
+        "link": "https://www.google.com/search?sca_esv=da50c45d53610c17&gl=us&hl=en&q=Locally+AI+Android&sa=X&ved=2ahUKEwjaqeCJ8q-TAxXFgP0HHYmMJx0Q1QJ6BAhJEAE",
+        "block_position": 11
+      },
+      {
+        "query": "Locally AI reddit",
+        "link": "https://www.google.com/search?sca_esv=da50c45d53610c17&gl=us&hl=en&q=Locally+AI+reddit&sa=X&ved=2ahUKEwjaqeCJ8q-TAxXFgP0HHYmMJx0Q1QJ6BAhFEAE",
+        "block_position": 11
+      },
+      {
+        "query": "Locally AI download",
+        "link": "https://www.google.com/search?sca_esv=da50c45d53610c17&gl=us&hl=en&q=Locally+AI+download&sa=X&ved=2ahUKEwjaqeCJ8q-TAxXFgP0HHYmMJx0Q1QJ6BAhCEAE",
+        "block_position": 11
+      },
+      {
+        "query": "Locally ai for windows",
+        "link": "https://www.google.com/search?sca_esv=da50c45d53610c17&gl=us&hl=en&q=Locally+ai+for+windows&sa=X&ved=2ahUKEwjaqeCJ8q-TAxXFgP0HHYmMJx0Q1QJ6BAhBEAE",
+        "block_position": 11
+      },
+      {
+        "query": "Locally AI apk",
+        "link": "https://www.google.com/search?sca_esv=da50c45d53610c17&gl=us&hl=en&q=Locally+AI+apk&sa=X&ved=2ahUKEwjaqeCJ8q-TAxXFgP0HHYmMJx0Q1QJ6BAhAEAE",
+        "block_position": 11
+      },
+      {
+        "query": "Locally AI GitHub",
+        "link": "https://www.google.com/search?sca_esv=da50c45d53610c17&gl=us&hl=en&q=Locally+AI+GitHub&sa=X&ved=2ahUKEwjaqeCJ8q-TAxXFgP0HHYmMJx0Q1QJ6BAg_EAE",
+        "block_position": 11
+      },
+      {
+        "query": "Locally AI Mac",
+        "link": "https://www.google.com/search?sca_esv=da50c45d53610c17&gl=us&hl=en&q=Locally+AI+Mac&sa=X&ved=2ahUKEwjaqeCJ8q-TAxXFgP0HHYmMJx0Q1QJ6BAg-EAE",
+        "block_position": 11
+      }
+    ]
+  },
+  {
+    "query": "bergen county seo",
+    "location": "National",
+    "label": "bergen county seo [National]",
+    "search_parameters": {
+      "q": "bergen county seo",
+      "location": "United States",
+      "gl": "us",
+      "hl": "en",
+      "device": "desktop",
+      "num": "10",
+      "engine": "google"
+    },
+    "organic_results": [
+      {
+        "position": 1,
+        "block_position": 2,
+        "title": "Home Page - Bergen County Seo | Search Engine ...",
+        "link": "https://bergencountyseo.com/",
+        "domain": "bergencountyseo.com",
+        "displayed_link": "https://bergencountyseo.com",
+        "snippet": "25 years+ of internet marketing to small business in Bergen County, NJ & surrounding area. Speak To An Expert: (201) 971-2848Read more",
+        "prerender": false
+      },
+      {
+        "position": 2,
+        "block_position": 3,
+        "title": "Bergen county seo - ridgewood internet marketing",
+        "link": "https://sites.google.com/view/bergencountyseohe2/bergen-county-seo",
+        "domain": "sites.google.com",
+        "displayed_link": "https://sites.google.com \u203a view \u203a bergen-county-seo",
+        "snippet": "Learn more about Seo agency nj. wordpress experts bergen county. Bergen Ranks. 28 E Ridgewood Ave, Paramus, NJ 07652. (201) 971-3166.Read more",
+        "prerender": false
+      },
+      {
+        "position": 3,
+        "block_position": 5,
+        "title": "Bergen County SEO Company | Professional SEO Services",
+        "link": "https://wowbix.com/bergen-county-seo/",
+        "domain": "wowbix.com",
+        "displayed_link": "https://wowbix.com \u203a bergen-county-seo",
+        "snippet": "Wowbix is the most professional & affordable Bergen County SEO Company that helps your rank #1 for all the keywords. Get a FREE SEO audit now!",
+        "prerender": false
+      },
+      {
+        "position": 4,
+        "block_position": 6,
+        "title": "SEO Company Bergen County NJ - JKO Consulting",
+        "link": "https://jkoconsulting.com/service/search-engine-optimization-services-bergen-county-nj/",
+        "domain": "jkoconsulting.com",
+        "displayed_link": "https://jkoconsulting.com \u203a Services",
+        "snippet": "JKO Consulting, NJ's leading SEO and app design agency, transforms your online presence with innovative, results-driven strategies.",
+        "prerender": false
+      },
+      {
+        "position": 5,
+        "block_position": 7,
+        "title": "The Hard Truth for Bergen County Contractors. SEO Will ...",
+        "link": "https://organicalseo.com/bergen-county-contractors-seo-phone-ringing/",
+        "domain": "organicalseo.com",
+        "displayed_link": "https://organicalseo.com \u203a SEO For Contractors",
+        "snippet": "Oct 9, 2025 \u2014 Read And Learn Why Contractors In Bergen County Often Have Unrealistic Expectations When They Hire An SEO Agency! Your Phone Will Not Ring ...",
+        "prerender": false,
+        "date": "Oct 9, 2025",
+        "date_utc": "2025-10-09T00:00:00.000Z"
+      },
+      {
+        "position": 6,
+        "block_position": 8,
+        "title": "Local SEO Services For Bergen County NJ",
+        "link": "https://kineticknowledge.com/bergen-county-nj-seo-kinetic-knowledge/",
+        "domain": "kineticknowledge.com",
+        "displayed_link": "https://kineticknowledge.com \u203a bergen-county-nj-seo-k...",
+        "snippet": "Kinetic Knowledge offers affordable, experienced (for over 20 years now), local SEO service to Bergen County, NJ, business owners. Pursuing trusted, fundamental ...Read more",
+        "prerender": false
+      },
+      {
+        "position": 7,
+        "block_position": 9,
+        "title": "Bergen County SEO Services | Montvale, NJ in ...",
+        "link": "https://www.wpamplify.com/bergen-county/",
+        "domain": "www.wpamplify.com",
+        "displayed_link": "https://www.wpamplify.com \u203a bergen-county",
+        "snippet": "We provide WordPress marketing services including search engine optimization, custom website design, full-service blogging and website support.Read more",
+        "prerender": false
+      },
+      {
+        "position": 8,
+        "block_position": 10,
+        "title": "Our Services - Bergen County Seo",
+        "link": "https://bergencountyseo.com/our-services/",
+        "domain": "bergencountyseo.com",
+        "displayed_link": "https://bergencountyseo.com \u203a our-services",
+        "snippet": "We specialize in transforming your online presence through bespoke Google Business Profile optimization, comprehensive SEO strategies, and a full spectrum of ...Read more",
+        "prerender": false
+      },
+      {
+        "position": 9,
+        "block_position": 11,
+        "title": "White Label SEO in Bergen County NJ SEO with a Local ...",
+        "link": "https://atomicsocial.com/white-label-seo-in-bergen-county-nj-seo-with-a-local-focus/",
+        "domain": "atomicsocial.com",
+        "displayed_link": "https://atomicsocial.com \u203a Blog",
+        "snippet": "Nov 11, 2024 \u2014 White label SEO is an invaluable resource for businesses in Bergen County, NJ, looking to boost their online presence, improve local search ...Read more",
+        "prerender": false,
+        "date": "Nov 11, 2024",
+        "date_utc": "2024-11-11T00:00:00.000Z"
+      },
+      {
+        "position": 10,
+        "block_position": 12,
+        "title": "SEO Company in Bergen County,",
+        "link": "https://gal-inc.com/seo-company-cnty.asp?cnty=Bergen",
+        "domain": "gal-inc.com",
+        "displayed_link": "https://gal-inc.com \u203a seo-company-cnty \u203a cnty=Bergen",
+        "snippet": "SEO Company in Bergen County, \u00b7 Proven Track Record: Trusted by businesses for over 20 years. \u00b7 Comprehensive Services: From SEO and PPC to social media ...Read more",
+        "prerender": false
+      }
+    ],
+    "local_results": [
+      {
+        "position": 1,
+        "title": "BERGEN COUNTY SEO",
+        "gps_coordinates": {
+          "latitude": 40.97824,
+          "longitude": -74.113686
+        },
+        "link": "https://bergencountyseo.com/",
+        "address": "Ridgewood, NJ",
+        "business_type": "Internet marketing service",
+        "data_cid": "13457528125323399766",
+        "extensions": [
+          "No reviews &middot; Internet marketing service",
+          "3+ years in business &middot; Ridgewood, NJ",
+          "Closed",
+          "Opens 7\u202fAM Mon &middot; (201) 971-2848"
+        ],
+        "block_position": 4,
+        "knowledge_graph_id": "/g/11s2n8hxmv"
+      },
+      {
+        "position": 2,
+        "title": "NJ SEO Agency | Sovereign",
+        "gps_coordinates": {
+          "latitude": 40.883377,
+          "longitude": -74.043236
+        },
+        "link": "https://sovereignrank.com/",
+        "address": "Hackensack, NJ",
+        "business_type": "Marketing agency",
+        "data_cid": "1754385531359491947",
+        "extensions": [
+          "5.0(4) &middot; Marketing agency",
+          "3+ years in business &middot; Hackensack, NJ",
+          "Closed",
+          "Opens 8\u202fAM Sat &middot; (862) 684-3809"
+        ],
+        "rating": 5,
+        "reviews": 4,
+        "block_position": 4,
+        "knowledge_graph_id": "/g/11szdv01sg"
+      },
+      {
+        "position": 3,
+        "title": "Organical - The SEO Experts",
+        "gps_coordinates": {
+          "latitude": 40.88557,
+          "longitude": -74.04184
+        },
+        "link": "https://organicalseo.com/",
+        "snippet": "Onsite services&middot;Online appointments",
+        "address": "Hackensack, NJ",
+        "business_type": "Marketing agency",
+        "data_cid": "2901815186301409621",
+        "extensions": [
+          "5.0(38) &middot; Marketing agency",
+          "30+ years in business &middot; Hackensack, NJ",
+          "Closed",
+          "Opens 9\u202fAM Mon &middot; (201) 836-1492",
+          "Onsite services&middot;Online appointments"
+        ],
+        "rating": 5,
+        "reviews": 38,
+        "block_position": 4,
+        "knowledge_graph_id": "/g/11f_4s68tn"
+      }
+    ],
+    "ai_overview": null,
+    "related_questions": [],
+    "discussions_and_forums": [],
+    "related_searches": []
+  },
+  {
+    "query": "seo bergen",
+    "location": "National",
+    "label": "seo bergen [National]",
+    "search_parameters": {
+      "q": "seo bergen",
+      "location": "United States",
+      "gl": "us",
+      "hl": "en",
+      "device": "desktop",
+      "num": "10",
+      "engine": "google"
+    },
+    "organic_results": [
+      {
+        "position": 1,
+        "block_position": 1,
+        "title": "Home Page - Bergen County Seo | Search Engine ...",
+        "link": "https://bergencountyseo.com/",
+        "domain": "bergencountyseo.com",
+        "displayed_link": "https://bergencountyseo.com",
+        "snippet": "25 years+ of internet marketing to small business in Bergen County, NJ & surrounding area. Speak To An Expert: (201) 971-2848Read more",
+        "prerender": false
+      },
+      {
+        "position": 2,
+        "block_position": 2,
+        "title": "SEO Company Bergen County NJ - JKO Consulting",
+        "link": "https://jkoconsulting.com/service/search-engine-optimization-services-bergen-county-nj/",
+        "domain": "jkoconsulting.com",
+        "displayed_link": "https://jkoconsulting.com \u203a Services",
+        "snippet": "JKO Consulting, NJ's leading SEO and app design agency, transforms your online presence with innovative, results-driven strategies.",
+        "prerender": false
+      },
+      {
+        "position": 3,
+        "block_position": 3,
+        "title": "Bergen County NJ SEO Agency | Bergen Ranks: Home",
+        "link": "https://bergenranks.com/",
+        "domain": "bergenranks.com",
+        "displayed_link": "https://bergenranks.com",
+        "snippet": "We have a team of highly-educated, experienced and creative web developers. With nearly 10 years of experience, we're confident to help you build a website that ...Read more",
+        "prerender": false
+      },
+      {
+        "position": 4,
+        "block_position": 4,
+        "title": "Bergen county seo - ridgewood internet marketing",
+        "link": "https://sites.google.com/view/bergencountyseohe2/bergen-county-seo",
+        "domain": "sites.google.com",
+        "displayed_link": "https://sites.google.com \u203a view \u203a bergen-county-seo",
+        "snippet": "Learn more about Seo agency nj. wordpress experts bergen county. Bergen Ranks. 28 E Ridgewood Ave, Paramus, NJ 07652. (201) 971-3166.Read more",
+        "prerender": false
+      },
+      {
+        "position": 5,
+        "block_position": 5,
+        "title": "Bergen County SEO Services | Montvale, NJ in ...",
+        "link": "https://www.wpamplify.com/bergen-county/",
+        "domain": "www.wpamplify.com",
+        "displayed_link": "https://www.wpamplify.com \u203a bergen-county",
+        "snippet": "We provide WordPress marketing services including search engine optimization, custom website design, full-service blogging and website support.Read more",
+        "prerender": false
+      },
+      {
+        "position": 6,
+        "block_position": 6,
+        "title": "SEO Marketing Services in Bergen County, New Jersey",
+        "link": "https://www.drawingboardmedia.com/seo-services-search-engine-optimization-new-jersey/",
+        "domain": "www.drawingboardmedia.com",
+        "displayed_link": "https://www.drawingboardmedia.com \u203a seo-services-sear...",
+        "snippet": "New Jersey's SEO Experts. Higher Visibility. Increased Sales. Proven Results. Polished SEO strategies that will drive traffic to your website.Read more",
+        "prerender": false
+      },
+      {
+        "position": 7,
+        "block_position": 7,
+        "title": "Affordable Local SEO Agency in Bergen County NJ",
+        "link": "https://organicalseo.com/services/local-seo-agency-bergen-county/",
+        "domain": "organicalseo.com",
+        "displayed_link": "https://organicalseo.com \u203a Services",
+        "snippet": "The Organical SEO Agency Experts can help you come up with a strategic SEO plan. We are located in Bergen County, NJ. Give us a call for an in-person website ...Read more",
+        "prerender": false
+      },
+      {
+        "position": 8,
+        "block_position": 8,
+        "title": "SEO Company Bergen",
+        "link": "https://plusplydigital.com/seo-bergen/",
+        "domain": "plusplydigital.com",
+        "displayed_link": "https://plusplydigital.com \u203a seo-bergen",
+        "snippet": "We provide Best SEO Bergen strategy. At PLUSPLY SEO we also provide experienced SEO Consultants in Bergen to businesses who demand search engine visibility.Read more",
+        "prerender": false
+      },
+      {
+        "position": 9,
+        "block_position": 9,
+        "title": "Better SEO LLC | North Bergen NJ",
+        "link": "https://www.facebook.com/BetterSEO/",
+        "domain": "www.facebook.com",
+        "displayed_link": "1.1K+ followers",
+        "snippet": "At Better SEO, we specialize in helping your business get the attention it deserves. We provide a ra. \udb85\udfb4 Consulting agency.Read more",
+        "prerender": false
+      },
+      {
+        "position": 10,
+        "block_position": 11,
+        "title": "Boost Your Bergen County Business with Effective Local ...",
+        "link": "https://sgsolutionsllc.com/bergen-county/",
+        "domain": "sgsolutionsllc.com",
+        "displayed_link": "https://sgsolutionsllc.com \u203a bergen-county",
+        "snippet": "A seasoned agency that specializes in SEO initiatives, local optimization, and strategic marketing solutions can effectively position your organization to lead ...Read more",
+        "prerender": false
+      }
+    ],
+    "local_results": [],
+    "ai_overview": {
+      "message": "Google offers an AI Overview for this search. To get AI overview result, please use the include_ai_overview=true request parameter. One extra credit applies if results exist."
+    },
+    "related_questions": [
+      {
+        "question": "Is SEO being phased out?",
+        "answer": "SEO isn't dying. Search has entered its most disruptive phase in decades. AI-powered results, declining click-through rates and new discovery platforms are forcing marketers to rethink what visibility really means. But the fundamentals haven't disappeared.",
+        "source": {
+          "link": "https://passion.digital/blog/is-seo-dead-what-experts-say-about-search-in-the-age-of-ai/#:~:text=SEO%20isn't%20dying.&text=Search%20has%20entered%20its%20most,the%20fundamentals%20haven't%20disappeared.",
+          "displayed_link": "https://passion.digital \u203a blog \u203a is-seo-dead-what-experts-s...",
+          "title": "Is SEO Dead? What the Experts Really Say About Search in the Age ..."
+        },
+        "block_position": 10
+      },
+      {
+        "question": "What is the 80 20 rule of SEO?",
+        "block_position": 10
+      },
+      {
+        "question": "What are the 3 C's of SEO?",
+        "block_position": 10
+      },
+      {
+        "question": "Is SEO worth it anymore?",
+        "answer": "Despite everything changing in the search landscape, one thing has not changed: search engine optimization still delivers some of the strongest long-term ROI in digital marketing. The difference is that in 2026, traditional SEO is no longer the finish line. It is the foundation.",
+        "source": {
+          "link": "https://seosherpa.com/is-seo-worth-the-investment/#:~:text=Despite%20everything%20changing%20in%20the,It%20is%20the%20foundation.",
+          "displayed_link": "https://seosherpa.com \u203a is-seo-worth-the-investment",
+          "title": "Is SEO Worth the Investment in 2026? - SEO Sherpa"
+        },
+        "block_position": 10
+      }
+    ],
+    "discussions_and_forums": [],
+    "related_searches": []
+  },
+  {
+    "query": "local ai",
+    "location": "National",
+    "label": "local ai [National]",
+    "search_parameters": {
+      "q": "local ai",
+      "location": "United States",
+      "gl": "us",
+      "hl": "en",
+      "device": "desktop",
+      "num": "10",
+      "engine": "google"
+    },
+    "organic_results": [
+      {
+        "position": 1,
+        "block_position": 2,
+        "title": "LocalAI",
+        "link": "https://localai.io/",
+        "domain": "localai.io",
+        "displayed_link": "https://localai.io",
+        "snippet": "LLM Inferencing: LocalAI is a free, Open Source OpenAI alternative. Run LLMs, generate images, audio and more locally with consumer grade hardware. Agentic- ...Read more",
+        "prerender": false
+      },
+      {
+        "position": 2,
+        "block_position": 3,
+        "title": "Is local AI worth it? : r/LocalLLaMA",
+        "link": "https://www.reddit.com/r/LocalLLaMA/comments/1pisqnn/is_local_ai_worth_it/",
+        "domain": "www.reddit.com",
+        "displayed_link": "30+ comments  \u00b7  3 months ago",
+        "snippet": "It is super fast - really great - but it can't replace the online ai's. Right now it is useless (except for me test some stuff), but if you want ...Read more",
+        "prerender": false
+      },
+      {
+        "position": 3,
+        "block_position": 5,
+        "title": "mudler/LocalAI: :robot: The free, Open Source ...",
+        "link": "https://github.com/mudler/LocalAI",
+        "domain": "github.com",
+        "displayed_link": "https://github.com \u203a mudler \u203a LocalAI",
+        "snippet": "LocalAI is the free, Open Source OpenAI alternative. LocalAI act as a drop-in replacement REST API that's compatible with OpenAI (Elevenlabs, Anthropic... ) API ...Read more",
+        "prerender": false
+      },
+      {
+        "position": 4,
+        "block_position": 6,
+        "title": "Local AI Chat - App Store",
+        "link": "https://apps.apple.com/us/app/locally-ai-local-ai-chat/id6741426692",
+        "domain": "apps.apple.com",
+        "displayed_link": "https://apps.apple.com \u203a app \u203a locally-ai-local-ai-chat",
+        "snippet": "Run AI models like Llama, Gemma, Qwen, and more on your iPhone and iPad. Offline. Private. No login. No data collection. Powered by Apple MLX. Meet Locally ...Read more",
+        "prerender": false
+      },
+      {
+        "position": 5,
+        "block_position": 7,
+        "title": "LM Studio - Local AI on your computer",
+        "link": "https://lmstudio.ai/",
+        "domain": "lmstudio.ai",
+        "displayed_link": "https://lmstudio.ai",
+        "snippet": "Connect to remote instances of LM Studio, load your models, and use them as if they were local. Get started. Run AI models, locally and privately.Read more",
+        "prerender": false
+      },
+      {
+        "position": 6,
+        "block_position": 9,
+        "title": "The Local AI Playground",
+        "link": "https://www.localai.app/",
+        "domain": "www.localai.app",
+        "displayed_link": "https://www.localai.app",
+        "snippet": "Local AI Management, Verification, & Inferencing. Experiment with AI offline, in private. No GPU required! - A native app made to simplify the whole process ...Read more",
+        "prerender": false
+      },
+      {
+        "position": 7,
+        "block_position": 10,
+        "title": "How to Run AI Models Locally (2026) : Tools, Setup & Tips",
+        "link": "https://www.clarifai.com/blog/how-to-run-ai-models-locally-2025-tools-setup-tips",
+        "domain": "www.clarifai.com",
+        "displayed_link": "https://www.clarifai.com \u203a blog \u203a how-to-run-ai-models...",
+        "snippet": "Sep 11, 2025 \u2014 Local AI lets you run models entirely on your hardware. This gives you full control over your data, reduces latency, and often lowers costs.Read more",
+        "prerender": false,
+        "date": "Sep 11, 2025",
+        "date_utc": "2025-09-11T00:00:00.000Z"
+      },
+      {
+        "position": 8,
+        "block_position": 11,
+        "title": "Overview :: LocalAI",
+        "link": "https://localai.io/docs/overview/",
+        "domain": "localai.io",
+        "displayed_link": "https://localai.io \u203a docs \u203a overview",
+        "snippet": "LocalAI is your complete AI stack for running AI models locally. It's designed to be simple, efficient, and accessible, providing a drop-in replacement for ...Read more",
+        "prerender": false
+      }
+    ],
+    "local_results": [],
+    "ai_overview": {
+      "message": "Google offers an AI Overview for this search. To get AI overview result, please use the include_ai_overview=true request parameter. One extra credit applies if results exist."
+    },
+    "related_questions": [
+      {
+        "question": "Are there any local AI?",
+        "answer": "LocalAI. The free, OpenAI, Anthropic alternative. Your All-in-One Complete AI Stack - Run powerful language models, autonomous agents, and document intelligence locally on your hardware. No cloud, no limits, no compromise.",
+        "source": {
+          "link": "https://localai.io/#:~:text=LocalAI,%2C%20no%20limits%2C%20no%20compromise.",
+          "displayed_link": "https://localai.io",
+          "title": "LocalAI"
+        },
+        "block_position": 4
+      },
+      {
+        "question": "What is the 30% rule for AI?",
+        "block_position": 4
+      },
+      {
+        "question": "What is meant by local AI?",
+        "answer": "Local AI models are artificial intelligence systems that operate directly on a user's device or within a localized infrastructure, rather than relying on cloud-based services. These models are gaining popularity due to their ability to provide faster processing, enhanced privacy, and offline functionality.",
+        "source": {
+          "link": "https://www.lenovo.com/us/en/knowledgebase/local-ai-models-a-comprehensive-guide/#:~:text=Local%20AI%20models%20are%20artificial,enhanced%20privacy%2C%20and%20offline%20functionality.",
+          "displayed_link": "https://www.lenovo.com \u203a knowledgebase \u203a local-ai-mo...",
+          "title": "Local AI Models: A Comprehensive Guide | Lenovo US"
+        },
+        "block_position": 4
+      },
+      {
+        "question": "Does local AI cost money?",
+        "answer": "Local AI isn't free. But it's cheaper than most people think. And the biggest cost isn't electricity. It's hardware followed by time.",
+        "source": {
+          "link": "https://medium.com/illumination/i-measured-the-real-cost-of-running-local-ai-for-30-days-41820acc5222#:~:text=Local%20AI%20isn't%20free,It's%20hardware%20followed%20by%20time.",
+          "displayed_link": "https://medium.com \u203a illumination \u203a i-measured-the-real-...",
+          "title": "I Measured the Real Cost of Running Local AI for 30 Days - Medium"
+        },
+        "block_position": 4
+      }
+    ],
+    "discussions_and_forums": [],
+    "related_searches": [
+      {
+        "query": "Local AI GPT",
+        "link": "https://www.google.com/search?sca_esv=ce4f24d74213acb6&gl=us&hl=en&q=Local+AI+GPT&sa=X&ved=2ahUKEwjzqMqP8q-TAxWsJkQIHf5zAZwQ1QJ6BAhDEAE",
+        "block_position": 12
+      },
+      {
+        "query": "Local AI free",
+        "link": "https://www.google.com/search?sca_esv=ce4f24d74213acb6&gl=us&hl=en&q=Local+AI+free&sa=X&ved=2ahUKEwjzqMqP8q-TAxWsJkQIHf5zAZwQ1QJ6BAhdEAE",
+        "block_position": 12
+      },
+      {
+        "query": "Local AI Ollama",
+        "link": "https://www.google.com/search?sca_esv=ce4f24d74213acb6&gl=us&hl=en&q=Local+AI+Ollama&sa=X&ved=2ahUKEwjzqMqP8q-TAxWsJkQIHf5zAZwQ1QJ6BAhcEAE",
+        "block_position": 12
+      },
+      {
+        "query": "Local AI download",
+        "link": "https://www.google.com/search?sca_esv=ce4f24d74213acb6&gl=us&hl=en&q=Local+AI+download&sa=X&ved=2ahUKEwjzqMqP8q-TAxWsJkQIHf5zAZwQ1QJ6BAhbEAE",
+        "block_position": 12
+      },
+      {
+        "query": "Local AI Android",
+        "link": "https://www.google.com/search?sca_esv=ce4f24d74213acb6&gl=us&hl=en&q=Local+AI+Android&sa=X&ved=2ahUKEwjzqMqP8q-TAxWsJkQIHf5zAZwQ1QJ6BAhZEAE",
+        "block_position": 12
+      },
+      {
+        "query": "Local AI Windows",
+        "link": "https://www.google.com/search?sca_esv=ce4f24d74213acb6&gl=us&hl=en&q=Local+AI+Windows&sa=X&ved=2ahUKEwjzqMqP8q-TAxWsJkQIHf5zAZwQ1QJ6BAhSEAE",
+        "block_position": 12
+      },
+      {
+        "query": "Local AI device",
+        "link": "https://www.google.com/search?sca_esv=ce4f24d74213acb6&gl=us&hl=en&q=Local+AI+device&sa=X&ved=2ahUKEwjzqMqP8q-TAxWsJkQIHf5zAZwQ1QJ6BAhLEAE",
+        "block_position": 12
+      },
+      {
+        "query": "Local AI reddit",
+        "link": "https://www.google.com/search?sca_esv=ce4f24d74213acb6&gl=us&hl=en&q=Local+AI+reddit&sa=X&ved=2ahUKEwjzqMqP8q-TAxWsJkQIHf5zAZwQ1QJ6BAhKEAE",
+        "block_position": 12
+      }
+    ]
+  },
+  {
+    "query": "ai",
+    "location": "National",
+    "label": "ai [National]",
+    "search_parameters": {
+      "q": "ai",
+      "location": "United States",
+      "gl": "us",
+      "hl": "en",
+      "device": "desktop",
+      "num": "10",
+      "engine": "google"
+    },
+    "organic_results": [
+      {
+        "position": 1,
+        "block_position": 1,
+        "title": "Artificial intelligence",
+        "link": "https://en.wikipedia.org/wiki/Artificial_intelligence",
+        "domain": "en.wikipedia.org",
+        "displayed_link": "https://en.wikipedia.org \u203a wiki \u203a Artificial_intelligence",
+        "snippet": "Artificial intelligence (AI) is the capability of computational systems to perform tasks typically associated with human intelligenceRead more",
+        "prerender": false
+      },
+      {
+        "position": 2,
+        "block_position": 2,
+        "title": "Google AI - How we're making AI helpful for everyone",
+        "link": "https://ai.google/",
+        "domain": "ai.google",
+        "displayed_link": "https://ai.google",
+        "snippet": "Discover how Google AI is committed to enriching knowledge, solving complex challenges and helping people grow by building useful AI tools and technologies.",
+        "prerender": false
+      },
+      {
+        "position": 3,
+        "block_position": 3,
+        "title": "What Is Artificial Intelligence (AI)?",
+        "link": "https://www.ibm.com/think/topics/artificial-intelligence",
+        "domain": "www.ibm.com",
+        "displayed_link": "https://www.ibm.com \u203a think \u203a topics \u203a artificial-intellig...",
+        "snippet": "Artificial intelligence (AI) is technology that enables computers and machines to simulate human learning, comprehension, problem solving, decision-making, ...",
+        "prerender": false
+      },
+      {
+        "position": 4,
+        "block_position": 6,
+        "title": "What is Artificial Intelligence (AI)?",
+        "link": "https://cloud.google.com/learn/what-is-artificial-intelligence",
+        "domain": "cloud.google.com",
+        "displayed_link": "https://cloud.google.com \u203a learn \u203a what-is-artificial-intell...",
+        "snippet": "Artificial intelligence (AI) is a set of technologies that empowers computers to learn, reason, and perform a variety of advanced tasks in ways that used to ...Read more",
+        "prerender": false
+      },
+      {
+        "position": 5,
+        "block_position": 8,
+        "title": "Artificial intelligence (AI) | Definition, Examples, Types, ...",
+        "link": "https://www.britannica.com/technology/artificial-intelligence",
+        "domain": "www.britannica.com",
+        "displayed_link": "https://www.britannica.com \u203a Technology \u203a Computers",
+        "snippet": "Artificial intelligence (AI), the ability of a digital computer or computer-controlled robot to perform tasks commonly associated with intelligent beings.Read more",
+        "prerender": false
+      },
+      {
+        "position": 6,
+        "block_position": 9,
+        "title": "Artificial Intelligence (AI): What it is and why it matters",
+        "link": "https://www.sas.com/en_us/insights/analytics/what-is-artificial-intelligence.html",
+        "domain": "www.sas.com",
+        "displayed_link": "https://www.sas.com \u203a SAS Insights \u203a Analytics Insights",
+        "snippet": "Artificial intelligence (AI) makes it possible for machines to learn from experience, adjust to new inputs and perform human-like tasks.Read more",
+        "prerender": false
+      },
+      {
+        "position": 7,
+        "block_position": 10,
+        "title": "What Is Artificial Intelligence? Definition, Uses, and Types",
+        "link": "https://www.coursera.org/articles/what-is-artificial-intelligence",
+        "domain": "www.coursera.org",
+        "displayed_link": "https://www.coursera.org \u203a articles \u203a what-is-artificial-in...",
+        "snippet": "7 days ago \u2014 AI stands for \"artificial intelligence.\" Artificial intelligence is the simulation of human intelligence processes by machines, such as computer ...Read more",
+        "prerender": false,
+        "date": "7 days ago",
+        "date_utc": "2026-03-14T01:58:13.141Z"
+      },
+      {
+        "position": 8,
+        "block_position": 11,
+        "title": "AI Overview and Definitions - Notre Dame Learning",
+        "link": "https://learning.nd.edu/resource-library/ai-overview-and-definitions/",
+        "domain": "learning.nd.edu",
+        "displayed_link": "https://learning.nd.edu \u203a resource-library \u203a ai-overview...",
+        "snippet": "Artificial intelligence (AI), in its simplest definition, refers to any technology or machine that can perform complex tasks typically associated with human ...Read more",
+        "prerender": false
+      }
+    ],
+    "local_results": [],
+    "ai_overview": {
+      "message": "Google offers an AI Overview for this search. To get AI overview result, please use the include_ai_overview=true request parameter. One extra credit applies if results exist."
+    },
+    "related_questions": [
+      {
+        "question": "Is there any AI for free?",
+        "answer": "QuillBot's free AI Chatbot works with you to generate and improve content, break down complex information, and make connections between ideas.",
+        "source": {
+          "link": "https://quillbot.com/ai-chat#:~:text=QuillBot's%20free%20AI%20Chatbot%20works,and%20make%20connections%20between%20ideas.",
+          "displayed_link": "https://quillbot.com \u203a ai-chat",
+          "title": "AI Chat - QuillBot"
+        },
+        "block_position": 4
+      },
+      {
+        "question": "Can AI write a resignation letter?",
+        "answer": "Grammarly's AI resignation letter generator helps you create a well-formatted, professional letter of resignation in just a few clicks. Type the name of the person or group you are writing the letter to.",
+        "source": {
+          "link": "https://www.grammarly.com/ai/ai-writing-tools/resignation-letter-generator#:~:text=Grammarly's%20AI%20resignation%20letter,in%20just%20a%20few%20clicks.&text=Type%20the%20name%20of%20the,are%20writing%20the%20letter%20to.",
+          "displayed_link": "https://www.grammarly.com \u203a ai \u203a ai-writing-tools \u203a resi...",
+          "title": "AI Resignation Letter Writer - Grammarly"
+        },
+        "block_position": 4
+      },
+      {
+        "question": "Which AI did Elon Musk develop?",
+        "block_position": 4
+      },
+      {
+        "question": "Does the Bible mention AI?",
+        "block_position": 4
+      }
+    ],
+    "discussions_and_forums": [],
+    "related_searches": []
+  },
+  {
+    "query": "bergen seo",
+    "location": "National",
+    "label": "bergen seo [National]",
+    "search_parameters": {
+      "q": "bergen seo",
+      "location": "United States",
+      "gl": "us",
+      "hl": "en",
+      "device": "desktop",
+      "num": "10",
+      "engine": "google"
+    },
+    "organic_results": [
+      {
+        "position": 1,
+        "block_position": 1,
+        "title": "Home Page - Bergen County Seo | Search Engine ...",
+        "link": "https://bergencountyseo.com/",
+        "domain": "bergencountyseo.com",
+        "displayed_link": "https://bergencountyseo.com",
+        "snippet": "25 years+ of internet marketing to small business in Bergen County, NJ & surrounding area. Speak To An Expert: (201) 971-2848Read more",
+        "prerender": false
+      },
+      {
+        "position": 2,
+        "block_position": 2,
+        "title": "Bergen County NJ SEO Agency | Bergen Ranks: Home",
+        "link": "https://bergenranks.com/",
+        "domain": "bergenranks.com",
+        "displayed_link": "https://bergenranks.com",
+        "snippet": "We have a team of highly-educated, experienced and creative web developers. With nearly 10 years of experience, we're confident to help you build a website that ...Read more",
+        "prerender": false
+      },
+      {
+        "position": 3,
+        "block_position": 3,
+        "title": "Seo With Bergen Ranks",
+        "link": "https://bergenranks.com/seo/",
+        "domain": "bergenranks.com",
+        "displayed_link": "https://bergenranks.com \u203a seo",
+        "snippet": "Bergen Ranks is an SEO agency that specializes in optimizing websites for higher rankings on major search engines such as Google, Yahoo, and Bing.Read more",
+        "prerender": false
+      },
+      {
+        "position": 4,
+        "block_position": 4,
+        "title": "Bergen county seo - ridgewood internet marketing",
+        "link": "https://sites.google.com/view/bergencountyseohe2/bergen-county-seo",
+        "domain": "sites.google.com",
+        "displayed_link": "https://sites.google.com \u203a view \u203a bergen-county-seo",
+        "snippet": "Learn more about Seo agency nj. wordpress experts bergen county. Bergen Ranks. 28 E Ridgewood Ave, Paramus, NJ 07652. (201) 971-3166.Read more",
+        "prerender": false
+      },
+      {
+        "position": 5,
+        "block_position": 5,
+        "title": "Our Services - Bergen County Seo",
+        "link": "https://bergencountyseo.com/our-services/",
+        "domain": "bergencountyseo.com",
+        "displayed_link": "https://bergencountyseo.com \u203a our-services",
+        "snippet": "We specialize in transforming your online presence through bespoke Google Business Profile optimization, comprehensive SEO strategies, and a full spectrum of ...Read more",
+        "prerender": false
+      },
+      {
+        "position": 6,
+        "block_position": 6,
+        "title": "SEO Company Bergen County NJ - JKO Consulting",
+        "link": "https://jkoconsulting.com/service/search-engine-optimization-services-bergen-county-nj/",
+        "domain": "jkoconsulting.com",
+        "displayed_link": "https://jkoconsulting.com \u203a Services",
+        "snippet": "JKO Consulting, NJ's leading SEO and app design agency, transforms your online presence with innovative, results-driven strategies.",
+        "prerender": false
+      },
+      {
+        "position": 7,
+        "block_position": 7,
+        "title": "search engine- optimization (SEO) Bergen",
+        "link": "https://adseo.no/en/search-engine-optimization-bergen/",
+        "domain": "adseo.no",
+        "displayed_link": "https://adseo.no \u203a search-engine-optimization-bergen",
+        "snippet": "Search engine optimization Bergen and the surrounding area will give you more potential customers via Google and other search engines.Read more",
+        "prerender": false
+      },
+      {
+        "position": 8,
+        "block_position": 8,
+        "title": "Bergen County SEO Services | Montvale, NJ in ...",
+        "link": "https://www.wpamplify.com/bergen-county/",
+        "domain": "www.wpamplify.com",
+        "displayed_link": "https://www.wpamplify.com \u203a bergen-county",
+        "snippet": "We provide WordPress marketing services including search engine optimization, custom website design, full-service blogging and website support.Read more",
+        "prerender": false
+      },
+      {
+        "position": 9,
+        "block_position": 9,
+        "title": "SEO Company Bergen",
+        "link": "https://plusplydigital.com/seo-bergen/",
+        "domain": "plusplydigital.com",
+        "displayed_link": "https://plusplydigital.com \u203a seo-bergen",
+        "snippet": "We provide Best SEO Bergen strategy. At PLUSPLY SEO we also provide experienced SEO Consultants in Bergen to businesses who demand search engine visibility.Read more",
+        "prerender": false
+      },
+      {
+        "position": 10,
+        "block_position": 10,
+        "title": "SEO Bergen County, NJ - Improve Google Rankings, Local ...",
+        "link": "https://givemeservice.com/service-area/seo-bergen-county-nj/",
+        "domain": "givemeservice.com",
+        "displayed_link": "https://givemeservice.com \u203a Service Area",
+        "snippet": "Local SEO Services for businesses in Bergen County, NJ. For specific geographical areas, Local Search Engine Optimization or local SEO is used. Search results ...Read more",
+        "prerender": false
+      }
+    ],
+    "local_results": [],
+    "ai_overview": null,
+    "related_questions": [],
+    "discussions_and_forums": [],
+    "related_searches": []
+  },
+  {
+    "query": "seo bergen county",
+    "location": "National",
+    "label": "seo bergen county [National]",
+    "search_parameters": {
+      "q": "seo bergen county",
+      "location": "United States",
+      "gl": "us",
+      "hl": "en",
+      "device": "desktop",
+      "num": "10",
+      "engine": "google"
+    },
+    "organic_results": [
+      {
+        "position": 1,
+        "block_position": 3,
+        "title": "Home Page - Bergen County Seo | Search Engine ...",
+        "link": "https://bergencountyseo.com/",
+        "domain": "bergencountyseo.com",
+        "displayed_link": "https://bergencountyseo.com",
+        "snippet": "25 years+ of internet marketing to small business in Bergen County, NJ & surrounding area. Speak To An Expert: (201) 971-2848Read more",
+        "prerender": false
+      },
+      {
+        "position": 2,
+        "block_position": 4,
+        "title": "Bergen county seo - ridgewood internet marketing",
+        "link": "https://sites.google.com/view/bergencountyseohe2/bergen-county-seo",
+        "domain": "sites.google.com",
+        "displayed_link": "https://sites.google.com \u203a view \u203a bergen-county-seo",
+        "snippet": "Learn more about Seo agency nj. wordpress experts bergen county. Bergen Ranks. 28 E Ridgewood Ave, Paramus, NJ 07652. (201) 971-3166.Read more",
+        "prerender": false
+      },
+      {
+        "position": 3,
+        "block_position": 5,
+        "title": "SEO Company Bergen County NJ - JKO Consulting",
+        "link": "https://jkoconsulting.com/service/search-engine-optimization-services-bergen-county-nj/",
+        "domain": "jkoconsulting.com",
+        "displayed_link": "https://jkoconsulting.com \u203a Services",
+        "snippet": "JKO Consulting, NJ's leading SEO and app design agency, transforms your online presence with innovative, results-driven strategies.",
+        "prerender": false
+      },
+      {
+        "position": 4,
+        "block_position": 6,
+        "title": "Local SEO Services For Bergen County NJ",
+        "link": "https://kineticknowledge.com/bergen-county-nj-seo-kinetic-knowledge/",
+        "domain": "kineticknowledge.com",
+        "displayed_link": "https://kineticknowledge.com \u203a bergen-county-nj-seo-k...",
+        "snippet": "Kinetic Knowledge offers affordable, experienced (for over 20 years now), local SEO service to Bergen County, NJ, business owners. Pursuing trusted, fundamental ...Read more",
+        "prerender": false
+      },
+      {
+        "position": 5,
+        "block_position": 7,
+        "title": "Bergen County SEO Services | Montvale, NJ in ...",
+        "link": "https://www.wpamplify.com/bergen-county/",
+        "domain": "www.wpamplify.com",
+        "displayed_link": "https://www.wpamplify.com \u203a bergen-county",
+        "snippet": "We provide WordPress marketing services including search engine optimization, custom website design, full-service blogging and website support.Read more",
+        "prerender": false
+      },
+      {
+        "position": 6,
+        "block_position": 8,
+        "title": "Bergen County SEO Company | Professional SEO Services",
+        "link": "https://wowbix.com/bergen-county-seo/",
+        "domain": "wowbix.com",
+        "displayed_link": "https://wowbix.com \u203a bergen-county-seo",
+        "snippet": "Wowbix is the most professional & affordable Bergen County SEO Company that helps your rank #1 for all the keywords. Get a FREE SEO audit now!",
+        "prerender": false
+      },
+      {
+        "position": 7,
+        "block_position": 9,
+        "title": "SEO Company in Bergen County,",
+        "link": "https://gal-inc.com/seo-company-cnty.asp?cnty=Bergen",
+        "domain": "gal-inc.com",
+        "displayed_link": "https://gal-inc.com \u203a seo-company-cnty \u203a cnty=Bergen",
+        "snippet": "SEO Company in Bergen County, \u00b7 Proven Track Record: Trusted by businesses for over 20 years. \u00b7 Comprehensive Services: From SEO and PPC to social media ...Read more",
+        "prerender": false
+      },
+      {
+        "position": 8,
+        "block_position": 10,
+        "title": "White Label SEO in Bergen County NJ SEO with a Local ...",
+        "link": "https://atomicsocial.com/white-label-seo-in-bergen-county-nj-seo-with-a-local-focus/",
+        "domain": "atomicsocial.com",
+        "displayed_link": "https://atomicsocial.com \u203a Blog",
+        "snippet": "Nov 11, 2024 \u2014 White label SEO is an invaluable resource for businesses in Bergen County, NJ, looking to boost their online presence, improve local search ...Read more",
+        "prerender": false,
+        "date": "Nov 11, 2024",
+        "date_utc": "2024-11-11T00:00:00.000Z"
+      },
+      {
+        "position": 9,
+        "block_position": 11,
+        "title": "The #1 Rated SEO Agency For Small Businesses in New ...",
+        "link": "https://organicalseo.com/",
+        "domain": "organicalseo.com",
+        "displayed_link": "https://organicalseo.com",
+        "snippet": "Organical SEO is located in Bergen County, NJ. We do all of our work in-house. It's not just emails and a voIce on the other line. Our SEO experts meet you ...Read more",
+        "prerender": false
+      }
+    ],
+    "local_results": [
+      {
+        "position": 1,
+        "title": "Organical - The SEO Experts",
+        "gps_coordinates": {
+          "latitude": 40.88557,
+          "longitude": -74.04184
+        },
+        "link": "https://organicalseo.com/",
+        "snippet": "Onsite services&middot;Online appointments",
+        "address": "Hackensack, NJ",
+        "business_type": "Marketing agency",
+        "data_cid": "2901815186301409621",
+        "extensions": [
+          "5.0(38) &middot; Marketing agency",
+          "30+ years in business &middot; Hackensack, NJ",
+          "Closed",
+          "Opens 9\u202fAM Mon &middot; (201) 836-1492",
+          "Onsite services&middot;Online appointments"
+        ],
+        "rating": 5,
+        "reviews": 38,
+        "block_position": 2,
+        "knowledge_graph_id": "/g/11f_4s68tn"
+      },
+      {
+        "position": 2,
+        "title": "BERGEN COUNTY SEO",
+        "gps_coordinates": {
+          "latitude": 40.97824,
+          "longitude": -74.113686
+        },
+        "link": "https://bergencountyseo.com/",
+        "address": "Ridgewood, NJ",
+        "business_type": "Internet marketing service",
+        "data_cid": "13457528125323399766",
+        "extensions": [
+          "No reviews &middot; Internet marketing service",
+          "3+ years in business &middot; Ridgewood, NJ",
+          "Closed",
+          "Opens 7\u202fAM Mon &middot; (201) 971-2848"
+        ],
+        "block_position": 2,
+        "knowledge_graph_id": "/g/11s2n8hxmv"
+      },
+      {
+        "position": 3,
+        "title": "NJ SEO Agency | Sovereign",
+        "gps_coordinates": {
+          "latitude": 40.883377,
+          "longitude": -74.043236
+        },
+        "link": "https://sovereignrank.com/",
+        "address": "Hackensack, NJ",
+        "business_type": "Marketing agency",
+        "data_cid": "1754385531359491947",
+        "extensions": [
+          "5.0(4) &middot; Marketing agency",
+          "3+ years in business &middot; Hackensack, NJ",
+          "Closed",
+          "Opens 8\u202fAM Sat &middot; (862) 684-3809"
+        ],
+        "rating": 5,
+        "reviews": 4,
+        "block_position": 2,
+        "knowledge_graph_id": "/g/11szdv01sg"
+      }
+    ],
+    "ai_overview": null,
+    "related_questions": [],
+    "discussions_and_forums": [],
+    "related_searches": []
+  },
+  {
+    "query": "ai search optimization nyc",
+    "location": "National",
+    "label": "ai search optimization nyc [National]",
+    "search_parameters": {
+      "q": "ai search optimization nyc",
+      "location": "United States",
+      "gl": "us",
+      "hl": "en",
+      "device": "desktop",
+      "num": "10",
+      "engine": "google"
+    },
+    "organic_results": [
+      {
+        "position": 1,
+        "block_position": 1,
+        "title": "Best AI Search Optimization Agencies in New York 2026",
+        "link": "https://agencies.semrush.com/list/ai-optimization/new-york/",
+        "domain": "agencies.semrush.com",
+        "displayed_link": "https://agencies.semrush.com \u203a list \u203a new-york",
+        "snippet": "New York's and Long Island Leading SEO Agency. Partner with Mimvi, the New York SEO company that increases your leads, traffic, and sales online.Read more",
+        "prerender": false
+      },
+      {
+        "position": 2,
+        "block_position": 2,
+        "title": "Best AI SEO Agency in Manhattan NYC | Top GEO Experts ...",
+        "link": "https://primaryposition.com/",
+        "domain": "primaryposition.com",
+        "displayed_link": "https://primaryposition.com",
+        "snippet": "Primary Position is a New York based SEO and Internet marketing agency with many years of experience working with US and International clients.Read more",
+        "prerender": false
+      },
+      {
+        "position": 3,
+        "block_position": 3,
+        "title": "NYC Local SEO Agency | GEO & AI Search Optimization",
+        "link": "https://www.localmighty.com/new-york-city/",
+        "domain": "www.localmighty.com",
+        "displayed_link": "https://www.localmighty.com \u203a new-york-city",
+        "snippet": "Partner with a top NYC local SEO company. Rank higher on Google, Maps, and AI search. We help you get more leads. Get a free SEO audit.",
+        "prerender": false
+      },
+      {
+        "position": 4,
+        "block_position": 4,
+        "title": "Top AI SEO Agencies in New York",
+        "link": "https://www.uforocks.com/blog/top-ai-seo-agencies-in-new-york/",
+        "domain": "www.uforocks.com",
+        "displayed_link": "https://www.uforocks.com \u203a blog \u203a top-ai-seo-agencies-i...",
+        "snippet": "Nov 13, 2025 \u2014 Coalition Technologies is a full-service digital marketing agency based in NYC that has integrated AI-search awareness into its SEO offering.Read more",
+        "prerender": false,
+        "date": "Nov 13, 2025",
+        "date_utc": "2025-11-13T00:00:00.000Z"
+      },
+      {
+        "position": 5,
+        "block_position": 5,
+        "title": "AI Search Optimization Services | Boost Brand's Visibility",
+        "link": "https://www.hozio.com/services/seo-services/ai-search-optimization/",
+        "domain": "www.hozio.com",
+        "displayed_link": "https://www.hozio.com \u203a Services \u203a SEO Services",
+        "snippet": "AI Search Optimization helps your business rank first when users ask AI platforms like ChatGPT or Google Gemini, giving you visibility even in zero-click search ...Read more",
+        "prerender": false
+      },
+      {
+        "position": 6,
+        "block_position": 6,
+        "title": "SEO / AI Search Engine Optimization - Get Found Online",
+        "link": "https://avenuez.com/services/seo-ai-search/",
+        "domain": "avenuez.com",
+        "displayed_link": "https://avenuez.com \u203a Our Services",
+        "snippet": "Expert SEO / AI Search Engine Optimization services to enhance your website's visibility on traditional search engines and emerging AI search platforms.",
+        "prerender": false,
+        "missing_words": [
+          "nyc"
+        ]
+      },
+      {
+        "position": 7,
+        "block_position": 7,
+        "title": "SEO for Google & AI Optimization Services in New York",
+        "link": "https://trydecoding.com/ai-seo-services/",
+        "domain": "trydecoding.com",
+        "displayed_link": "https://trydecoding.com \u203a ai-seo-services",
+        "snippet": "We help you run your SEO & AI strategy, execute technical, content improvements, optimize for citations, and build links. Using our proprietary tools to ...Read more",
+        "prerender": false
+      },
+      {
+        "position": 8,
+        "block_position": 8,
+        "title": "Generative AI Optimization in NYC Helps Businesses Grow ...",
+        "link": "https://digitaldrewsem.com/generative-ai-optimization-nyc-helps-businesses/",
+        "domain": "digitaldrewsem.com",
+        "displayed_link": "https://digitaldrewsem.com \u203a generative-ai-optimization...",
+        "snippet": "4 days ago \u2014 Generative AI Optimization in NYC by Digital Drew SEM. Boost AI search visibility, rankings, and traffic with advanced AI-driven strategies.",
+        "prerender": false,
+        "date": "4 days ago",
+        "date_utc": "2026-03-17T01:58:30.850Z"
+      },
+      {
+        "position": 9,
+        "block_position": 9,
+        "title": "SEO company in New York, NY 10016",
+        "link": "https://www.cbidigital.com/services/search-engine-optimization-nyc",
+        "domain": "www.cbidigital.com",
+        "displayed_link": "https://www.cbidigital.com \u203a services \u203a search-engine-op...",
+        "snippet": "Our professional white-hat SEO services will boost your traffic & revenue from organic search. Call CBI agency in New York at 01-646-688-4899 to drive your ...",
+        "prerender": false
+      },
+      {
+        "position": 10,
+        "block_position": 10,
+        "title": "TOP 10 BEST Search Engine Optimization in Manhattan, NY",
+        "link": "https://www.yelp.com/search?find_desc=Search+Engine+Optimization&find_loc=Manhattan%2C+NY",
+        "domain": "www.yelp.com",
+        "displayed_link": "https://www.yelp.com \u203a Professional Services",
+        "snippet": "Top 10 Best Search Engine Optimization Near Manhattan, New York \u00b7 Blackbelt Commerce \u00b7 Zendev Studio \u00b7 Osh Web Services \u00b7 De MG Solutions \u00b7 Newmedia \u00b7 Formwork ...Read more",
+        "prerender": false
+      }
+    ],
+    "local_results": [],
+    "ai_overview": {
+      "message": "Google offers an AI Overview for this search. To get AI overview result, please use the include_ai_overview=true request parameter. One extra credit applies if results exist."
+    },
+    "related_questions": [],
+    "discussions_and_forums": [],
+    "related_searches": [
+      {
+        "query": "Best ai search optimization nyc",
+        "link": "https://www.google.com/search?sca_esv=da50c45d53610c17&gl=us&hl=en&q=Best+ai+search+optimization+nyc&sa=X&ved=2ahUKEwikm_qa8q-TAxVkg_0HHZJQAn0Q1QJ6BAg-EAE",
+        "block_position": 11
+      },
+      {
+        "query": "Ai search optimization nyc reviews",
+        "link": "https://www.google.com/search?sca_esv=da50c45d53610c17&gl=us&hl=en&q=Ai+search+optimization+nyc+reviews&sa=X&ved=2ahUKEwikm_qa8q-TAxVkg_0HHZJQAn0Q1QJ6BAhFEAE",
+        "block_position": 11
+      },
+      {
+        "query": "Nyc seo pro",
+        "link": "https://www.google.com/search?sca_esv=da50c45d53610c17&gl=us&hl=en&q=Nyc+seo+pro&sa=X&ved=2ahUKEwikm_qa8q-TAxVkg_0HHZJQAn0Q1QJ6BAhEEAE",
+        "block_position": 11
+      },
+      {
+        "query": "SEO services in New York",
+        "link": "https://www.google.com/search?sca_esv=da50c45d53610c17&gl=us&hl=en&q=SEO+services+in+New+York&sa=X&ved=2ahUKEwikm_qa8q-TAxVkg_0HHZJQAn0Q1QJ6BAhDEAE",
+        "block_position": 11
+      },
+      {
+        "query": "SEO expert in New York",
+        "link": "https://www.google.com/search?sca_esv=da50c45d53610c17&gl=us&hl=en&q=SEO+expert+in+New+York&sa=X&ved=2ahUKEwikm_qa8q-TAxVkg_0HHZJQAn0Q1QJ6BAhCEAE",
+        "block_position": 11
+      },
+      {
+        "query": "Digital marketing NYC",
+        "link": "https://www.google.com/search?sca_esv=da50c45d53610c17&gl=us&hl=en&q=Digital+marketing+NYC&sa=X&ved=2ahUKEwikm_qa8q-TAxVkg_0HHZJQAn0Q1QJ6BAhBEAE",
+        "block_position": 11
+      },
+      {
+        "query": "Best SEO agencies",
+        "link": "https://www.google.com/search?sca_esv=da50c45d53610c17&gl=us&hl=en&q=Best+SEO+agencies&sa=X&ved=2ahUKEwikm_qa8q-TAxVkg_0HHZJQAn0Q1QJ6BAhAEAE",
+        "block_position": 11
+      },
+      {
+        "query": "NYC digital marketing agency",
+        "link": "https://www.google.com/search?sca_esv=da50c45d53610c17&gl=us&hl=en&q=NYC+digital+marketing+agency&sa=X&ved=2ahUKEwikm_qa8q-TAxVkg_0HHZJQAn0Q1QJ6BAg_EAE",
+        "block_position": 11
+      }
+    ]
+  },
+  {
+    "query": "ai search optimization nj",
+    "location": "National",
+    "label": "ai search optimization nj [National]",
+    "search_parameters": {
+      "q": "ai search optimization nj",
+      "location": "United States",
+      "gl": "us",
+      "hl": "en",
+      "device": "desktop",
+      "num": "10",
+      "engine": "google"
+    },
+    "organic_results": [
+      {
+        "position": 1,
+        "block_position": 1,
+        "title": "Best AI Search Optimization Agencies in New Jersey 2026",
+        "link": "https://agencies.semrush.com/list/ai-optimization/new-jersey/",
+        "domain": "agencies.semrush.com",
+        "displayed_link": "https://agencies.semrush.com \u203a list \u203a new-jersey",
+        "snippet": "List of TOP 5 AI Search Optimization Agencies in New Jersey 2026. Discover the most skilled marketing agencies from our community to outsource your ...",
+        "prerender": false
+      },
+      {
+        "position": 2,
+        "block_position": 2,
+        "title": "AI Search Engine Optimization in New Jersey",
+        "link": "https://bullzeyemediamarketing.com/ai-search-engine-optimization-in-new-jersey/",
+        "domain": "bullzeyemediamarketing.com",
+        "displayed_link": "https://bullzeyemediamarketing.com \u203a ai-search-engine-...",
+        "snippet": "Jan 30, 2026 \u2014 This guide provides a professional framework for understanding and implementing AI search engine optimization tailored to the New Jersey market.Read more",
+        "prerender": false,
+        "date": "Jan 30, 2026",
+        "date_utc": "2026-01-30T00:00:00.000Z"
+      },
+      {
+        "position": 3,
+        "block_position": 3,
+        "title": "SEO for AI Search and Generative Results: How We Help ...",
+        "link": "https://wingmanplanning.com/seo-for-ai-search-and-generative-results-how-we-help-brands-show-up-in-ai-overviews-and-the-next-era-of-search-visibility/",
+        "domain": "wingmanplanning.com",
+        "displayed_link": "https://wingmanplanning.com \u203a seo-for-ai-search-and-g...",
+        "snippet": "Mar 8, 2026 \u2014 Our work blends technical optimization with digital consulting, ensuring strategy decisions are guided by data, user behavior, and long-term ...Read more",
+        "prerender": false,
+        "date": "Mar 8, 2026",
+        "date_utc": "2026-03-08T00:00:00.000Z"
+      },
+      {
+        "position": 4,
+        "block_position": 4,
+        "title": "AI SEO Services NJ | AI-Powered Search Optimization",
+        "link": "https://njseoguys.com/ai-seo",
+        "domain": "njseoguys.com",
+        "displayed_link": "https://njseoguys.com \u203a ai-seo",
+        "snippet": "AI-powered SEO services that use machine learning for content optimization, search intent analysis, and competitive intelligence. NJ-based, human-led. Free",
+        "prerender": false
+      },
+      {
+        "position": 5,
+        "block_position": 5,
+        "title": "Trusted AI SEO Agency in New Jersey",
+        "link": "https://www.njlocalmarketing.com/ai-seo-agency-nj",
+        "domain": "www.njlocalmarketing.com",
+        "displayed_link": "https://www.njlocalmarketing.com \u203a ai-seo-agency-nj",
+        "snippet": "5 days ago \u2014 NJ Local Marketing is an AI SEO agency that strategically uses the most advanced technologies to accelerate businesses faster and smarter.Read more",
+        "prerender": false,
+        "date": "5 days ago",
+        "date_utc": "2026-03-16T01:58:35.070Z"
+      },
+      {
+        "position": 6,
+        "block_position": 6,
+        "title": "Top NJ SEO Marketing Agency for B2B Brands - CMDS",
+        "link": "https://www.cmdsonline.com/web/seo/",
+        "domain": "www.cmdsonline.com",
+        "displayed_link": "https://www.cmdsonline.com \u203a Web Services",
+        "snippet": "CMDS is a NJ SEO marketing agency helping B2B brands rank across Google and AI search. Explore our expert SEO packages!",
+        "prerender": false
+      },
+      {
+        "position": 7,
+        "block_position": 7,
+        "title": "AI-SEO, AI Search Optimization & The Future of Digital ...",
+        "link": "https://shorelinedigital.agency/blog/ai-seo-ai-search-optimization-the-future-of-digital-visibility/",
+        "domain": "shorelinedigital.agency",
+        "displayed_link": "https://shorelinedigital.agency \u203a blog \u203a ai-seo-ai-search-...",
+        "snippet": "Feb 13, 2026 \u2014 AI-SEO is the integration of artificial intelligence into search engine optimization strategy. It focuses on how search engines use machine ...Read more",
+        "prerender": false,
+        "date": "Feb 13, 2026",
+        "date_utc": "2026-02-13T00:00:00.000Z"
+      },
+      {
+        "position": 8,
+        "block_position": 8,
+        "title": "AI Search Optimization: Essential Strategies for 2025",
+        "link": "https://digitalmarketingnewjersey.us/blog/ai-search-optimization-essential-strategies-for-2025/",
+        "domain": "digitalmarketingnewjersey.us",
+        "displayed_link": "https://digitalmarketingnewjersey.us \u203a blog \u203a ai-search-...",
+        "snippet": "Sep 15, 2025 \u2014 AI search optimization 2025: Master essential strategies for optimizing websites to perform better in AI-powered search environments.",
+        "prerender": false,
+        "date": "Sep 15, 2025",
+        "date_utc": "2025-09-15T00:00:00.000Z"
+      },
+      {
+        "position": 9,
+        "block_position": 9,
+        "title": "Generative Engine Optimization",
+        "link": "https://krausgroupmarketing.com/digital-marketing/generative-engine-optimization/",
+        "domain": "krausgroupmarketing.com",
+        "displayed_link": "https://krausgroupmarketing.com \u203a digital-marketing",
+        "snippet": "GEO is the strategy of optimizing content for AI-driven search platforms like ChatGPT, Perplexity, Gemini, Copilot, and Google AI Overviews.Read more",
+        "prerender": false
+      },
+      {
+        "position": 10,
+        "block_position": 10,
+        "title": "How Businesses Can Rank in AI Search with Generative ...",
+        "link": "https://www.njherald.com/press-release/story/42373/how-businesses-can-rank-in-ai-search-with-generative-engine-optimization/",
+        "domain": "www.njherald.com",
+        "displayed_link": "https://www.njherald.com \u203a press-release \u203a story \u203a how-...",
+        "snippet": "Mar 9, 2026 \u2014 DM Yarana introduces Generative Engine Optimization (GEO), helping businesses optimize content for AI search tools like ChatGPT, Gemini, ...Read more",
+        "prerender": false,
+        "date": "Mar 9, 2026",
+        "date_utc": "2026-03-09T00:00:00.000Z"
+      }
+    ],
+    "local_results": [],
+    "ai_overview": {
+      "message": "Google offers an AI Overview for this search. To get AI overview result, please use the include_ai_overview=true request parameter. One extra credit applies if results exist."
+    },
+    "related_questions": [],
+    "discussions_and_forums": [],
+    "related_searches": []
+  },
+  {
+    "query": "ai search optimization new york city",
+    "location": "National",
+    "label": "ai search optimization new york city [National]",
+    "search_parameters": {
+      "q": "ai search optimization new york city",
+      "location": "United States",
+      "gl": "us",
+      "hl": "en",
+      "device": "desktop",
+      "num": "10",
+      "engine": "google"
+    },
+    "organic_results": [
+      {
+        "position": 1,
+        "block_position": 1,
+        "title": "Best AI Search Optimization Agencies in New York 2026",
+        "link": "https://agencies.semrush.com/list/ai-optimization/new-york/",
+        "domain": "agencies.semrush.com",
+        "displayed_link": "https://agencies.semrush.com \u203a list \u203a new-york",
+        "snippet": "List of TOP 27 AI Search Optimization Agencies in New York 2026. Discover the most skilled marketing agencies from our community to outsource your marketing ...",
+        "prerender": false
+      },
+      {
+        "position": 2,
+        "block_position": 2,
+        "title": "Top AI SEO Agencies in New York",
+        "link": "https://www.uforocks.com/blog/top-ai-seo-agencies-in-new-york/",
+        "domain": "www.uforocks.com",
+        "displayed_link": "https://www.uforocks.com \u203a blog \u203a top-ai-seo-agencies-i...",
+        "snippet": "Nov 13, 2025 \u2014 This article highlights 15 leading AI-SEO agencies, each offering differentiated capabilities that bridge search visibility, generative engine ...Read more",
+        "prerender": false,
+        "missing_words": [
+          "city"
+        ],
+        "date": "Nov 13, 2025",
+        "date_utc": "2025-11-13T00:00:00.000Z"
+      },
+      {
+        "position": 3,
+        "block_position": 3,
+        "title": "Best AI SEO Agency in Manhattan NYC | Top GEO Experts ...",
+        "link": "https://primaryposition.com/",
+        "domain": "primaryposition.com",
+        "displayed_link": "https://primaryposition.com",
+        "snippet": "Primary Position is a New York based SEO and Internet marketing agency with many years of experience working with US and International clients.Read more",
+        "prerender": false
+      },
+      {
+        "position": 4,
+        "block_position": 4,
+        "title": "NYC Local SEO Agency | GEO & AI Search Optimization",
+        "link": "https://www.localmighty.com/new-york-city/",
+        "domain": "www.localmighty.com",
+        "displayed_link": "https://www.localmighty.com \u203a new-york-city",
+        "snippet": "Backed by years of hands-on SEO experience and advanced AI-driven strategies, we help New York City local businesses earn top Google rankings, drive qualified ...Read more",
+        "prerender": false
+      },
+      {
+        "position": 5,
+        "block_position": 5,
+        "title": "AI SEO New York | AISEO Elevate NY",
+        "link": "https://aiseonewyorkcity.com/",
+        "domain": "aiseonewyorkcity.com",
+        "displayed_link": "https://aiseonewyorkcity.com \u203a About",
+        "snippet": "AI SEO New York services combining traditional SEO with AI search optimization to help NYC businesses appear in Google and AI results.",
+        "prerender": false
+      },
+      {
+        "position": 6,
+        "block_position": 6,
+        "title": "AI Search Optimization in New York City, NY",
+        "link": "https://grindflame.com/areas-we-serve/new-york/new-york-city/ai-search-optimization/",
+        "domain": "grindflame.com",
+        "displayed_link": "https://grindflame.com \u203a ... \u203a New York \u203a New York City",
+        "snippet": "Track how your New York City business appears across major AI platforms and emerging search tools. Ongoing Optimization. AI search algorithms evolve constantly.Read more",
+        "prerender": false
+      },
+      {
+        "position": 7,
+        "block_position": 7,
+        "title": "SEO for Google & AI Optimization Services in New York",
+        "link": "https://trydecoding.com/ai-seo-services/",
+        "domain": "trydecoding.com",
+        "displayed_link": "https://trydecoding.com \u203a ai-seo-services",
+        "snippet": "We help you run your SEO & AI strategy, execute technical, content improvements, optimize for citations, and build links. Using our proprietary tools to ...Read more",
+        "prerender": false,
+        "missing_words": [
+          "city"
+        ]
+      },
+      {
+        "position": 8,
+        "block_position": 8,
+        "title": "The 12 Best New York SEO Optimization Companies 2026",
+        "link": "https://fuelonline.com/best-agencies/best-new-york-seo-optimization-companies/",
+        "domain": "fuelonline.com",
+        "displayed_link": "https://fuelonline.com \u203a best-agencies \u203a best-new-york-...",
+        "snippet": "Feb 4, 2026 \u2014 Our 2026 performance audit identifies the firms that have successfully implemented AI search optimization NYC protocols to ensure their clients ...Read more",
+        "prerender": false,
+        "date": "Feb 4, 2026",
+        "date_utc": "2026-02-04T00:00:00.000Z"
+      },
+      {
+        "position": 9,
+        "block_position": 9,
+        "title": "Trusted AI SEO Services in New York City",
+        "link": "https://digitalbumps.com/ai-seo-services-new-york-city/",
+        "domain": "digitalbumps.com",
+        "displayed_link": "https://digitalbumps.com \u203a ai-seo-services-new-york-city",
+        "snippet": "DigitalBumps is a leading AI-powered SEO Agency in New York 2026, offering advanced AI SEO Services NYC to help businesses increase online visibility, ...Read more",
+        "prerender": false
+      },
+      {
+        "position": 10,
+        "block_position": 10,
+        "title": "SEO company in New York, NY 10016",
+        "link": "https://www.cbidigital.com/services/search-engine-optimization-nyc",
+        "domain": "www.cbidigital.com",
+        "displayed_link": "https://www.cbidigital.com \u203a services \u203a search-engine-op...",
+        "snippet": "Our professional white-hat SEO services will boost your traffic & revenue from organic search. Call CBI agency in New York at 01-646-688-4899 to drive your ...",
+        "prerender": false,
+        "missing_words": [
+          "city"
+        ]
+      }
+    ],
+    "local_results": [],
+    "ai_overview": {
+      "message": "Google offers an AI Overview for this search. To get AI overview result, please use the include_ai_overview=true request parameter. One extra credit applies if results exist."
+    },
+    "related_questions": [],
+    "discussions_and_forums": [],
+    "related_searches": [
+      {
+        "query": "Best ai search optimization new york city",
+        "link": "https://www.google.com/search?sca_esv=da50c45d53610c17&gl=us&hl=en&q=Best+ai+search+optimization+new+york+city&sa=X&ved=2ahUKEwiYqJ-i8q-TAxVrm2oFHRwyAeUQ1QJ6BAgqEAE",
+        "block_position": 11
+      },
+      {
+        "query": "Ai search optimization new york city review",
+        "link": "https://www.google.com/search?sca_esv=da50c45d53610c17&gl=us&hl=en&q=Ai+search+optimization+new+york+city+review&sa=X&ved=2ahUKEwiYqJ-i8q-TAxVrm2oFHRwyAeUQ1QJ6BAgxEAE",
+        "block_position": 11
+      },
+      {
+        "query": "SEO services in New York",
+        "link": "https://www.google.com/search?sca_esv=da50c45d53610c17&gl=us&hl=en&q=SEO+services+in+New+York&sa=X&ved=2ahUKEwiYqJ-i8q-TAxVrm2oFHRwyAeUQ1QJ6BAgwEAE",
+        "block_position": 11
+      },
+      {
+        "query": "SEO expert in New York",
+        "link": "https://www.google.com/search?sca_esv=da50c45d53610c17&gl=us&hl=en&q=SEO+expert+in+New+York&sa=X&ved=2ahUKEwiYqJ-i8q-TAxVrm2oFHRwyAeUQ1QJ6BAgvEAE",
+        "block_position": 11
+      },
+      {
+        "query": "Digital marketing in new york city",
+        "link": "https://www.google.com/search?sca_esv=da50c45d53610c17&gl=us&hl=en&q=Digital+marketing+in+new+york+city&sa=X&ved=2ahUKEwiYqJ-i8q-TAxVrm2oFHRwyAeUQ1QJ6BAguEAE",
+        "block_position": 11
+      },
+      {
+        "query": "Nyc seo pro",
+        "link": "https://www.google.com/search?sca_esv=da50c45d53610c17&gl=us&hl=en&q=Nyc+seo+pro&sa=X&ved=2ahUKEwiYqJ-i8q-TAxVrm2oFHRwyAeUQ1QJ6BAgtEAE",
+        "block_position": 11
+      },
+      {
+        "query": "Digital marketing services in new york",
+        "link": "https://www.google.com/search?sca_esv=da50c45d53610c17&gl=us&hl=en&q=Digital+marketing+services+in+new+york&sa=X&ved=2ahUKEwiYqJ-i8q-TAxVrm2oFHRwyAeUQ1QJ6BAgsEAE",
+        "block_position": 11
+      },
+      {
+        "query": "Best digital marketing in new york",
+        "link": "https://www.google.com/search?sca_esv=da50c45d53610c17&gl=us&hl=en&q=Best+digital+marketing+in+new+york&sa=X&ved=2ahUKEwiYqJ-i8q-TAxVrm2oFHRwyAeUQ1QJ6BAgrEAE",
+        "block_position": 11
+      }
+    ]
+  },
+  {
+    "query": "ai local",
+    "location": "National",
+    "label": "ai local [National]",
+    "search_parameters": {
+      "q": "ai local",
+      "location": "United States",
+      "gl": "us",
+      "hl": "en",
+      "device": "desktop",
+      "num": "10",
+      "engine": "google"
+    },
+    "organic_results": [
+      {
+        "position": 1,
+        "block_position": 1,
+        "title": "LocalAI",
+        "link": "https://localai.io/",
+        "domain": "localai.io",
+        "displayed_link": "https://localai.io",
+        "snippet": "The free, OpenAI, Anthropic alternative. Your All-in-One Complete AI Stack - Run powerful language models, autonomous agents, and document intelligence locally ...Read more",
+        "prerender": false
+      },
+      {
+        "position": 2,
+        "block_position": 2,
+        "title": "LM Studio - Local AI on your computer",
+        "link": "https://lmstudio.ai/",
+        "domain": "lmstudio.ai",
+        "displayed_link": "https://lmstudio.ai",
+        "snippet": "Run AI models, locally and privately. Use local LLMs like gpt-oss , Qwen3 , Gemma3 , DeepSeek. and many more, locally on your own hardware ...Read more",
+        "prerender": false
+      },
+      {
+        "position": 3,
+        "block_position": 3,
+        "title": "A Starter Guide for Playing with Your Own Local AI!",
+        "link": "https://www.reddit.com/r/LocalLLaMA/comments/16y95hk/a_starter_guide_for_playing_with_your_own_local_ai/",
+        "domain": "www.reddit.com",
+        "displayed_link": "110+ comments  \u00b7  2 years ago",
+        "snippet": "An LLM is the \"brains\" behind an AI. This is what does all the thinking and is something that we can run locally; like our own personal ChatGPT ...Read more",
+        "prerender": false
+      },
+      {
+        "position": 4,
+        "block_position": 4,
+        "title": "Local AI Chat - App Store",
+        "link": "https://apps.apple.com/us/app/locally-ai-local-ai-chat/id6741426692",
+        "domain": "apps.apple.com",
+        "displayed_link": "https://apps.apple.com \u203a app \u203a locally-ai-local-ai-chat",
+        "snippet": "Run AI models like Llama, Gemma, Qwen, and more on your iPhone and iPad. Offline. Private. No login. No data collection. Powered by Apple MLX. Meet Locally ...Read more",
+        "prerender": false
+      },
+      {
+        "position": 5,
+        "block_position": 7,
+        "title": "How to Run AI Models Locally (2026) : Tools, Setup & Tips",
+        "link": "https://www.clarifai.com/blog/how-to-run-ai-models-locally-2025-tools-setup-tips",
+        "domain": "www.clarifai.com",
+        "displayed_link": "https://www.clarifai.com \u203a blog \u203a how-to-run-ai-models...",
+        "snippet": "Sep 11, 2025 \u2014 How to Run a Local AI Model: Step\u2011By\u2011Step \u00b7 1. Choose Your Model \u00b7 3. Install a Runtime: \u00b7 4. Set Up an environment \u00b7 5. Run & test \u00b7 6. Scale & ...Read more",
+        "prerender": false,
+        "date": "Sep 11, 2025",
+        "date_utc": "2025-09-11T00:00:00.000Z"
+      },
+      {
+        "position": 6,
+        "block_position": 8,
+        "title": "mudler/LocalAI: :robot: The free, Open Source ...",
+        "link": "https://github.com/mudler/LocalAI",
+        "domain": "github.com",
+        "displayed_link": "https://github.com \u203a mudler \u203a LocalAI",
+        "snippet": "LocalAI is the free, Open Source OpenAI alternative. LocalAI act as a drop-in replacement REST API that's compatible with OpenAI (Elevenlabs, Anthropic.Read more",
+        "prerender": false
+      },
+      {
+        "position": 7,
+        "block_position": 9,
+        "title": "Top 6 Local AI Models for Maximum Privacy and Offline ...",
+        "link": "https://blog.swmansion.com/top-6-local-ai-models-for-maximum-privacy-and-offline-capabilities-888160243a94",
+        "domain": "blog.swmansion.com",
+        "displayed_link": "https://blog.swmansion.com \u203a top-6-local-ai-models-for...",
+        "snippet": "Aug 6, 2025 \u2014 Want to run AI on your phone? Check out these 6 top-performing local AI models and tools to bring AI at the edge into your app.",
+        "prerender": false,
+        "date": "Aug 6, 2025",
+        "date_utc": "2025-08-06T00:00:00.000Z"
+      },
+      {
+        "position": 8,
+        "block_position": 10,
+        "title": "The Local AI Playground",
+        "link": "https://www.localai.app/",
+        "domain": "www.localai.app",
+        "displayed_link": "https://www.localai.app",
+        "snippet": "Local AI Management, Verification, & Inferencing. Experiment with AI offline, in private. No GPU required! - A native app made to simplify the whole process ...Read more",
+        "prerender": false
+      }
+    ],
+    "local_results": [],
+    "ai_overview": {
+      "message": "Google offers an AI Overview for this search. To get AI overview result, please use the include_ai_overview=true request parameter. One extra credit applies if results exist."
+    },
+    "related_questions": [
+      {
+        "question": "Is it possible to use AI locally?",
+        "answer": "Local AI lets you run models entirely on your hardware. This gives you full control over your data, reduces latency, and often lowers costs. However, you'll need the right hardware, software, and strategies to tackle challenges like memory limits and model updates.",
+        "source": {
+          "link": "https://www.clarifai.com/blog/how-to-run-ai-models-locally-2025-tools-setup-tips#:~:text=Local%20AI%20lets%20you%20run,memory%20limits%20and%20model%20updates.",
+          "displayed_link": "https://www.clarifai.com \u203a blog \u203a how-to-run-ai-models...",
+          "title": "How to Run AI Models Locally (2026) : Tools, Setup & Tips"
+        },
+        "block_position": 5
+      },
+      {
+        "question": "Is locally AI free?",
+        "answer": "The free, OpenAI, Anthropic alternative. Your All-in-One Complete AI Stack - Run powerful language models, autonomous agents, and document intelligence locally on your hardware. No cloud, no limits, no compromise.",
+        "source": {
+          "link": "https://localai.io/#:~:text=The%20free%2C%20OpenAI%2C%20Anthropic%20alternative,%2C%20no%20limits%2C%20no%20compromise.",
+          "displayed_link": "https://localai.io",
+          "title": "LocalAI"
+        },
+        "block_position": 5
+      },
+      {
+        "question": "What is the local AI?",
+        "answer": "Local AI models are artificial intelligence systems that operate directly on a user's device or within a localized infrastructure, rather than relying on cloud-based services.",
+        "source": {
+          "link": "https://www.lenovo.com/us/en/knowledgebase/local-ai-models-a-comprehensive-guide/#:~:text=Local%20AI%20models%20are%20artificial,relying%20on%20cloud%2Dbased%20services.",
+          "displayed_link": "https://www.lenovo.com \u203a knowledgebase \u203a local-ai-mo...",
+          "title": "Local AI Models: A Comprehensive Guide | Lenovo US"
+        },
+        "block_position": 5
+      },
+      {
+        "question": "Who owns local AI?",
+        "answer": "Local AI was incorporated on February 21st, 2023, as an IKE and was registered to the relevant Chamber of Commerce with VAT no 802053224, \u0393\u0395\u039c\u0397 no 16899034500. It is owned 100% by Georgios Vlachodimitro...",
+        "source": {
+          "link": "https://www.f6s.com/company/local-ai#:~:text=Local%20AI%20was%20incorporated%20on,%25%20by%20Georgios%20Vlachodimitro...",
+          "displayed_link": "https://www.f6s.com \u203a company \u203a local-ai",
+          "title": "Local AI - F6S"
+        },
+        "block_position": 5
+      }
+    ],
+    "discussions_and_forums": [],
+    "related_searches": [
+      {
+        "query": "Local AI download",
+        "link": "https://www.google.com/search?sca_esv=da50c45d53610c17&gl=us&hl=en&q=Local+AI+download&sa=X&ved=2ahUKEwi1hpCk8q-TAxVXlIkEHYcdCIMQ1QJ6BAgrEAE",
+        "block_position": 11
+      },
+      {
+        "query": "Local AI Android",
+        "link": "https://www.google.com/search?sca_esv=da50c45d53610c17&gl=us&hl=en&q=Local+AI+Android&sa=X&ved=2ahUKEwi1hpCk8q-TAxVXlIkEHYcdCIMQ1QJ6BAg-EAE",
+        "block_position": 11
+      },
+      {
+        "query": "Local AI Windows",
+        "link": "https://www.google.com/search?sca_esv=da50c45d53610c17&gl=us&hl=en&q=Local+AI+Windows&sa=X&ved=2ahUKEwi1hpCk8q-TAxVXlIkEHYcdCIMQ1QJ6BAg9EAE",
+        "block_position": 11
+      },
+      {
+        "query": "Best local AI",
+        "link": "https://www.google.com/search?sca_esv=da50c45d53610c17&gl=us&hl=en&q=Best+local+AI&sa=X&ved=2ahUKEwi1hpCk8q-TAxVXlIkEHYcdCIMQ1QJ6BAg4EAE",
+        "block_position": 11
+      },
+      {
+        "query": "Local AI hardware",
+        "link": "https://www.google.com/search?sca_esv=da50c45d53610c17&gl=us&hl=en&q=Local+AI+hardware&sa=X&ved=2ahUKEwi1hpCk8q-TAxVXlIkEHYcdCIMQ1QJ6BAgzEAE",
+        "block_position": 11
+      },
+      {
+        "query": "AI local model",
+        "link": "https://www.google.com/search?sca_esv=da50c45d53610c17&gl=us&hl=en&q=AI+local+model&sa=X&ved=2ahUKEwi1hpCk8q-TAxVXlIkEHYcdCIMQ1QJ6BAgyEAE",
+        "block_position": 11
+      },
+      {
+        "query": "Run AI locally Windows",
+        "link": "https://www.google.com/search?sca_esv=da50c45d53610c17&gl=us&hl=en&q=Run+AI+locally+Windows&sa=X&ved=2ahUKEwi1hpCk8q-TAxVXlIkEHYcdCIMQ1QJ6BAgtEAE",
+        "block_position": 11
+      },
+      {
+        "query": "Locally AI app",
+        "link": "https://www.google.com/search?sca_esv=da50c45d53610c17&gl=us&hl=en&q=Locally+AI+app&sa=X&ved=2ahUKEwi1hpCk8q-TAxVXlIkEHYcdCIMQ1QJ6BAgsEAE",
+        "block_position": 11
+      }
+    ]
+  },
+  {
+    "query": "locally ai",
+    "location": "National",
+    "label": "locally ai [National]",
+    "search_parameters": {
+      "q": "locally ai",
+      "location": "United States",
+      "gl": "us",
+      "hl": "en",
+      "device": "desktop",
+      "num": "10",
+      "engine": "google"
+    },
+    "organic_results": [
+      {
+        "position": 1,
+        "block_position": 1,
+        "title": "Locally AI - Run AI models locally on your iPhone, iPad, and ...",
+        "link": "https://locallyai.app/",
+        "domain": "locallyai.app",
+        "displayed_link": "https://locallyai.app",
+        "snippet": "Download Locally AI from the App Store or Mac App Store, choose an AI model to download, and start chatting. No account creation or login required, just ...Read more",
+        "prerender": false
+      },
+      {
+        "position": 2,
+        "block_position": 4,
+        "title": "Local AI Chat - App Store",
+        "link": "https://apps.apple.com/us/app/locally-ai-local-ai-chat/id6741426692",
+        "domain": "apps.apple.com",
+        "displayed_link": "https://apps.apple.com \u203a app \u203a locally-ai-local-ai-chat",
+        "snippet": "Run AI models like Llama, Gemma, Qwen, and more on your iPhone and iPad. Offline. Private. No login. No data collection. Powered by Apple MLX. Meet Locally ...Read more",
+        "prerender": false
+      },
+      {
+        "position": 3,
+        "block_position": 5,
+        "title": "LocalAI",
+        "link": "https://localai.io/",
+        "domain": "localai.io",
+        "displayed_link": "https://localai.io",
+        "snippet": "The free, OpenAI, Anthropic alternative. Your All-in-One Complete AI Stack - Run powerful language models, autonomous agents, and document intelligence locally ...Read more",
+        "prerender": false
+      },
+      {
+        "position": 4,
+        "block_position": 6,
+        "title": "Locally AI now taps into Apple Foundation models",
+        "link": "https://www.reddit.com/r/apple/comments/1nirfxn/locally_ai_now_taps_into_apple_foundation_models/",
+        "domain": "www.reddit.com",
+        "displayed_link": "30+ comments  \u00b7  6 months ago",
+        "snippet": "If you want to test Apple Foundation models, Locally AI allows you to tap into those models via a chatbot interface. Upvote 27. Downvote 36 Go ...Read more",
+        "prerender": false
+      },
+      {
+        "position": 5,
+        "block_position": 7,
+        "title": "LM Studio - Local AI on your computer",
+        "link": "https://lmstudio.ai/",
+        "domain": "lmstudio.ai",
+        "displayed_link": "https://lmstudio.ai",
+        "snippet": "Connect to remote instances of LM Studio, load your models, and use them as if they were local. Get started. Run AI models, locally and privately.Read more",
+        "prerender": false
+      },
+      {
+        "position": 6,
+        "block_position": 8,
+        "title": "How to Run AI Models Locally (2026) : Tools, Setup & Tips",
+        "link": "https://www.clarifai.com/blog/how-to-run-ai-models-locally-2025-tools-setup-tips",
+        "domain": "www.clarifai.com",
+        "displayed_link": "https://www.clarifai.com \u203a blog \u203a how-to-run-ai-models...",
+        "snippet": "Sep 11, 2025 \u2014 How to Run a Local AI Model: Step\u2011By\u2011Step \u00b7 1. Choose Your Model \u00b7 3. Install a Runtime: \u00b7 4. Set Up an environment \u00b7 5. Run & test \u00b7 6. Scale & ...Read more",
+        "prerender": false,
+        "date": "Sep 11, 2025",
+        "date_utc": "2025-09-11T00:00:00.000Z"
+      },
+      {
+        "position": 7,
+        "block_position": 9,
+        "title": "Local AI - Offline AI chatbot - Apps on Google Play",
+        "link": "https://play.google.com/store/apps/details?id=com.ishanvohra2.localai&hl=en_US",
+        "domain": "play.google.com",
+        "displayed_link": "https://play.google.com \u203a store \u203a apps \u203a details",
+        "snippet": "Unlock the power of AI with Local AI\u2014the ultimate chatbot that works entirely offline. No internet, no data sharing\u2014just smart, secure conversations anytime, ...Read more",
+        "prerender": false
+      },
+      {
+        "position": 8,
+        "block_position": 10,
+        "title": "The Local AI Playground",
+        "link": "https://www.localai.app/",
+        "domain": "www.localai.app",
+        "displayed_link": "https://www.localai.app",
+        "snippet": "Local AI Management, Verification, & Inferencing. Experiment with AI offline, in private. No GPU required! - A native app made to simplify the whole process ...Read more",
+        "prerender": false
+      }
+    ],
+    "local_results": [],
+    "ai_overview": {
+      "message": "Google offers an AI Overview for this search. To get AI overview result, please use the include_ai_overview=true request parameter. One extra credit applies if results exist."
+    },
+    "related_questions": [
+      {
+        "question": "Is it possible to use AI locally?",
+        "answer": "Local AI lets you run models entirely on your hardware. This gives you full control over your data, reduces latency, and often lowers costs. However, you'll need the right hardware, software, and strategies to tackle challenges like memory limits and model updates.",
+        "source": {
+          "link": "https://www.clarifai.com/blog/how-to-run-ai-models-locally-2025-tools-setup-tips#:~:text=Local%20AI%20lets%20you%20run,memory%20limits%20and%20model%20updates.",
+          "displayed_link": "https://www.clarifai.com \u203a blog \u203a how-to-run-ai-models...",
+          "title": "How to Run AI Models Locally (2026) : Tools, Setup & Tips"
+        },
+        "block_position": 3
+      },
+      {
+        "question": "Is locally AI free?",
+        "answer": "The free, OpenAI, Anthropic alternative. Your All-in-One Complete AI Stack - Run powerful language models, autonomous agents, and document intelligence locally on your hardware. No cloud, no limits, no compromise.",
+        "source": {
+          "link": "https://localai.io/#:~:text=The%20free%2C%20OpenAI%2C%20Anthropic%20alternative,%2C%20no%20limits%2C%20no%20compromise.",
+          "displayed_link": "https://localai.io",
+          "title": "LocalAI"
+        },
+        "block_position": 3
+      },
+      {
+        "question": "What AI works without internet?",
+        "answer": "Layla is an artificial intelligence that runs on your phone. No internet connection. Fully private.",
+        "source": {
+          "link": "https://www.layla-network.ai/#:~:text=Layla%20is%20an%20artificial%20intelligence%20that%20runs%20on%20your%20phone.&text=No%20internet%20connection.,Fully%20private.",
+          "displayed_link": "https://www.layla-network.ai",
+          "title": "Layla - Experience the Best Offline AI Assistant | Layla AI"
+        },
+        "block_position": 3
+      },
+      {
+        "question": "What is the 30% rule in AI?",
+        "answer": "The \u201c30% AI rule\u201d is a simple guideline designed to help students (and adults!) use AI responsibly. It means that when you're creating something \u2014 whether it's an essay, a project, or a piece of code - no more than about 30% of the work should come directly from AI tools.",
+        "source": {
+          "link": "https://www.cococoders.com/blog/understanding-the-30-ai-rule-and-why-ai-is-a-good-thing-when-used-well#:~:text=The%20%E2%80%9C30%25%20AI%20rule%E2%80%9D%20is%20a%20simple%20guideline%20designed,come%20directly%20from%20AI%20tools.",
+          "displayed_link": "https://www.cococoders.com \u203a blog \u203a understanding-the-...",
+          "title": "Understanding the 30% AI Rule - and Why AI Is a Good Thing When Used ..."
+        },
+        "block_position": 3
+      }
+    ],
+    "discussions_and_forums": [],
+    "related_searches": [
+      {
+        "query": "Locally AI app",
+        "link": "https://www.google.com/search?sca_esv=ce4f24d74213acb6&gl=us&hl=en&q=Locally+AI+app&sa=X&ved=2ahUKEwid_b-s8q-TAxVXliYFHdYKKuAQ1QJ6BAgsEAE",
+        "block_position": 11
+      },
+      {
+        "query": "Locally AI Android",
+        "link": "https://www.google.com/search?sca_esv=ce4f24d74213acb6&gl=us&hl=en&q=Locally+AI+Android&sa=X&ved=2ahUKEwid_b-s8q-TAxVXliYFHdYKKuAQ1QJ6BAhCEAE",
+        "block_position": 11
+      },
+      {
+        "query": "Locally AI reddit",
+        "link": "https://www.google.com/search?sca_esv=ce4f24d74213acb6&gl=us&hl=en&q=Locally+AI+reddit&sa=X&ved=2ahUKEwid_b-s8q-TAxVXliYFHdYKKuAQ1QJ6BAg-EAE",
+        "block_position": 11
+      },
+      {
+        "query": "Locally AI download",
+        "link": "https://www.google.com/search?sca_esv=ce4f24d74213acb6&gl=us&hl=en&q=Locally+AI+download&sa=X&ved=2ahUKEwid_b-s8q-TAxVXliYFHdYKKuAQ1QJ6BAg3EAE",
+        "block_position": 11
+      },
+      {
+        "query": "Locally ai apk",
+        "link": "https://www.google.com/search?sca_esv=ce4f24d74213acb6&gl=us&hl=en&q=Locally+ai+apk&sa=X&ved=2ahUKEwid_b-s8q-TAxVXliYFHdYKKuAQ1QJ6BAg1EAE",
+        "block_position": 11
+      },
+      {
+        "query": "Locally ai for windows",
+        "link": "https://www.google.com/search?sca_esv=ce4f24d74213acb6&gl=us&hl=en&q=Locally+ai+for+windows&sa=X&ved=2ahUKEwid_b-s8q-TAxVXliYFHdYKKuAQ1QJ6BAgzEAE",
+        "block_position": 11
+      },
+      {
+        "query": "Locally AI GitHub",
+        "link": "https://www.google.com/search?sca_esv=ce4f24d74213acb6&gl=us&hl=en&q=Locally+AI+GitHub&sa=X&ved=2ahUKEwid_b-s8q-TAxVXliYFHdYKKuAQ1QJ6BAgvEAE",
+        "block_position": 11
+      },
+      {
+        "query": "Locally AI Mac",
+        "link": "https://www.google.com/search?sca_esv=ce4f24d74213acb6&gl=us&hl=en&q=Locally+AI+Mac&sa=X&ved=2ahUKEwid_b-s8q-TAxVXliYFHdYKKuAQ1QJ6BAgtEAE",
+        "block_position": 11
+      }
+    ]
+  }
+];
