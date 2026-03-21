@@ -1,0 +1,264 @@
+# ----------------------------------------
+# Reports snapshot
+# Account: Google Ads Account
+# Property: ailocalbusiness.biz
+# ----------------------------------------
+#  
+# Start date: 20260215
+# End date: 20260314
+Nth day,Active users
+0000,0
+0001,0
+0002,0
+0003,0
+0004,0
+0005,0
+0006,0
+0007,0
+0008,0
+0009,0
+0010,0
+0011,0
+0012,0
+0013,0
+0014,0
+0015,0
+0016,0
+0017,0
+0018,0
+0019,4
+0020,16
+0021,7
+0022,3
+0023,3
+0024,1
+0025,3
+0026,1
+0027,0
+
+# Start date: 20260215
+# End date: 20260314
+Nth day,New users
+0000,0
+0001,0
+0002,0
+0003,0
+0004,0
+0005,0
+0006,0
+0007,0
+0008,0
+0009,0
+0010,0
+0011,0
+0012,0
+0013,0
+0014,0
+0015,0
+0016,0
+0017,0
+0018,0
+0019,4
+0020,18
+0021,7
+0022,3
+0023,3
+0024,0
+0025,2
+0026,1
+0027,0
+
+# Start date: 20260215
+# End date: 20260314
+Nth day,Average engagement time per active user
+0000,0
+0001,0
+0002,0
+0003,0
+0004,0
+0005,0
+0006,0
+0007,0
+0008,0
+0009,0
+0010,0
+0011,0
+0012,0
+0013,0
+0014,0
+0015,0
+0016,0
+0017,0
+0018,0
+0019,9
+0020,4
+0021,7.857142857142857
+0022,0
+0023,7.666666666666667
+0024,0
+0025,3
+0026,0
+0027,0
+
+# Start date: 20260215
+# End date: 20260314
+Nth day,Total revenue
+0000,0
+0001,0
+0002,0
+0003,0
+0004,0
+0005,0
+0006,0
+0007,0
+0008,0
+0009,0
+0010,0
+0011,0
+0012,0
+0013,0
+0014,0
+0015,0
+0016,0
+0017,0
+0018,0
+0019,0
+0020,0
+0021,0
+0022,0
+0023,0
+0024,0
+0025,0
+0026,0
+0027,0
+
+# Where do your new users come from?
+# Start date: 20260215
+# End date: 20260314
+First user primary channel group (Default Channel Group),New users
+Direct,34
+Referral,2
+Organic Search,1
+Paid Search,1
+
+#  
+# Start date: 20260215
+# End date: 20260314
+Session primary channel group (Default Channel Group),Sessions
+Direct,39
+Organic Search,6
+Referral,3
+Paid Search,1
+
+#  
+# Start date: 20260215
+# End date: 20260314
+Country ID,Active users
+DE,1
+IN,2
+KR,2
+NO,1
+SA,1
+US,25
+
+# Start date: 20260215
+# End date: 20260314
+Country,Active users
+US,25
+IN,2
+KR,2
+DE,1
+NO,1
+SA,1
+
+# How are active users trending?
+# Start date: 20260215
+# End date: 20260314
+Nth day,30 days,7 days,1 day
+0000,0,0,0
+0001,0,0,0
+0002,0,0,0
+0003,0,0,0
+0004,0,0,0
+0005,0,0,0
+0006,0,0,0
+0007,0,0,0
+0008,0,0,0
+0009,0,0,0
+0010,0,0,0
+0011,0,0,0
+0012,0,0,0
+0013,0,0,0
+0014,0,0,0
+0015,0,0,0
+0016,0,0,0
+0017,0,0,0
+0018,0,0,0
+0019,4,4,4
+0020,20,20,16
+0021,27,27,7
+0022,30,30,3
+0023,33,33,3
+0024,33,33,1
+0025,35,35,3
+0026,36,33,1
+0027,36,17,0
+
+# How well do you retain your users?
+# Start date: 20260201
+# End date: 20260314
+Date,Week 0,Week 1,Week 2,Week 3,Week 4,Week 5
+Feb 1 - Feb 7,0,0,0,0,0,0
+Feb 8 - Feb 14,0,0,0,0,0,-1
+Feb 15 - Feb 21,0,0,0,0,-1,-1
+Feb 22 - Feb 28,0,0,0,-1,-1,-1
+Mar 1 - Mar 7,20,1,-1,-1,-1,-1
+Mar 8 - Mar 14,16,-1,-1,-1,-1,-1
+
+#  
+# Start date: 20260215
+# End date: 20260314
+Page title and screen class,Views
+AI Local Business,54
+About AI Local Business | AI Local Business,4
+How to Get Your Local Business to Show Up on ChatGPT | AI Local Business,4
+Local SEO & AI Search Optimization Services | AI Local Business,4
+Blog | AI Local Business,3
+Free AI Search Audit for Your Business | AI Local Business,3
+Search | AI Local Business,3
+Why Word-of-Mouth in Bergen County Isn't Enough Anymore (And How to Actually Get Found) | AI Local Business,2
+
+#  
+# Start date: 20260215
+# End date: 20260314
+Event name,Event count
+page_view,77
+session_start,51
+scroll,43
+first_visit,38
+user_engagement,29
+ads_conversion_Contact_1,3
+
+# What are your top performing key events?
+# Start date: 20260215
+# End date: 20260314
+Event name,Key events
+ads_conversion_Contact_1,3
+
+# Where does your average 120d value come from?
+# Start date: 20260215
+# End date: 20260314
+First user primary channel group (Default Channel Group),Average 120d value
+
+
+#  
+# Start date: 20260215
+# End date: 20260314
+Item name,Items purchased
+
+
+# How does activity on your platforms compare?
+# Start date: 20260215
+# End date: 20260314
+Platform,Key events
+web,3
