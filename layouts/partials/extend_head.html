@@ -1,13 +1,22 @@
+{{/* ---- Web fonts: Fraunces (display), Switzer (body), JetBrains Mono (accents) ---- */}}
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://api.fontshare.com">
+<link rel="preconnect" href="https://cdn.fontshare.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link href="https://api.fontshare.com/v2/css?f[]=cabinet-grotesk@400,500,700,800&f[]=switzer@400,500,600,700&display=swap" rel="stylesheet">
+
 {{/* Open Graph / Social Sharing */}}
-<meta property="og:title" content="{{ if .IsHome }}AI Local Business | Local SEO & AI Search for Bergen County{{ else }}{{ .Title }} | AI Local Business{{ end }}">
-<meta property="og:description" content="{{ with .Description }}{{ . }}{{ else }}Helping Bergen County businesses get found on Google and AI search. Local SEO, fast websites, and AI search optimization from Spencer Scott Digital.{{ end }}">
+<meta property="og:title" content="{{ if .IsHome }}AI Local Business | Local SEO, AI Search & Websites for Bergen County{{ else }}{{ .Title }} | AI Local Business{{ end }}">
+<meta property="og:description" content="{{ with .Description }}{{ . }}{{ else }}Local SEO, AI search optimization, and websites that actually perform — for Bergen County and northern NJ businesses. Spencer Scott Digital.{{ end }}">
 <meta property="og:image" content="https://ailocalbusiness.biz/images/og-image.png">
 <meta property="og:url" content="{{ .Permalink }}">
 <meta property="og:type" content="{{ if .IsPage }}article{{ else }}website{{ end }}">
 <meta property="og:site_name" content="AI Local Business">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="{{ if .IsHome }}AI Local Business | Local SEO & AI Search for Bergen County{{ else }}{{ .Title }}{{ end }}">
-<meta name="twitter:description" content="{{ with .Description }}{{ . }}{{ else }}Helping Bergen County businesses get found on Google and AI search.{{ end }}">
+<meta name="twitter:title" content="{{ if .IsHome }}AI Local Business | Local SEO, AI Search & Websites for Bergen County{{ else }}{{ .Title }}{{ end }}">
+<meta name="twitter:description" content="{{ with .Description }}{{ . }}{{ else }}Local SEO, AI search optimization, and websites for Bergen County businesses.{{ end }}">
 <meta name="twitter:image" content="https://ailocalbusiness.biz/images/og-image.png">
 
 {{/* Google Ads conversion tracking */}}
@@ -36,8 +45,6 @@ function gtag_report_conversion(url) {
 }
 </script>
 
-{{/* Custom SEO enhancements */}}
-
 {{/* Local Business Schema.org structured data - homepage only */}}
 {{ if .IsHome }}
 <script type="application/ld+json">
@@ -45,7 +52,8 @@ function gtag_report_conversion(url) {
   "@context": "https://schema.org",
   "@type": "ProfessionalService",
   "name": "AI Local Business",
-  "description": "Local SEO and AI Search Optimization for Bergen County businesses",
+  "alternateName": "Spencer Scott Digital",
+  "description": "Local SEO, AI search optimization, and website design for Bergen County and northern New Jersey businesses",
   "url": "{{ .Site.BaseURL }}",
   "areaServed": [
     {
@@ -61,8 +69,56 @@ function gtag_report_conversion(url) {
       "name": "Bergen County"
     }
   ],
-  "serviceType": ["Search Engine Optimization", "AI Search Optimization", "Local SEO", "Digital Marketing"],
-  "knowsAbout": ["SEO", "Local SEO", "AI Search Optimization", "Google Business Profile", "ChatGPT", "Perplexity", "Answer Engine Optimization"]
+  "serviceType": [
+    "Search Engine Optimization",
+    "AI Search Optimization",
+    "Local SEO",
+    "Website Design",
+    "Digital Marketing"
+  ],
+  "knowsAbout": [
+    "SEO",
+    "Local SEO",
+    "AI Search Optimization",
+    "Answer Engine Optimization",
+    "Google Business Profile",
+    "ChatGPT",
+    "Perplexity",
+    "Google AI Overviews",
+    "Website Design",
+    "Schema Markup",
+    "Core Web Vitals"
+  ],
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "Services",
+    "itemListElement": [
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Local SEO",
+          "description": "Google Business Profile optimization, local citations, on-page SEO, and review strategy for local service businesses."
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "AI Search Optimization",
+          "description": "Visibility on ChatGPT, Perplexity, and Google AI Overviews. Content optimized for AI citation and brand mention monitoring."
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Website Design",
+          "description": "Fast, mobile-first websites for local service businesses with schema markup and Core Web Vitals performance baked in."
+        }
+      }
+    ]
+  }
 }
 </script>
 {{ end }}
