@@ -39,7 +39,7 @@
   --border: var(--rule);
 }
 
-.dark {
+[data-theme="dark"] {
   --bg-page: #14160F;
   --bg-elev: #1D1F18;
   --bg-deep: #0A0D08;
@@ -84,7 +84,7 @@ body {
   background-attachment: fixed;
 }
 
-.dark body {
+[data-theme="dark"] body {
   background-image:
     radial-gradient(ellipse 1100px 700px at 12% 8%, rgba(111, 181, 158, 0.06), transparent 60%),
     radial-gradient(ellipse 800px 600px at 92% 92%, rgba(224, 139, 101, 0.035), transparent 65%),
@@ -113,7 +113,7 @@ body { padding-top: 3px; }
   backdrop-filter: saturate(140%) blur(10px);
   -webkit-backdrop-filter: saturate(140%) blur(10px);
 }
-.dark .nav {
+[data-theme="dark"] .nav {
   background: rgba(17, 20, 15, 0.85);
 }
 
@@ -247,7 +247,7 @@ body { padding-top: 3px; }
   background: var(--forest-soft);
 }
 
-.dark .btn-primary {
+[data-theme="dark"] .btn-primary {
   background: var(--ink);
   color: var(--bg-page) !important;
 }
