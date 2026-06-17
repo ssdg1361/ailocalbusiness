@@ -41,4 +41,4 @@ I live here. I shop at the same stores, eat at the same restaurants, and hire th
 
 If you're a Bergen County business owner curious about where you stand online — especially in the new world of AI search — I'd love to show you. The audit is free, the conversation is casual, and there's zero pressure.
 
-**[Get your free AI search audit →](/audit/)** or email me at [spencerscottdigital@gmail.com](mailto:spencerscottdigital@gmail.com).
+**[Get your free AI search audit →](/audit/)**, email me at [spencerscottdigital@gmail.com](mailto:spencerscottdigital@gmail.com), or call or text **[(201) 903-3491](tel:+12019033491)**.
