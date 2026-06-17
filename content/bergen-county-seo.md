@@ -22,54 +22,55 @@ faq:
 
 ## Bergen County SEO that actually moves the needle
 
-If you run a local business in Bergen County, you already know how competitive it is here. Dozens of towns packed into a few square miles, affluent customers with options, and a competitor on every corner. **Bergen County SEO is about being the business Google — and now AI — recommends when someone in your town searches for what you do.**
+Bergen County SEO is about being the business Google — and now AI — names when someone in your town searches for what you do. If you run a local service business here, you already know the math: dozens of towns packed into a few square miles, affluent customers with endless options, and a competitor on every corner.
 
-I'm Spencer, and I run Spencer Scott Digital out of Glen Rock. I help local service businesses across Bergen County get found on Google, in the map pack, and in AI search results like ChatGPT and Perplexity — then back it with a website that turns those searches into phone calls.
-
----
-
-## Why Bergen County SEO is different in 2026
-
-Two things make local search here a different game than the generic advice you'll find online:
-
-**It's hyperlocal.** "SEO Bergen County" isn't one market — it's Ridgewood, Paramus, and Hackensack — and a few dozen more towns — each with its own searches and its own competitors. Ranking in your town requires targeting *your town*, not the county as a whole.
-
-**Customers are searching in new places.** A homeowner with a burst pipe in Hackensack doesn't just Google "plumber near me" anymore — they ask ChatGPT "who's a reliable plumber in Hackensack with good reviews?" If your business isn't part of that answer, you're invisible to a fast-growing slice of your market. This is **AI search optimization (AEO)**, and almost nobody in your local market is doing it yet.
+I'm Spencer, and I run Spencer Scott Digital out of Glen Rock. I don't hide behind account managers or bury you in jargon. I help local contractors, trades, and service providers across Bergen County land in the Google Map Pack, rank for the searches that actually book jobs, and show up inside AI engines like ChatGPT and Perplexity — then back it with a fast website that turns those clicks into ringing phones.
 
 ---
 
-## What's included
+## Why Bergen County SEO is a different game in 2026
 
-- **Google Business Profile optimization** — the single biggest lever for local rankings. Category strategy, photos, Q&A, reviews, and posts that get you into the map pack.
-- **Town-level local SEO** — citations with consistent NAP (Name, Address, Phone) across 50+ directories, on-page SEO, and content targeting the specific towns you serve.
-- **AI search optimization (AEO)** — structured data and content built so ChatGPT, Perplexity, and Google AI Overviews understand and recommend your business.
-- **Fast, conversion-ready websites** — a site that loads in under two seconds on a phone, puts your phone number one tap away, and tells search engines and AI crawlers exactly who you are.
-- **Plain-English reporting** — clear monthly updates on what moved, what changed, and what's next. No jargon, no fluff.
+Local search here isn't one market — it's dozens. The generic advice online misses the two things that decide whether you win in Bergen County:
+
+**It's hyperlocal.** "SEO Bergen County" isn't a single target. It's Ridgewood, Paramus, and Hackensack — and a few dozen more towns — each with its own search volume and its own competitors. Ranking in your town means projecting precise signals for *your town*, not casting a vague net over the whole county.
+
+**Your customers are searching in new places.** A homeowner with a burst pipe in Hackensack doesn't scroll ten blue links anymore — they ask ChatGPT, "who's a reliable plumber near me with good reviews?" If you're not in that answer, you're invisible to a fast-growing slice of the market. This is **AI search optimization (AEO)**, and almost none of your local competitors are even aware it exists yet.
+
+---
+
+## What's included — built to drive calls
+
+Everything here points at one outcome: more booked work.
+
+- **Google Business Profile dominance** — your highest-impact asset for local calls. Category strategy, photos, Q&A, reviews, and posts that lock you into the Map Pack.
+- **Town-level local SEO** — consistent NAP (Name, Address, Phone) across 50+ directories, on-page SEO, and content that targets the specific towns you serve.
+- **AI search optimization (AEO)** — structured data and content built so ChatGPT, Perplexity, and Google AI Overviews can read, trust, and recommend you.
+- **Fast, conversion-ready websites** — no bloated, slow builds. A site that loads in under two seconds on a phone and makes calling you one tap.
+- **Straight-shooter reporting** — a clear monthly update on what moved and what's next. No fluff, no vanity metrics.
 
 ---
 
 ## Where I work
 
-I'm based in Bergen County and build local search visibility across it and the surrounding North Jersey communities — with deep roots right here in Glen Rock, Ridgewood, and Paramus. Wherever your customers are in the county, I can help them find you.
+I'm based in Bergen County and build visibility across it and the surrounding North Jersey towns — with deep roots right here in Glen Rock, Ridgewood, and Paramus. Wherever your customers are in the county, I can help them find you.
 
 ---
 
-## Why work with a local
+## Why work with a neighbor, not an agency
 
-I live here. I shop at the same stores, eat at the same restaurants, and hire the same kinds of service businesses as your customers. When I help a Bergen County business get found, I'm improving my own community — and I understand this market in a way a faceless agency three states away never will.
+I live here. I shop at the same stores, eat at the same diners, and hire the same kinds of trades as your customers. When I help a Bergen County business get found, I'm improving my own community — and I read this market in a way a faceless agency three states away never will.
 
-I'm also one person, not a 12-person shop — which means you work directly with the person doing the work, and you're not paying for an account manager to relay messages.
+You also deal directly with me: the person writing the copy, checking the schema, and tracking the results — not an account manager relaying messages.
 
 ---
 
 ## See where your business stands — free
 
-The first step is always the same: let's find out exactly what happens when your customers search for you, on both Google and AI.
+The first step costs nothing. Let's find out exactly what happens when your customers search for you — on Google, in the Map Pack, and in ChatGPT.
 
 **[Get your free AI search audit →](/audit/)** or call or text **[(201) 903-3491](tel:+12019033491)**.
 
-No pitch, no pressure — just a clear picture of where your business shows up, and where it doesn't.
-
+No pitch, no pressure — just a clear picture of where you're winning and where you're missing calls.
 
 <script type="application/ld+json">
 {

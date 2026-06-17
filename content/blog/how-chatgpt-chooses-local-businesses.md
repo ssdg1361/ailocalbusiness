@@ -22,31 +22,31 @@ faq:
     answer: "Reviews are a significant trust signal. ChatGPT frequently references review quality and volume when recommending businesses, drawing on Google and other review platforms. A strong, recent review profile makes you a safer business for AI to recommend."
 ---
 
-When someone asks ChatGPT "who's the best plumber in Hackensack?" — how does it decide who to name? Understanding that is the whole game if you want your business to be the one it recommends.
+When a neighbor in Glen Rock or Ridgewood asks ChatGPT, *"who's the best smart-home installer around here?"* — how does it instantly pick who to name and who to ignore? Understanding that selection is the secret to being the one it recommends.
 
-## ChatGPT doesn't have a business directory
+## ChatGPT doesn't use a business directory
 
-The first thing to understand: there's no master list of businesses inside ChatGPT, and no form to submit yours. ChatGPT constructs each answer from two sources:
+There's no submission form, no paid shortcut, and no dashboard where you upload your details into ChatGPT. It builds local recommendations from two pipelines:
 
-- **Training data** — a large snapshot of web content (websites, articles, directories, review platforms) processed when the model was built.
-- **Real-time web search** — newer versions can search the live web, pulling in your current website, Google Business Profile, and listings as it answers.
+- **Training data** — a large snapshot of the web (sites, articles, directories, review platforms) captured when the model was built.
+- **Real-time web search** — live lookups while you chat, pulling from active sites, current Google Business Profiles, and fresh directory data.
 
-So the question "how does ChatGPT find businesses" really means: *what does the open web say about businesses like yours, and how clearly?*
+So "how does ChatGPT find businesses" really means: *how easily can a machine read your digital footprint and find proof you're legit?*
 
-## The signals behind its choices
+## The signals that decide who gets named
 
-When ChatGPT picks which businesses to name, it's effectively weighing how easy each one is to **find, understand, and trust**:
+To protect its own accuracy, ChatGPT behaves like a strict editor, weighing how easy each business is to **find, understand, and trust**:
 
-- **Clarity** — Does the website plainly state the service and the area served? Vague sites get skipped.
-- **Consistency** — Is the business's name, address, and phone the same everywhere online? Mismatches create doubt.
-- **Reputation** — Are there enough recent, positive reviews to make it a safe recommendation?
-- **Authority** — Is the business mentioned on directories, local publications, and trusted sources?
-- **Structure** — Does the site use schema markup that spells out the business details for machines?
+- **Clarity** — Plain statements win. "Water-heater replacement in Hackensack and Paramus" gets read; "quality service you can trust" gets skipped.
+- **Consistency** — Your name, address, and phone must match everywhere. Mismatches between your site, Facebook, and directories create machine doubt, and the AI plays it safe by naming someone else.
+- **Reputation** — Recent, high-volume reviews signal a safe recommendation.
+- **Authority** — Mentions on directories, local publications, and trusted sources add weight.
+- **Structure** — Schema markup spells your details out for machines.
 
-No single signal decides it. A competitor who's modestly ahead on several of these will get recommended over a business that's strong on only one.
+No single signal decides it. A competitor who's modestly ahead on several of these beats a business that's strong on only one.
 
 ## What this means for you
 
-The encouraging part: every one of those signals is something you can improve. Getting recommended by ChatGPT isn't luck or a trick — it's the same work as strong local SEO, with a few AI-specific adjustments. I break down the full approach in [how to get your local business to show up on ChatGPT](/blog/how-to-get-your-business-on-chatgpt/).
+Every one of those signals is something you can fix. Getting recommended by ChatGPT isn't luck or a trick — it's the same work as strong local SEO, with a few AI-specific adjustments. I break down the full approach in [how to get your local business to show up on ChatGPT](/blog/how-to-get-your-business-on-chatgpt/).
 
-Want to see what ChatGPT actually says about your business right now? **[Get your free AI search audit →](/audit/)** or call or text **[(201) 903-3491](tel:+12019033491)**.
+Want to see what ChatGPT says about your business right now? **[Get your free AI search audit →](/audit/)** or call or text **[(201) 903-3491](tel:+12019033491)**.
