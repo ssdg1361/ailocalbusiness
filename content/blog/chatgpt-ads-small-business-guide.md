@@ -50,6 +50,12 @@ ChatGPT ads are labeled, sponsored placements — not a takeover of the answer. 
 - **Only logged-in free users see them.** Paid tiers (Plus, Pro, Business, Enterprise) stay ad-free.
 - **The answer itself stays organic.** Ads sit around the conversation; they don't change which businesses ChatGPT names in its actual recommendation. That part is still earned, not bought — which is exactly why [getting recommended by ChatGPT organically](/blog/how-to-get-your-business-on-chatgpt/) still matters more than the ad.
 
+Two real examples of the Sponsored unit — clearly labeled, and sitting *below* the answer rather than inside it:
+
+![A "Sponsored" grocery result shown below a ChatGPT answer, with a note that ads don't influence the response](/images/chatgpt-ads/05-sponsored-ad.webp "A labeled 'Sponsored' placement below the answer — ChatGPT notes ads don't influence the response")
+
+![A "Sponsored" Target product result shown below a ChatGPT answer in the mobile app](/images/chatgpt-ads/06-sponsored-ad-inapp.webp "The same Sponsored unit as it appears live in the ChatGPT mobile app")
+
 ## What it really costs
 
 Two numbers decide whether this is worth your time: the minimum to start, and what a click actually costs. The first is basically zero. The second isn't — and the public docs are fuzzy on both.
