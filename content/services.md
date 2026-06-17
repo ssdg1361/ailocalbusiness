@@ -26,7 +26,7 @@ Today, your potential customers are asking ChatGPT for recommendations. They're 
 
 ## Local SEO {#local-seo}
 
-The foundation. If you're not ranking in Google's local pack and map results, you're leaving money on the table every single day.
+The foundation. If you're not ranking in Google's local pack and map results, you're leaving money on the table every single day. If local search is your priority, see my dedicated [Bergen County SEO](/bergen-county-seo/) breakdown.
 
 - **Google Business Profile optimization** — Complete setup, category strategy, photo optimization, Q&A management, and review response strategy
 - **Local citation building** — Consistent NAP (Name, Address, Phone) across 50+ directories and data aggregators

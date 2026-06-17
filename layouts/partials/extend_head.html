@@ -8,7 +8,7 @@
 <link href="https://api.fontshare.com/v2/css?f[]=cabinet-grotesk@400,500,700,800&f[]=switzer@400,500,600,700&display=swap" rel="stylesheet">
 
 {{/* Open Graph / Social Sharing */}}
-<meta property="og:title" content="{{ if .IsHome }}AI Local Business | Local SEO, AI Search & Websites for Bergen County{{ else }}{{ .Title }} | AI Local Business{{ end }}">
+<meta property="og:title" content="{{ if .IsHome }}AI Marketing Agency in Bergen County, NJ | Local SEO & AI Search | AI Local Business{{ else }}{{ .Title }} | AI Local Business{{ end }}">
 <meta property="og:description" content="{{ with .Description }}{{ . }}{{ else }}Local SEO, AI search optimization, and websites that actually perform — for Bergen County and northern NJ businesses. Spencer Scott Digital.{{ end }}">
 <meta property="og:image" content="https://ailocalbusiness.biz/images/og-image.png">
 <meta property="og:url" content="{{ .Permalink }}">
@@ -55,6 +55,7 @@ function gtag_report_conversion(url) {
   "alternateName": "Spencer Scott Digital",
   "description": "Local SEO, AI search optimization, and website design for Bergen County and northern New Jersey businesses",
   "url": "{{ .Site.BaseURL }}",
+  "telephone": "+1-201-903-3491",
   "areaServed": [
     {
       "@type": "City",

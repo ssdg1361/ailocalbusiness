@@ -63,6 +63,8 @@ More and more of your potential customers are using ChatGPT, Perplexity, and Goo
 
 I'll have your audit back to you within 2-3 business days.
 
+Prefer to talk first? Call or text **[(201) 903-3491](tel:+12019033491)**.
+
 ---
 
 *This audit is available to local businesses in Bergen County and northern New Jersey. No credit card, no contract, no pitch meeting required — just useful information about where your business stands online.*
