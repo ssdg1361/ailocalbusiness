@@ -154,7 +154,7 @@ To make it concrete:
 - **Worth a small test if:** you already have a verified business with an EIN, and ~$50–$100 you're willing to spend purely to learn the platform.
 - **Skip it for now if:** you're a sole proprietor without an EIN, you need dependable leads this month, or you haven't done the organic AI-search work yet.
 
-What it does *not* replace is the thing that actually gets you named inside ChatGPT's answers: organic answer-engine optimization. The ad buys you a labeled box below the response; being the business ChatGPT *recommends* in the response is earned. If you only do one of the two, do the organic work first — start with [how to show up on ChatGPT](/blog/how-to-get-your-business-on-chatgpt/) and [AI search optimization for NJ businesses](/blog/ai-search-optimization-nj/).
+What it does *not* replace is the thing that actually gets you named inside ChatGPT's answers: organic answer-engine optimization. The ad buys you a labeled box below the response; being the business ChatGPT *recommends* in the response is earned. If you only do one of the two, do the organic work first — start with [how to show up on ChatGPT](/blog/how-to-get-your-business-on-chatgpt/).
 
 > **A note on accuracy:** ChatGPT Ads is in Beta and changing fast — pricing and access shifted several times across 2026. The details here were verified as of June 2026 from hands-on use of the Ads Manager plus current reporting. Check OpenAI's own help center for the latest before you spend.
 

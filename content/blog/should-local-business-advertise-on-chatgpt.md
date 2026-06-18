@@ -52,7 +52,7 @@ When someone asks ChatGPT for a recommendation in your town, it leans on the sam
 - **Citations in reputable directories.** Yelp, the Better Business Bureau, and the directories specific to your trade corroborate that you exist where you say you do.
 - **A website AI can actually read.** Clear, well-structured pages with `LocalBusiness` schema, so an engine understands what you do and the towns you serve.
 
-That's the groundwork that wins Google's Map Pack — and it's the same groundwork that gets you named by ChatGPT. If you're starting from scratch, [AI search optimization for NJ businesses](/blog/ai-search-optimization-nj/) and [how to show up on ChatGPT](/blog/how-to-get-your-business-on-chatgpt/) are the place to begin.
+That's the groundwork that wins Google's Map Pack — and it's the same groundwork that gets you named by ChatGPT. If you're starting from scratch, [how to show up on ChatGPT](/blog/how-to-get-your-business-on-chatgpt/) is the place to begin.
 
 ## If you still want to test the ads
 

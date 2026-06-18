@@ -5,6 +5,9 @@ description: "How to make your business visible in ChatGPT results. A practical 
 summary: "More people are asking ChatGPT for local business recommendations. Here's what determines whether your business shows up in those answers — and what you can do about it."
 tags: ["ai-search", "chatgpt", "local-business", "aeo"]
 categories: ["AI Search Optimization"]
+aliases:
+  - /blog/how-chatgpt-chooses-local-businesses/
+  - /blog/ai-search-optimization-nj/
 cover:
   image: ""
   alt: ""
@@ -93,7 +96,7 @@ Schema is code that tells search engines and AI systems, in plain machine terms:
 
 ## The bottom line
 
-Getting on ChatGPT isn't a separate marketing track — it's strong local SEO, supercharged with clean data formatting. The winners maintain a clear, comprehensive website, a strong review profile, and genuinely helpful content. And because most of your competitors aren't thinking about this at all, the window to get ahead is open right now.
+Getting on ChatGPT isn't a separate marketing track — it's strong local SEO, supercharged with clean data formatting. The winners maintain a clear, comprehensive website, a strong review profile, and genuinely helpful content. And the payoff isn't limited to ChatGPT: the same clean, well-structured presence is what gets you named in Perplexity and Google's AI Overviews too. Because most of your competitors aren't thinking about any of this yet, the window to get ahead is open right now.
 
 ---
 
