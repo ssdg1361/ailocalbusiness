@@ -29,7 +29,9 @@ Meanwhile, the way people find local businesses is changing fast — and it's no
 
 **That's what I fix.**
 
-I work across three connected pillars: **local SEO** (Google Business Profile, citations, on-page, reviews), **AI search optimization** (visibility on ChatGPT, Perplexity, Google AI Overviews), and **website design** (fast, mobile-first sites with schema markup baked in, built for both Google and AI crawlers). They all reinforce each other — a well-optimized site amplifies your GBP, schema markup helps AI models understand and recommend you, and local content gives both Google and AI engines something to cite.
+The work covers whatever a local business needs digitally: **showing up on Google** (your Business Profile, reviews, and the searches people in your town actually make), **showing up in AI answers** (when someone asks ChatGPT or Gemini for a recommendation), **a website built to get calls**, and **ads on Google and Meta** when they make sense. It all reinforces itself. A good site makes your Google profile stronger, and both make AI more likely to recommend you.
+
+The way I work: AI efficiency with a real human behind it. I use the same AI tools that are reshaping search to do the work faster than an agency with a big payroll, and I'm the human who checks it, explains it, and answers the phone.
 
 The goal is simple: when a potential customer searches for what you do, in any way they search for it, they find you.
 
@@ -39,6 +41,6 @@ I live here. I shop at the same stores, eat at the same restaurants, and hire th
 
 ## Let's talk
 
-If you're a Bergen County business owner curious about where you stand online — especially in the new world of AI search — I'd love to show you. The audit is free, the conversation is casual, and there's zero pressure.
+If you're a Bergen County business owner curious about where you stand online, I'd love to show you. The check is free, the conversation is casual, and there's zero pressure.
 
-**[Get your free AI search audit →](/audit/)**, email me at [spencerscottdigital@gmail.com](mailto:spencerscottdigital@gmail.com), or call or text **[(201) 903-3491](tel:+12019033491)**.
+**[Get your free online presence check →](/audit/)**, email me at [spencerscottdigital@gmail.com](mailto:spencerscottdigital@gmail.com), or call or text **[(201) 903-3491](tel:+12019033491)**.

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1080" width="1080" height="1080">
+  <defs>
+    <style type="text/css">
+      @import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,800&amp;family=JetBrains+Mono:wght@500;600&amp;display=swap');
+      .ssdg-serif { font-family: 'Fraunces', Georgia, serif; font-weight: 800; font-style: italic; }
+      .ssdg-mono { font-family: 'JetBrains Mono', monospace; font-weight: 500; }
+      .ssdg-mono-bold { font-family: 'JetBrains Mono', monospace; font-weight: 600; }
+    </style>
+    <!-- Arc center (540, 540), radius 420. Top arc from angle 215° to 325° (degrees, SVG y-inverted) -->
+    <path id="ailbTopArc" d="M 196 298 A 420 420 0 0 1 884 298"/>
+    <path id="ailbBotArc" d="M 196 782 A 420 420 0 0 0 884 782"/>
+  </defs>
+  <rect width="1080" height="1080" fill="#F1F0EB"/>
+
+  <!-- Top arc: endorsement -->
+  <text class="ssdg-mono-bold" font-size="28" fill="#1F5045" letter-spacing="10">
+    <textPath href="#ailbTopArc" startOffset="50%" text-anchor="middle">A SPENCER SCOTT DIGITAL BRAND</textPath>
+  </text>
+
+  <!-- Decorative ornaments at arc ends -->
+  <circle cx="178" cy="282" r="6" fill="#C25E33"/>
+  <circle cx="902" cy="282" r="6" fill="#C25E33"/>
+
+  <!-- Centerpiece -->
+  <text class="ssdg-serif" x="540" y="500" font-size="138" text-anchor="middle" fill="#1B1F26" letter-spacing="-4">AI Local</text>
+  <text class="ssdg-serif" x="540" y="640" font-size="138" text-anchor="middle" fill="#1B1F26" letter-spacing="-4">Business</text>
+
+  <line x1="390" y1="700" x2="690" y2="700" stroke="#C25E33" stroke-width="5"/>
+
+  <text class="ssdg-mono-bold" x="540" y="750" font-size="22" text-anchor="middle" fill="#1F5045" letter-spacing="5">FOUND BY GOOGLE · RECOMMENDED BY AI</text>
+
+  <!-- Bottom arc: domain -->
+  <text class="ssdg-mono-bold" font-size="26" fill="#7A7F88" letter-spacing="9">
+    <textPath href="#ailbBotArc" startOffset="50%" text-anchor="middle">AILOCALBUSINESS.BIZ</textPath>
+  </text>
+</svg>

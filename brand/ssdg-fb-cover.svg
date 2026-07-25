@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1640 624" width="1640" height="624">
+  <defs>
+    <style type="text/css">
+      @import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,800&amp;family=JetBrains+Mono:wght@500;600&amp;display=swap');
+      .ssdg-serif-bold { font-family: 'Fraunces', Georgia, serif; font-weight: 800; font-style: italic; }
+      .ssdg-serif-reg { font-family: 'Fraunces', Georgia, serif; font-weight: 400; font-style: italic; }
+      .ssdg-serif-emph { font-family: 'Fraunces', Georgia, serif; font-weight: 600; font-style: italic; }
+      .ssdg-mono { font-family: 'JetBrains Mono', monospace; font-weight: 500; }
+      .ssdg-mono-bold { font-family: 'JetBrains Mono', monospace; font-weight: 600; }
+    </style>
+    <pattern id="paperDots" x="0" y="0" width="48" height="48" patternUnits="userSpaceOnUse">
+      <circle cx="3" cy="3" r="1.4" fill="rgba(27,31,38,0.07)"/>
+    </pattern>
+    <path id="coverStampTop" d="M 1210 230 A 120 120 0 0 1 1450 230"/>
+    <path id="coverStampBot" d="M 1210 230 A 120 120 0 0 0 1450 230"/>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1640" height="624" fill="#F1F0EB"/>
+  <rect width="1640" height="624" fill="url(#paperDots)"/>
+
+  <!-- Subtle atmospheric blobs -->
+  <ellipse cx="200" cy="100" rx="500" ry="320" fill="rgba(31,80,69,0.06)"/>
+  <ellipse cx="1500" cy="560" rx="420" ry="280" fill="rgba(194,94,51,0.05)"/>
+
+  <!-- Brand bar at top -->
+  <rect x="0" y="0" width="1640" height="6" fill="#1F5045"/>
+
+  <!-- Eyebrow -->
+  <g transform="translate(120, 150)">
+    <circle cx="0" cy="-8" r="6" fill="#C25E33"/>
+    <text class="ssdg-mono-bold" x="20" y="0" font-size="22" fill="#C25E33" letter-spacing="6">EST. 2025 · GLEN ROCK · NEW JERSEY</text>
+  </g>
+
+  <!-- Headline -->
+  <text class="ssdg-serif-reg" x="120" y="290" font-size="96" fill="#1B1F26" letter-spacing="-2.6">A small marketing shop</text>
+  <text class="ssdg-serif-reg" x="120" y="384" font-size="96" fill="#1B1F26" letter-spacing="-2.6">for <tspan class="ssdg-serif-emph" fill="#1F5045">local businesses</tspan>.</text>
+
+  <!-- Terracotta hairline -->
+  <line x1="120" y1="430" x2="380" y2="430" stroke="#C25E33" stroke-width="3"/>
+
+  <!-- Big stamp top-right -->
+  <g>
+    <circle cx="1330" cy="230" r="138" fill="none" stroke="#1F5045" stroke-width="2.4"/>
+    <circle cx="1330" cy="230" r="128" fill="none" stroke="#1F5045" stroke-width="1.2"/>
+    <text class="ssdg-mono-bold" font-size="15" fill="#1F5045" letter-spacing="5.5">
+      <textPath href="#coverStampTop" startOffset="50%" text-anchor="middle">SPENCER · SCOTT · DIGITAL</textPath>
+    </text>
+    <text class="ssdg-mono-bold" font-size="14" fill="#1F5045" letter-spacing="5">
+      <textPath href="#coverStampBot" startOffset="50%" text-anchor="middle">EST. 2025 · GLEN ROCK NJ</textPath>
+    </text>
+    <line x1="1180" y1="230" x2="1206" y2="230" stroke="#C25E33" stroke-width="2.4"/>
+    <line x1="1454" y1="230" x2="1480" y2="230" stroke="#C25E33" stroke-width="2.4"/>
+    <circle cx="1172" cy="230" r="4" fill="#C25E33"/>
+    <circle cx="1488" cy="230" r="4" fill="#C25E33"/>
+    <text class="ssdg-serif-bold" x="1330" y="262" font-size="80" text-anchor="middle" fill="#1B1F26" letter-spacing="-2.8">SSDG</text>
+  </g>
+</svg>

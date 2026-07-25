@@ -1,0 +1,28 @@
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="{{ "" | absLangURL }}" accesskey="h" title="{{ site.Title }} (Alt + H)" class="brand">
+                <span class="brand-seal">SS</span>
+                <span class="brand-text">
+                    <b>{{ site.Title }}</b>
+                    <small>Glen Rock &middot; Bergen County, NJ</small>
+                </span>
+            </a>
+        </div>
+        {{- $currentPage := . }}
+        <ul id="menu">
+            {{- range site.Menus.main }}
+            {{- $menu_item_url := (cond (strings.HasSuffix .URL "/") .URL (printf "%s/" .URL) ) | absLangURL }}
+            {{- $page_url := $currentPage.Permalink | absLangURL }}
+            <li>
+                <a href="{{ .URL | absLangURL }}" title="{{ .Title | default .Name }}">
+                    <span {{- if eq $menu_item_url $page_url }} class="active" {{- end }}>{{- .Name -}}</span>
+                </a>
+            </li>
+            {{- end }}
+        </ul>
+        <a href="tel:+12019033491" class="nav-phone" onclick="return gtag_report_conversion('tel:+12019033491');">
+            <span class="nav-phone-ico">&#9742;</span><span class="nav-phone-num">(201) 903-3491</span>
+        </a>
+    </nav>
+</header>

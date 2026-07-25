@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1080" width="1080" height="1080">
+  <defs>
+    <style type="text/css">
+      @import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,800&amp;family=JetBrains+Mono:wght@500;600&amp;display=swap');
+      .ssdg-serif-reg { font-family: 'Fraunces', Georgia, serif; font-weight: 400; font-style: normal; }
+      .ssdg-serif-emph { font-family: 'Fraunces', Georgia, serif; font-weight: 600; font-style: normal; }
+      .ssdg-serif-bold { font-family: 'Fraunces', Georgia, serif; font-weight: 800; font-style: italic; }
+      .ssdg-mono { font-family: 'JetBrains Mono', monospace; font-weight: 500; }
+      .ssdg-mono-bold { font-family: 'JetBrains Mono', monospace; font-weight: 600; }
+    </style>
+    <pattern id="darkDots" x="0" y="0" width="40" height="40" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="rgba(236,230,217,0.05)"/>
+    </pattern>
+    <linearGradient id="darkGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1F5045"/>
+      <stop offset="100%" stop-color="#0E2620"/>
+    </linearGradient>
+    <path id="footStampTop3" d="M 90 990 A 50 50 0 0 1 190 990"/>
+    <path id="footStampBot3" d="M 90 990 A 50 50 0 0 0 190 990"/>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1080" height="1080" fill="url(#darkGrad)"/>
+  <rect width="1080" height="1080" fill="url(#darkDots)"/>
+  <ellipse cx="200" cy="200" rx="450" ry="320" fill="rgba(111,181,158,0.07)"/>
+  <ellipse cx="900" cy="900" rx="420" ry="320" fill="rgba(194,94,51,0.07)"/>
+
+  <!-- Brand bar -->
+  <rect width="1080" height="6" fill="#C25E33"/>
+
+  <!-- Eyebrow -->
+  <g transform="translate(80, 130)">
+    <circle cx="0" cy="-7" r="6" fill="#E08B65"/>
+    <text class="ssdg-mono-bold" x="22" y="0" font-size="22" fill="#E08B65" letter-spacing="6">BUILT IN BERGEN COUNTY · NJ</text>
+  </g>
+
+  <!-- Headline -->
+  <text class="ssdg-serif-reg" x="80" y="320" font-size="86" fill="#ECE6D9" letter-spacing="-2.4">For the businesses</text>
+  <text class="ssdg-serif-reg" x="80" y="416" font-size="86" fill="#ECE6D9" letter-spacing="-2.4">that <tspan class="ssdg-serif-emph" fill="#6FB59E">built this area</tspan>.</text>
+
+  <!-- Sub -->
+  <line x1="80" y1="486" x2="280" y2="486" stroke="#E08B65" stroke-width="3"/>
+  <text class="ssdg-mono" x="80" y="540" font-size="22" fill="rgba(236,230,217,0.75)" letter-spacing="2">Marketing for the trades, shops, and</text>
+  <text class="ssdg-mono" x="80" y="572" font-size="22" fill="rgba(236,230,217,0.75)" letter-spacing="2">kitchens that keep this part of NJ working.</text>
+
+  <!-- Towns ticker -->
+  <g transform="translate(0, 740)">
+    <line x1="80" y1="0" x2="1000" y2="0" stroke="rgba(236,230,217,0.18)"/>
+    <text class="ssdg-mono-bold" x="80" y="-15" font-size="13" fill="rgba(236,230,217,0.5)" letter-spacing="4">SERVING ↓</text>
+
+    <text class="ssdg-mono-bold" x="80" y="40" font-size="18" fill="#ECE6D9" letter-spacing="4.5">GLEN ROCK · RIDGEWOOD · HACKENSACK</text>
+    <text class="ssdg-mono-bold" x="80" y="72" font-size="18" fill="#ECE6D9" letter-spacing="4.5">PARAMUS · WYCKOFF · FAIR LAWN</text>
+    <text class="ssdg-mono-bold" x="80" y="104" font-size="18" fill="#ECE6D9" letter-spacing="4.5">TENAFLY · WALDWICK · MIDLAND PARK</text>
+    <text class="ssdg-mono-bold" x="80" y="136" font-size="18" fill="rgba(236,230,217,0.6)" letter-spacing="4.5">MAHWAH · OAKLAND · &amp; THE REST</text>
+  </g>
+
+  <!-- Footer with stamp -->
+  <g>
+    <circle cx="140" cy="990" r="58" fill="none" stroke="#ECE6D9" stroke-width="1.5"/>
+    <circle cx="140" cy="990" r="53" fill="none" stroke="#ECE6D9" stroke-width="0.7"/>
+    <text class="ssdg-mono-bold" font-size="7" fill="#ECE6D9" letter-spacing="2.5">
+      <textPath href="#footStampTop3" startOffset="50%" text-anchor="middle">SPENCER · SCOTT · DIGITAL</textPath>
+    </text>
+    <text class="ssdg-mono-bold" font-size="6.5" fill="#ECE6D9" letter-spacing="2">
+      <textPath href="#footStampBot3" startOffset="50%" text-anchor="middle">GLEN ROCK · NJ</textPath>
+    </text>
+    <text class="ssdg-serif-bold" x="140" y="1003" font-size="30" text-anchor="middle" fill="#ECE6D9" letter-spacing="-1">SSDG</text>
+
+    <line x1="220" y1="950" x2="220" y2="1030" stroke="rgba(236,230,217,0.2)"/>
+    <text class="ssdg-mono-bold" x="245" y="985" font-size="16" fill="#ECE6D9" letter-spacing="3.5">AI LOCAL BUSINESS</text>
+    <text class="ssdg-mono" x="245" y="1010" font-size="13" fill="rgba(236,230,217,0.6)" letter-spacing="3">AILOCALBUSINESS.BIZ</text>
+  </g>
+</svg>
