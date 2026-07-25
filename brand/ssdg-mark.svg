@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1080" width="1080" height="1080">
+  <defs>
+    <style type="text/css">
+      @import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,800&amp;family=JetBrains+Mono:wght@600&amp;display=swap');
+      .ssdg-serif { font-family: 'Fraunces', Georgia, 'Times New Roman', serif; font-weight: 800; font-style: italic; }
+      .ssdg-mono { font-family: 'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace; font-weight: 600; }
+    </style>
+    <path id="topArc" d="M 200 540 A 340 340 0 0 1 880 540"/>
+    <path id="bottomArc" d="M 200 540 A 340 340 0 0 0 880 540"/>
+  </defs>
+  <rect width="1080" height="1080" fill="#F1F0EB"/>
+  <circle cx="540" cy="540" r="438" fill="none" stroke="#1F5045" stroke-width="4"/>
+  <circle cx="540" cy="540" r="408" fill="none" stroke="#1F5045" stroke-width="2"/>
+  <text class="ssdg-mono" font-size="36" fill="#1F5045" letter-spacing="14">
+    <textPath href="#topArc" startOffset="50%" text-anchor="middle">SPENCER · SCOTT · DIGITAL</textPath>
+  </text>
+  <text class="ssdg-mono" font-size="33" fill="#1F5045" letter-spacing="11">
+    <textPath href="#bottomArc" startOffset="50%" text-anchor="middle">GLEN ROCK · NEW JERSEY · EST. 2025</textPath>
+  </text>
+  <line x1="138" y1="540" x2="195" y2="540" stroke="#C25E33" stroke-width="4"/>
+  <line x1="885" y1="540" x2="942" y2="540" stroke="#C25E33" stroke-width="4"/>
+  <circle cx="118" cy="540" r="7" fill="#C25E33"/>
+  <circle cx="962" cy="540" r="7" fill="#C25E33"/>
+  <text class="ssdg-serif" x="540" y="600" font-size="218" text-anchor="middle" fill="#1B1F26" letter-spacing="-4">SSDG</text>
+</svg>

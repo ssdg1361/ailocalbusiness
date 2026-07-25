@@ -1,11 +1,8 @@
-{{/* ---- Web fonts: Fraunces (display), Switzer (body), JetBrains Mono (accents) ---- */}}
+{{/* ---- Web fonts: Zilla Slab (display), PT Sans (body) ---- */}}
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="preconnect" href="https://api.fontshare.com">
-<link rel="preconnect" href="https://cdn.fontshare.com" crossorigin>
 
-<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
-<link href="https://api.fontshare.com/v2/css?f[]=cabinet-grotesk@400,500,700,800&f[]=switzer@400,500,600,700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Zilla+Slab:ital,wght@0,500;0,600;0,700;1,600&family=PT+Sans:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
 
 {{/* Open Graph / Social Sharing */}}
 <meta property="og:title" content="{{ if .IsHome }}AI Marketing Agency in Bergen County, NJ | Local SEO & AI Search | AI Local Business{{ else }}{{ .Title }} | AI Local Business{{ end }}">
@@ -75,7 +72,9 @@ function gtag_report_conversion(url) {
     "AI Search Optimization",
     "Local SEO",
     "Website Design",
-    "Digital Marketing"
+    "Digital Marketing",
+    "Google Ads Management",
+    "Social Media Advertising"
   ],
   "knowsAbout": [
     "SEO",
@@ -116,6 +115,14 @@ function gtag_report_conversion(url) {
           "@type": "Service",
           "name": "Website Design",
           "description": "Fast, mobile-first websites for local service businesses with schema markup and Core Web Vitals performance baked in."
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Paid Ads (Google & Meta)",
+          "description": "Google Search ads, Local Services Ads guidance, and Meta (Facebook & Instagram) ads for local service businesses, managed around return on spend."
         }
       }
     ]

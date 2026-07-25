@@ -22,11 +22,11 @@ ignoreFiles = ["\\.DS_Store$"]
 
 [params]
   env = "production"
-  author = "Spencer Scott"
-  description = "Local SEO, AI search optimization, and websites that actually perform — for Bergen County and northern New Jersey businesses."
+  author = "Spencer"
+  description = "We get local businesses found on Google and AI search (ChatGPT, Gemini, etc.), build websites that get calls, and run Google and Meta ads. Bergen County, NJ."
   keywords = ["local SEO", "AI search optimization", "website design", "Bergen County", "digital marketing", "Glen Rock NJ", "AEO", "ChatGPT optimization", "local business marketing"]
   defaultTheme = "light"
-  disableThemeToggle = false
+  disableThemeToggle = true
   ShowReadingTime = true
   ShowShareButtons = true
   ShowPostNavLinks = true

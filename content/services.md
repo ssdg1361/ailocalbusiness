@@ -1,6 +1,6 @@
 ---
 title: "Services"
-description: "Local SEO, AI search optimization, and website design for Bergen County and northern NJ businesses. Get found on Google, ChatGPT, Perplexity — and back it with a site that actually performs."
+description: "Local SEO, AI search optimization, website design, and Google & Meta ads for Bergen County and northern NJ businesses. Get found on Google and AI search — and back it with a site that gets calls."
 url: /services/
 layout: "single"
 hidemeta: true
@@ -12,6 +12,9 @@ keywords:
   - website design Bergen County
   - local digital marketing NJ
   - Google Business Profile optimization
+  - Google Ads for local business NJ
+  - Local Services Ads Bergen County
+  - Facebook ads for small business
 ---
 
 ## Your customers are searching in new places.
@@ -64,6 +67,18 @@ I'll be honest about scope: I'm not a 12-person agency. I'm one person who build
 
 ---
 
+## Paid Ads: Google & Meta {#ads}
+
+Ads work when the foundation works. If your website is slow or your Google profile is thin, ads pour paid clicks into a leaky bucket. So I usually fix the foundation first, then turn ads on when they'll actually pay for themselves.
+
+- **Local Services Ads (Google Guaranteed)** — The pay-per-call ads at the very top of Google for service businesses. Honest take: you can run these yourself, and I'll show you how. Where I earn my keep is the part that decides how often you show up and what you pay per lead: your Google profile, your reviews, and how fast you respond.
+- **Google Search ads** — For getting more of the searches you already win, and showing up in towns where you don't rank yet. I manage these around one question: for every dollar in, what came back? We cut what doesn't work and put more behind what does.
+- **Meta ads (Facebook & Instagram)** — Best for getting your name in front of homeowners in specific towns before they ever search. Seasonal pushes, before-and-after photos, neighborhood targeting. Cheap awareness that makes every other channel work a little better.
+
+If ads aren't right for your business yet, I'll tell you that too. It's cheaper to hear it from me than from your credit card statement.
+
+---
+
 ## Who I work with
 
 I specialize in **local service businesses in Bergen County and northern New Jersey**, including:
@@ -89,7 +104,7 @@ If customers in your area are searching for what you do, I can help them find yo
 
 **2. Custom strategy** — Based on the audit, I'll put together a specific plan for your business. No generic playbooks — every local market and every business has different opportunities.
 
-**3. Execution** — I do the work. You focus on running your business. I handle the optimization, content creation, citation building, site builds, and ongoing monitoring.
+**3. Execution** — I do the work. You focus on running your business. I handle the optimization, content creation, citation building, site builds, ads, and ongoing monitoring.
 
 **4. Monthly reporting** — Clear, jargon-free reports showing what's working, what's changed, and what we're doing next.
 

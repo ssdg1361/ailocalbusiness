@@ -1,4 +1,4 @@
 ---
 title: "AI Local Business"
-description: "AI marketing agency in Bergen County, NJ. Local SEO and AI search optimization (ChatGPT, Perplexity) plus fast websites that get North Jersey businesses found — and the phone ringing."
+description: "We get Bergen County businesses found on Google and AI search (ChatGPT, Gemini, etc.), build websites that get calls, and run Google and Meta ads. Free online presence check."
 ---
