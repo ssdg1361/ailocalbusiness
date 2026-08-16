@@ -1,0 +1,150 @@
+{{- define "main" }}
+
+{{- $isPost := and (eq .Section "blog") (not .IsSection) }}
+
+{{- if $isPost }}
+{{/* ================= BLOG POST ================= */}}
+<div class="docwrap">
+<div class="art-head">
+  <div class="wrap">
+    <p class="crumb">
+      <a href="{{ "" | absLangURL }}">Home</a> /
+      <a href="/blog/">Blog</a>
+      {{- with (index .Params.categories 0) }} / {{ . }}{{ end }}
+    </p>
+    <div class="art-meta">
+      {{- with (index .Params.categories 0) }}<span class="cat">{{ . }}</span>{{ end }}
+      <span>{{ .Date.Format "January 2, 2006" }}</span>
+      {{- if site.Params.ShowReadingTime }}<span>{{ .ReadingTime }} min read</span>{{ end }}
+      <span>{{ site.Params.author }}</span>
+    </div>
+    <h1>{{ .Title }}</h1>
+    {{- with .Description }}<p class="dek">{{ . }}</p>{{ end }}
+  </div>
+</div>
+
+<div class="wrap art-grid">
+  <article class="prose">
+    {{ .Content }}
+
+    {{- with .Params.tags }}
+    <ul class="post-tags" style="list-style:none;padding:0;margin:2.5em 0 0;display:flex;flex-wrap:wrap;gap:8px;">
+      {{- range . }}
+      <li><a href="{{ (urlize (printf "tags/%s" .)) | absLangURL }}/">{{ . }}</a></li>
+      {{- end }}
+    </ul>
+    {{- end }}
+  </article>
+
+  <aside class="margin">
+    {{- if and .Params.showtoc .TableOfContents (ne .TableOfContents "<nav id=\"TableOfContents\"></nav>") }}
+    <div class="blk">
+      <p class="k">In this article</p>
+      {{ .TableOfContents }}
+    </div>
+    {{- end }}
+
+    <div class="blk">
+      <p class="k">Written by</p>
+      <div class="who">
+        <span class="init">S</span>
+        <p>
+          <b>{{ site.Params.author }}</b>
+          Over a decade in SEO and digital marketing for big brands. Now doing it for businesses in his own backyard &mdash; Glen Rock, NJ.
+        </p>
+      </div>
+    </div>
+
+    <div class="mcard">
+      <p class="k">Free presence check</p>
+      <p>Find out what Google and ChatGPT actually say about your business. No pitch.</p>
+      <a href="/audit/" class="btn btn-terra" onclick="return gtag_report_conversion('/audit/');">Get yours &rarr;</a>
+    </div>
+
+    {{- $related := first 3 (where (where site.RegularPages "Section" "blog") "Permalink" "!=" .Permalink) }}
+    {{- with $related }}
+    <div class="blk">
+      <p class="k">More reading</p>
+      <ol style="list-style:none;padding:0;">
+        {{- range . }}
+        <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
+        {{- end }}
+      </ol>
+    </div>
+    {{- end }}
+  </aside>
+</div>
+
+{{- else }}
+{{/* ================= STANDARD PAGE (services, about, audit, landing) ================= */}}
+<div class="docwrap">
+<div class="page-head">
+  <div class="wrap">
+    <p class="crumb"><a href="{{ "" | absLangURL }}">Home</a> / {{ .Title }}</p>
+    <h1>{{ .Title }}</h1>
+    {{- with .Description }}<p class="dek">{{ . }}</p>{{ end }}
+  </div>
+</div>
+
+<div class="wrap art-grid">
+  <article class="prose">
+    {{ .Content }}
+
+    {{- with .Params.faq }}
+    <h2>Common questions</h2>
+    <div class="faq">
+      {{- range $i, $item := . }}
+      <details {{ if eq $i 0 }}open{{ end }}>
+        <summary>{{ $item.question }}</summary>
+        <div class="a"><p>{{ $item.answer }}</p></div>
+      </details>
+      {{- end }}
+    </div>
+    {{- end }}
+  </article>
+
+  <aside class="margin">
+    {{- if and .Params.showtoc .TableOfContents (ne .TableOfContents "<nav id=\"TableOfContents\"></nav>") }}
+    <div class="blk">
+      <p class="k">On this page</p>
+      {{ .TableOfContents }}
+    </div>
+    {{- end }}
+
+    <div class="mcard">
+      <p class="k">Free presence check</p>
+      <p>See where you stand on Google, and what AI says about you. No pitch, no pressure.</p>
+      <a href="/audit/" class="btn btn-terra" onclick="return gtag_report_conversion('/audit/');">Get yours &rarr;</a>
+    </div>
+
+    <div class="blk">
+      <p class="k">Talk to Spencer</p>
+      <p style="font-size:.88rem;color:var(--ink-soft);line-height:1.6;margin:0 0 10px;">Glen Rock, NJ &middot; Bergen County</p>
+      <ol style="list-style:none;padding:0;">
+        <li><a href="tel:+12019033491">(201) 903-3491</a></li>
+        <li><a href="mailto:spencerscottdigital@gmail.com">spencerscottdigital@gmail.com</a></li>
+      </ol>
+    </div>
+  </aside>
+</div>
+{{- end }}
+
+</div>{{/* /docwrap */}}
+
+{{/* ---------- CTA ---------- */}}
+<section class="sec-tight band">
+  <div class="wrap">
+    <div class="cta-card">
+      <div>
+        <h2>Find out where you stand. It's free.</h2>
+        <p>I'll check your Google presence, your website, and what AI says about you &mdash; then send you what I find. No pitch, no pressure.</p>
+      </div>
+      <div class="cta-ctas">
+        <a href="/audit/" class="btn btn-terra" onclick="return gtag_report_conversion('/audit/');">Get your free presence check <span class="arw">&rarr;</span></a>
+        <a href="tel:+12019033491" class="btn btn-plain" onclick="return gtag_report_conversion('tel:+12019033491');">Call or text (201) 903-3491</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+{{- end }}

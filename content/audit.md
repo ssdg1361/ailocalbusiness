@@ -28,15 +28,16 @@ faq:
 More of your potential customers are using Google's AI results, ChatGPT, and Gemini to pick a local business. Most owners have no idea what those tools say about them. This check answers that, free.
 
 {{< rawhtml >}}
-<div class="aud-mock">
-  <div class="mock-card">
-    <div class="bar"><i></i><i></i><i></i></div>
-    <div class="search-bar"><span class="mag">&#8981;</span><span class="type">your service near me</span></div>
-    <div class="result win">
-      <div class="tile">?</div>
-      <div class="rt"><b>Is this you?</b><small>That's the question we answer.</small></div>
-      <span class="stamp">Free &middot; no pitch</span>
-    </div>
+<div class="panel" style="max-width:640px;margin:8px auto 0;">
+  <div class="panel-head">
+    <span class="tls"><i></i><i></i><i></i></span>
+    <span class="lbl">Google &middot; your town</span>
+  </div>
+  <div class="qbar"><span class="mag">&#8981;</span> your service near me</div>
+  <div class="res win">
+    <span class="tile">?</span>
+    <span class="rt"><b>Is this you?</b><small>That's the question this check answers.</small></span>
+    <span class="stamp">Free &middot; no pitch</span>
   </div>
 </div>
 {{< /rawhtml >}}
@@ -44,10 +45,14 @@ More of your potential customers are using Google's AI results, ChatGPT, and Gem
 ## What you get
 
 {{< rawhtml >}}
-<div class="aud-cards">
-  <div class="aud-card">
-    <div class="ico"><svg viewBox="0 0 24 24"><path d="M12 21s-7-6.1-7-11a7 7 0 0 1 14 0c0 4.9-7 11-7 11z"/><circle cx="12" cy="10" r="2.5"/></svg></div>
+<div class="svc-list">
+  <div class="svc-item c1">
+    <div class="svc-idx">
+      <span class="n">1</span>
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21s-7-6.1-7-11a7 7 0 0 1 14 0c0 4.9-7 11-7 11z"/><circle cx="12" cy="10" r="2.5"/></svg>
+    </div>
     <h3>Google check</h3>
+    <p>Where you actually stand on the searches that turn into booked work.</p>
     <ul>
       <li>Where you rank for your top local searches</li>
       <li>Google Business Profile health</li>
@@ -55,18 +60,26 @@ More of your potential customers are using Google's AI results, ChatGPT, and Gem
       <li>Listings consistency across the web</li>
     </ul>
   </div>
-  <div class="aud-card">
-    <div class="ico"><svg viewBox="0 0 24 24"><path d="M21 12a8 8 0 0 1-8 8H4l2.5-2.5A8 8 0 1 1 21 12z"/><path d="M9 11h6M9 14h4"/></svg></div>
+  <div class="svc-item c2">
+    <div class="svc-idx">
+      <span class="n">2</span>
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M21 12a8 8 0 0 1-8 8H4l2.5-2.5A8 8 0 1 1 21 12z"/><path d="M9 11h6M9 14h4"/></svg>
+    </div>
     <h3>AI visibility report</h3>
+    <p>What the models say about you when a customer asks for a recommendation.</p>
     <ul>
-      <li>What ChatGPT says when asked about your service in your area</li>
+      <li>What ChatGPT says about your service in your area</li>
       <li>Gemini, Perplexity &amp; Google AI results</li>
       <li>Who AI recommends instead of you, and why</li>
     </ul>
   </div>
-  <div class="aud-card">
-    <div class="ico"><svg viewBox="0 0 24 24"><path d="M4 20V10M10 20V4M16 20v-7M22 20H2"/></svg></div>
+  <div class="svc-item c3">
+    <div class="svc-idx">
+      <span class="n">3</span>
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 20V10M10 20V4M16 20v-7M22 20H2"/></svg>
+    </div>
     <h3>What to do about it</h3>
+    <p>The part most audits skip &mdash; including what you should not spend money on.</p>
     <ul>
       <li>Specific recommendations, in plain English</li>
       <li>Quick wins you can do yourself</li>
@@ -79,19 +92,19 @@ More of your potential customers are using Google's AI results, ChatGPT, and Gem
 ## Request your free check
 
 {{< rawhtml >}}
-<div class="aud-ask">
-  <span class="stamp2">2&ndash;3 business days</span>
-  <p style="margin:0 0 6px;font-weight:700">Email or text me these four things:</p>
+<div class="ask">
+  <span class="sticker">2&ndash;3 business days</span>
+  <h3>Email or text me these four things:</h3>
   <ol>
     <li>Your business name</li>
     <li>Your website, if you have one</li>
     <li>The towns you serve</li>
-    <li>2&ndash;3 services you most want to be found for</li>
+    <li>Two or three services you most want to be found for</li>
   </ol>
-  <div class="aud-btns">
+  <div class="actions">
     <a href="mailto:spencerscottdigital@gmail.com" class="btn btn-terra" onclick="return gtag_report_conversion('mailto:spencerscottdigital@gmail.com');">Email Spencer</a>
     <a href="tel:+12019033491" class="btn btn-plain" onclick="return gtag_report_conversion('tel:+12019033491');">Call or text (201) 903-3491</a>
   </div>
+  <p class="ask-note">No credit card, no contract, no pitch meeting. Just useful information about where your business stands online.</p>
 </div>
-<p class="aud-note">No credit card, no contract, no pitch meeting. Just useful information about where your business stands online.</p>
 {{< /rawhtml >}}
