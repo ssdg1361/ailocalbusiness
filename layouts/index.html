@@ -1,82 +1,105 @@
 {{- define "main" }}
 
 {{/* ---------- HERO ---------- */}}
-<section class="home-hero">
-  <div class="home-wrap">
-    <div class="grid">
-      <div>
-        <span class="hello"><span class="dot"></span>Taking on new Bergen County clients</span>
-        <h1>Your next customer is searching right now. <span class="u">Make sure they find you.<svg viewBox="0 0 200 9" preserveAspectRatio="none" aria-hidden="true"><path d="M2 6 C40 2, 80 8, 120 4 S180 5, 198 4" stroke="#E9A13B" stroke-width="3.5" fill="none" stroke-linecap="round"/></svg></span></h1>
-        <p class="lede">We get local businesses found on Google and AI search (ChatGPT, Gemini, etc.). Building your website from scratch, running ads on Facebook, whatever you need digitally, we've got you covered.</p>
-        <div class="actions">
-          <a href="/audit/" class="btn btn-terra" onclick="return gtag_report_conversion('/audit/');">Get your free online presence check</a>
-          <a href="tel:+12019033491" class="btn btn-plain" onclick="return gtag_report_conversion('tel:+12019033491');">Call or text Spencer</a>
+<section class="hero">
+  <div class="wrap hero-grid">
+    <div>
+      <span class="status"><span class="pip"></span>Taking on new Bergen County clients</span>
+      <h1>Your next customer is searching right now. <span class="pop">Make sure they find you.</span></h1>
+      <p class="lede">I get local businesses found on Google and in AI answers &mdash; ChatGPT, Gemini, the rest. Websites built from scratch, ads that pay for themselves, whatever the job actually needs.</p>
+      <div class="actions">
+        <a href="/audit/" class="btn btn-terra" onclick="return gtag_report_conversion('/audit/');">Get your free presence check <span class="arw">&rarr;</span></a>
+        <a href="tel:+12019033491" class="btn btn-plain" onclick="return gtag_report_conversion('tel:+12019033491');">Call or text Spencer</a>
+      </div>
+      <div class="trust">
+        <span><b class="ck">&#10003;</b> Free audit, no pitch</span>
+        <span><b class="ck">&#10003;</b> Straight answers</span>
+        <span><b class="ck">&#10003;</b> I live here too</span>
+      </div>
+    </div>
+
+    <div class="proof" aria-label="Where customers find businesses: Google results and AI answers">
+      <div class="panel">
+        <div class="panel-head">
+          <span class="tls"><i></i><i></i><i></i></span>
+          <span class="lbl">Google &middot; Bergen County</span>
         </div>
-        <div class="trust">
-          <span><b class="ck">&#10003;</b> Free audit, no pitch</span>
-          <span><b class="ck">&#10003;</b> Straight answers</span>
-          <span><b class="ck">&#10003;</b> I live here too</span>
+        <div class="qbar"><span class="mag">&#8981;</span> dryer vent cleaning near me</div>
+        <div class="res win">
+          <span class="tile">A</span>
+          <span class="rt">
+            <b>Your Business LLC</b>
+            <small><span class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span> 4.9 (87) &middot; Bergen County, NJ</small>
+          </span>
+          <span class="stamp">That's the goal</span>
+        </div>
+        <div class="res">
+          <span class="tile">B</span>
+          <span class="rt"><b>Some Competitor Co.</b><small>4.2 (31)</small></span>
+        </div>
+        <div class="res">
+          <span class="tile">C</span>
+          <span class="rt"><b>Another Guy Services</b><small>3.9 (12)</small></span>
         </div>
       </div>
 
-      <div class="search-stack" aria-label="Where customers find businesses: Google results and AI answers">
-        <div class="mock-card">
-          <div class="bar"><i></i><i></i><i></i></div>
-          <div class="search-bar"><span class="mag">&#8981;</span><span class="type">dryer vent cleaning near me</span></div>
-          <div class="result win">
-            <div class="tile">A</div>
-            <div class="rt"><b>Your Business LLC</b><span class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span> <small>4.9 (87) &middot; Bergen County, NJ</small></div>
-            <span class="stamp">That's the goal</span>
-          </div>
-          <div class="result">
-            <div class="tile">B</div>
-            <div class="rt"><b>Some Competitor Co.</b><small>4.2 (31)</small></div>
-          </div>
-          <div class="result">
-            <div class="tile">C</div>
-            <div class="rt"><b>Another Guy Services</b><small>3.9 (12)</small></div>
+      <div class="panel">
+        <div class="ai-note">
+          <span class="ai-badge">AI</span>
+          <div>
+            <span class="src">AI search &middot; ChatGPT, Gemini &amp; the rest</span>
+            <p>&ldquo;Based on reviews and recent work nearby, <b>Your Business LLC</b> is a solid choice&hellip;&rdquo;</p>
           </div>
         </div>
-        <div class="mock-card ai-answer">
-          <div class="bot">AI</div>
-          <p><span class="src">AI search &middot; ChatGPT, Gemini &amp; the rest</span>"Based on reviews and recent work nearby, <b>Your Business LLC</b> is a solid choice&hellip;"</p>
-        </div>
-        <div class="mock-caption">The two places that decide who gets the call. I get you into both.</div>
       </div>
+
+      <p class="proof-cap">The two places that decide who gets the call. I get you into both.</p>
     </div>
   </div>
 </section>
 
 {{/* ---------- SERVICES ---------- */}}
-<section class="home-band fb" id="services">
-  <div class="home-wrap">
-    <div class="kicker">What I do</div>
-    <h2 class="home-h2">Three things. All of them end with your phone ringing.</h2>
-    <div class="svc-grid">
-      <div class="svc">
-        <div class="ico"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="2" y="4" width="20" height="14" rx="2"/><path d="M8 21h8M12 18v3"/></svg></div>
+<section class="sec band" id="services">
+  <div class="wrap">
+    <p class="rail">What I do</p>
+    <h2 class="h-sec">Three things. All of them end with <em>your phone ringing.</em></h2>
+
+    <div class="svc-list">
+      <article class="svc-item c1">
+        <div class="svc-idx">
+          <span class="n">1</span>
+          <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="2" y="4" width="20" height="14" rx="1.5"/><path d="M8 21h8M12 18v3"/></svg>
+        </div>
         <h3>A website that gets you calls</h3>
-        <p>Fast, clean, built for a customer on their phone in a driveway. A tool, not a design project.</p>
+        <p>Fast, clean, and built for a customer standing in a driveway on their phone. A tool, not a design project.</p>
         <ul>
           <li>Loads fast on any phone</li>
           <li>Call buttons where they belong</li>
           <li>You own everything</li>
         </ul>
-        <a href="/services/#website-design" class="more">Read more &rarr;</a>
-      </div>
-      <div class="svc">
-        <div class="ico"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21s-7-6.1-7-11a7 7 0 0 1 14 0c0 4.9-7 11-7 11z"/><circle cx="12" cy="10" r="2.5"/></svg></div>
+        <a href="/services/#website-design" class="tlink more">See how it's built &rarr;</a>
+      </article>
+
+      <article class="svc-item c2">
+        <div class="svc-idx">
+          <span class="n">2</span>
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21s-7-6.1-7-11a7 7 0 0 1 14 0c0 4.9-7 11-7 11z"/><circle cx="12" cy="10" r="2.5"/></svg>
+        </div>
         <h3>Show up on Google</h3>
-        <p>When someone in your town searches for what you do, you should be on that map.</p>
+        <p>When someone in your town searches for what you do, you should be on that map. Usually you're not, and usually it's fixable in a week.</p>
         <ul>
           <li>Google Business Profile, done right</li>
           <li>A steady flow of real reviews</li>
           <li>Pages for the towns you serve</li>
         </ul>
-        <a href="/services/#local-seo" class="more">Read more &rarr;</a>
-      </div>
-      <div class="svc">
-        <div class="ico"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M21 12a8 8 0 0 1-8 8H4l2.5-2.5A8 8 0 1 1 21 12z"/><path d="M9 11h6M9 14h4"/></svg></div>
+        <a href="/services/#local-seo" class="tlink more">See how it's built &rarr;</a>
+      </article>
+
+      <article class="svc-item c3">
+        <div class="svc-idx">
+          <span class="n">3</span>
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M21 12a8 8 0 0 1-8 8H4l2.5-2.5A8 8 0 1 1 21 12z"/><path d="M9 11h6M9 14h4"/></svg>
+        </div>
         <h3>Show up in AI answers</h3>
         <p>People ask ChatGPT and Gemini for recommendations now. Almost nobody in your market shows up there yet.</p>
         <ul>
@@ -84,42 +107,53 @@
           <li>Fix what's feeding it nothing</li>
           <li>Get there before the other guys</li>
         </ul>
-        <a href="/services/#ai-search-optimization" class="more">Read more &rarr;</a>
-      </div>
+        <a href="/services/#ai-search-optimization" class="tlink more">See how it's built &rarr;</a>
+      </article>
     </div>
   </div>
 </section>
 
-{{/* ---------- CLIENT WORK + ME ---------- */}}
-<section class="home-plain" id="work">
-  <div class="home-wrap">
-    <div class="kicker">Client work</div>
-    <h2 class="home-h2">Real local businesses. Real work.</h2>
+{{/* ---------- CLIENT WORK ---------- */}}
+<section class="sec" id="work">
+  <div class="wrap">
+    <p class="rail s">Client work</p>
+    <h2 class="h-sec">Real local businesses. <em>Real work.</em></h2>
+
     <div class="work-grid">
-      <div class="job j-forest">
-        <div class="head">
-          <span class="tile">VV</span>
-          <span><h3>Vent Viper</h3><small>Dryer vent cleaning &middot; Wyckoff, NJ</small></span>
-        </div>
-        <div class="bd">
+      <article class="work c1">
+        <span class="shot"><img src="/images/work/ventviper.png" alt="Vent Viper website built by Spencer Scott Digital" loading="lazy" width="1280" height="860"></span>
+        <div class="inner">
+          <div class="top">
+            <span class="mono-tile">VV</span>
+            <span>
+              <h3>Vent Viper</h3>
+              <span class="cat">Dryer vent cleaning &middot; Wyckoff, NJ</span>
+            </span>
+          </div>
           <p>New site, Google presence set up, reviews coming in. A one-truck operation getting found like a bigger one.</p>
+          <div class="foot"><a href="https://ssdg1361.github.io/ventviper/" class="tlink" target="_blank" rel="noopener">See the site &rarr;</a></div>
         </div>
-      </div>
-      <div class="job j-terra">
-        <div class="head">
-          <span class="tile">PS</span>
-          <span><h3>Pure Shield Restoration</h3><small>Mold &amp; water damage &middot; South Florida</small></span>
-        </div>
-        <div class="bd">
+      </article>
+
+      <article class="work c2">
+        <span class="shot"><img src="/images/work/pureshield.png" alt="Pure Shield Restoration website built by Spencer Scott Digital" loading="lazy" width="1280" height="860"></span>
+        <div class="inner">
+          <div class="top">
+            <span class="mono-tile">PS</span>
+            <span>
+              <h3>Pure Shield Restoration</h3>
+              <span class="cat">Mold &amp; water damage &middot; South Florida</span>
+            </span>
+          </div>
           <p>Site built from scratch, Google set up, visibility growing month by month.</p>
-          <a href="https://pureshieldrestoration.com" target="_blank" rel="noopener">pureshieldrestoration.com &rarr;</a>
+          <div class="foot"><a href="https://pureshieldrestoration.com" class="tlink" target="_blank" rel="noopener">pureshieldrestoration.com &rarr;</a></div>
         </div>
-      </div>
+      </article>
     </div>
 
-    <div class="me-band">
-      <span class="stamp2">Lives here too</span>
-      <div class="photo">S</div>
+    <div class="me">
+      <span class="sticker">Lives here too</span>
+      <span class="avatar">S</span>
       <div>
         <span class="role">Who you're dealing with</span>
         <h3>Spencer &middot; owner, does the actual work</h3>
@@ -131,66 +165,100 @@
 </section>
 
 {{/* ---------- HOW IT WORKS ---------- */}}
-<section class="home-band fb" id="how">
-  <div class="home-wrap">
-    <div class="kicker">How it works</div>
-    <h2 class="home-h2">Simple process. No mystery.</h2>
-    <div class="steps">
-      <div class="step">
+<section class="sec band" id="how">
+  <div class="wrap">
+    <p class="rail">How it works</p>
+    <h2 class="h-sec">Simple process. <em>No mystery.</em></h2>
+    <p class="sec-lede">Four steps, and you can see what comes out of each one before you commit to anything.</p>
+
+    <div class="process">
+      <div class="pstep s1">
+        <span class="pnum">1.</span>
         <h3>I look first. Free.</h3>
-        <p>Where you show up on Google, Maps, and AI, and where your competitors do.</p>
+        <p>Where you show up on Google, Maps, and AI &mdash; and where your competitors do.</p>
+        <div class="artifact">
+          <span class="k">Sample finding</span>
+          Maps rank <span class="bad">#7</span><br>
+          Reviews <span class="bad">11</span> (avg 41)<br>
+          AI mentions <span class="bad">none</span>
+        </div>
       </div>
-      <div class="step">
+      <div class="pstep s2">
+        <span class="pnum">2.</span>
         <h3>A plan in plain English</h3>
-        <p>What's broken, what it costs, what to skip.</p>
+        <p>What's broken, what it costs to fix, and what you can skip entirely.</p>
+        <div class="artifact">
+          <span class="k">From the plan</span>
+          1. Claim GBP &mdash; <span class="ok">wk 1</span><br>
+          2. Review flow &mdash; <span class="ok">wk 2</span><br>
+          3. Skip the blog for now
+        </div>
       </div>
-      <div class="step">
+      <div class="pstep s3">
+        <span class="pnum">3.</span>
         <h3>I do the work</h3>
-        <p>Website, Google profile, reviews, ads, content. You run your business.</p>
+        <p>Website, Google profile, reviews, ads, content. You keep running your business.</p>
+        <div class="artifact">
+          <span class="k">Week 3 log</span>
+          Site live <span class="ok">&#10003;</span><br>
+          Schema added <span class="ok">&#10003;</span><br>
+          14 towns mapped <span class="ok">&#10003;</span>
+        </div>
       </div>
-      <div class="step">
+      <div class="pstep s4">
+        <span class="pnum">4.</span>
         <h3>You see everything</h3>
-        <p>A short monthly recap: what changed and what's next.</p>
+        <p>A short monthly recap: what changed, what it did, and what's next.</p>
+        <div class="artifact">
+          <span class="k">Monthly recap</span>
+          Calls <span class="ok">+22</span><br>
+          Maps <span class="ok">#7 &rarr; #2</span><br>
+          Next: photos + Q&amp;A
+        </div>
       </div>
     </div>
   </div>
 </section>
 
 {{/* ---------- HONESTY ---------- */}}
-<section class="home-plain">
-  <div class="home-wrap">
+<section class="sec band-dark">
+  <div class="wrap">
+    <p class="rail on-dark">Where I stand</p>
     <div class="honest">
-      <div>
-        <h3><span>No guarantees.</span> Be wary of anyone who offers one.</h3>
-        <p>Nobody can promise the #1 spot on Google. What I promise: solid work, straight answers, and you'll understand every move.</p>
+      <div class="col">
+        <h3><em>No guarantees.</em> Be wary of anyone who offers one.</h3>
+        <p>Nobody can promise the #1 spot on Google. What I promise: solid work, straight answers, and that you'll understand every move I make and why.</p>
       </div>
-      <div>
-        <h3><span>Built so you don't need me forever.</span></h3>
-        <p>Where something can run on its own, I build it that way and hand you the keys. No lock-in.</p>
+      <div class="col">
+        <h3><em>Built so you don't need me forever.</em></h3>
+        <p>Where something can run on its own, I build it that way and hand you the keys. No lock-in, no hostage situation, no monthly fee for work that finished a year ago.</p>
       </div>
     </div>
   </div>
 </section>
 
 {{/* ---------- WHO THIS IS FOR ---------- */}}
-<section class="home-band fb">
-  <div class="home-wrap">
-    <div class="kicker">Who this is for</div>
-    <h2 class="home-h2">The businesses that keep this county running.</h2>
+<section class="sec">
+  <div class="wrap">
+    <p class="rail g">Who this is for</p>
+    <h2 class="h-sec">The businesses that <em>keep this county running.</em></h2>
     <div class="chips">
       <span class="chip">Plumbers</span><span class="chip">HVAC</span><span class="chip">Electricians</span><span class="chip">Landscapers</span><span class="chip">Dryer vent &amp; gutter cleaning</span><span class="chip">Pest control</span><span class="chip">Restoration &amp; mold</span><span class="chip">Painters</span><span class="chip">Cleaning services</span><span class="chip">Auto detailing</span><span class="chip">Bakeries &amp; food</span><span class="chip">Home remodeling</span>
     </div>
-    <p class="towns-line"><b>Serving:</b> Glen Rock, Ridgewood, Fair Lawn, Paramus, Hackensack, Teaneck, Wyckoff, Midland Park, Hawthorne, Saddle Brook, River Edge, Englewood, and all of Bergen County.</p>
+    <p class="towns-line">
+      <b>Serving</b>
+      Glen Rock, Ridgewood, Fair Lawn, Paramus, Hackensack, Teaneck, Wyckoff, Midland Park, Hawthorne, Saddle Brook, River Edge, Englewood &mdash; and all of <a href="/bergen-county-seo/" class="tlink">Bergen County</a>.
+    </p>
   </div>
 </section>
 
 {{/* ---------- RECENT POSTS ---------- */}}
 {{ $posts := where .Site.RegularPages "Section" "blog" }}
 {{ if gt (len $posts) 0 }}
-<section class="home-plain">
-  <div class="home-wrap">
-    <div class="kicker">From the blog</div>
-    <h2 class="home-h2">Straight answers, written down.</h2>
+<section class="sec-tight band">
+  <div class="wrap">
+    <p class="rail s">From the blog</p>
+    <h2 class="h-sec">Straight answers, <em>written down.</em></h2>
     <div class="posts-list">
       {{ range first 4 $posts }}
       <a href="{{ .Permalink }}" class="post-row">
@@ -201,20 +269,22 @@
       {{ end }}
     </div>
     <div class="posts-more">
-      <a href="/blog/">Browse all posts &rarr;</a>
+      <a href="/blog/" class="tlink">Browse all posts &rarr;</a>
     </div>
   </div>
 </section>
 {{ end }}
 
 {{/* ---------- CTA ---------- */}}
-<section class="home-plain" style="padding-top:20px">
-  <div class="home-wrap">
+<section class="sec">
+  <div class="wrap">
     <div class="cta-card">
-      <h2>Find out where you stand. It's free.</h2>
-      <p>I'll check your Google presence, your website, and what AI says about you, then send you what I find. No pitch, no pressure.</p>
+      <div>
+        <h2>Find out where you stand. It's free.</h2>
+        <p>I'll check your Google presence, your website, and what AI says about you &mdash; then send you what I find. No pitch, no pressure, no obligation to do anything about it.</p>
+      </div>
       <div class="cta-ctas">
-        <a href="/audit/" class="btn btn-terra" onclick="return gtag_report_conversion('/audit/');">Get your free online presence check</a>
+        <a href="/audit/" class="btn btn-terra" onclick="return gtag_report_conversion('/audit/');">Get your free presence check <span class="arw">&rarr;</span></a>
         <a href="tel:+12019033491" class="btn btn-plain" onclick="return gtag_report_conversion('tel:+12019033491');">Call or text (201) 903-3491</a>
       </div>
     </div>
