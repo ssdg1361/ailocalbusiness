@@ -94,7 +94,9 @@ More of your potential customers are using Google's AI results, ChatGPT, and Gem
 {{< rawhtml >}}
 <div class="ask">
   <span class="sticker">2&ndash;3 business days</span>
-  <h3>Email or text me these four things:</h3>
+  <h3>Request your check</h3>
+  <iframe id="tally" data-src="https://tally.so/embed/EkRdOA?alignLeft=1&amp;hideTitle=1&amp;transparentBackground=1&amp;dynamicHeight=1" title="Free online presence check request" loading="lazy" style="width:100%;border:0;min-height:520px;margin:10px 0 4px"></iframe>
+  <p class="ask-note" style="margin-top:14px">Prefer not to use a form? Email or text me these four things:</p>
   <ol>
     <li>Your business name</li>
     <li>Your website, if you have one</li>
@@ -107,4 +109,15 @@ More of your potential customers are using Google's AI results, ChatGPT, and Gem
   </div>
   <p class="ask-note">No credit card, no contract, no pitch meeting. Just useful information about where your business stands online.</p>
 </div>
+<script>
+// Carry any UTMs into the Tally hidden fields, tag the source page, then load the embed.
+(function(){
+  var f=document.getElementById('tally'); if(!f) return;
+  var p=new URLSearchParams(location.search), q=[];
+  ['utm_source','utm_medium','utm_campaign','utm_content','utm_term'].forEach(function(k){ if(p.get(k)) q.push(k+'='+encodeURIComponent(p.get(k))); });
+  q.push('page=audit');
+  f.src=f.getAttribute('data-src')+'&'+q.join('&');
+})();
+</script>
+<script async src="https://tally.so/widgets/embed.js"></script>
 {{< /rawhtml >}}
