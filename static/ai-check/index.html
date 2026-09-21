@@ -182,6 +182,70 @@ footer a{color:var(--ink-mute)}
   f.src=f.getAttribute('data-src')+'&'+q.join('&');
 })();
 </script>
+<script>
+/* Engagement + intent instrumentation.
+   Every event is sent the MOMENT it triggers, never on page unload.
+   This is deliberate: GA4's built-in user_engagement is an unload beacon, and
+   Instagram's in-app browser often kills the webview before it sends. These
+   events do not have that failure mode. */
+(function(){
+  var P, base;
+  try { P = new URLSearchParams(location.search); } catch(e){ P = null; }
+  base = {
+    creative: (P && P.get('utm_content')) || 'none',
+    adset:    (P && P.get('utm_term'))    || 'none'
+  };
+  var sent = {};
+  function ev(name){
+    if (sent[name]) return; sent[name] = 1;
+    try { if (typeof gtag === 'function') gtag('event', name, base); } catch(e){}
+    try { if (typeof fbq  === 'function') fbq('trackCustom', name, base); } catch(e){}
+  }
+
+  /* visible-time accumulator: a backgrounded tab does not accrue time */
+  var ms = 0, t0 = Date.now(), on = !document.hidden, iv;
+  function flush(){ if (on) ms += Date.now() - t0; t0 = Date.now(); }
+  try {
+    document.addEventListener('visibilitychange', function(){ flush(); on = !document.hidden; });
+  } catch(e){}
+  iv = setInterval(function(){
+    flush();
+    if (ms >=  5000) ev('five_second_visit');
+    if (ms >= 10000) ev('ten_second_visit');
+    if (ms >= 30000) { ev('thirty_second_visit'); clearInterval(iv); }
+  }, 1000);
+
+  /* intent clicks */
+  try {
+    document.addEventListener('click', function(e){
+      var a = e.target && e.target.closest ? e.target.closest('a') : null;
+      if (!a) return;
+      var h = a.getAttribute('href') || '';
+      if      (h.indexOf('tel:')    === 0) ev('phone_click');
+      else if (h.indexOf('sms:')    === 0) ev('text_click');
+      else if (h.indexOf('mailto:') === 0) ev('email_click');
+      else if (h === '#form')              ev('hero_cta_click');
+    }, true);
+  } catch(e){}
+
+  /* form actually seen. Observes the form CARD, not the iframe, and requires a
+     1s dwell at >=50% visibility, so a lazy-iframe prefetch cannot count. */
+  try {
+    var card = document.querySelector('.form-card');
+    if (card && 'IntersectionObserver' in window) {
+      var timer = null;
+      new IntersectionObserver(function(entries){
+        for (var i=0;i<entries.length;i++){
+          var en = entries[i];
+          if (en.isIntersecting && en.intersectionRatio >= 0.5) {
+            if (!timer) timer = setTimeout(function(){ ev('form_visible'); }, 1000);
+          } else if (timer) { clearTimeout(timer); timer = null; }
+        }
+      }, {threshold:[0,0.5,1]}).observe(card);
+    }
+  } catch(e){}
+})();
+</script>
 <script async src="https://tally.so/widgets/embed.js"></script>
 </body>
 </html>
