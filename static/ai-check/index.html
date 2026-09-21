@@ -210,6 +210,7 @@ footer a{color:var(--ink-mute)}
   } catch(e){}
   iv = setInterval(function(){
     flush();
+    if (ms >=  3000) ev('three_second_visit');
     if (ms >=  5000) ev('five_second_visit');
     if (ms >= 10000) ev('ten_second_visit');
     if (ms >= 30000) { ev('thirty_second_visit'); clearInterval(iv); }
@@ -226,6 +227,16 @@ footer a{color:var(--ink-mute)}
       else if (h.indexOf('mailto:') === 0) ev('email_click');
       else if (h === '#form')              ev('hero_cta_click');
     }, true);
+  } catch(e){}
+
+  /* first scroll of any distance. The loosest engagement signal we have:
+     filters out a tap that never moved the page, nothing more. */
+  try {
+    var onScroll = function(){
+      var y = window.pageYOffset || document.documentElement.scrollTop || 0;
+      if (y > 0) { ev('first_scroll'); window.removeEventListener('scroll', onScroll); }
+    };
+    window.addEventListener('scroll', onScroll, { passive: true });
   } catch(e){}
 
   /* form actually seen. Observes the form CARD, not the iframe, and requires a
