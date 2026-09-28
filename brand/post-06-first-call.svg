@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1080" width="1080" height="1080">
+  <defs>
+    <style type="text/css">
+      @import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,800&amp;family=JetBrains+Mono:wght@400;500;600&amp;display=swap');
+      .ssdg-serif-reg { font-family: 'Fraunces', 'URW Bookman', Georgia, serif; font-weight: 700; }
+      .ssdg-serif-emph { font-family: 'Fraunces', 'URW Bookman', Georgia, serif; font-weight: 700; }
+      .ssdg-serif-bold { font-family: 'Fraunces', 'URW Bookman', Georgia, serif; font-weight: 800; font-style: italic; }
+      .ssdg-mono { font-family: 'JetBrains Mono', 'DejaVu Sans Mono', monospace; font-weight: 500; }
+      .ssdg-mono-bold { font-family: 'JetBrains Mono', 'DejaVu Sans Mono', monospace; font-weight: 600; }
+    </style>
+    <pattern id="darkDots6" x="0" y="0" width="40" height="40" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="rgba(236,230,217,0.05)"/>
+    </pattern>
+    <linearGradient id="darkGrad6" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1F5045"/>
+      <stop offset="100%" stop-color="#0E2620"/>
+    </linearGradient>
+    <radialGradient id="glowTeal6" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#6FB59E" stop-opacity="0.13"/>
+      <stop offset="100%" stop-color="#6FB59E" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowTerra6" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#C25E33" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#C25E33" stop-opacity="0"/>
+    </radialGradient>
+    <path id="footStampTop6" d="M 90 990 A 50 50 0 0 1 190 990"/>
+    <path id="footStampBot6" d="M 90 990 A 50 50 0 0 0 190 990"/>
+  </defs>
+
+  <rect width="1080" height="1080" fill="url(#darkGrad6)"/>
+  <rect width="1080" height="1080" fill="url(#darkDots6)"/>
+  <ellipse cx="200" cy="190" rx="560" ry="420" fill="url(#glowTeal6)"/>
+  <ellipse cx="920" cy="910" rx="520" ry="400" fill="url(#glowTerra6)"/>
+  <rect width="1080" height="6" fill="#C25E33"/>
+
+  <!-- Eyebrow -->
+  <g transform="translate(80, 128)">
+    <circle cx="0" cy="-7" r="6" fill="#E08B65"/>
+    <text class="ssdg-mono-bold" x="22" y="0" font-size="22" fill="#E08B65" letter-spacing="6">I ASKED CHATGPT</text>
+  </g>
+
+  <!-- Headline -->
+  <text class="ssdg-serif-reg" x="80" y="240" font-size="76" fill="#ECE6D9" letter-spacing="-2.4">AI didn't give me</text>
+  <text class="ssdg-serif-reg" x="80" y="322" font-size="76" fill="#ECE6D9" letter-spacing="-2.4">a list. It gave me</text>
+  <text class="ssdg-serif-reg" x="80" y="404" font-size="76" fill="#ECE6D9" letter-spacing="-2.4"><tspan class="ssdg-serif-emph" fill="#6FB59E">a name</tspan>.</text>
+
+  <line x1="80" y1="440" x2="280" y2="440" stroke="#E08B65" stroke-width="3"/>
+
+  <!-- Question bubble -->
+  <text class="ssdg-mono-bold" x="80" y="478" font-size="16" fill="rgba(236,230,217,0.5)" letter-spacing="4">THE QUESTION</text>
+  <rect x="80" y="498" width="920" height="96" rx="12" fill="rgba(236,230,217,0.05)" stroke="rgba(236,230,217,0.22)" stroke-width="1.5"/>
+  <text class="ssdg-mono" x="116" y="538" font-size="26" fill="#ECE6D9">I think my roof is leaking.</text>
+  <text class="ssdg-mono" x="116" y="574" font-size="26" fill="#ECE6D9">Who should I call in Glen Rock?</text>
+
+  <!-- Answer card -->
+  <text class="ssdg-mono-bold" x="80" y="652" font-size="16" fill="rgba(236,230,217,0.5)" letter-spacing="4">THE ANSWER</text>
+  <rect x="80" y="672" width="920" height="170" rx="12" fill="rgba(111,181,158,0.10)" stroke="#6FB59E" stroke-width="2"/>
+  <text class="ssdg-mono" x="116" y="716" font-size="22" fill="rgba(236,230,217,0.75)">A map. 4 roofers. Star ratings. Phone numbers.</text>
+  <text class="ssdg-mono" x="116" y="748" font-size="22" fill="rgba(236,230,217,0.75)">And one line:</text>
+  <text class="ssdg-serif-emph" x="116" y="812" font-size="44" fill="#6FB59E" letter-spacing="-1">"My first call would be Mattsson."</text>
+
+  <!-- Kicker -->
+  <text class="ssdg-mono" x="80" y="896" font-size="22" fill="rgba(236,230,217,0.75)" letter-spacing="2">Not a search result. A referral.</text>
+
+  <!-- Footer with stamp -->
+  <g>
+    <circle cx="140" cy="990" r="58" fill="none" stroke="#ECE6D9" stroke-width="1.5"/>
+    <circle cx="140" cy="990" r="53" fill="none" stroke="#ECE6D9" stroke-width="0.7"/>
+    <text class="ssdg-mono-bold" font-size="7.5" fill="#ECE6D9" letter-spacing="3.4">
+      <textPath href="#footStampTop6" startOffset="50%" text-anchor="middle">SPENCER · SCOTT · DIGITAL</textPath>
+    </text>
+    <text class="ssdg-mono-bold" font-size="7" fill="#ECE6D9" letter-spacing="3">
+      <textPath href="#footStampBot6" startOffset="50%" text-anchor="middle">GLEN ROCK · NJ</textPath>
+    </text>
+    <text class="ssdg-serif-bold" x="140" y="1003" font-size="30" text-anchor="middle" fill="#ECE6D9" letter-spacing="-1">SSDG</text>
+    <line x1="220" y1="950" x2="220" y2="1030" stroke="rgba(236,230,217,0.2)"/>
+    <text class="ssdg-mono-bold" x="245" y="985" font-size="16" fill="#ECE6D9" letter-spacing="3.5">AI LOCAL BUSINESS</text>
+    <text class="ssdg-mono" x="245" y="1010" font-size="13" fill="rgba(236,230,217,0.6)" letter-spacing="3">AILOCALBUSINESS.BIZ</text>
+  </g>
+</svg>

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1080" width="1080" height="1080">
+  <defs>
+    <style type="text/css">
+      @import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,800&amp;family=JetBrains+Mono:wght@400;500;600&amp;display=swap');
+      .ssdg-serif-reg { font-family: 'Fraunces', Georgia, serif; font-weight: 700; font-style: normal; }
+      .ssdg-serif-emph { font-family: 'Fraunces', Georgia, serif; font-weight: 700; font-style: normal; }
+      .ssdg-serif-bold { font-family: 'Fraunces', Georgia, serif; font-weight: 800; font-style: italic; }
+      .ssdg-mono { font-family: 'JetBrains Mono', monospace; font-weight: 500; }
+      .ssdg-mono-bold { font-family: 'JetBrains Mono', monospace; font-weight: 600; }
+    </style>
+    <pattern id="darkDots5" x="0" y="0" width="40" height="40" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="rgba(236,230,217,0.05)"/>
+    </pattern>
+    <linearGradient id="darkGrad5" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#8A3F1B"/>
+      <stop offset="100%" stop-color="#2B1108"/>
+    </linearGradient>
+    <radialGradient id="glowTeal5" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#F2A375" stop-opacity="0.16"/>
+      <stop offset="100%" stop-color="#F2A375" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowTerra5" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#6FB59E" stop-opacity="0.14"/>
+      <stop offset="100%" stop-color="#6FB59E" stop-opacity="0"/>
+    </radialGradient>
+    <path id="footStampTop5" d="M 90 990 A 50 50 0 0 1 190 990"/>
+    <path id="footStampBot5" d="M 90 990 A 50 50 0 0 0 190 990"/>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1080" height="1080" fill="url(#darkGrad5)"/>
+  <rect width="1080" height="1080" fill="url(#darkDots5)"/>
+  <ellipse cx="200" cy="190" rx="560" ry="420" fill="url(#glowTeal5)"/>
+  <ellipse cx="920" cy="910" rx="520" ry="400" fill="url(#glowTerra5)"/>
+
+  <!-- Brand bar -->
+  <rect width="1080" height="6" fill="#6FB59E"/>
+
+  <!-- Eyebrow -->
+  <g transform="translate(80, 128)">
+    <circle cx="0" cy="-7" r="6" fill="#8FCBB6"/>
+    <text class="ssdg-mono-bold" x="22" y="0" font-size="22" fill="#8FCBB6" letter-spacing="6">TWO SITES, ONE BUSINESS</text>
+  </g>
+
+  <!-- Headline -->
+  <text class="ssdg-serif-reg" x="80" y="268" font-size="82" fill="#ECE6D9" letter-spacing="-2.4">Your old website</text>
+  <text class="ssdg-serif-reg" x="80" y="358" font-size="82" fill="#ECE6D9" letter-spacing="-2.4">is <tspan class="ssdg-serif-emph" fill="#8FCBB6">still up</tspan>.</text>
+
+  <!-- Divider -->
+  <line x1="80" y1="416" x2="280" y2="416" stroke="#6FB59E" stroke-width="3"/>
+
+  <!-- ============ CARD 01 ============ -->
+  <text class="ssdg-mono-bold" x="80" y="480" font-size="16" fill="rgba(236,230,217,0.5)" letter-spacing="4">01 · THE NEW SITE</text>
+  <rect x="80" y="502" width="425" height="272" rx="12" fill="rgba(236,230,217,0.05)" stroke="rgba(236,230,217,0.22)" stroke-width="1.5"/>
+  <!-- browser chrome -->
+  <line x1="80" y1="560" x2="505" y2="560" stroke="rgba(236,230,217,0.18)" stroke-width="1.5"/>
+  <circle cx="112" cy="531" r="6" fill="rgba(236,230,217,0.28)"/>
+  <circle cx="132" cy="531" r="6" fill="rgba(236,230,217,0.28)"/>
+  <circle cx="152" cy="531" r="6" fill="rgba(236,230,217,0.28)"/>
+  <!-- url bar -->
+  <rect x="112" y="588" width="361" height="44" rx="8" fill="rgba(236,230,217,0.07)"/>
+  <path d="M 134 604 A 6 6 0 0 1 146 604 L 146 608" fill="none" stroke="#8FCBB6" stroke-width="2.5" stroke-linecap="round"/>
+  <rect x="130" y="607" width="20" height="14" rx="3" fill="none" stroke="#8FCBB6" stroke-width="2.5"/>
+  <rect x="164" y="603" width="150" height="14" rx="7" fill="rgba(236,230,217,0.3)"/>
+  <!-- label -->
+  <text class="ssdg-mono-bold" x="112" y="678" font-size="14" fill="rgba(236,230,217,0.45)" letter-spacing="3.5">THE CODE SAYS</text>
+  <text class="ssdg-mono-bold" x="112" y="722" font-size="28" fill="#8FCBB6" letter-spacing="-0.4">Local Business</text>
+
+  <!-- ============ NOT-EQUAL BADGE ============ -->
+  <circle cx="540" cy="638" r="34" fill="#2B1108" stroke="#8FCBB6" stroke-width="2.5"/>
+  <line x1="524" y1="628" x2="556" y2="628" stroke="#8FCBB6" stroke-width="3.5" stroke-linecap="round"/>
+  <line x1="524" y1="648" x2="556" y2="648" stroke="#8FCBB6" stroke-width="3.5" stroke-linecap="round"/>
+  <line x1="551" y1="618" x2="529" y2="658" stroke="#8FCBB6" stroke-width="3.5" stroke-linecap="round"/>
+
+  <!-- ============ CARD 02 ============ -->
+  <text class="ssdg-mono-bold" x="575" y="480" font-size="16" fill="rgba(236,230,217,0.5)" letter-spacing="4">02 · THE OLD ONE</text>
+  <rect x="575" y="502" width="425" height="272" rx="12" fill="rgba(236,230,217,0.05)" stroke="rgba(236,230,217,0.22)" stroke-width="1.5"/>
+  <!-- browser chrome -->
+  <line x1="575" y1="560" x2="1000" y2="560" stroke="rgba(236,230,217,0.18)" stroke-width="1.5"/>
+  <circle cx="607" cy="531" r="6" fill="rgba(236,230,217,0.28)"/>
+  <circle cx="627" cy="531" r="6" fill="rgba(236,230,217,0.28)"/>
+  <circle cx="647" cy="531" r="6" fill="rgba(236,230,217,0.28)"/>
+  <!-- url bar -->
+  <rect x="607" y="588" width="361" height="44" rx="8" fill="rgba(236,230,217,0.07)"/>
+  <path d="M 629 604 A 6 6 0 0 1 641 604 L 641 608" fill="none" stroke="#FFC078" stroke-width="2.5" stroke-linecap="round"/>
+  <rect x="625" y="607" width="20" height="14" rx="3" fill="none" stroke="#FFC078" stroke-width="2.5"/>
+  <rect x="659" y="603" width="182" height="14" rx="7" fill="rgba(236,230,217,0.3)"/>
+  <!-- label -->
+  <text class="ssdg-mono-bold" x="607" y="678" font-size="14" fill="rgba(236,230,217,0.45)" letter-spacing="3.5">THE CODE SAYS</text>
+  <text class="ssdg-mono-bold" x="607" y="722" font-size="28" fill="#FFC078" letter-spacing="-0.4">General Contractor</text>
+
+  <!-- Kicker -->
+  <text class="ssdg-mono" x="80" y="846" font-size="22" fill="rgba(236,230,217,0.75)" letter-spacing="2">When your own sites disagree,</text>
+  <text class="ssdg-mono" x="80" y="880" font-size="22" fill="rgba(236,230,217,0.75)" letter-spacing="2">AI names someone else.</text>
+
+  <!-- Footer with stamp -->
+  <g>
+    <circle cx="140" cy="990" r="58" fill="none" stroke="#ECE6D9" stroke-width="1.5"/>
+    <circle cx="140" cy="990" r="53" fill="none" stroke="#ECE6D9" stroke-width="0.7"/>
+    <text class="ssdg-mono-bold" font-size="7.5" fill="#ECE6D9" letter-spacing="3.4">
+      <textPath href="#footStampTop5" startOffset="50%" text-anchor="middle">SPENCER · SCOTT · DIGITAL</textPath>
+    </text>
+    <text class="ssdg-mono-bold" font-size="7" fill="#ECE6D9" letter-spacing="3">
+      <textPath href="#footStampBot5" startOffset="50%" text-anchor="middle">GLEN ROCK · NJ</textPath>
+    </text>
+    <text class="ssdg-serif-bold" x="140" y="1003" font-size="30" text-anchor="middle" fill="#ECE6D9" letter-spacing="-1">SSDG</text>
+
+    <line x1="220" y1="950" x2="220" y2="1030" stroke="rgba(236,230,217,0.2)"/>
+    <text class="ssdg-mono-bold" x="245" y="985" font-size="16" fill="#ECE6D9" letter-spacing="3.5">AI LOCAL BUSINESS</text>
+    <text class="ssdg-mono" x="245" y="1010" font-size="13" fill="rgba(236,230,217,0.6)" letter-spacing="3">AILOCALBUSINESS.BIZ</text>
+  </g>
+</svg>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1080" width="1080" height="1080">
+  <defs>
+    <style type="text/css">
+      @import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,800&amp;family=JetBrains+Mono:wght@400;500;600&amp;display=swap');
+      .ssdg-serif-reg { font-family: 'Fraunces', Georgia, serif; font-weight: 700; font-style: normal; }
+      .ssdg-serif-emph { font-family: 'Fraunces', Georgia, serif; font-weight: 700; font-style: normal; }
+      .ssdg-serif-bold { font-family: 'Fraunces', Georgia, serif; font-weight: 800; font-style: italic; }
+      .ssdg-mono { font-family: 'JetBrains Mono', monospace; font-weight: 500; }
+      .ssdg-mono-bold { font-family: 'JetBrains Mono', monospace; font-weight: 600; }
+    </style>
+    <pattern id="darkDots4" x="0" y="0" width="40" height="40" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="rgba(236,230,217,0.05)"/>
+    </pattern>
+    <linearGradient id="darkGrad4" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1F5045"/>
+      <stop offset="100%" stop-color="#0E2620"/>
+    </linearGradient>
+    <radialGradient id="glowTeal4" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#6FB59E" stop-opacity="0.13"/>
+      <stop offset="100%" stop-color="#6FB59E" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowTerra4" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#C25E33" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#C25E33" stop-opacity="0"/>
+    </radialGradient>
+    <path id="footStampTop4" d="M 90 990 A 50 50 0 0 1 190 990"/>
+    <path id="footStampBot4" d="M 90 990 A 50 50 0 0 0 190 990"/>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1080" height="1080" fill="url(#darkGrad4)"/>
+  <rect width="1080" height="1080" fill="url(#darkDots4)"/>
+  <ellipse cx="200" cy="190" rx="560" ry="420" fill="url(#glowTeal4)"/>
+  <ellipse cx="920" cy="910" rx="520" ry="400" fill="url(#glowTerra4)"/>
+
+  <!-- Brand bar -->
+  <rect width="1080" height="6" fill="#C25E33"/>
+
+  <!-- Eyebrow -->
+  <g transform="translate(80, 128)">
+    <circle cx="0" cy="-7" r="6" fill="#E08B65"/>
+    <text class="ssdg-mono-bold" x="22" y="0" font-size="22" fill="#E08B65" letter-spacing="6">THE TEN-SECOND TEST</text>
+  </g>
+
+  <!-- Headline -->
+  <text class="ssdg-serif-reg" x="80" y="268" font-size="82" fill="#ECE6D9" letter-spacing="-2.4">Search your trade,</text>
+  <text class="ssdg-serif-reg" x="80" y="358" font-size="82" fill="#ECE6D9" letter-spacing="-2.4">not your <tspan class="ssdg-serif-emph" fill="#6FB59E">name</tspan>.</text>
+
+  <!-- Divider -->
+  <line x1="80" y1="416" x2="280" y2="416" stroke="#E08B65" stroke-width="3"/>
+
+  <!-- Search field 01 -->
+  <text class="ssdg-mono-bold" x="80" y="480" font-size="16" fill="rgba(236,230,217,0.5)" letter-spacing="4">01 · GOOGLE</text>
+  <rect x="80" y="502" width="920" height="100" rx="12" fill="rgba(236,230,217,0.05)" stroke="rgba(236,230,217,0.22)" stroke-width="1.5"/>
+  <circle cx="132" cy="546" r="13" fill="none" stroke="#6FB59E" stroke-width="3"/>
+  <line x1="142" y1="556" x2="153" y2="567" stroke="#6FB59E" stroke-width="3" stroke-linecap="round"/>
+  <text class="ssdg-mono" x="188" y="563" font-size="30" fill="#ECE6D9" letter-spacing="0.5">roofer ridgewood</text>
+
+  <!-- Search field 02 -->
+  <text class="ssdg-mono-bold" x="80" y="670" font-size="16" fill="rgba(236,230,217,0.5)" letter-spacing="4">02 · CHATGPT</text>
+  <rect x="80" y="692" width="920" height="100" rx="12" fill="rgba(236,230,217,0.05)" stroke="rgba(236,230,217,0.22)" stroke-width="1.5"/>
+  <rect x="118" y="724" width="42" height="30" rx="8" fill="none" stroke="#E08B65" stroke-width="3"/>
+  <path d="M 128 754 L 128 766 L 140 754" fill="none" stroke="#E08B65" stroke-width="3" stroke-linejoin="round"/>
+  <text class="ssdg-mono" x="188" y="753" font-size="27" fill="#ECE6D9" letter-spacing="0.5">who's the best roofer in ridgewood?</text>
+
+  <!-- Kicker -->
+  <text class="ssdg-mono" x="80" y="862" font-size="22" fill="rgba(236,230,217,0.75)" letter-spacing="2">Two searches. Ten seconds.</text>
+  <text class="ssdg-mono" x="80" y="896" font-size="22" fill="rgba(236,230,217,0.75)" letter-spacing="2">Usually two different lists.</text>
+
+  <!-- Footer with stamp -->
+  <g>
+    <circle cx="140" cy="990" r="58" fill="none" stroke="#ECE6D9" stroke-width="1.5"/>
+    <circle cx="140" cy="990" r="53" fill="none" stroke="#ECE6D9" stroke-width="0.7"/>
+    <text class="ssdg-mono-bold" font-size="7.5" fill="#ECE6D9" letter-spacing="3.4">
+      <textPath href="#footStampTop4" startOffset="50%" text-anchor="middle">SPENCER · SCOTT · DIGITAL</textPath>
+    </text>
+    <text class="ssdg-mono-bold" font-size="7" fill="#ECE6D9" letter-spacing="3">
+      <textPath href="#footStampBot4" startOffset="50%" text-anchor="middle">GLEN ROCK · NJ</textPath>
+    </text>
+    <text class="ssdg-serif-bold" x="140" y="1003" font-size="30" text-anchor="middle" fill="#ECE6D9" letter-spacing="-1">SSDG</text>
+
+    <line x1="220" y1="950" x2="220" y2="1030" stroke="rgba(236,230,217,0.2)"/>
+    <text class="ssdg-mono-bold" x="245" y="985" font-size="16" fill="#ECE6D9" letter-spacing="3.5">AI LOCAL BUSINESS</text>
+    <text class="ssdg-mono" x="245" y="1010" font-size="13" fill="rgba(236,230,217,0.6)" letter-spacing="3">AILOCALBUSINESS.BIZ</text>
+  </g>
+</svg>

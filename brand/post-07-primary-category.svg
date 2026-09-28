@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1080" width="1080" height="1080">
+  <defs>
+    <style type="text/css">
+      @import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,800&amp;family=JetBrains+Mono:wght@400;500;600&amp;display=swap');
+      .serif { font-family: 'Fraunces', 'URW Bookman', Georgia, serif; font-weight: 700; }
+      .serif-i { font-family: 'Fraunces', 'URW Bookman', Georgia, serif; font-weight: 800; font-style: italic; }
+      .mono { font-family: 'JetBrains Mono', 'DejaVu Sans Mono', monospace; font-weight: 500; }
+      .mono-b { font-family: 'JetBrains Mono', 'DejaVu Sans Mono', monospace; font-weight: 600; }
+      .ui { font-family: 'DejaVu Sans', Helvetica, Arial, sans-serif; }
+      .ui-b { font-family: 'DejaVu Sans', Helvetica, Arial, sans-serif; font-weight: bold; }
+    </style>
+    <filter id="sh" x="-10%" y="-10%" width="120%" height="130%"><feDropShadow dx="0" dy="10" stdDeviation="14" flood-color="#0E2620" flood-opacity="0.18"/></filter>
+  </defs>
+
+  <rect width="1080" height="1080" fill="#FFFFFF"/>
+  <rect width="1080" height="1080" fill="#1F5045"/>
+  <rect x="0" y="0" width="1080" height="330" fill="#1F5045"/>
+
+  <!-- top copy -->
+  <text class="mono-b" x="80" y="112" font-size="18" fill="#8FCBB6" letter-spacing="5">GOOGLE BUSINESS PROFILE · 2-MINUTE FIX</text>
+  <text class="serif" x="80" y="196" font-size="66" fill="#ECE6D9" letter-spacing="-2">One field decides which</text>
+  <text class="serif" x="80" y="270" font-size="66" fill="#ECE6D9" letter-spacing="-2">searches you show up for.</text>
+
+  <!-- cream lower area -->
+  <rect x="0" y="330" width="1080" height="750" fill="#ECE6D9"/>
+
+  <!-- BEFORE panel -->
+  <text class="mono-b" x="80" y="392" font-size="16" fill="#C25E33" letter-spacing="4">BEFORE</text>
+  <rect x="80" y="410" width="440" height="330" rx="18" fill="#FFFFFF" filter="url(#sh)"/>
+  <rect x="80" y="410" width="440" height="110" rx="18" fill="#DDD7CC"/>
+  <rect x="80" y="480" width="440" height="40" fill="#DDD7CC"/>
+  <text class="ui-b" x="106" y="560" font-size="26" fill="#1F1F1F">Your Roofing Co.</text>
+  <text class="ui" x="106" y="592" font-size="16" fill="#5B6B63">4.9 ★★★★★ (63)</text>
+  <text class="ui" x="106" y="628" font-size="18" fill="#3A3A3A">Contractor</text>
+  <rect x="98" y="606" width="140" height="34" rx="6" fill="none" stroke="#C25E33" stroke-width="3"/>
+  <text class="ui" x="106" y="662" font-size="15" fill="#5B6B63">Glen Rock, NJ · Open</text>
+  <g>
+    <rect x="106" y="686" width="90" height="30" rx="15" fill="#F0ECE4"/><text class="ui" x="151" y="706" font-size="13" fill="#3A3A3A" text-anchor="middle">Website</text>
+    <rect x="206" y="686" width="90" height="30" rx="15" fill="#F0ECE4"/><text class="ui" x="251" y="706" font-size="13" fill="#3A3A3A" text-anchor="middle">Directions</text>
+    <rect x="306" y="686" width="70" height="30" rx="15" fill="#F0ECE4"/><text class="ui" x="341" y="706" font-size="13" fill="#3A3A3A" text-anchor="middle">Call</text>
+  </g>
+  <!-- before: searches -->
+  <text class="mono" x="80" y="790" font-size="17" fill="#3A3A3A">"roofer near me"</text>
+  <text class="mono-b" x="330" y="790" font-size="17" fill="#C25E33">✕  weak match</text>
+  <text class="mono" x="80" y="826" font-size="17" fill="#3A3A3A">"roof repair paramus"</text>
+  <text class="mono-b" x="330" y="826" font-size="17" fill="#C25E33">✕  weak match</text>
+  <text class="mono" x="80" y="862" font-size="17" fill="#3A3A3A">"roof leak glen rock"</text>
+  <text class="mono-b" x="330" y="862" font-size="17" fill="#C25E33">✕  weak match</text>
+
+  <!-- arrow -->
+  <path d="M 536 575 L 556 575" stroke="#1F5045" stroke-width="6" stroke-linecap="round"/>
+  <path d="M 548 563 L 560 575 L 548 587" fill="none" stroke="#1F5045" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- AFTER panel -->
+  <text class="mono-b" x="560" y="392" font-size="16" fill="#1F5045" letter-spacing="4">AFTER</text>
+  <rect x="560" y="410" width="440" height="330" rx="18" fill="#FFFFFF" filter="url(#sh)"/>
+  <rect x="560" y="410" width="440" height="110" rx="18" fill="#DDD7CC"/>
+  <rect x="560" y="480" width="440" height="40" fill="#DDD7CC"/>
+  <text class="ui-b" x="586" y="560" font-size="26" fill="#1F1F1F">Your Roofing Co.</text>
+  <text class="ui" x="586" y="592" font-size="16" fill="#5B6B63">4.9 ★★★★★ (63)</text>
+  <text class="ui-b" x="586" y="628" font-size="18" fill="#1F5045">Roofing contractor</text>
+  <rect x="578" y="606" width="210" height="34" rx="6" fill="none" stroke="#6FB59E" stroke-width="3"/>
+  <text class="ui" x="586" y="662" font-size="15" fill="#5B6B63">Glen Rock, NJ · Open</text>
+  <g>
+    <rect x="586" y="686" width="90" height="30" rx="15" fill="#F0ECE4"/><text class="ui" x="631" y="706" font-size="13" fill="#3A3A3A" text-anchor="middle">Website</text>
+    <rect x="686" y="686" width="90" height="30" rx="15" fill="#F0ECE4"/><text class="ui" x="731" y="706" font-size="13" fill="#3A3A3A" text-anchor="middle">Directions</text>
+    <rect x="786" y="686" width="70" height="30" rx="15" fill="#F0ECE4"/><text class="ui" x="821" y="706" font-size="13" fill="#3A3A3A" text-anchor="middle">Call</text>
+  </g>
+  <text class="mono" x="560" y="790" font-size="17" fill="#3A3A3A">"roofer near me"</text>
+  <text class="mono-b" x="790" y="790" font-size="17" fill="#1F5045">✓  strong match</text>
+  <text class="mono" x="560" y="826" font-size="17" fill="#3A3A3A">"roof repair paramus"</text>
+  <text class="mono-b" x="790" y="826" font-size="17" fill="#1F5045">✓  strong match</text>
+  <text class="mono" x="560" y="862" font-size="17" fill="#3A3A3A">"roof leak glen rock"</text>
+  <text class="mono-b" x="790" y="862" font-size="17" fill="#1F5045">✓  strong match</text>
+
+  <!-- bottom line -->
+  <line x1="80" y1="910" x2="1000" y2="910" stroke="#1F5045" stroke-opacity="0.2" stroke-width="2"/>
+  <text class="serif-i" x="80" y="968" font-size="34" fill="#1F5045">It's your primary category. Check yours today.</text>
+  <text class="serif-i" x="80" y="1030" font-size="22" fill="#0E2620">SSDG</text>
+  <line x1="160" y1="1012" x2="160" y2="1036" stroke="#0E2620" opacity="0.3"/>
+  <text class="mono-b" x="178" y="1030" font-size="14" fill="#0E2620" letter-spacing="3">AILOCALBUSINESS.BIZ/AI-CHECK</text>
+</svg>
