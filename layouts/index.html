@@ -88,59 +88,72 @@
     </div>
   </section>
 
-  <section class="svc wrap" id="services" aria-labelledby="h-svc">
-    <h2 id="h-svc" data-reveal>Three jobs. One phone.</h2>
-    <div class="table" role="table" aria-label="What I do, by service" data-reveal style="--i:1">
-      <div class="trow thead" role="row">
-        <span role="columnheader"><span class="sr-only">Question</span></span>
-        <span role="columnheader">Your website</span>
-        <span role="columnheader">Google Maps &amp; search</span>
-        <span role="columnheader" class="feat">AI answers<small>Almost nobody in your market shows up here yet.</small></span>
+  <section class="places-sec" id="services" aria-labelledby="h-places">
+    <div class="wrap places-grid">
+      <div class="places-head">
+        <h2 id="h-places">Three places they look.</h2>
+        <p>Most businesses need all three. Here&rsquo;s what each one takes, and what I do about it.</p>
       </div>
-      <div class="trow" role="row">
-        <span class="lab" role="rowheader">What it is</span>
-        <span role="cell" data-col="Website">A site built from scratch for someone standing in a driveway with a phone.</span>
-        <span role="cell" data-col="Google">Your Google Business Profile, your reviews, and a page for every town you serve.</span>
-        <span role="cell" data-col="AI answers" class="feat">What ChatGPT, Gemini and Google&rsquo;s AI Overviews say when someone asks for a name.</span>
-      </div>
-      <div class="trow" role="row">
-        <span class="lab" role="rowheader">The usual problem</span>
-        <span role="cell" data-col="Website">Slow, hard to call from, a template nobody has touched in years.</span>
-        <span role="cell" data-col="Google">Half filled in. Eleven reviews against a competitor&rsquo;s forty-one.</span>
-        <span role="cell" data-col="AI answers" class="feat">It names someone else, or says nothing at all.</span>
-      </div>
-      <div class="trow" role="row">
-        <span class="lab" role="rowheader">What I do</span>
-        <span role="cell" data-col="Website">Write it, design it, build it. The call button sits where a thumb lands.</span>
-        <span role="cell" data-col="Google">Claim and complete the profile, set up a steady review ask, build the town pages.</span>
-        <span role="cell" data-col="AI answers" class="feat">Ask the questions your customers ask, fix the facts AI reads, then ask again.</span>
-      </div>
-      <div class="trow" role="row">
-        <span class="lab" role="rowheader">When you see it</span>
-        <span role="cell" data-col="Website">Live in about three weeks.</span>
-        <span role="cell" data-col="Google">Often fixable in a week.</span>
-        <span role="cell" data-col="AI answers" class="feat">Weeks to months. I show you every change.</span>
-      </div>
-      <div class="trow" role="row">
-        <span class="lab" role="rowheader">Who owns it</span>
-        <span role="cell" data-col="Website">You. Code, domain, all of it.</span>
-        <span role="cell" data-col="Google">You. Your profile, your reviews.</span>
-        <span role="cell" data-col="AI answers" class="feat">You. Nothing to cancel.</span>
-      </div>
-      <div class="trow" role="row">
-        <span class="lab" role="rowheader">Each month</span>
-        <span role="cell" data-col="Website">Calls and form fills that came from the site.</span>
-        <span role="cell" data-col="Google">Where you rank on the map, town by town.</span>
-        <span role="cell" data-col="AI answers" class="feat">What each AI tool now says about you.</span>
-      </div>
-      <div class="trow" role="row">
-        <span class="lab" role="rowheader">The free check</span>
-        <span role="cell" data-col="Website">Tests your site on a phone, the way customers use it.</span>
-        <span role="cell" data-col="Google">Maps your rank against the three businesses above you.</span>
-        <span role="cell" data-col="AI answers" class="feat">Asks three AI tools about you and shows what they say.</span>
+
+      <div class="places-list">
+        <article class="place" data-reveal>
+          <h3>Your website</h3>
+          <div class="place-row">
+            <figure class="place-pic"><img src="/images/work/vv-phone.jpg" width="390" height="844" loading="lazy" alt="Vent Viper's website on a phone, with a red Call Danny button near the thumb"><figcaption>Vent Viper, Wyckoff</figcaption></figure>
+            <ul>
+              <li>Built from scratch, not a template</li>
+              <li>Fast on a phone in someone&rsquo;s driveway</li>
+              <li>The call button sits where a thumb lands</li>
+              <li>Live in about three weeks</li>
+              <li>You own the code and the domain</li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="place flip" data-reveal>
+          <h3>The Google map</h3>
+          <div class="place-row">
+            <figure class="place-pic">
+              <div data-ui class="map-pack" role="img" aria-label="Sample Google map results with your business listed first">
+                <div class="mp-q">plumber near me</div>
+                <div class="mp-row win"><b>Your Business</b><span>4.9 &middot; 87 reviews &middot; Glen Rock</span></div>
+                <div class="mp-row"><b>Another Plumbing Co.</b><span>4.2 &middot; 31 reviews</span></div>
+                <div class="mp-row"><b>Some Guy Services</b><span>3.9 &middot; 12 reviews</span></div>
+              </div>
+              <figcaption>Sample: the top of the map is the goal</figcaption>
+            </figure>
+            <ul>
+              <li>Your Google Business Profile, finished and right</li>
+              <li>A steady flow of real reviews</li>
+              <li>A page for every town you serve</li>
+              <li>Often fixable in a week</li>
+              <li>Your profile and your reviews stay yours</li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="place" data-reveal>
+          <h3>AI answers</h3>
+          <div class="place-row">
+            <figure class="place-pic">
+              <div data-ui class="ai-chat" role="img" aria-label="Sample ChatGPT conversation recommending your business">
+                <p class="you">Who&rsquo;s a good plumber in Glen Rock?</p>
+                <p class="bot">Based on reviews and recent work nearby, <b>Your Business</b> is a solid choice. They&rsquo;re local, answer the phone, and&hellip;</p>
+              </div>
+              <figcaption>Sample: being the name it gives</figcaption>
+            </figure>
+            <ul>
+              <li>I ask ChatGPT, Gemini and Google&rsquo;s AI what your customers ask</li>
+              <li>Fix the facts they read about you</li>
+              <li>Ask again every month and show you what changed</li>
+              <li>Almost nobody in your market shows up here yet</li>
+            </ul>
+          </div>
+        </article>
+
+        <p class="places-end" data-reveal>All three end the same way: your phone rings. I also run Google and Meta ads when the numbers say they&rsquo;ll pay for themselves; the <a class="tl" href="/audit/" onclick="return gtag_report_conversion('/audit/');">free check</a> tells us whether they will.</p>
       </div>
     </div>
-    <p class="svc-after" data-reveal>I also run Google and Meta ads, when the numbers say they&rsquo;ll pay for themselves. We&rsquo;ll know after the free check.</p>
   </section>
 
   <section class="how" aria-labelledby="h-how">
