@@ -1,0 +1,22 @@
+{{- /* The closing section on every page: three Bergen County photographs, then the yellow field with the one action. */ -}}
+{{- $h := .heading | default "Find out where you stand." }}
+<section aria-labelledby="h-close">
+  <div class="trio">
+    <img src="/images/bergen/ridgewood-nj-downtown.jpg" width="1600" height="1200" loading="lazy" alt="Corner of downtown Ridgewood with a white three-storey building and shops at street level">
+    <img src="/images/bergen/ridgewood-trolley.jpg" width="1600" height="1125" loading="lazy" alt="Paterson, Ridgewood and Suffern trolley car on the North Jersey Rapid Transit line, around 1910">
+    <img src="/images/bergen/ridgewood-sanborn-map-1928.jpg" width="1349" height="1600" loading="lazy" alt="1928 Sanborn insurance map of Ridgewood, Bergen County, showing the town's numbered blocks">
+  </div>
+  <div class="close">
+    <div class="wrap grid">
+      <div class="lhs">
+        <h2 id="h-close" data-reveal>{{ $h }}</h2>
+        <p class="say" data-reveal style="--i:1">I&rsquo;ll check Google, your website and what AI says about you, then send you what I find. <a href="/audit/" onclick="return gtag_report_conversion('/audit/');">Ask for your free check.</a></p>
+        <p class="small-lines" data-reveal style="--i:2">No pitch and no obligation to do anything about it. Most checks are back to you in two or three business days.</p>
+      </div>
+      <div class="rhs" data-reveal style="--i:3">
+        <a href="tel:+12019033491" onclick="return gtag_report_conversion('tel:+12019033491');">(201) 903-3491</a>
+        <p>Call or text. Spencer picks up.</p>
+      </div>
+    </div>
+  </div>
+</section>

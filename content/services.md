@@ -15,6 +15,10 @@ keywords:
   - Google Ads for local business NJ
   - Local Services Ads Bergen County
   - Facebook ads for small business
+h1: "Websites, Google and AI search"
+photo:
+  src: "/images/bergen/glen-rock-station.jpg"
+  alt: "Glen Rock railroad station, a small stone depot with its name over the door, around 1910"
 ---
 
 ## Your customers are searching in new places.

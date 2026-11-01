@@ -18,3 +18,11 @@ Thumbs.db
 
 # Local mockup scratch — not part of the published site
 ailb-mockups-practical-editorial/
+
+# Paperwork never belongs in this public repo (the push script adds everything)
+*.pdf
+*.docx
+*.xlsx
+
+# taste-skill working files
+.taste-skill/

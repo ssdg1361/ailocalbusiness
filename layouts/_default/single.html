@@ -1,95 +1,74 @@
 {{- define "main" }}
 
 {{- $isPost := and (eq .Section "blog") (not .IsSection) }}
+{{- $hasToc := and (.Param "showtoc") .TableOfContents (ne .TableOfContents "<nav id=\"TableOfContents\"></nav>") }}
 
-{{- if $isPost }}
-{{/* ================= BLOG POST ================= */}}
-<div class="docwrap">
-<div class="art-head">
-  <div class="wrap">
-    <p class="crumb">
-      <a href="{{ "" | absLangURL }}">Home</a> /
-      <a href="/blog/">Blog</a>
-      {{- with (index .Params.categories 0) }} / {{ . }}{{ end }}
-    </p>
-    <div class="art-meta">
-      {{- with (index .Params.categories 0) }}<span class="cat">{{ . }}</span>{{ end }}
-      <span>{{ .Date.Format "January 2, 2006" }}</span>
-      {{- if site.Params.ShowReadingTime }}<span>{{ .ReadingTime }} min read</span>{{ end }}
-      <span>{{ site.Params.author }}</span>
-    </div>
-    <h1>{{ .Title }}</h1>
-    {{- with .Description }}<p class="dek">{{ . }}</p>{{ end }}
-  </div>
-</div>
-
-<div class="wrap art-grid">
-  <article class="prose">
-    {{ .Content }}
-
-    {{- with .Params.tags }}
-    <ul class="post-tags" style="list-style:none;padding:0;margin:2.5em 0 0;display:flex;flex-wrap:wrap;gap:8px;">
-      {{- range . }}
-      <li><a href="{{ (urlize (printf "tags/%s" .)) | absLangURL }}/">{{ . }}</a></li>
+{{/* ---------- Head: the title runs the full width; under it, the action on the left and the standfirst on the axis ---------- */}}
+<header class="page-head wrap{{ if $isPost }} is-post{{ end }}">
+  <h1 class="lines"><span class="line"><span data-line style="--i:0">{{ .Params.h1 | default .Title }}</span></span></h1>
+  <div class="ax">
+    <div class="ph-side" data-rise style="--i:1">
+      {{- if $isPost }}
+      <p class="meta">
+        <span>{{ .Date.Format "January 2, 2006" }}{{ if site.Params.ShowReadingTime }} &middot; {{ .ReadingTime }} min read{{ end }}</span>
+        <span>By Spencer, Glen Rock NJ</span>
+      </p>
+      <a class="button" href="/audit/" onclick="return gtag_report_conversion('/audit/');">Free presence check</a>
+      {{- else }}
+      <a class="button" href="/audit/" onclick="return gtag_report_conversion('/audit/');">Free presence check</a>
+      <a class="tl" href="tel:+12019033491" onclick="return gtag_report_conversion('tel:+12019033491');">or call (201) 903-3491</a>
       {{- end }}
-    </ul>
-    {{- end }}
-  </article>
+    </div>
+    {{- with .Description }}<p class="dek" data-rise style="--i:2">{{ . }}</p>{{ end }}
+  </div>
+</header>
 
-  <aside class="margin">
-    {{- if and .Params.showtoc .TableOfContents (ne .TableOfContents "<nav id=\"TableOfContents\"></nav>") }}
-    <div class="blk">
-      <p class="k">In this article</p>
-      {{ .TableOfContents }}
+{{- /* A header picture only where the page names one; blog posts go straight from the title to the text. */}}
+{{- with .Params.photo }}
+<figure class="page-photo{{ if .tall }} tall{{ end }}"><img src="{{ .src }}" width="1600" height="1066" alt="{{ .alt }}" fetchpriority="high"></figure>
+{{- end }}
+
+{{/* ---------- Body: side notes in the zone left of the axis, running text hanging from it ---------- */}}
+<div class="wrap ax page-body">
+  <aside class="aside" aria-label="{{ if $isPost }}About this article{{ else }}On this page{{ end }}">
+    {{- if $hasToc }}
+    <nav aria-labelledby="toc-h">
+      <h2 id="toc-h">{{ if $isPost }}In this article{{ else }}On this page{{ end }}</h2>
+      {{ .TableOfContents | replaceRE `<nav id="TableOfContents">` `<div>` | replaceRE `</nav>` `</div>` | safeHTML }}
+    </nav>
+    {{- end }}
+
+    {{- if $isPost }}
+    <div class="who">
+      <h2>Written by Spencer</h2>
+      <p>Over a decade in SEO and digital marketing for big brands. Now doing it for businesses in his own backyard: Glen Rock, NJ.</p>
     </div>
     {{- end }}
 
-    <div class="blk">
-      <p class="k">Written by</p>
-      <div class="who">
-        <span class="init">S</span>
-        <p>
-          <b>{{ site.Params.author }}</b>
-          Over a decade in SEO and digital marketing for big brands. Now doing it for businesses in his own backyard &mdash; Glen Rock, NJ.
-        </p>
-      </div>
-    </div>
-
-    <div class="mcard">
-      <p class="k">Free presence check</p>
+    {{- if ne .RelPermalink "/audit/" }}
+    <div class="check">
+      <h2>Free presence check</h2>
       <p>Find out what Google and ChatGPT actually say about your business. No pitch.</p>
-      <a href="/audit/" class="btn btn-terra" onclick="return gtag_report_conversion('/audit/');">Get yours &rarr;</a>
+      <a class="button plain" href="/audit/" onclick="return gtag_report_conversion('/audit/');">Get yours</a>
     </div>
+    {{- end }}
 
-    {{- $related := first 3 (where (where site.RegularPages "Section" "blog") "Permalink" "!=" .Permalink) }}
-    {{- with $related }}
-    <div class="blk">
-      <p class="k">More reading</p>
-      <ol style="list-style:none;padding:0;">
-        {{- range . }}
-        <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
-        {{- end }}
+    {{- if not $isPost }}
+    <div>
+      <h2>Talk to Spencer</h2>
+      <ol>
+        <li><a href="tel:+12019033491" onclick="return gtag_report_conversion('tel:+12019033491');">(201) 903-3491</a></li>
+        <li><a href="mailto:spencerscottdigital@gmail.com">spencerscottdigital@gmail.com</a></li>
+        <li>Glen Rock, NJ</li>
       </ol>
     </div>
     {{- end }}
   </aside>
-</div>
 
-{{- else }}
-{{/* ================= STANDARD PAGE (services, about, audit, landing) ================= */}}
-<div class="docwrap">
-<div class="page-head">
-  <div class="wrap">
-    <p class="crumb"><a href="{{ "" | absLangURL }}">Home</a> / {{ .Title }}</p>
-    <h1>{{ .Title }}</h1>
-    {{- with .Description }}<p class="dek">{{ . }}</p>{{ end }}
-  </div>
-</div>
-
-<div class="wrap art-grid">
   <article class="prose">
     {{ .Content }}
 
+    {{- if not $isPost }}
     {{- with .Params.faq }}
     <h2>Common questions</h2>
     <div class="faq">
@@ -101,50 +80,40 @@
       {{- end }}
     </div>
     {{- end }}
-  </article>
-
-  <aside class="margin">
-    {{- if and .Params.showtoc .TableOfContents (ne .TableOfContents "<nav id=\"TableOfContents\"></nav>") }}
-    <div class="blk">
-      <p class="k">On this page</p>
-      {{ .TableOfContents }}
-    </div>
     {{- end }}
 
-    <div class="mcard">
-      <p class="k">Free presence check</p>
-      <p>See where you stand on Google, and what AI says about you. No pitch, no pressure.</p>
-      <a href="/audit/" class="btn btn-terra" onclick="return gtag_report_conversion('/audit/');">Get yours &rarr;</a>
-    </div>
-
-    <div class="blk">
-      <p class="k">Talk to Spencer</p>
-      <p style="font-size:.88rem;color:var(--ink-soft);line-height:1.6;margin:0 0 10px;">Glen Rock, NJ &middot; Bergen County</p>
-      <ol style="list-style:none;padding:0;">
-        <li><a href="tel:+12019033491">(201) 903-3491</a></li>
-        <li><a href="mailto:spencerscottdigital@gmail.com">spencerscottdigital@gmail.com</a></li>
-      </ol>
-    </div>
-  </aside>
+    {{- if $isPost }}
+    {{- with .Params.tags }}
+    <ul class="post-tags" aria-label="Topics">
+      {{- range . }}
+      <li><a href="{{ (urlize (printf "tags/%s" .)) | absLangURL }}/">{{ . | humanize }}</a></li>
+      {{- end }}
+    </ul>
+    {{- end }}
+    {{- end }}
+  </article>
 </div>
-{{- end }}
 
-</div>{{/* /docwrap */}}
-
-{{/* ---------- CTA ---------- */}}
-<section class="sec-tight band">
-  <div class="wrap">
-    <div class="cta-card">
-      <div>
-        <h2>Find out where you stand. It's free.</h2>
-        <p>I'll check your Google presence, your website, and what AI says about you &mdash; then send you what I find. No pitch, no pressure.</p>
-      </div>
-      <div class="cta-ctas">
-        <a href="/audit/" class="btn btn-terra" onclick="return gtag_report_conversion('/audit/');">Get your free presence check <span class="arw">&rarr;</span></a>
-        <a href="tel:+12019033491" class="btn btn-plain" onclick="return gtag_report_conversion('tel:+12019033491');">Call or text (201) 903-3491</a>
-      </div>
-    </div>
+{{- if $isPost }}
+{{- $related := first 3 (where (where site.RegularPages "Section" "blog") "Permalink" "!=" .Permalink) }}
+{{- with $related }}
+<section class="more" aria-labelledby="h-more">
+  <div class="wrap ax post-group">
+    <h2 id="h-more">More straight answers</h2>
+    <ul class="post-list">
+      {{- range . }}
+      <li><a href="{{ .RelPermalink }}">
+        <span class="ttl">{{ .Title }}</span>
+        <span class="date">{{ .Date.Format "Jan 2, 2006" }}</span>
+        {{- with .Description }}<span class="sum">{{ . }}</span>{{ end }}
+      </a></li>
+      {{- end }}
+    </ul>
   </div>
 </section>
+{{- end }}
+{{- end }}
+
+{{ partial "close.html" (dict "heading" (cond $isPost "Want this looked at for your business?" "Find out where you stand.")) }}
 
 {{- end }}

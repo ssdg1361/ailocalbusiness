@@ -14,7 +14,7 @@ tags:
   - local-seo
   - small-business
 categories:
-  - local-seo
+  - Local SEO
 ShowToc: true
 ---
 

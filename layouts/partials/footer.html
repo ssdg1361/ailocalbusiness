@@ -1,0 +1,42 @@
+{{- /* Replaces PaperMod's footer: the name returns at full width, then the ways to reach Spencer. */ -}}
+{{- if not (.Param "hideFooter") }}
+<footer class="site-foot" aria-labelledby="h-foot">
+  <div class="wrap">
+    <h2 id="h-foot" class="fword">AI Local Business<i>.</i></h2>
+    <div class="grid frow">
+      <div class="places">
+        <a href="tel:+12019033491" onclick="return gtag_report_conversion('tel:+12019033491');">(201) 903-3491</a>
+        <a href="mailto:spencerscottdigital@gmail.com">spencerscottdigital@gmail.com</a>
+        <span>Glen Rock, New Jersey</span>
+      </div>
+      <div class="fcols">
+        <div><h3>Services</h3><ul>
+          <li><a href="/services/#website-design">Websites</a></li>
+          <li><a href="/services/#local-seo">Google &amp; Maps</a></li>
+          <li><a href="/services/#ai-search-optimization">AI answers</a></li>
+          <li><a href="/services/#ads">Google &amp; Meta ads</a></li>
+          <li><a href="/audit/">Free presence check</a></li>
+          <li><a href="/about/">About Spencer</a></li>
+        </ul></div>
+        <div><h3>Writing</h3><ul>
+          {{- range first 4 (where site.RegularPages "Section" "blog") }}
+          <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+          {{- end }}
+          <li><a href="/blog/">All posts</a></li>
+        </ul></div>
+        <div><h3>Towns</h3><ul>
+          <li>Glen Rock</li><li>Ridgewood</li><li>Fair Lawn</li><li>Paramus</li><li>Wyckoff</li><li>Hackensack</li>
+          <li><a href="/bergen-county-seo/">All of Bergen County</a></li>
+        </ul></div>
+      </div>
+    </div>
+    <div class="legal">
+      <p class="credits">&copy; {{ now.Year }} Spencer Scott Digital LLC. Pictures and footage: <a href="https://commons.wikimedia.org/wiki/File:Glen_Rock_(boulder).jpg">&ldquo;Glen Rock (boulder)&rdquo;</a> by Red-tailed hawk, <a href="https://creativecommons.org/licenses/by-sa/1.0">CC BY-SA 1.0</a>; <a href="https://commons.wikimedia.org/wiki/File:Glen_Rock_station_-_Bailey.png">&ldquo;Glen Rock station&rdquo;</a> by James E. Bailey, public domain; <a href="https://commons.wikimedia.org/wiki/File:Bergen_Motors_Inc.,_Bergenfield,_N._J.,_Bergen_Counties_most_modern_Dodge-Plymouth_dealership_(8425253574).jpg">&ldquo;Bergen Motors Inc., Bergenfield&rdquo;</a>, Boston Public Library, <a href="https://creativecommons.org/licenses/by/2.0">CC BY 2.0</a>; <a href="https://commons.wikimedia.org/wiki/File:Ridgewood_NJ_Downtown.JPG">&ldquo;Ridgewood NJ Downtown&rdquo;</a> by Alexisrael, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>; <a href="https://commons.wikimedia.org/wiki/File:New_Jersey._Ridgewood_North_Jersey_Rapid_Transit_LCCN2012646338.jpg">&ldquo;Ridgewood, North Jersey Rapid Transit&rdquo;</a>, Library of Congress, public domain; <a href="https://commons.wikimedia.org/wiki/File:Sanborn_Fire_Insurance_Map_from_Ridgewood,_Bergen_County,_New_Jersey,_1928,_Plate_0000.jpg">Sanborn map of Ridgewood, 1928</a>, public domain; <a href="https://commons.wikimedia.org/wiki/File:North_Jersey_Coast_Line_Solari_board_at_Secaucus_Junction_flipping_June_2026_1.webm">&ldquo;Solari board at Secaucus Junction&rdquo;</a> by 4300streetcar, <a href="https://creativecommons.org/licenses/by/4.0">CC BY 4.0</a>; all via Wikimedia Commons.</p>
+      <a class="tl" href="#top">Back to top</a>
+    </div>
+  </div>
+</footer>
+{{- end }}
+
+{{- partial "extend_footer.html" . }}
+<script src="{{ "js/site.js" | absURL }}" defer></script>

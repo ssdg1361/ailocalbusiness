@@ -1,0 +1,25 @@
+{{- define "main" }}
+
+<header class="page-head wrap">
+  <h1>{{ if eq .Title "Tags" }}Every topic I&rsquo;ve written about{{ else }}{{ .Title }}{{ end }}</h1>
+  <div class="ax">
+    <div class="ph-side"><a class="tl" href="/blog/">Browse all posts</a></div>
+    <p class="dek">{{ .Description | default "Pick a topic to see the posts on it." }}</p>
+  </div>
+</header>
+
+<div class="wrap ax theme-page">
+  <div></div>
+  <ul class="terms-tags">
+    {{- $type := .Type }}
+    {{- range $key, $value := .Data.Terms.Alphabetical }}
+    {{- $name := .Name }}
+    {{- $count := .Count }}
+    {{- with site.GetPage (printf "/%s/%s" $type $name) }}
+    <li><a href="{{ .RelPermalink }}">{{ .Name | humanize }}<sup>{{ $count }}</sup></a></li>
+    {{- end }}
+    {{- end }}
+  </ul>
+</div>
+
+{{- end }}

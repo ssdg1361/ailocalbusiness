@@ -1,294 +1,178 @@
 {{- define "main" }}
 
-{{/* ---------- HERO ---------- */}}
-<section class="hero">
-  <div class="wrap hero-grid">
-    <div>
-      <span class="status"><span class="pip"></span>Taking on new Bergen County clients</span>
-      <h1>Your next customer is searching right now. <span class="pop">Make sure they find you.</span></h1>
-      <p class="lede">I get local businesses found on Google and in AI answers &mdash; ChatGPT, Gemini, the rest. Websites built from scratch, ads that pay for themselves, whatever the job actually needs.</p>
-      <div class="actions">
-        <a href="/audit/" class="btn btn-terra" onclick="return gtag_report_conversion('/audit/');">Get your free presence check <span class="arw">&rarr;</span></a>
-        <a href="tel:+12019033491" class="btn btn-plain" onclick="return gtag_report_conversion('tel:+12019033491');">Call or text Spencer</a>
-      </div>
-      <div class="trust">
-        <span><b class="ck">&#10003;</b> Free audit, no pitch</span>
-        <span><b class="ck">&#10003;</b> Straight answers</span>
-        <span><b class="ck">&#10003;</b> I live here too</span>
-      </div>
+  <section aria-labelledby="h-hero">
+    <div class="mast">
+      <figure class="m-rock" style="--i:0"><img src="/images/bergen/glen-rock-boulder.jpg" width="1600" height="1067" fetchpriority="high" alt="The Glen Rock, a house-sized boulder on a traffic island at Doremus Avenue and Rock Road, Glen Rock, New Jersey"></figure>
+      <figure class="m-station" style="--i:1"><img src="/images/bergen/glen-rock-station.jpg" width="1600" height="1220" alt="Glen Rock railroad station, a small stone depot with its name over the door, around 1910"></figure>
+      <figure class="m-card" style="--i:2"><img src="/images/bergen/bergen-motors-postcard.jpg" width="1500" height="953" alt="Postcard of Bergen Motors, a 1950s Dodge and Plymouth dealership in Bergenfield, New Jersey"></figure>
+      <figure class="m-clip" style="--i:3"><video autoplay muted loop playsinline preload="metadata" poster="/media/solari-board-poster.jpg" width="854" height="480" aria-hidden="true"><source src="/media/solari-board.webm" type="video/webm"></video></figure>
+      <div class="m-yellow" style="--i:4"></div>
+      <div class="m-note" style="--i:5"><p>The Glen Rock, Doremus Avenue at Rock Road. 570 tons, and a Lenape trail marker long before there were roads.</p></div>
     </div>
 
-    <div class="proof" aria-label="Where customers find businesses: Google results and AI answers">
-      <div class="panel">
-        <div class="panel-head">
-          <span class="tls"><i></i><i></i><i></i></span>
-          <span class="lbl">Google &middot; Bergen County</span>
-        </div>
-        <div class="qbar"><span class="mag">&#8981;</span> dryer vent cleaning near me</div>
-        <div class="res win">
-          <span class="tile">A</span>
-          <span class="rt">
-            <b>Your Business LLC</b>
-            <small><span class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span> 4.9 (87) &middot; Bergen County, NJ</small>
-          </span>
-          <span class="stamp">That's the goal</span>
-        </div>
-        <div class="res">
-          <span class="tile">B</span>
-          <span class="rt"><b>Some Competitor Co.</b><small>4.2 (31)</small></span>
-        </div>
-        <div class="res">
-          <span class="tile">C</span>
-          <span class="rt"><b>Another Guy Services</b><small>3.9 (12)</small></span>
+    <div class="wrap ax hero">
+      <div class="hero-side">
+        <p class="stand" data-rise style="--i:0">I get Bergen County businesses found on Google and in ChatGPT answers, and build websites that turn those searches into calls.</p>
+        <div class="hero-act" data-rise style="--i:1">
+          <a class="button" href="/audit/" onclick="return gtag_report_conversion('/audit/');">Get your free presence check</a>
+          <a class="tl" href="tel:+12019033491" onclick="return gtag_report_conversion('tel:+12019033491');">or call (201) 903-3491</a>
         </div>
       </div>
+      <h1 id="h-hero" class="lines">
+        <span class="line"><span data-line style="--i:0">Get found in</span></span>
+        <span class="line"><span data-line style="--i:1">Bergen County.</span></span>
+      </h1>
+    </div>
+  </section>
 
-      <div class="panel">
-        <div class="ai-note">
-          <span class="ai-badge">AI</span>
-          <div>
-            <span class="src">AI search &middot; ChatGPT, Gemini &amp; the rest</span>
-            <p>&ldquo;Based on reviews and recent work nearby, <b>Your Business LLC</b> is a solid choice&hellip;&rdquo;</p>
+  <section class="finder wrap" aria-labelledby="h-find">
+    <div class="fh">
+      <h2 id="h-find" data-reveal><span class="soft">Pick your town.</span><span>See who gets the call.</span></h2>
+      <a class="button" href="/audit/" onclick="return gtag_report_conversion('/audit/');" data-reveal style="--i:1">Ask why it isn't you</a>
+    </div>
+    <p class="fintro" data-reveal style="--i:2">Each row opens the real Google results for that search, or asks ChatGPT the same question, in the town you pick. Whoever comes up first is who your customer calls.</p>
+    <div class="fgrid" data-reveal style="--i:3">
+      <div class="tabs" role="tablist" aria-label="Town">
+        <button class="tab" role="tab" id="t-0" aria-selected="true" aria-controls="bands" data-town="Glen Rock"><b>Glen Rock</b><small>07452</small></button>
+        <button class="tab" role="tab" id="t-1" aria-selected="false" aria-controls="bands" data-town="Ridgewood" tabindex="-1"><b>Ridgewood</b><small>07450</small></button>
+        <button class="tab" role="tab" id="t-2" aria-selected="false" aria-controls="bands" data-town="Fair Lawn" tabindex="-1"><b>Fair Lawn</b><small>07410</small></button>
+        <button class="tab" role="tab" id="t-3" aria-selected="false" aria-controls="bands" data-town="Paramus" tabindex="-1"><b>Paramus</b><small>07652</small></button>
+        <button class="tab" role="tab" id="t-4" aria-selected="false" aria-controls="bands" data-town="Wyckoff" tabindex="-1"><b>Wyckoff</b><small>07481</small></button>
+        <button class="tab" role="tab" id="t-5" aria-selected="false" aria-controls="bands" data-town="Hackensack" tabindex="-1"><b>Hackensack</b><small>07601</small></button>
+      </div>
+      <ul class="bands" id="bands" role="tabpanel" aria-labelledby="t-0" aria-live="polite">
+        <li class="band"><span class="trade">Plumber</span><span><span class="q">emergency plumber Glen Rock NJ</span><span class="note">Searched with water on the floor. Few people scroll past the map.</span></span><span class="go"><a class="tl" target="_blank" rel="noopener" href="https://www.google.com/search?q=emergency%20plumber%20Glen%20Rock%20NJ">Google it</a><a class="tl" target="_blank" rel="noopener" href="https://chatgpt.com/?q=Who%20is%20the%20best%20emergency%20plumber%20in%20Glen%20Rock%2C%20NJ%3F">Ask ChatGPT</a></span></li>
+        <li class="band"><span class="trade">Heating &amp; cooling</span><span><span class="q">AC repair Glen Rock NJ</span><span class="note">Half the town searches it on the same hot afternoon.</span></span><span class="go"><a class="tl" target="_blank" rel="noopener" href="https://www.google.com/search?q=AC%20repair%20Glen%20Rock%20NJ">Google it</a><a class="tl" target="_blank" rel="noopener" href="https://chatgpt.com/?q=Who%20should%20I%20call%20for%20AC%20repair%20in%20Glen%20Rock%2C%20NJ%3F">Ask ChatGPT</a></span></li>
+        <li class="band"><span class="trade">Electrician</span><span><span class="q">electrician near Glen Rock NJ</span><span class="note">Panel upgrades, EV chargers, generator hookups.</span></span><span class="go"><a class="tl" target="_blank" rel="noopener" href="https://www.google.com/search?q=electrician%20near%20Glen%20Rock%20NJ">Google it</a><a class="tl" target="_blank" rel="noopener" href="https://chatgpt.com/?q=Can%20you%20recommend%20an%20electrician%20near%20Glen%20Rock%2C%20NJ%3F">Ask ChatGPT</a></span></li>
+        <li class="band"><span class="trade">Dryer vents</span><span><span class="q">dryer vent cleaning Glen Rock NJ</span><span class="note">Vent Viper&rsquo;s trade, out of Wyckoff.</span></span><span class="go"><a class="tl" target="_blank" rel="noopener" href="https://www.google.com/search?q=dryer%20vent%20cleaning%20Glen%20Rock%20NJ">Google it</a><a class="tl" target="_blank" rel="noopener" href="https://chatgpt.com/?q=Who%20does%20dryer%20vent%20cleaning%20in%20Glen%20Rock%2C%20NJ%3F">Ask ChatGPT</a></span></li>
+        <li class="band"><span class="trade">Landscaping</span><span><span class="q">landscaper Glen Rock NJ</span><span class="note">Spring cleanups get booked weeks ahead.</span></span><span class="go"><a class="tl" target="_blank" rel="noopener" href="https://www.google.com/search?q=landscaper%20Glen%20Rock%20NJ">Google it</a><a class="tl" target="_blank" rel="noopener" href="https://chatgpt.com/?q=Who%20is%20a%20good%20landscaper%20in%20Glen%20Rock%2C%20NJ%3F">Ask ChatGPT</a></span></li>
+        <li class="band"><span class="trade">Water damage</span><span><span class="q">water damage restoration Glen Rock NJ</span><span class="note">Now asked of ChatGPT by name: who should I call?</span></span><span class="go"><a class="tl" target="_blank" rel="noopener" href="https://www.google.com/search?q=water%20damage%20restoration%20Glen%20Rock%20NJ">Google it</a><a class="tl" target="_blank" rel="noopener" href="https://chatgpt.com/?q=Who%20should%20I%20call%20for%20water%20damage%20restoration%20in%20Glen%20Rock%2C%20NJ%3F">Ask ChatGPT</a></span></li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="work" id="work" aria-labelledby="h-work">
+    <div class="wrap">
+      <div class="rail">
+        <h2 id="h-work">Client work</h2>
+        <div class="filters" role="group" aria-label="Filter projects">
+          <button type="button" aria-pressed="true" data-f="all">All</button>
+          <button type="button" aria-pressed="false" data-f="nj">New Jersey</button>
+          <button type="button" aria-pressed="false" data-f="fl">Florida</button>
+        </div>
+      </div>
+      <div class="strips">
+        <article class="proj" data-region="nj" data-reveal>
+          <div class="strip">
+            <img src="/images/work/vv-home.jpg" width="1440" height="900" loading="lazy" alt="Vent Viper home page: a dark site with the headline Tight ducts, clean lines, one local guy">
+            <img src="/images/work/vv-phone-row.jpg" width="1560" height="844" loading="lazy" alt="Four phone screens of the Vent Viper site, with the call button near the thumb">
+            <img src="/images/work/vv-about.jpg" width="1440" height="900" loading="lazy" alt="Vent Viper about page introducing owner Danny Dooner of Wyckoff">
+            <img src="/images/work/vv-phone.jpg" width="390" height="844" loading="lazy" alt="Vent Viper home page on a phone">
           </div>
-        </div>
-      </div>
-
-      <p class="proof-cap">The two places that decide who gets the call. I get you into both.</p>
-    </div>
-  </div>
-</section>
-
-{{/* ---------- SERVICES ---------- */}}
-<section class="sec band" id="services">
-  <div class="wrap">
-    <p class="rail">What I do</p>
-    <h2 class="h-sec">Three things. All of them end with <em>your phone ringing.</em></h2>
-
-    <div class="svc-list">
-      <article class="svc-item c1">
-        <div class="svc-idx">
-          <span class="n">1</span>
-          <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="2" y="4" width="20" height="14" rx="1.5"/><path d="M8 21h8M12 18v3"/></svg>
-        </div>
-        <h3>A website that gets you calls</h3>
-        <p>Fast, clean, and built for a customer standing in a driveway on their phone. A tool, not a design project.</p>
-        <ul>
-          <li>Loads fast on any phone</li>
-          <li>Call buttons where they belong</li>
-          <li>You own everything</li>
-        </ul>
-        <a href="/services/#website-design" class="tlink more">See how it's built &rarr;</a>
-      </article>
-
-      <article class="svc-item c2">
-        <div class="svc-idx">
-          <span class="n">2</span>
-          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21s-7-6.1-7-11a7 7 0 0 1 14 0c0 4.9-7 11-7 11z"/><circle cx="12" cy="10" r="2.5"/></svg>
-        </div>
-        <h3>Show up on Google</h3>
-        <p>When someone in your town searches for what you do, you should be on that map. Usually you're not, and usually it's fixable in a week.</p>
-        <ul>
-          <li>Google Business Profile, done right</li>
-          <li>A steady flow of real reviews</li>
-          <li>Pages for the towns you serve</li>
-        </ul>
-        <a href="/services/#local-seo" class="tlink more">See how it's built &rarr;</a>
-      </article>
-
-      <article class="svc-item c3">
-        <div class="svc-idx">
-          <span class="n">3</span>
-          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M21 12a8 8 0 0 1-8 8H4l2.5-2.5A8 8 0 1 1 21 12z"/><path d="M9 11h6M9 14h4"/></svg>
-        </div>
-        <h3>Show up in AI answers</h3>
-        <p>People ask ChatGPT and Gemini for recommendations now. Almost nobody in your market shows up there yet.</p>
-        <ul>
-          <li>I test what AI says about you</li>
-          <li>Fix what's feeding it nothing</li>
-          <li>Get there before the other guys</li>
-        </ul>
-        <a href="/services/#ai-search-optimization" class="tlink more">See how it's built &rarr;</a>
-      </article>
-    </div>
-  </div>
-</section>
-
-{{/* ---------- CLIENT WORK ---------- */}}
-<section class="sec" id="work">
-  <div class="wrap">
-    <p class="rail s">Client work</p>
-    <h2 class="h-sec">Real local businesses. <em>Real work.</em></h2>
-
-    <div class="work-grid">
-      <article class="work c1">
-        <span class="shot"><img src="/images/work/ventviper.png" alt="Vent Viper website built by Spencer Scott Digital" loading="lazy" width="1280" height="860"></span>
-        <div class="inner">
-          <div class="top">
-            <span class="mono-tile">VV</span>
-            <span>
-              <h3>Vent Viper</h3>
-              <span class="cat">Dryer vent cleaning &middot; Wyckoff, NJ</span>
-            </span>
-          </div>
+          <div class="cap"><a class="tl" href="https://ventviperenterprises.com/" target="_blank" rel="noopener">Vent Viper</a><span>Dryer vents, ducts and gutters, Wyckoff</span><span>2026</span></div>
           <p>New site, Google presence set up, reviews coming in. A one-truck operation getting found like a bigger one.</p>
-          <div class="foot"><a href="https://ssdg1361.github.io/ventviper/" class="tlink" target="_blank" rel="noopener">See the site &rarr;</a></div>
-        </div>
-      </article>
-
-      <article class="work c2">
-        <span class="shot"><img src="/images/work/pureshield.png" alt="Pure Shield Restoration website built by Spencer Scott Digital" loading="lazy" width="1280" height="860"></span>
-        <div class="inner">
-          <div class="top">
-            <span class="mono-tile">PS</span>
-            <span>
-              <h3>Pure Shield Restoration</h3>
-              <span class="cat">Mold &amp; water damage &middot; South Florida</span>
-            </span>
+        </article>
+        <article class="proj" data-region="fl" data-reveal style="--i:1">
+          <div class="strip">
+            <img src="/images/work/ps-home.jpg" width="1440" height="900" loading="lazy" alt="Pure Shield Restoration home page: Water or mold damage? We're on it.">
+            <img src="/images/work/ps-phone-row.jpg" width="1560" height="844" loading="lazy" alt="Four phone screens of the Pure Shield Restoration site">
+            <img src="/images/work/ps-water.jpg" width="1440" height="900" loading="lazy" alt="Pure Shield water damage restoration service page">
+            <img src="/images/work/ps-case.jpg" width="1440" height="900" loading="lazy" alt="Pure Shield case study of an attic AC leak and ceiling mold in Parkland">
+            <img src="/images/work/ps-boca.jpg" width="390" height="844" loading="lazy" alt="Pure Shield Boca Raton service area page on a phone">
           </div>
-          <p>Site built from scratch, Google set up, visibility growing month by month.</p>
-          <div class="foot"><a href="https://pureshieldrestoration.com" class="tlink" target="_blank" rel="noopener">pureshieldrestoration.com &rarr;</a></div>
+          <div class="cap"><a class="tl" href="https://pureshieldrestoration.com/" target="_blank" rel="noopener">Pure Shield Restoration</a><span>Mold and water damage, South Florida</span><span>2026</span></div>
+          <p>Site built from scratch, Google set up, a page for every town they serve, visibility growing month by month.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="svc wrap" id="services" aria-labelledby="h-svc">
+    <h2 id="h-svc" data-reveal>Three jobs. One phone.</h2>
+    <div class="table" role="table" aria-label="What I do, by service" data-reveal style="--i:1">
+      <div class="trow thead" role="row">
+        <span role="columnheader"><span class="sr-only">Question</span></span>
+        <span role="columnheader">Your website</span>
+        <span role="columnheader">Google Maps &amp; search</span>
+        <span role="columnheader" class="feat">AI answers<small>Almost nobody in your market shows up here yet.</small></span>
+      </div>
+      <div class="trow" role="row">
+        <span class="lab" role="rowheader">What it is</span>
+        <span role="cell" data-col="Website">A site built from scratch for someone standing in a driveway with a phone.</span>
+        <span role="cell" data-col="Google">Your Google Business Profile, your reviews, and a page for every town you serve.</span>
+        <span role="cell" data-col="AI answers" class="feat">What ChatGPT, Gemini and Google&rsquo;s AI Overviews say when someone asks for a name.</span>
+      </div>
+      <div class="trow" role="row">
+        <span class="lab" role="rowheader">The usual problem</span>
+        <span role="cell" data-col="Website">Slow, hard to call from, a template nobody has touched in years.</span>
+        <span role="cell" data-col="Google">Half filled in. Eleven reviews against a competitor&rsquo;s forty-one.</span>
+        <span role="cell" data-col="AI answers" class="feat">It names someone else, or says nothing at all.</span>
+      </div>
+      <div class="trow" role="row">
+        <span class="lab" role="rowheader">What I do</span>
+        <span role="cell" data-col="Website">Write it, design it, build it. The call button sits where a thumb lands.</span>
+        <span role="cell" data-col="Google">Claim and complete the profile, set up a steady review ask, build the town pages.</span>
+        <span role="cell" data-col="AI answers" class="feat">Ask the questions your customers ask, fix the facts AI reads, then ask again.</span>
+      </div>
+      <div class="trow" role="row">
+        <span class="lab" role="rowheader">When you see it</span>
+        <span role="cell" data-col="Website">Live in about three weeks.</span>
+        <span role="cell" data-col="Google">Often fixable in a week.</span>
+        <span role="cell" data-col="AI answers" class="feat">Weeks to months. I show you every change.</span>
+      </div>
+      <div class="trow" role="row">
+        <span class="lab" role="rowheader">Who owns it</span>
+        <span role="cell" data-col="Website">You. Code, domain, all of it.</span>
+        <span role="cell" data-col="Google">You. Your profile, your reviews.</span>
+        <span role="cell" data-col="AI answers" class="feat">You. Nothing to cancel.</span>
+      </div>
+      <div class="trow" role="row">
+        <span class="lab" role="rowheader">Each month</span>
+        <span role="cell" data-col="Website">Calls and form fills that came from the site.</span>
+        <span role="cell" data-col="Google">Where you rank on the map, town by town.</span>
+        <span role="cell" data-col="AI answers" class="feat">What each AI tool now says about you.</span>
+      </div>
+      <div class="trow" role="row">
+        <span class="lab" role="rowheader">The free check</span>
+        <span role="cell" data-col="Website">Tests your site on a phone, the way customers use it.</span>
+        <span role="cell" data-col="Google">Maps your rank against the three businesses above you.</span>
+        <span role="cell" data-col="AI answers" class="feat">Asks three AI tools about you and shows what they say.</span>
+      </div>
+    </div>
+    <p class="svc-after" data-reveal>I also run Google and Meta ads, when the numbers say they&rsquo;ll pay for themselves. We&rsquo;ll know after the free check.</p>
+  </section>
+
+  <section class="how" aria-labelledby="h-how">
+    <div class="wrap">
+      <div class="grid">
+        <h2 id="h-how" data-reveal>Scattered, then found.</h2>
+        <p class="intro" data-reveal style="--i:1">Your business is already all over the internet: a half-filled profile, an old listing, reviews nobody answered, a site AI can&rsquo;t read. I pull it into one plan, then into the places your customers look.</p>
+      </div>
+      <div class="flowbox">
+        <svg class="flow flow-h" viewBox="0 0 1350 300" role="img" aria-label="Many scattered squares are pulled into one narrow band, then come out as neat rows: scattered listings become one plan, then steady calls."><rect x="10.0" y="258.6" width="12" height="12" fill="var(--sq-2)" style="--d:0"/><rect x="128.6" y="66.8" width="12" height="12" fill="var(--sq-1)" style="--d:1"/><rect x="309.0" y="153.8" width="12" height="12" fill="var(--sq-2)" style="--d:2"/><rect x="145.0" y="213.1" width="12" height="12" fill="var(--sq-1)" style="--d:3"/><rect x="319.6" y="156.6" width="12" height="12" fill="var(--sq-2)" style="--d:4"/><rect x="290.7" y="181.7" width="12" height="12" fill="var(--sq-1)" style="--d:5"/><rect x="344.9" y="75.3" width="12" height="12" fill="var(--sq-2)" style="--d:6"/><rect x="163.4" y="201.1" width="12" height="12" fill="var(--sq-1)" style="--d:7"/><rect x="296.2" y="24.5" width="12" height="12" fill="var(--sq-2)" style="--d:8"/><rect x="290.4" y="136.3" width="12" height="12" fill="var(--sq-1)" style="--d:9"/><rect x="388.2" y="228.0" width="12" height="12" fill="var(--sq-2)" style="--d:10"/><rect x="60.4" y="148.5" width="12" height="12" fill="var(--sq-1)" style="--d:11"/><rect x="388.5" y="195.9" width="12" height="12" fill="var(--sq-2)" style="--d:12"/><rect x="273.9" y="165.9" width="12" height="12" fill="var(--sq-1)" style="--d:13"/><rect x="383.9" y="255.3" width="12" height="12" fill="var(--sq-2)" style="--d:14"/><rect x="162.6" y="100.6" width="12" height="12" fill="var(--sq-1)" style="--d:15"/><rect x="353.2" y="99.7" width="12" height="12" fill="var(--sq-2)" style="--d:16"/><rect x="72.6" y="90.4" width="12" height="12" fill="var(--sq-1)" style="--d:17"/><rect x="185.7" y="89.6" width="12" height="12" fill="var(--sq-2)" style="--d:18"/><rect x="394.3" y="160.5" width="12" height="12" fill="var(--sq-1)" style="--d:19"/><rect x="309.0" y="247.0" width="12" height="12" fill="var(--sq-2)" style="--d:20"/><rect x="34.0" y="83.8" width="12" height="12" fill="var(--sq-1)" style="--d:21"/><rect x="239.9" y="147.4" width="12" height="12" fill="var(--sq-2)" style="--d:22"/><rect x="182.8" y="62.1" width="12" height="12" fill="var(--sq-1)" style="--d:23"/><rect x="382.7" y="24.8" width="12" height="12" fill="var(--sq-2)" style="--d:24"/><rect x="159.8" y="102.9" width="12" height="12" fill="var(--sq-1)" style="--d:25"/><rect x="282.4" y="259.6" width="12" height="12" fill="var(--sq-2)" style="--d:26"/><rect x="221.1" y="54.7" width="12" height="12" fill="var(--sq-1)" style="--d:27"/><rect x="176.3" y="86.6" width="12" height="12" fill="var(--sq-2)" style="--d:28"/><rect x="159.4" y="124.5" width="12" height="12" fill="var(--sq-1)" style="--d:29"/><rect x="146.4" y="153.5" width="12" height="12" fill="var(--sq-2)" style="--d:30"/><rect x="261.8" y="73.0" width="12" height="12" fill="var(--sq-1)" style="--d:31"/><rect x="381.7" y="133.6" width="12" height="12" fill="var(--sq-2)" style="--d:32"/><rect x="363.8" y="181.5" width="12" height="12" fill="var(--sq-1)" style="--d:33"/><rect x="270.1" y="149.4" width="12" height="12" fill="var(--sq-2)" style="--d:34"/><rect x="217.0" y="196.0" width="12" height="12" fill="var(--sq-1)" style="--d:35"/><rect x="395.2" y="117.1" width="12" height="12" fill="var(--sq-2)" style="--d:36"/><rect x="300.4" y="77.8" width="12" height="12" fill="var(--sq-1)" style="--d:37"/><rect x="250.6" y="104.7" width="12" height="12" fill="var(--sq-2)" style="--d:38"/><rect x="145.5" y="115.7" width="12" height="12" fill="var(--sq-1)" style="--d:39"/><rect x="335.8" y="246.9" width="12" height="12" fill="var(--sq-2)" style="--d:40"/><rect x="55.5" y="231.2" width="12" height="12" fill="var(--sq-1)" style="--d:41"/><rect x="41.9" y="119.8" width="12" height="12" fill="var(--sq-2)" style="--d:42"/><rect x="73.0" y="31.0" width="12" height="12" fill="var(--sq-1)" style="--d:43"/><rect x="418.4" y="69.4" width="12" height="12" fill="var(--sq-2)" style="--d:44"/><rect x="269.3" y="48.9" width="12" height="12" fill="var(--sq-1)" style="--d:45"/><rect x="197.4" y="170.1" width="12" height="12" fill="var(--sq-2)" style="--d:46"/><rect x="66.5" y="258.9" width="12" height="12" fill="var(--sq-1)" style="--d:47"/><rect x="450.0" y="128.0" width="12" height="12" fill="var(--sq-3)" style="--d:48"/><rect x="450.0" y="143.0" width="12" height="12" fill="var(--sq-3)" style="--d:49"/><rect x="450.0" y="158.0" width="12" height="12" fill="var(--sq-3)" style="--d:50"/><rect x="478.0" y="128.0" width="12" height="12" fill="var(--sq-3)" style="--d:51"/><rect x="478.0" y="143.0" width="12" height="12" fill="var(--sq-3)" style="--d:52"/><rect x="478.0" y="158.0" width="12" height="12" fill="var(--sq-3)" style="--d:53"/><rect x="506.0" y="128.0" width="12" height="12" fill="var(--sq-3)" style="--d:54"/><rect x="506.0" y="143.0" width="12" height="12" fill="var(--sq-3)" style="--d:55"/><rect x="506.0" y="158.0" width="12" height="12" fill="var(--sq-3)" style="--d:56"/><rect x="534.0" y="128.0" width="12" height="12" fill="var(--sq-3)" style="--d:57"/><rect x="534.0" y="143.0" width="12" height="12" fill="var(--sq-3)" style="--d:58"/><rect x="534.0" y="158.0" width="12" height="12" fill="var(--sq-3)" style="--d:59"/><rect x="562.0" y="128.0" width="12" height="12" fill="var(--sq-3)" style="--d:60"/><rect x="562.0" y="143.0" width="12" height="12" fill="var(--sq-3)" style="--d:61"/><rect x="562.0" y="158.0" width="12" height="12" fill="var(--sq-3)" style="--d:62"/><rect x="590.0" y="128.0" width="12" height="12" fill="var(--sq-3)" style="--d:63"/><rect x="590.0" y="143.0" width="12" height="12" fill="var(--sq-3)" style="--d:64"/><rect x="590.0" y="158.0" width="12" height="12" fill="var(--sq-3)" style="--d:65"/><rect x="618.0" y="128.0" width="12" height="12" fill="var(--sq-3)" style="--d:66"/><rect x="618.0" y="143.0" width="12" height="12" fill="var(--sq-3)" style="--d:67"/><rect x="618.0" y="158.0" width="12" height="12" fill="var(--sq-3)" style="--d:68"/><rect x="646.0" y="128.0" width="12" height="12" fill="var(--sq-3)" style="--d:69"/><rect x="646.0" y="143.0" width="12" height="12" fill="var(--sq-3)" style="--d:70"/><rect x="646.0" y="158.0" width="12" height="12" fill="var(--sq-3)" style="--d:71"/><rect x="674.0" y="128.0" width="12" height="12" fill="var(--sq-3)" style="--d:72"/><rect x="674.0" y="143.0" width="12" height="12" fill="var(--sq-3)" style="--d:73"/><rect x="674.0" y="158.0" width="12" height="12" fill="var(--sq-3)" style="--d:74"/><rect x="702.0" y="128.0" width="12" height="12" fill="var(--sq-3)" style="--d:75"/><rect x="702.0" y="143.0" width="12" height="12" fill="var(--sq-3)" style="--d:76"/><rect x="702.0" y="158.0" width="12" height="12" fill="var(--sq-3)" style="--d:77"/><rect x="730.0" y="128.0" width="12" height="12" fill="var(--sq-3)" style="--d:78"/><rect x="730.0" y="143.0" width="12" height="12" fill="var(--sq-3)" style="--d:79"/><rect x="730.0" y="158.0" width="12" height="12" fill="var(--sq-3)" style="--d:80"/><rect x="758.0" y="128.0" width="12" height="12" fill="var(--sq-3)" style="--d:81"/><rect x="758.0" y="143.0" width="12" height="12" fill="var(--sq-3)" style="--d:82"/><rect x="758.0" y="158.0" width="12" height="12" fill="var(--sq-3)" style="--d:83"/><rect x="786.0" y="128.0" width="12" height="12" fill="var(--sq-3)" style="--d:84"/><rect x="786.0" y="143.0" width="12" height="12" fill="var(--sq-3)" style="--d:85"/><rect x="786.0" y="158.0" width="12" height="12" fill="var(--sq-3)" style="--d:86"/><rect x="814.0" y="128.0" width="12" height="12" fill="var(--sq-3)" style="--d:87"/><rect x="814.0" y="143.0" width="12" height="12" fill="var(--sq-3)" style="--d:88"/><rect x="814.0" y="158.0" width="12" height="12" fill="var(--sq-3)" style="--d:89"/><rect x="842.0" y="128.0" width="12" height="12" fill="var(--sq-3)" style="--d:90"/><rect x="842.0" y="143.0" width="12" height="12" fill="var(--sq-3)" style="--d:91"/><rect x="842.0" y="158.0" width="12" height="12" fill="var(--sq-3)" style="--d:92"/><rect x="870.0" y="128.0" width="12" height="12" fill="var(--sq-3)" style="--d:93"/><rect x="870.0" y="143.0" width="12" height="12" fill="var(--sq-3)" style="--d:94"/><rect x="870.0" y="158.0" width="12" height="12" fill="var(--sq-3)" style="--d:95"/><rect x="924.0" y="24.0" width="12" height="12" fill="var(--accent)" style="--d:96"/><rect x="976.0" y="24.0" width="12" height="12" fill="var(--accent)" style="--d:97"/><rect x="1028.0" y="24.0" width="12" height="12" fill="var(--accent)" style="--d:98"/><rect x="1080.0" y="24.0" width="12" height="12" fill="var(--accent)" style="--d:99"/><rect x="1132.0" y="24.0" width="12" height="12" fill="var(--accent)" style="--d:100"/><rect x="1184.0" y="24.0" width="12" height="12" fill="var(--accent)" style="--d:101"/><rect x="1236.0" y="24.0" width="12" height="12" fill="var(--accent)" style="--d:102"/><rect x="1288.0" y="24.0" width="12" height="12" fill="var(--accent)" style="--d:103"/><rect x="924.0" y="72.0" width="12" height="12" fill="var(--accent)" style="--d:104"/><rect x="976.0" y="72.0" width="12" height="12" fill="var(--accent)" style="--d:105"/><rect x="1028.0" y="72.0" width="12" height="12" fill="var(--accent)" style="--d:106"/><rect x="1080.0" y="72.0" width="12" height="12" fill="var(--accent)" style="--d:107"/><rect x="1132.0" y="72.0" width="12" height="12" fill="var(--accent)" style="--d:108"/><rect x="1184.0" y="72.0" width="12" height="12" fill="var(--accent)" style="--d:109"/><rect x="1236.0" y="72.0" width="12" height="12" fill="var(--accent)" style="--d:110"/><rect x="1288.0" y="72.0" width="12" height="12" fill="var(--accent)" style="--d:111"/><rect x="924.0" y="120.0" width="12" height="12" fill="var(--accent)" style="--d:112"/><rect x="976.0" y="120.0" width="12" height="12" fill="var(--accent)" style="--d:113"/><rect x="1028.0" y="120.0" width="12" height="12" fill="var(--accent)" style="--d:114"/><rect x="1080.0" y="120.0" width="12" height="12" fill="var(--accent)" style="--d:115"/><rect x="1132.0" y="120.0" width="12" height="12" fill="var(--accent)" style="--d:116"/><rect x="1184.0" y="120.0" width="12" height="12" fill="var(--accent)" style="--d:117"/><rect x="1236.0" y="120.0" width="12" height="12" fill="var(--accent)" style="--d:118"/><rect x="1288.0" y="120.0" width="12" height="12" fill="var(--accent)" style="--d:119"/><rect x="924.0" y="168.0" width="12" height="12" fill="var(--accent)" style="--d:120"/><rect x="976.0" y="168.0" width="12" height="12" fill="var(--accent)" style="--d:121"/><rect x="1028.0" y="168.0" width="12" height="12" fill="var(--accent)" style="--d:122"/><rect x="1080.0" y="168.0" width="12" height="12" fill="var(--accent)" style="--d:123"/><rect x="1132.0" y="168.0" width="12" height="12" fill="var(--accent)" style="--d:124"/><rect x="1184.0" y="168.0" width="12" height="12" fill="var(--accent)" style="--d:125"/><rect x="1236.0" y="168.0" width="12" height="12" fill="var(--accent)" style="--d:126"/><rect x="1288.0" y="168.0" width="12" height="12" fill="var(--accent)" style="--d:127"/><rect x="924.0" y="216.0" width="12" height="12" fill="var(--accent)" style="--d:128"/><rect x="976.0" y="216.0" width="12" height="12" fill="var(--accent)" style="--d:129"/><rect x="1028.0" y="216.0" width="12" height="12" fill="var(--accent)" style="--d:130"/><rect x="1080.0" y="216.0" width="12" height="12" fill="var(--accent)" style="--d:131"/><rect x="1132.0" y="216.0" width="12" height="12" fill="var(--accent)" style="--d:132"/><rect x="1184.0" y="216.0" width="12" height="12" fill="var(--accent)" style="--d:133"/><rect x="1236.0" y="216.0" width="12" height="12" fill="var(--accent)" style="--d:134"/><rect x="1288.0" y="216.0" width="12" height="12" fill="var(--accent)" style="--d:135"/><rect x="924.0" y="264.0" width="12" height="12" fill="var(--accent)" style="--d:136"/><rect x="976.0" y="264.0" width="12" height="12" fill="var(--accent)" style="--d:137"/><rect x="1028.0" y="264.0" width="12" height="12" fill="var(--accent)" style="--d:138"/><rect x="1080.0" y="264.0" width="12" height="12" fill="var(--accent)" style="--d:139"/><rect x="1132.0" y="264.0" width="12" height="12" fill="var(--accent)" style="--d:140"/><rect x="1184.0" y="264.0" width="12" height="12" fill="var(--accent)" style="--d:141"/><rect x="1236.0" y="264.0" width="12" height="12" fill="var(--accent)" style="--d:142"/><rect x="1288.0" y="264.0" width="12" height="12" fill="var(--accent)" style="--d:143"/></svg>
+<svg class="flow flow-v" viewBox="0 0 300 400" role="img" aria-label="Many scattered squares are pulled into one narrow band, then come out as neat rows: scattered listings become one plan, then steady calls."><rect x="248.8" y="103.6" width="12" height="12" fill="var(--sq-2)" style="--d:0"/><rect x="249.0" y="105.4" width="12" height="12" fill="var(--sq-1)" style="--d:1"/><rect x="215.5" y="37.6" width="12" height="12" fill="var(--sq-2)" style="--d:2"/><rect x="12.8" y="34.7" width="12" height="12" fill="var(--sq-1)" style="--d:3"/><rect x="30.5" y="8.2" width="12" height="12" fill="var(--sq-2)" style="--d:4"/><rect x="176.5" y="32.8" width="12" height="12" fill="var(--sq-1)" style="--d:5"/><rect x="210.1" y="60.5" width="12" height="12" fill="var(--sq-2)" style="--d:6"/><rect x="195.6" y="33.6" width="12" height="12" fill="var(--sq-1)" style="--d:7"/><rect x="248.2" y="33.2" width="12" height="12" fill="var(--sq-2)" style="--d:8"/><rect x="111.0" y="104.0" width="12" height="12" fill="var(--sq-1)" style="--d:9"/><rect x="42.0" y="60.5" width="12" height="12" fill="var(--sq-2)" style="--d:10"/><rect x="10.8" y="106.0" width="12" height="12" fill="var(--sq-1)" style="--d:11"/><rect x="182.0" y="107.0" width="12" height="12" fill="var(--sq-2)" style="--d:12"/><rect x="15.7" y="104.6" width="12" height="12" fill="var(--sq-1)" style="--d:13"/><rect x="60.8" y="112.0" width="12" height="12" fill="var(--sq-2)" style="--d:14"/><rect x="162.6" y="80.9" width="12" height="12" fill="var(--sq-1)" style="--d:15"/><rect x="81.9" y="31.9" width="12" height="12" fill="var(--sq-2)" style="--d:16"/><rect x="66.4" y="68.6" width="12" height="12" fill="var(--sq-1)" style="--d:17"/><rect x="24.1" y="90.6" width="12" height="12" fill="var(--sq-2)" style="--d:18"/><rect x="199.2" y="84.6" width="12" height="12" fill="var(--sq-1)" style="--d:19"/><rect x="144.5" y="11.5" width="12" height="12" fill="var(--sq-2)" style="--d:20"/><rect x="39.8" y="106.6" width="12" height="12" fill="var(--sq-1)" style="--d:21"/><rect x="45.3" y="81.8" width="12" height="12" fill="var(--sq-2)" style="--d:22"/><rect x="251.1" y="12.0" width="12" height="12" fill="var(--sq-1)" style="--d:23"/><rect x="248.4" y="100.5" width="12" height="12" fill="var(--sq-2)" style="--d:24"/><rect x="278.0" y="110.4" width="12" height="12" fill="var(--sq-1)" style="--d:25"/><rect x="216.5" y="53.0" width="12" height="12" fill="var(--sq-2)" style="--d:26"/><rect x="77.0" y="86.1" width="12" height="12" fill="var(--sq-1)" style="--d:27"/><rect x="248.2" y="50.8" width="12" height="12" fill="var(--sq-2)" style="--d:28"/><rect x="73.4" y="51.5" width="12" height="12" fill="var(--sq-1)" style="--d:29"/><rect x="249.5" y="68.0" width="12" height="12" fill="var(--sq-2)" style="--d:30"/><rect x="104.9" y="74.7" width="12" height="12" fill="var(--sq-1)" style="--d:31"/><rect x="208.4" y="44.0" width="12" height="12" fill="var(--sq-2)" style="--d:32"/><rect x="205.8" y="53.4" width="12" height="12" fill="var(--sq-1)" style="--d:33"/><rect x="63.6" y="41.5" width="12" height="12" fill="var(--sq-2)" style="--d:34"/><rect x="276.1" y="114.7" width="12" height="12" fill="var(--sq-1)" style="--d:35"/><rect x="180.8" y="101.6" width="12" height="12" fill="var(--sq-2)" style="--d:36"/><rect x="257.9" y="29.4" width="12" height="12" fill="var(--sq-1)" style="--d:37"/><rect x="184.2" y="22.5" width="12" height="12" fill="var(--sq-2)" style="--d:38"/><rect x="144.3" y="67.8" width="12" height="12" fill="var(--sq-1)" style="--d:39"/><rect x="218.3" y="109.5" width="12" height="12" fill="var(--sq-2)" style="--d:40"/><rect x="140.2" y="28.1" width="12" height="12" fill="var(--sq-1)" style="--d:41"/><rect x="130.6" y="25.8" width="12" height="12" fill="var(--sq-2)" style="--d:42"/><rect x="188.9" y="64.0" width="12" height="12" fill="var(--sq-1)" style="--d:43"/><rect x="161.6" y="62.4" width="12" height="12" fill="var(--sq-2)" style="--d:44"/><rect x="214.4" y="46.9" width="12" height="12" fill="var(--sq-1)" style="--d:45"/><rect x="212.7" y="10.8" width="12" height="12" fill="var(--sq-2)" style="--d:46"/><rect x="90.7" y="66.1" width="12" height="12" fill="var(--sq-1)" style="--d:47"/><rect x="128.0" y="137.3" width="12" height="12" fill="var(--sq-3)" style="--d:48"/><rect x="143.0" y="137.3" width="12" height="12" fill="var(--sq-3)" style="--d:49"/><rect x="158.0" y="137.3" width="12" height="12" fill="var(--sq-3)" style="--d:50"/><rect x="128.0" y="145.5" width="12" height="12" fill="var(--sq-3)" style="--d:51"/><rect x="143.0" y="145.5" width="12" height="12" fill="var(--sq-3)" style="--d:52"/><rect x="158.0" y="145.5" width="12" height="12" fill="var(--sq-3)" style="--d:53"/><rect x="128.0" y="153.7" width="12" height="12" fill="var(--sq-3)" style="--d:54"/><rect x="143.0" y="153.7" width="12" height="12" fill="var(--sq-3)" style="--d:55"/><rect x="158.0" y="153.7" width="12" height="12" fill="var(--sq-3)" style="--d:56"/><rect x="128.0" y="161.9" width="12" height="12" fill="var(--sq-3)" style="--d:57"/><rect x="143.0" y="161.9" width="12" height="12" fill="var(--sq-3)" style="--d:58"/><rect x="158.0" y="161.9" width="12" height="12" fill="var(--sq-3)" style="--d:59"/><rect x="128.0" y="170.1" width="12" height="12" fill="var(--sq-3)" style="--d:60"/><rect x="143.0" y="170.1" width="12" height="12" fill="var(--sq-3)" style="--d:61"/><rect x="158.0" y="170.1" width="12" height="12" fill="var(--sq-3)" style="--d:62"/><rect x="128.0" y="178.3" width="12" height="12" fill="var(--sq-3)" style="--d:63"/><rect x="143.0" y="178.3" width="12" height="12" fill="var(--sq-3)" style="--d:64"/><rect x="158.0" y="178.3" width="12" height="12" fill="var(--sq-3)" style="--d:65"/><rect x="128.0" y="186.5" width="12" height="12" fill="var(--sq-3)" style="--d:66"/><rect x="143.0" y="186.5" width="12" height="12" fill="var(--sq-3)" style="--d:67"/><rect x="158.0" y="186.5" width="12" height="12" fill="var(--sq-3)" style="--d:68"/><rect x="128.0" y="194.7" width="12" height="12" fill="var(--sq-3)" style="--d:69"/><rect x="143.0" y="194.7" width="12" height="12" fill="var(--sq-3)" style="--d:70"/><rect x="158.0" y="194.7" width="12" height="12" fill="var(--sq-3)" style="--d:71"/><rect x="128.0" y="202.9" width="12" height="12" fill="var(--sq-3)" style="--d:72"/><rect x="143.0" y="202.9" width="12" height="12" fill="var(--sq-3)" style="--d:73"/><rect x="158.0" y="202.9" width="12" height="12" fill="var(--sq-3)" style="--d:74"/><rect x="128.0" y="211.1" width="12" height="12" fill="var(--sq-3)" style="--d:75"/><rect x="143.0" y="211.1" width="12" height="12" fill="var(--sq-3)" style="--d:76"/><rect x="158.0" y="211.1" width="12" height="12" fill="var(--sq-3)" style="--d:77"/><rect x="128.0" y="219.3" width="12" height="12" fill="var(--sq-3)" style="--d:78"/><rect x="143.0" y="219.3" width="12" height="12" fill="var(--sq-3)" style="--d:79"/><rect x="158.0" y="219.3" width="12" height="12" fill="var(--sq-3)" style="--d:80"/><rect x="128.0" y="227.5" width="12" height="12" fill="var(--sq-3)" style="--d:81"/><rect x="143.0" y="227.5" width="12" height="12" fill="var(--sq-3)" style="--d:82"/><rect x="158.0" y="227.5" width="12" height="12" fill="var(--sq-3)" style="--d:83"/><rect x="128.0" y="235.7" width="12" height="12" fill="var(--sq-3)" style="--d:84"/><rect x="143.0" y="235.7" width="12" height="12" fill="var(--sq-3)" style="--d:85"/><rect x="158.0" y="235.7" width="12" height="12" fill="var(--sq-3)" style="--d:86"/><rect x="128.0" y="243.9" width="12" height="12" fill="var(--sq-3)" style="--d:87"/><rect x="143.0" y="243.9" width="12" height="12" fill="var(--sq-3)" style="--d:88"/><rect x="158.0" y="243.9" width="12" height="12" fill="var(--sq-3)" style="--d:89"/><rect x="128.0" y="252.1" width="12" height="12" fill="var(--sq-3)" style="--d:90"/><rect x="143.0" y="252.1" width="12" height="12" fill="var(--sq-3)" style="--d:91"/><rect x="158.0" y="252.1" width="12" height="12" fill="var(--sq-3)" style="--d:92"/><rect x="128.0" y="260.3" width="12" height="12" fill="var(--sq-3)" style="--d:93"/><rect x="143.0" y="260.3" width="12" height="12" fill="var(--sq-3)" style="--d:94"/><rect x="158.0" y="260.3" width="12" height="12" fill="var(--sq-3)" style="--d:95"/><rect x="30.0" y="280.7" width="12" height="12" fill="var(--accent)" style="--d:96"/><rect x="62.0" y="280.7" width="12" height="12" fill="var(--accent)" style="--d:97"/><rect x="94.0" y="280.7" width="12" height="12" fill="var(--accent)" style="--d:98"/><rect x="126.0" y="280.7" width="12" height="12" fill="var(--accent)" style="--d:99"/><rect x="158.0" y="280.7" width="12" height="12" fill="var(--accent)" style="--d:100"/><rect x="190.0" y="280.7" width="12" height="12" fill="var(--accent)" style="--d:101"/><rect x="222.0" y="280.7" width="12" height="12" fill="var(--accent)" style="--d:102"/><rect x="254.0" y="280.7" width="12" height="12" fill="var(--accent)" style="--d:103"/><rect x="30.0" y="298.7" width="12" height="12" fill="var(--accent)" style="--d:104"/><rect x="62.0" y="298.7" width="12" height="12" fill="var(--accent)" style="--d:105"/><rect x="94.0" y="298.7" width="12" height="12" fill="var(--accent)" style="--d:106"/><rect x="126.0" y="298.7" width="12" height="12" fill="var(--accent)" style="--d:107"/><rect x="158.0" y="298.7" width="12" height="12" fill="var(--accent)" style="--d:108"/><rect x="190.0" y="298.7" width="12" height="12" fill="var(--accent)" style="--d:109"/><rect x="222.0" y="298.7" width="12" height="12" fill="var(--accent)" style="--d:110"/><rect x="254.0" y="298.7" width="12" height="12" fill="var(--accent)" style="--d:111"/><rect x="30.0" y="316.7" width="12" height="12" fill="var(--accent)" style="--d:112"/><rect x="62.0" y="316.7" width="12" height="12" fill="var(--accent)" style="--d:113"/><rect x="94.0" y="316.7" width="12" height="12" fill="var(--accent)" style="--d:114"/><rect x="126.0" y="316.7" width="12" height="12" fill="var(--accent)" style="--d:115"/><rect x="158.0" y="316.7" width="12" height="12" fill="var(--accent)" style="--d:116"/><rect x="190.0" y="316.7" width="12" height="12" fill="var(--accent)" style="--d:117"/><rect x="222.0" y="316.7" width="12" height="12" fill="var(--accent)" style="--d:118"/><rect x="254.0" y="316.7" width="12" height="12" fill="var(--accent)" style="--d:119"/><rect x="30.0" y="334.7" width="12" height="12" fill="var(--accent)" style="--d:120"/><rect x="62.0" y="334.7" width="12" height="12" fill="var(--accent)" style="--d:121"/><rect x="94.0" y="334.7" width="12" height="12" fill="var(--accent)" style="--d:122"/><rect x="126.0" y="334.7" width="12" height="12" fill="var(--accent)" style="--d:123"/><rect x="158.0" y="334.7" width="12" height="12" fill="var(--accent)" style="--d:124"/><rect x="190.0" y="334.7" width="12" height="12" fill="var(--accent)" style="--d:125"/><rect x="222.0" y="334.7" width="12" height="12" fill="var(--accent)" style="--d:126"/><rect x="254.0" y="334.7" width="12" height="12" fill="var(--accent)" style="--d:127"/><rect x="30.0" y="352.7" width="12" height="12" fill="var(--accent)" style="--d:128"/><rect x="62.0" y="352.7" width="12" height="12" fill="var(--accent)" style="--d:129"/><rect x="94.0" y="352.7" width="12" height="12" fill="var(--accent)" style="--d:130"/><rect x="126.0" y="352.7" width="12" height="12" fill="var(--accent)" style="--d:131"/><rect x="158.0" y="352.7" width="12" height="12" fill="var(--accent)" style="--d:132"/><rect x="190.0" y="352.7" width="12" height="12" fill="var(--accent)" style="--d:133"/><rect x="222.0" y="352.7" width="12" height="12" fill="var(--accent)" style="--d:134"/><rect x="254.0" y="352.7" width="12" height="12" fill="var(--accent)" style="--d:135"/><rect x="30.0" y="370.7" width="12" height="12" fill="var(--accent)" style="--d:136"/><rect x="62.0" y="370.7" width="12" height="12" fill="var(--accent)" style="--d:137"/><rect x="94.0" y="370.7" width="12" height="12" fill="var(--accent)" style="--d:138"/><rect x="126.0" y="370.7" width="12" height="12" fill="var(--accent)" style="--d:139"/><rect x="158.0" y="370.7" width="12" height="12" fill="var(--accent)" style="--d:140"/><rect x="190.0" y="370.7" width="12" height="12" fill="var(--accent)" style="--d:141"/><rect x="222.0" y="370.7" width="12" height="12" fill="var(--accent)" style="--d:142"/><rect x="254.0" y="370.7" width="12" height="12" fill="var(--accent)" style="--d:143"/></svg>
+        <div class="grid steps">
+          <div data-reveal><h3>Look</h3><p>Free. Where you show up on Google, the map and AI answers, and where your competitors do. A typical finding: seventh on the map, eleven reviews, no AI mentions.</p></div>
+          <div data-reveal style="--i:1"><h3>Fix</h3><p>A plan in plain English: what&rsquo;s broken, what it costs, what to skip. Then I do the work while you run your business.</p></div>
+          <div data-reveal style="--i:2"><h3>Report</h3><p>A short recap every month: calls, rank on the map, what AI now says, what&rsquo;s next. Walk away whenever you like, with everything.</p></div>
         </div>
-      </article>
+      </div>
     </div>
+  </section>
 
-    <div class="me">
-      <span class="sticker">Lives here too</span>
-      <span class="avatar">S</span>
-      <div>
-        <span class="role">Who you're dealing with</span>
-        <h3>Spencer &middot; owner, does the actual work</h3>
-        <p>Over a decade in SEO and digital marketing for big brands, now working for the businesses in my own backyard.</p>
-      </div>
-      <span class="sig">&mdash; Spencer</span>
+  <section class="about wrap grid" id="about" aria-labelledby="h-about">
+    <div class="facts" data-reveal>
+      <span><b>Based in</b>Glen Rock, NJ</span>
+      <span><b>Doing this</b>Over ten years</span>
+      <span><b>Reach me</b><a class="tl" href="tel:+12019033491" onclick="return gtag_report_conversion('tel:+12019033491');">(201) 903-3491</a></span>
     </div>
-  </div>
-</section>
+    <div class="bio">
+      <h2 id="h-about" data-reveal>Spencer, in Glen Rock.</h2>
+      <p data-reveal style="--i:1"><img class="cap-img person" src="/images/spencer/spencer-and-son-square.jpg" width="600" height="600" loading="lazy" alt="Spencer and his young son sweeping a basketball court at a park in Glen Rock">That&rsquo;s me and my son, sweeping off a court at one of our parks. Glen Rock is named after a 570-ton boulder a glacier left where Doremus Avenue meets Rock Road; the Lenape used it to mark the trail, and for a few thousand years it was how people found their way. I spent over a decade in SEO and digital marketing for big brands. Now I do that work for the businesses I drive past.</p>
+      <p data-reveal style="--i:2">No guarantees, and be wary of anyone who offers one: nobody can promise the top spot on Google. What I promise is solid work, straight answers, and that you&rsquo;ll understand every move I make. Where something can run on its own, I build it that way and <a class="tl" href="/about/">hand you the keys</a>.</p>
+    </div>
+  </section>
 
-{{/* ---------- HOW IT WORKS ---------- */}}
-<section class="sec band" id="how">
-  <div class="wrap">
-    <p class="rail">How it works</p>
-    <h2 class="h-sec">Simple process. <em>No mystery.</em></h2>
-    <p class="sec-lede">Four steps, and you can see what comes out of each one before you commit to anything.</p>
-
-    <div class="process">
-      <div class="pstep s1">
-        <span class="pnum">1.</span>
-        <h3>I look first. Free.</h3>
-        <p>Where you show up on Google, Maps, and AI &mdash; and where your competitors do.</p>
-        <div class="artifact">
-          <span class="k">Sample finding</span>
-          Maps rank <span class="bad">#7</span><br>
-          Reviews <span class="bad">11</span> (avg 41)<br>
-          AI mentions <span class="bad">none</span>
-        </div>
-      </div>
-      <div class="pstep s2">
-        <span class="pnum">2.</span>
-        <h3>A plan in plain English</h3>
-        <p>What's broken, what it costs to fix, and what you can skip entirely.</p>
-        <div class="artifact">
-          <span class="k">From the plan</span>
-          1. Claim GBP &mdash; <span class="ok">wk 1</span><br>
-          2. Review flow &mdash; <span class="ok">wk 2</span><br>
-          3. Skip the blog for now
-        </div>
-      </div>
-      <div class="pstep s3">
-        <span class="pnum">3.</span>
-        <h3>I do the work</h3>
-        <p>Website, Google profile, reviews, ads, content. You keep running your business.</p>
-        <div class="artifact">
-          <span class="k">Week 3 log</span>
-          Site live <span class="ok">&#10003;</span><br>
-          Schema added <span class="ok">&#10003;</span><br>
-          14 towns mapped <span class="ok">&#10003;</span>
-        </div>
-      </div>
-      <div class="pstep s4">
-        <span class="pnum">4.</span>
-        <h3>You see everything</h3>
-        <p>A short monthly recap: what changed, what it did, and what's next.</p>
-        <div class="artifact">
-          <span class="k">Monthly recap</span>
-          Calls <span class="ok">+22</span><br>
-          Maps <span class="ok">#7 &rarr; #2</span><br>
-          Next: photos + Q&amp;A
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-{{/* ---------- HONESTY ---------- */}}
-<section class="sec band-dark">
-  <div class="wrap">
-    <p class="rail on-dark">Where I stand</p>
-    <div class="honest">
-      <div class="col">
-        <h3><em>No guarantees.</em> Be wary of anyone who offers one.</h3>
-        <p>Nobody can promise the #1 spot on Google. What I promise: solid work, straight answers, and that you'll understand every move I make and why.</p>
-      </div>
-      <div class="col">
-        <h3><em>Built so you don't need me forever.</em></h3>
-        <p>Where something can run on its own, I build it that way and hand you the keys. No lock-in, no hostage situation, no monthly fee for work that finished a year ago.</p>
-      </div>
-    </div>
-  </div>
-</section>
-
-{{/* ---------- WHO THIS IS FOR ---------- */}}
-<section class="sec">
-  <div class="wrap">
-    <p class="rail g">Who this is for</p>
-    <h2 class="h-sec">The businesses that <em>keep this county running.</em></h2>
-    <div class="chips">
-      <span class="chip">Plumbers</span><span class="chip">HVAC</span><span class="chip">Electricians</span><span class="chip">Landscapers</span><span class="chip">Dryer vent &amp; gutter cleaning</span><span class="chip">Pest control</span><span class="chip">Restoration &amp; mold</span><span class="chip">Painters</span><span class="chip">Cleaning services</span><span class="chip">Auto detailing</span><span class="chip">Bakeries &amp; food</span><span class="chip">Home remodeling</span>
-    </div>
-    <p class="towns-line">
-      <b>Serving</b>
-      Glen Rock, Ridgewood, Fair Lawn, Paramus, Hackensack, Teaneck, Wyckoff, Midland Park, Hawthorne, Saddle Brook, River Edge, Englewood &mdash; and all of <a href="/bergen-county-seo/" class="tlink">Bergen County</a>.
-    </p>
-  </div>
-</section>
-
-{{/* ---------- RECENT POSTS ---------- */}}
-{{ $posts := where .Site.RegularPages "Section" "blog" }}
-{{ if gt (len $posts) 0 }}
-<section class="sec-tight band">
-  <div class="wrap">
-    <p class="rail s">From the blog</p>
-    <h2 class="h-sec">Straight answers, <em>written down.</em></h2>
-    <div class="posts-list">
-      {{ range first 4 $posts }}
-      <a href="{{ .Permalink }}" class="post-row">
-        <span class="date">{{ .Date.Format "Jan 02, 2006" }}</span>
-        <span class="title">{{ .Title }}</span>
-        <span class="arrow">&rarr;</span>
-      </a>
-      {{ end }}
-    </div>
-    <div class="posts-more">
-      <a href="/blog/" class="tlink">Browse all posts &rarr;</a>
-    </div>
-  </div>
-</section>
-{{ end }}
-
-{{/* ---------- CTA ---------- */}}
-<section class="sec">
-  <div class="wrap">
-    <div class="cta-card">
-      <div>
-        <h2>Find out where you stand. It's free.</h2>
-        <p>I'll check your Google presence, your website, and what AI says about you &mdash; then send you what I find. No pitch, no pressure, no obligation to do anything about it.</p>
-      </div>
-      <div class="cta-ctas">
-        <a href="/audit/" class="btn btn-terra" onclick="return gtag_report_conversion('/audit/');">Get your free presence check <span class="arw">&rarr;</span></a>
-        <a href="tel:+12019033491" class="btn btn-plain" onclick="return gtag_report_conversion('tel:+12019033491');">Call or text (201) 903-3491</a>
-      </div>
-    </div>
-  </div>
-</section>
+{{ partial "close.html" (dict "heading" "Find out where you stand.") }}
 
 {{- end }}

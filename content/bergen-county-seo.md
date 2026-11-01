@@ -18,6 +18,10 @@ faq:
     answer: "Bergen County is my focus, but I work with local service businesses across northern New Jersey — including Passaic, Hudson, and Essex County towns. If your customers are searching for what you do in North Jersey, I can help them find you."
   - question: "What is AI search optimization (AEO) and do I need it?"
     answer: "AEO — Answer Engine Optimization — is making your business show up when people ask AI tools like ChatGPT, Perplexity, and Google AI Overviews for recommendations. In a market like Bergen County, where homeowners are early adopters of AI, the businesses that get cited in those answers now will own the category before competitors realize the shift happened."
+h1: "Bergen County SEO, for Google and AI search"
+photo:
+  src: "/images/bergen/bergen-motors-postcard.jpg"
+  alt: "1950s postcard of Bergen Motors, a Dodge and Plymouth dealership in Bergenfield, New Jersey"
 ---
 
 ## Bergen County SEO that actually moves the needle

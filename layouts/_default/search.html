@@ -1,0 +1,20 @@
+{{- define "main" }}
+
+<header class="page-head wrap">
+  <h1>Search the writing</h1>
+  <div class="ax">
+    <div class="ph-side"><a class="tl" href="/blog/">Or browse every post</a></div>
+    <p class="dek">{{ .Description | default "Local SEO, AI search, websites and ads for Bergen County businesses." }}</p>
+  </div>
+</header>
+
+<div class="wrap ax theme-page">
+  <div></div>
+  <div id="searchbox">
+    <label for="searchInput" class="sr-only">Search posts</label>
+    <input id="searchInput" autofocus placeholder="Try &ldquo;ChatGPT&rdquo; or &ldquo;Google profile&rdquo;" type="search" autocomplete="off" maxlength="64">
+    <ul id="searchResults" aria-label="Search results"></ul>
+  </div>
+</div>
+
+{{- end }}

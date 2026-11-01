@@ -15,6 +15,11 @@ keywords:
   - Fair Lawn SEO
   - Hackensack digital marketing
   - website design Bergen County
+h1: "Hi, I'm Spencer. I live here too."
+photo:
+  src: "/images/spencer/spencer-and-son-wide.jpg"
+  alt: "Spencer and his young son sweeping a basketball court at a park in Glen Rock, New Jersey"
+  tall: true
 ---
 
 AI Local Business is a Bergen County based digital marketing studio helping businesses in Paramus, Fair Lawn, Hackensack and all of North Jersey get found on Google and AI search platforms like ChatGPT and Perplexity — and back it with websites built to actually perform.
