@@ -44,6 +44,10 @@ ignoreFiles = ["\\.DS_Store$"]
   tocopen = false
   mainSections = ["blog"]
 
+  # Profiles for the homepage schema's sameAs. Add the Google Business Profile share link here.
+  [params.schema]
+    sameAs = ["https://www.facebook.com/1111443192054030"]
+
   [params.assets]
     favicon = "/favicon.ico"
     disableHLJS = true

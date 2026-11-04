@@ -9,16 +9,20 @@
 <link href="https://fonts.googleapis.com/css2?family=Young+Serif:wght@400&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&display=swap" rel="stylesheet">
 
 {{/* Open Graph / Social Sharing */}}
-<meta property="og:title" content="{{ if .IsHome }}AI Marketing Agency in Bergen County, NJ | Local SEO & AI Search | AI Local Business{{ else }}{{ .Title }} | AI Local Business{{ end }}">
+{{- $socialTitle := .Params.seoTitle | default (printf "%s | AI Local Business" .Title) }}
+<meta property="og:title" content="{{ $socialTitle }}">
 <meta property="og:description" content="{{ with .Description }}{{ . }}{{ else }}Local SEO, AI search optimization, and websites that actually perform — for Bergen County and northern NJ businesses. Spencer Scott Digital.{{ end }}">
-<meta property="og:image" content="https://ailocalbusiness.biz/images/og-image.png">
+<meta property="og:image" content="https://ailocalbusiness.biz/images/og-image.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="800">
 <meta property="og:url" content="{{ .Permalink }}">
 <meta property="og:type" content="{{ if .IsPage }}article{{ else }}website{{ end }}">
 <meta property="og:site_name" content="AI Local Business">
+<meta property="og:locale" content="en_US">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="{{ if .IsHome }}AI Local Business | Local SEO, AI Search & Websites for Bergen County{{ else }}{{ .Title }}{{ end }}">
+<meta name="twitter:title" content="{{ $socialTitle }}">
 <meta name="twitter:description" content="{{ with .Description }}{{ . }}{{ else }}Local SEO, AI search optimization, and websites for Bergen County businesses.{{ end }}">
-<meta name="twitter:image" content="https://ailocalbusiness.biz/images/og-image.png">
+<meta name="twitter:image" content="https://ailocalbusiness.biz/images/og-image.jpg">
 
 {{/* Google Ads conversion tracking */}}
 <script async src="https://www.googletagmanager.com/gtag/js?id=AW-17986235360"></script>
@@ -52,11 +56,23 @@ function gtag_report_conversion(url) {
 {
   "@context": "https://schema.org",
   "@type": "ProfessionalService",
+  "@id": "{{ .Site.BaseURL }}#business",
   "name": "AI Local Business",
   "alternateName": "Spencer Scott Digital",
   "description": "Local SEO, AI search optimization, and website design for Bergen County and northern New Jersey businesses",
   "url": "{{ .Site.BaseURL }}",
+  "logo": "{{ "images/brand/ailb-signature-mark-2x.png" | absURL }}",
+  "image": "{{ "images/og-image.jpg" | absURL }}",
   "telephone": "+1-201-903-3491",
+  "email": "spencerscottdigital@gmail.com",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Glen Rock",
+    "addressRegion": "NJ",
+    "postalCode": "07452",
+    "addressCountry": "US"
+  },
+  "sameAs": [{{ range $i, $e := site.Params.schema.sameAs }}{{ if $i }}, {{ end }}{{ $e }}{{ end }}],
   "areaServed": [
     {
       "@type": "City",
