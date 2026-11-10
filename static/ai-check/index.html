@@ -4,173 +4,248 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Free AI Visibility Check for North Jersey Businesses | AI Local Business</title>
-<meta name="description" content="Does ChatGPT recommend your business? A free 3-point visibility report on your AI visibility, Google presence, and website — in plain English, in 2–3 business days. Bergen County and North Jersey.">
+<meta name="description" content="Does ChatGPT recommend your business? A free 3-point visibility report on your AI visibility, Google presence, and website, in plain English, in two or three business days. Bergen County and North Jersey.">
 <meta name="robots" content="noindex, follow">
 <link rel="canonical" href="https://ailocalbusiness.biz/ai-check/">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="preconnect" href="https://tally.so"><link rel="dns-prefetch" href="https://tally.so">
-<link href="https://fonts.googleapis.com/css2?family=Zilla+Slab:ital,wght@0,400;0,500;0,600;1,400;1,600&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Young+Serif:wght@400&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&display=swap" rel="stylesheet">
 
-<!-- Google tag (GA4 + Google Ads) — same IDs as the rest of the site -->
+<!-- Google tag (GA4 + Google Ads): same IDs as the rest of the site -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=AW-17986235360"></script>
 <script>
 window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}
 gtag('js',new Date());gtag('config','AW-17986235360');gtag('config','G-4H00DTZW3V');
 </script>
-<!-- Meta Pixel — replace 1533221338488352 with the dataset ID from Events Manager -->
+<!-- Meta Pixel: AILB Site dataset -->
 <script>
 !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,document,'script','https://connect.facebook.net/en_US/fbevents.js');
 fbq('init','1533221338488352');fbq('track','PageView');
 </script>
 
 <style>
-:root{--paper:#EDEAE0;--card:#F6F4EC;--ink:#15181C;--ink-soft:#4B5159;--ink-mute:#878C93;--forest:#1E4D42;--forest-mid:#2C6B5C;--terra:#BC5B33;--gold:#D9963A;--band:#1B2A25;--rule:#E7E3D8;--rule-mid:#DCD7C9;
---disp:'Zilla Slab',Georgia,serif;--sans:'IBM Plex Sans',system-ui,sans-serif;--mono:'IBM Plex Mono',Menlo,monospace;--max:680px}
-*{box-sizing:border-box;margin:0;padding:0}
+/* AI check page, on the site's "printed annual" look (matches assets/css/extended/custom.css and the /audit/ page).
+   Standalone file so the ad landing page keeps its own short header and tracking. */
+:root{
+  --bg:#ffffff;--surface:#f6f6f6;--surface-2:#ececec;--ink:#000000;--muted:#5f5f5f;
+  --accent:#fe7141;--sage:#d1ddd3;--yellow:#f0ff1c;--night:#000000;--night-ink:#f4f4f4;
+  --f-display:'Young Serif',Georgia,serif;--f-text:'Source Serif 4',Georgia,serif;
+  --s-small:clamp(0.8125rem,0.79rem + 0.1vw,0.875rem);
+  --s-body:clamp(1.0625rem,1rem + 0.3vw,1.25rem);
+  --s-lead:clamp(1.25rem,1.1rem + 0.45vw,1.5rem);
+  --s-head:clamp(2rem,1.2rem + 3vw,4rem);
+  --m:clamp(20px,3.34vw,48px);--axis:42vw;--gap:clamp(16px,2vw,32px);--pad:clamp(64px,6.5vw,112px);
+}
+*{box-sizing:border-box}
 html{scroll-behavior:smooth}
-body{background:var(--paper);color:var(--ink);font-family:var(--sans);font-size:17px;line-height:1.55;-webkit-font-smoothing:antialiased}
-a{color:var(--forest)}
-.wrap{max-width:var(--max);margin:0 auto;padding:0 20px}
-.eyebrow{font-family:var(--mono);font-size:12px;letter-spacing:.185em;text-transform:uppercase;color:var(--forest);font-weight:500}
-.eyebrow .dot{color:var(--terra)}
-h1,h2,h3{font-family:var(--disp);font-weight:600;line-height:1.08;letter-spacing:-.01em;text-wrap:balance}
-h1{font-size:clamp(34px,6.4vw,50px)}
-h1 em{font-style:italic;color:var(--terra)}
-h2{font-size:26px;margin-bottom:14px}
-h3{font-size:20px;font-weight:500}
-p{max-width:60ch}
-.dek{font-size:19px;color:var(--ink-soft);margin-top:16px}
-/* header */
-.hdr{display:flex;align-items:center;justify-content:space-between;padding:18px 0;border-bottom:1px solid var(--rule-mid)}
-.brand{font-family:var(--disp);font-weight:600;font-size:21px;color:var(--ink);text-decoration:none;display:flex;align-items:baseline;gap:10px;flex-wrap:wrap}
-.brand .bd{color:var(--terra)}
-.brand .by{font-family:var(--mono);font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--ink-mute)}
-.phone{font-family:var(--mono);font-size:13px;letter-spacing:.06em;color:var(--ink);text-decoration:none;white-space:nowrap}
-/* buttons */
-.btn{display:inline-flex;align-items:center;gap:10px;background:var(--forest);color:var(--paper);text-decoration:none;font-weight:600;font-size:16px;padding:14px 22px;border-radius:999px;border:0;cursor:pointer}
-.btn:hover{background:var(--forest-mid)}
-.btn:focus-visible,a:focus-visible{outline:3px solid var(--gold);outline-offset:3px}
-.btn.ghost{background:transparent;color:var(--ink);border:2px solid var(--rule-mid)}
-.btn.ghost:hover{border-color:var(--ink)}
-.btn.terra{background:var(--terra)}
-.cta-row{display:flex;gap:12px;flex-wrap:wrap;margin-top:26px}
-.note{font-family:var(--mono);font-size:12px;letter-spacing:.06em;color:var(--ink-mute);margin-top:14px}
-/* sections */
-section{padding:40px 0}
-.hero{padding:44px 0 36px}
-.rule{height:1px;background:var(--rule-mid)}
-.get{display:grid;gap:18px;margin-top:8px}
-.get .it{display:grid;grid-template-columns:28px 1fr;gap:12px;align-items:start}
-.get .g{width:18px;height:18px;border:2.5px solid var(--forest);border-radius:50%;position:relative;margin-top:5px}
-.get .g:after{content:"";position:absolute;width:6px;height:6px;background:var(--terra);border-radius:50%;left:50%;top:50%;transform:translate(-50%,-50%)}
-.get b{font-family:var(--disp);font-size:20px;font-weight:600;display:block}
-.get span{color:var(--ink-soft)}
-/* form card */
-.form-card{background:var(--card);border:1px solid var(--rule-mid);border-radius:14px;padding:26px 22px;margin-top:8px}
-.form-card .stamp{display:inline-block;font-family:var(--mono);font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--paper);background:var(--terra);padding:6px 10px;border-radius:999px;margin-bottom:14px}
-.form-card iframe{width:100%;border:0;min-height:520px}
-.alt{margin-top:16px;color:var(--ink-soft);font-size:15px}
-.alt a{white-space:nowrap}
-/* who */
-.who{display:grid;grid-template-columns:44px 1fr;gap:16px;align-items:start}
-.mark{width:36px;height:36px;border:3px solid var(--forest);border-radius:50%;position:relative;margin-top:4px}
-.mark:after{content:"";position:absolute;width:10px;height:10px;background:var(--terra);border-radius:50%;left:50%;top:50%;transform:translate(-50%,-50%)}
-.who p{color:var(--ink-soft)}
-.who .sig{font-family:var(--disp);font-style:italic;color:var(--ink);margin-top:8px}
-/* proof */
-.proof{display:grid;gap:14px}
-.proof .c{padding:14px 0;border-top:1px solid var(--rule-mid)}
-.proof .c:last-child{border-bottom:1px solid var(--rule-mid)}
-.proof .c b{font-family:var(--disp);font-size:18px;font-weight:600}
-.proof .c span{display:block;color:var(--ink-soft);font-size:15px}
-/* faq */
-.faq details{border-top:1px solid var(--rule-mid);padding:14px 0}
-.faq details:last-child{border-bottom:1px solid var(--rule-mid)}
-.faq summary{cursor:pointer;font-family:var(--disp);font-size:19px;font-weight:500;list-style:none;display:flex;justify-content:space-between;gap:12px}
-.faq summary::-webkit-details-marker{display:none}
-.faq summary:after{content:"+";color:var(--terra);font-weight:400}
-.faq details[open] summary:after{content:"–"}
-.faq p{margin-top:10px;color:var(--ink-soft)}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--f-text);font-size:var(--s-body);line-height:1.55;-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility;overflow-x:clip}
+h1,h2,h3{margin:0;color:var(--ink);font-family:var(--f-display);font-weight:400;letter-spacing:-0.02em;line-height:0.98;text-wrap:balance}
+p,ul,ol,figure{margin:0}
+p{text-wrap:pretty}
+img{display:block;max-width:100%;background:var(--surface-2)}
+a{color:inherit}
+::selection{background:var(--yellow);color:var(--ink)}
+:focus-visible{outline:2px solid currentColor;outline-offset:3px}
+.wrap{padding-inline:var(--m)}
+.ax{display:grid;grid-template-columns:calc(var(--axis) - var(--m)) minmax(0,1fr)}
+.grey{filter:grayscale(1) contrast(1.05);object-fit:cover}
+
+.button{display:inline-flex;align-items:center;justify-content:center;min-height:52px;padding:0 26px;background:var(--accent);color:#000;font-family:var(--f-text);font-weight:600;text-decoration:none;white-space:nowrap;transition:transform 140ms cubic-bezier(0.22,1,0.36,1),background-color 180ms ease,color 180ms ease}
+.button:active{transform:scale(0.97)}
+.button.plain{background:var(--ink);color:var(--bg)}
+.tl{text-decoration:underline;text-decoration-thickness:0.07em;text-underline-offset:0.2em;transition:text-decoration-thickness 180ms ease}
+@media (hover:hover) and (pointer:fine){
+  .button:hover{background:var(--ink);color:var(--bg)}
+  .button.plain:hover{background:var(--accent);color:#000}
+  .tl:hover{text-decoration-thickness:0.14em}
+}
+
+/* header: wordmark and phone only */
+.site-top{display:flex;align-items:center;justify-content:space-between;gap:20px;padding-top:28px;padding-bottom:24px}
+.word{font-family:var(--f-display);font-size:var(--s-lead);letter-spacing:-0.01em;text-decoration:none;white-space:nowrap}
+.word i{font-style:normal;color:var(--accent)}
+.site-top .ph{font-size:var(--s-small);white-space:nowrap}
+
+/* head: title full width, action on the left, standfirst on the axis */
+.page-head{padding-top:clamp(32px,5vw,72px);padding-bottom:clamp(44px,5vw,72px)}
+.page-head h1{font-size:var(--s-head);line-height:1;letter-spacing:-0.025em;max-width:16em}
+.page-head h1 .soft{color:var(--muted)}
+.page-head .ax{margin-top:36px;align-items:start}
+.ph-side{padding-right:clamp(24px,4vw,64px);display:flex;flex-direction:column;align-items:flex-start;gap:12px;font-size:var(--s-small)}
+.ph-side .button{font-size:var(--s-body)}
+.dek{font-size:var(--s-lead);line-height:1.35;max-width:40ch}
+.page-photo{height:clamp(200px,32vh,360px);overflow:hidden}
+.page-photo picture{display:block;width:100%;height:100%}
+.page-photo img{width:100%;height:100%;object-position:50% 55%}
+
+/* body: side notes left of the axis, running text on it */
+.page-body{padding-top:clamp(48px,5vw,88px);padding-bottom:var(--pad);align-items:start}
+.aside{position:sticky;top:32px;padding-right:clamp(24px,4vw,64px);display:flex;flex-direction:column;gap:28px;font-size:var(--s-small)}
+.aside h2{font-family:var(--f-text);font-size:var(--s-small);font-weight:600;letter-spacing:0;line-height:1.4;margin-bottom:8px}
+.aside ol{padding:0;list-style:none;display:flex;flex-direction:column;gap:6px}
+.aside .plainnote{background:var(--sage);padding:20px 22px 22px;font-size:var(--s-body)}
+.prose{max-width:40em;min-width:0}
+.prose h2{font-size:var(--s-lead);line-height:1.15;margin:2.4em 0 0.6em;scroll-margin-top:24px}
+.prose > h2:first-child{margin-top:0}
+.check-what{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:4px}
+.check-what > div{padding:22px 22px 24px;background:var(--surface)}
+.check-what > div:nth-child(2){background:var(--accent)}
+.check-what > div:nth-child(3){background:var(--sage)}
+.check-what > div:nth-child(4){background:var(--surface-2)}
+.check-what h3{font-size:var(--s-lead);letter-spacing:-0.01em;line-height:1.1}
+.check-what p{margin-top:10px}
+.ask-box{padding:28px 28px 32px;background:var(--surface)}
+.ask-box .lead{font-weight:600;margin-bottom:10px}
+.ask-box iframe{width:100%;border:0;min-height:520px;background:transparent}
+.ask-box .alt{margin-top:18px;font-size:var(--s-small)}
+.ask-box .alt a{white-space:nowrap}
+.bio::after{content:"";display:block;clear:both}
+.cap-img{float:left;width:6.4em;height:6.4em;margin:0.3em 0.9em 0.2em 0}
+.sig{font-family:var(--f-display);margin-top:0.8em}
+.work2{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+.work2 img{width:100%;height:auto}
+.work2 figcaption{margin-top:10px;font-size:var(--s-small)}
+.work2 figcaption b{display:block;font-size:var(--s-body)}
+.faq{display:flex;flex-direction:column;gap:4px}
+.faq details{background:var(--surface)}
+.faq details:nth-child(even){background:var(--surface-2)}
+.faq summary{cursor:pointer;padding:18px 22px;font-weight:600}
+.faq summary::marker{color:var(--accent)}
+.faq .a{padding:0 22px 20px}
+
+/* closing: three photographs, then the yellow field */
+.trio{display:grid;grid-template-columns:repeat(3,1fr);height:34vh;min-height:220px;overflow:hidden}
+.trio img{width:100%;height:100%}
+.trio img:nth-child(3){object-position:50% 20%}
+.close{background:var(--yellow);padding-block:clamp(56px,6vw,96px)}
+.close h2{font-size:var(--s-head);margin-bottom:24px}
+.close .say{font-size:var(--s-lead);line-height:1.3;max-width:34ch}
+.close .act{display:flex;flex-wrap:wrap;align-items:center;gap:14px 24px;margin-top:28px}
+
 /* footer */
-footer{padding:28px 0 40px;font-family:var(--mono);font-size:12px;letter-spacing:.06em;color:var(--ink-mute)}
-footer a{color:var(--ink-mute)}
-@media (min-width:640px){.form-card{padding:32px}section{padding:48px 0}}
+.site-foot{background:var(--night);color:var(--night-ink);padding-top:clamp(48px,5vw,80px);padding-bottom:36px}
+.fword{font-family:var(--f-display);font-size:clamp(2.6rem,9.3vw,9.5rem);line-height:0.9;letter-spacing:-0.035em;white-space:nowrap}
+.fword i{font-style:normal;color:var(--accent)}
+.places{display:flex;flex-direction:column;gap:4px;margin-top:40px}
+.places a,.places span{font-family:var(--f-display);font-size:var(--s-lead);color:var(--accent);text-decoration:none;line-height:1.3;overflow-wrap:anywhere}
+.places a:hover{text-decoration:underline}
+.legal{margin-top:40px;font-size:var(--s-small)}
+
+@media (max-width:760px){
+  :root{--axis:var(--m)}
+  .ax{grid-template-columns:1fr}
+  .page-head h1{font-size:2rem;line-height:1.05}
+  .ph-side{order:2;padding-right:0;margin-top:24px}
+  .aside{position:static;order:2;padding-right:0;margin-top:56px}
+  .check-what{grid-template-columns:1fr}
+  .ask-box{padding:20px 16px 24px}
+  .work2{grid-template-columns:1fr;gap:24px}
+  .trio{grid-template-columns:1fr 1fr;height:auto}
+  .trio img{aspect-ratio:1;height:auto}
+  .trio img:first-child{grid-column:1/3;aspect-ratio:4/3}
+  .fword{font-size:11vw}
+  .places a,.places span{font-size:1.2rem}
+}
 @media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
 </style>
 </head>
 <body>
-<div class="wrap">
-  <header class="hdr">
-    <a class="brand" href="/"><span>AI Local Business<span class="bd">.</span></span><span class="by">by Spencer Scott Digital</span></a>
-    <a class="phone" href="tel:+12019033491">(201) 903-3491</a>
-  </header>
+<header class="wrap site-top">
+  <a class="word" href="/">AI Local Business<i>.</i></a>
+  <a class="ph tl" href="tel:+12019033491">(201) 903-3491</a>
+</header>
 
-  <section class="hero">
-    <div class="eyebrow">Bergen &amp; North Jersey <span class="dot">·</span> Free 3-Point Visibility Report</div>
-    <h1 style="margin-top:14px">Does ChatGPT recommend your business? <em>Find out free.</em></h1>
-    <p class="dek">When someone in your town asks an AI assistant for a plumber, a dentist, a landscaper — it names three or four businesses. This check tells you whether you're one of them, how you stand on Google, and whether your website is helping. In plain English, in your inbox in 2–3 business days.</p>
-    <div class="cta-row">
-      <a class="btn" href="#form">Request the free check →</a>
-      <a class="btn ghost" href="sms:+12019033491">Text Spencer</a>
+<main>
+<header class="page-head wrap">
+  <h1>Does ChatGPT recommend your business? <span class="soft">Find out free.</span></h1>
+  <div class="ax">
+    <div class="ph-side">
+      <a class="button" href="#form">Request the free check</a>
+      <a class="tl" href="sms:+12019033491">or text Spencer</a>
     </div>
-    <p class="note">No pitch. No call required. Bergen County &amp; Northern NJ businesses.</p>
-  </section>
+    <p class="dek">When someone in your town asks an AI assistant for a plumber, a dentist or a landscaper, it names three or four businesses. This check tells you whether you're one of them, how you stand on Google, and whether your website is helping. In plain English, in your inbox in two or three business days.</p>
+  </div>
+</header>
 
-  <div class="rule"></div>
+<figure class="page-photo"><picture><source type="image/avif" srcset="/images/bergen/glen-rock-station.avif"><img class="grey" src="/images/bergen/glen-rock-station.jpg" width="1600" height="1220" fetchpriority="high" alt="Glen Rock railroad station, a small stone depot with its name over the door, around 1910"></picture></figure>
 
-  <section>
-    <h2>What you get — the 3-point report</h2>
-    <div class="get">
-      <div class="it"><div class="g"></div><div><b>AI search</b><span>What ChatGPT, Gemini, Perplexity, and Google AI say when a customer asks for your service in your town — and who they name instead of you.</span></div></div>
-      <div class="it"><div class="g"></div><div><b>Google</b><span>Business Profile health, map-pack position for your top searches, and your reviews next to your three closest competitors.</span></div></div>
-      <div class="it"><div class="g"></div><div><b>Your website</b><span>Whether it loads fast on a phone, whether a customer can tap to call, and whether AI can read it at all. No site yet? That's part of the check.</span></div></div>
-      <div class="it"><div class="g"></div><div><b>Three things to fix</b><span>Specific, in order, with what you can do yourself and what's worth paying for.</span></div></div>
+<div class="wrap ax page-body">
+  <aside class="aside" aria-label="On this page">
+    <div class="plainnote"><p>No pitch. No call required. For Bergen County and North Jersey businesses.</p></div>
+    <div>
+      <h2>Talk to Spencer</h2>
+      <ol>
+        <li><a class="tl" href="tel:+12019033491">(201) 903-3491</a></li>
+        <li><a class="tl" href="mailto:spencerscottdigital@gmail.com">spencerscottdigital@gmail.com</a></li>
+        <li>Glen Rock, NJ</li>
+      </ol>
     </div>
-  </section>
+  </aside>
 
-  <section id="form">
-    <h2>Request your free check</h2>
-    <div class="form-card">
-      <span class="stamp">Free · 2–3 business days</span>
-      <!-- Tally embed. Replace EkRdOA. Hidden fields utm_source/utm_campaign/utm_content are filled from the URL by the script below. -->
+  <article class="prose">
+    <h2>What you get: the 3-point report</h2>
+    <div class="check-what">
+      <div><h3>AI search</h3><p>What ChatGPT, Gemini, Perplexity and Google AI say when a customer asks for your service in your town, and who they name instead of you.</p></div>
+      <div><h3>Google</h3><p>Business Profile health, map-pack position for your top searches, and your reviews next to your three closest competitors.</p></div>
+      <div><h3>Your website</h3><p>Whether it loads fast on a phone, whether a customer can tap to call, and whether AI can read it at all. No site yet? That's part of the check.</p></div>
+      <div><h3>Three things to fix</h3><p>Specific, in order, with what you can do yourself and what's worth paying for.</p></div>
+    </div>
+
+    <h2 id="form">Request your free check</h2>
+    <div class="ask-box form-card">
+      <p class="lead">Free. Back to you in two or three business days.</p>
+      <!-- Tally embed. Hidden fields utm_source/utm_campaign/utm_content are filled from the URL by the script below. -->
       <iframe id="tally" data-src="https://tally.so/embed/EkRdOA?alignLeft=1&hideTitle=1&transparentBackground=1&dynamicHeight=1" title="Free AI Visibility Check request" loading="lazy"></iframe>
-      <p class="alt">Prefer to skip the form? Text <a href="sms:+12019033491">(201) 903-3491</a> or email <a href="mailto:spencerscottdigital@gmail.com">spencerscottdigital@gmail.com</a> with your business name, town, and what you do.</p>
-    </div>
-  </section>
 
-  <section>
+      <p class="alt">Prefer to skip the form? Text <a class="tl" href="sms:+12019033491">(201) 903-3491</a> or email <a class="tl" href="mailto:spencerscottdigital@gmail.com">spencerscottdigital@gmail.com</a> with your business name, town, and what you do.</p>
+    </div>
+
     <h2>Who's behind it</h2>
-    <div class="who">
-      <div class="mark"></div>
-      <div>
-        <p>I'm Spencer, in Glen Rock. The check is run by AI tools I built for exactly this — then I read the results myself and write you what's actually worth doing. One person, one county, no sales team.</p>
-        <p class="sig">— Spencer, Spencer Scott Digital</p>
-      </div>
+    <div class="bio">
+      <img class="cap-img grey" src="/images/spencer/spencer-and-son-square.jpg" width="600" height="600" loading="lazy" alt="Spencer with his son">
+      <p>I'm Spencer, in Glen Rock. The check is run by AI tools I built for exactly this, then I read the results myself and write you what's actually worth doing. One person, one county, no sales team.</p>
+      <p class="sig">Spencer, Spencer Scott Digital</p>
     </div>
-  </section>
 
-  <section>
     <h2>Local work</h2>
-    <div class="proof">
-      <div class="c"><b>Vent Viper — Wyckoff</b><span>Dryer vent, gutter, and snow removal. New site built to get the phone ringing.</span></div>
-      <div class="c"><b>Pure Shield Restoration</b><span>Site, Google presence, and Meta ads for a mold and water-damage company.</span></div>
+    <div class="work2">
+      <figure><img src="/images/work/vv-home.jpg" width="1440" height="900" loading="lazy" alt="Vent Viper home page"><figcaption><b>Vent Viper, Wyckoff</b>Dryer vent, gutter, and snow removal. New site built to get the phone ringing.</figcaption></figure>
+      <figure><img src="/images/work/ps-home.jpg" width="1440" height="900" loading="lazy" alt="Pure Shield Restoration home page"><figcaption><b>Pure Shield Restoration</b>Site, Google presence, and Meta ads for a mold and water-damage company.</figcaption></figure>
     </div>
-  </section>
 
-  <section class="faq">
     <h2>Common questions</h2>
-    <details><summary>Is it really free?</summary><p>Yes. No credit card, no contract, no pitch meeting. If something in the report is worth paying for, I'll say so — and I'll also say what isn't.</p></details>
-    <details><summary>How long does it take?</summary><p>You'll have it in 2–3 business days. It arrives by email as a short, readable report.</p></details>
-    <details><summary>What happens after?</summary><p>Nothing, unless you want it to. Reply to the email or text me if you'd like help with any of it.</p></details>
-    <details><summary>Who qualifies?</summary><p>Any local business in Bergen County or Northern New Jersey — contractors, trades, medical and dental, restaurants, shops, services.</p></details>
-  </section>
-
-  <section style="padding-top:8px">
-    <div class="cta-row" style="margin-top:0"><a class="btn terra" href="#form">Request the free check →</a><a class="btn ghost" href="tel:+12019033491">Call or text (201) 903-3491</a></div>
-  </section>
-
-  <footer>Spencer Scott Digital · Glen Rock, NJ · <a href="tel:+12019033491">(201) 903-3491</a> · <a href="mailto:spencerscottdigital@gmail.com">spencerscottdigital@gmail.com</a> · <a href="/">ailocalbusiness.biz</a></footer>
+    <div class="faq">
+      <details open><summary>Is it really free?</summary><div class="a"><p>Yes. No credit card, no contract, no pitch meeting. If something in the report is worth paying for, I'll say so, and I'll also say what isn't.</p></div></details>
+      <details><summary>How long does it take?</summary><div class="a"><p>You'll have it in two or three business days. It arrives by email as a short, readable report.</p></div></details>
+      <details><summary>What happens after?</summary><div class="a"><p>Nothing, unless you want it to. Reply to the email or text me if you'd like help with any of it.</p></div></details>
+      <details><summary>Who qualifies?</summary><div class="a"><p>Any local business in Bergen County or Northern New Jersey: contractors, trades, medical and dental, restaurants, shops, services.</p></div></details>
+    </div>
+  </article>
 </div>
+
+<section aria-labelledby="h-close">
+  <div class="trio">
+    <img class="grey" src="/images/bergen/ridgewood-nj-downtown.jpg" width="1600" height="1200" loading="lazy" alt="Corner of downtown Ridgewood with a white three-storey building and shops at street level">
+    <img class="grey" src="/images/bergen/ridgewood-trolley.jpg" width="1600" height="1125" loading="lazy" alt="Paterson, Ridgewood and Suffern trolley car, around 1910">
+    <img class="grey" src="/images/bergen/ridgewood-sanborn-map-1928.jpg" width="1349" height="1600" loading="lazy" alt="1928 Sanborn insurance map of Ridgewood, Bergen County">
+  </div>
+  <div class="close">
+    <div class="wrap">
+      <h2 id="h-close">Find out where you stand.</h2>
+      <p class="say">Free, in plain English, and no obligation to do anything about it.</p>
+      <div class="act"><a class="button plain" href="#form">Request the free check</a><a class="tl" href="tel:+12019033491">or call or text (201) 903-3491</a></div>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer class="site-foot">
+  <div class="wrap">
+    <p class="fword">AI Local Business<i>.</i></p>
+    <div class="places"><a href="tel:+12019033491">(201) 903-3491</a><a href="mailto:spencerscottdigital@gmail.com">spencerscottdigital@gmail.com</a><span>Glen Rock, New Jersey</span></div>
+    <p class="legal">Spencer Scott Digital · <a class="tl" href="/">ailocalbusiness.biz</a></p>
+  </div>
+</footer>
 
 <script>
 // Pass UTM + page source into Tally hidden fields, then load the embed.
