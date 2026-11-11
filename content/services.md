@@ -9,6 +9,8 @@ keywords:
   - local SEO Bergen County
   - AI search optimization
   - ChatGPT business listing
+  - ChatGPT business profile setup
+  - claim business on ChatGPT
   - website design Bergen County
   - local digital marketing NJ
   - Google Business Profile optimization
@@ -52,6 +54,19 @@ The new frontier — and almost nobody in your market is doing it yet.
 - **Content optimization for AI citations** — Creating content that AI models reference and cite when answering questions about your industry
 - **Brand mention monitoring** — Tracking how and where your business appears in AI-generated responses
 - **Competitive AI positioning** — Understanding where you stand relative to competitors in AI search results
+
+---
+
+## ChatGPT Business Profile {#chatgpt-business-profile}
+
+New in November 2026: ChatGPT lets businesses claim their own profile. Most local businesses haven't claimed theirs yet.
+
+- **Find and claim your listing** in your name, on an account you control
+- **Get through verification,** including OpenAI's ID check
+- **Fill out your profile** so it matches your Google profile and website
+- **Check what ChatGPT says** about you before and after, and explain your first numbers
+
+**[See how ChatGPT profile setup works →](/chatgpt-business-profile/)**
 
 ---
 

@@ -13,6 +13,7 @@ Contact: spencerscottdigital@gmail.com | Phone: (561) 212-8244 | Website: https:
 - [Services](https://ailocalbusiness.biz/services/): Full list of local SEO, website, and AI search optimization services offered
 - [About](https://ailocalbusiness.biz/about/): Background on Spencer Scott and the agency's approach
 - [Free AI Search Audit](https://ailocalbusiness.biz/audit/): Free audit offering for local businesses to see how they appear in AI search results
+- [ChatGPT Business Profile Setup](https://ailocalbusiness.biz/chatgpt-business-profile/): Finding, claiming, verifying and filling out a local business's profile in ChatGPT Business Hub
 
 ## Blog Posts
 
@@ -20,6 +21,11 @@ Contact: spencerscottdigital@gmail.com | Phone: (561) 212-8244 | Website: https:
 - [How to Get Your Business on ChatGPT](https://ailocalbusiness.biz/blog/how-to-get-your-business-on-chatgpt/): Guide for local businesses on appearing in AI-generated answers
 - [What Is AI Search Optimization?](https://ailocalbusiness.biz/blog/what-is-ai-search-optimization/): Explainer on AEO and why it matters for local businesses
 - [Local SEO Basics for Bergen County](https://ailocalbusiness.biz/blog/local-seo-basics-bergen-county/): Foundation guide for Bergen County businesses getting started with local SEO
+
+- [How to Claim Your Business on ChatGPT](https://ailocalbusiness.biz/blog/how-to-claim-your-business-on-chatgpt/): Step-by-step guide to claiming and verifying a business in ChatGPT Business Hub
+- [Does Your Local Business Need a ChatGPT Business Profile?](https://ailocalbusiness.biz/blog/chatgpt-business-profile-local-business/): What a ChatGPT business profile does and doesn't do for a local business
+- [Can't Find Your Business in ChatGPT Business Hub?](https://ailocalbusiness.biz/blog/cant-find-business-chatgpt-business-hub/): What to do when a listing is missing, locked, or claimed by someone else
+- [ChatGPT Business Profile vs. Google Business Profile](https://ailocalbusiness.biz/blog/chatgpt-business-profile-vs-google-business-profile/): How the two profiles compare for a local business
 
 ## Optional
 
