@@ -3,17 +3,11 @@
 <footer class="site-foot" aria-labelledby="h-foot">
   <div class="wrap">
     <h2 id="h-foot" class="fword">AI Local Business<i>.</i></h2>
-    {{- if and (eq site.Params.ssdgVariant "d") .IsHome }}
-    <p class="ssdg-fby">A Spencer Scott Digital business, out of Glen Rock.</p>
-    {{- end }}
     <div class="grid frow">
       <div class="places">
         <a href="tel:+12019033491" onclick="return gtag_report_conversion('tel:+12019033491');">(201) 903-3491</a>
         <a href="mailto:spencerscottdigital@gmail.com">spencerscottdigital@gmail.com</a>
         <span>Glen Rock, New Jersey</span>
-        {{- if and (eq site.Params.ssdgVariant "d") .IsHome }}
-        {{ partial "ssdg/social.html" (dict "labels" true) }}
-        {{- end }}
       </div>
       <div class="fcols">
         <div><h3>Services</h3><ul>

@@ -12,17 +12,13 @@
 
     <div class="wrap ax hero">
       <div class="hero-side">
-        {{- if eq site.Params.ssdgVariant "c" }}
         <div class="ssdg-hero" data-rise style="--i:0">{{ partial "ssdg/stamp.html" . }}<p>AI Local Business is how <b>Spencer Scott Digital</b> helps the businesses around Glen Rock.</p></div>
-        {{- end }}
         <p class="stand" data-rise style="--i:0">I get Bergen County businesses found on Google and in ChatGPT answers, and build websites that turn those searches into calls.</p>
         <div class="hero-act" data-rise style="--i:1">
           <a class="button" href="/audit/" onclick="return gtag_report_conversion('/audit/');">Get your free presence check</a>
           <a class="tl" href="tel:+12019033491" onclick="return gtag_report_conversion('tel:+12019033491');">or call (201) 903-3491</a>
         </div>
-        {{- if eq site.Params.ssdgVariant "c" }}
         <p class="ssdg-follow" data-rise style="--i:2">Follow along {{ partial "ssdg/social.html" (dict "labels" true) }}</p>
-        {{- end }}
       </div>
       <h1 id="h-hero" class="lines">
         <span class="line"><span data-line style="--i:0">Get found in</span></span>
@@ -185,10 +181,6 @@
       <span><b>Based in</b>Glen Rock, NJ</span>
       <span><b>Doing this</b>Over ten years</span>
       <span><b>Reach me</b><a class="tl" href="tel:+12019033491" onclick="return gtag_report_conversion('tel:+12019033491');">(201) 903-3491</a></span>
-      {{- if eq site.Params.ssdgVariant "d" }}
-      <span><b>My company</b>Spencer Scott Digital</span>
-      <span><b>Follow along</b>{{ partial "ssdg/social.html" (dict "labels" true) }}</span>
-      {{- end }}
     </div>
     <div class="bio">
       <h2 id="h-about" data-reveal>Spencer, in Glen Rock.</h2>

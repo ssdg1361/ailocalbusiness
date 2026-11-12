@@ -44,16 +44,12 @@ ignoreFiles = ["\\.DS_Store$"]
   tocopen = false
   mainSections = ["blog"]
 
-  # Profiles for the homepage schema's sameAs. Add the Google Business Profile share link here.
   # Spencer Scott Digital's social profiles (used on the homepage).
   [params.social]
     facebook = "https://www.facebook.com/1111443192054030"
     instagram = "https://www.instagram.com/spencerscottdigital/"
 
-  # Which Spencer Scott Digital treatment the homepage shows while options are compared:
-  # "" (none), "a" header byline, "b" top strip, "c" hero stamp, "d" about and footer.
-  ssdgVariant = ""
-
+  # Profiles for the homepage schema's sameAs. Add the Google Business Profile share link here.
   [params.schema]
     sameAs = ["https://www.facebook.com/1111443192054030"]
 
