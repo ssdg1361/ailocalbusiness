@@ -37,7 +37,7 @@ In November 2026, OpenAI opened **Business Hub**, a place inside ChatGPT where b
 
 **I'll get yours claimed in your name, verified, filled out, and checked against what ChatGPT actually tells people.** It's new, so I'll also be straight about what it does and doesn't do.
 
-**Price:** [PRICE TBD]
+**Price:** Starts at $300. It varies a little with how many locations you have and how much of your profile needs work, and I'll give you a set price after the free check.
 
 ---
 
