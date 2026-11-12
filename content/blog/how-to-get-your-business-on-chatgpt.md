@@ -26,7 +26,7 @@ faq:
   - question: "How do I make my business visible in ChatGPT?"
     answer: "Make your business easy for AI to find, understand, and trust: a clear website stating exactly what you do and where, recent and plentiful reviews, consistent listings across directories, schema markup, and helpful content answering real customer questions. ChatGPT builds answers from the open web, so a strong, well-described online presence is what gets you recommended."
   - question: "How do I get my business listed on ChatGPT?"
-    answer: "Since November 2026, ChatGPT has Business Hub, where owners can claim their business and manage its profile. Local stores and restaurants can claim an existing U.S. listing there. Claiming doesn't guarantee more visibility, though. ChatGPT still builds its recommendations from your website, Google Business Profile, reviews and directory listings, so those need to be consistent and accurate too. See how to claim your business on ChatGPT on this blog for the steps."
+    answer: "Since November 2026, ChatGPT has Business Hub, in beta, where owners can claim their business and manage its profile. Local stores and restaurants can claim an existing U.S. listing there. Claiming doesn't guarantee more visibility, though. ChatGPT still builds its recommendations from your website, Google Business Profile, reviews and directory listings, so those need to be consistent and accurate too."
 ---
 
 Something is changing in how people find local businesses, and most owners haven't noticed yet.

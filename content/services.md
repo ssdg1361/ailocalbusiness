@@ -59,7 +59,7 @@ The new frontier — and almost nobody in your market is doing it yet.
 
 ## ChatGPT Business Profile {#chatgpt-business-profile}
 
-New in November 2026: ChatGPT lets businesses claim their own profile. Most local businesses haven't claimed theirs yet.
+New in November 2026, and still in beta: ChatGPT now lets businesses claim their own profile and manage the basic details it shows.
 
 - **Find and claim your listing** in your name, on an account you control
 - **Get through verification,** including OpenAI's ID check

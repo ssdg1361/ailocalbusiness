@@ -1,6 +1,6 @@
 ---
 title: "ChatGPT Business Profile Setup for Local Businesses | Bergen County, NJ"
-description: "ChatGPT now lets businesses claim their own profile. I find your listing, get it claimed and verified in your name, fill it out right, and check what ChatGPT shows. Bergen County and North Jersey."
+description: "ChatGPT now lets businesses claim their own profile. I find your listing, get it claimed and verified in your name, fill it out, and check what ChatGPT shows. Bergen County and North Jersey."
 url: /chatgpt-business-profile/
 layout: "single"
 hidemeta: true
@@ -18,22 +18,24 @@ photo:
   alt: "Corner of downtown Ridgewood with a white three-storey building and shops at street level"
 faq:
   - question: "Can I claim my business on ChatGPT myself?"
-    answer: "Yes. You sign in to ChatGPT, open Business Hub from the sidebar, search for your business and verify with one of the methods it offers. Plenty of owners will do it in an afternoon. Where I help is finding a listing that won't come up, getting through verification when it stalls, filling the profile out properly, and checking what ChatGPT actually says about you afterward."
+    answer: "Yes. You sign in to ChatGPT, open Business Hub from the sidebar, search for your business and verify with one of the methods it offers. Where I help is getting through verification and the ID check, filling the profile out so it matches your other listings, and checking what ChatGPT actually says about you afterward."
   - question: "Does claiming my profile make ChatGPT recommend me more?"
-    answer: "No, not on its own. OpenAI says plainly that claiming doesn't guarantee more visibility, and that ads don't change ChatGPT's own answers. What claiming gives you is control over the details ChatGPT shows about you, a verified badge, and numbers on how often you come up. The recommendations still come from your reviews, your listings and your website."
+    answer: "No, not on its own. OpenAI says claiming doesn't guarantee more visibility, and that ads don't change ChatGPT's own answers. What claiming gives you is a say in the details ChatGPT shows about you, a verified badge once you pass the ID check, and some numbers on how often you come up."
   - question: "Who owns the profile if you set it up?"
-    answer: "You do. The claim goes on a ChatGPT account you control, and you do the ID check yourself. I get added as your agency, which OpenAI supports. If we ever stop working together, you remove me and nothing else changes."
+    answer: "You do. The claim goes on a ChatGPT account you control, and you do the ID check yourself. OpenAI lets an owner give an agency access from their own account, so that's how I'd be added. If we stop working together, you remove me."
   - question: "What do I need to have ready?"
-    answer: "A ChatGPT account for the business, access to the business phone or email that ChatGPT has on file, and a government-issued ID for the identity check. OpenAI may also ask for business registration details. Your name, address and any registration or tax number need to match your official records."
-  - question: "My business isn't showing up in Business Hub. Can you still help?"
-    answer: "Often, yes. Right now local stores and restaurants can only claim a listing ChatGPT already has, and only in the U.S. If yours isn't there, or it shows Contact support, the fix is usually on your other listings and on OpenAI's support side. I'll work through both and tell you honestly if it's a wait."
-  - question: "How much does ChatGPT charge for a business profile?"
-    answer: "You don't need to buy ads or sign an enterprise deal to claim your business. Early reports say claiming and managing a profile is free for now, and OpenAI could change that later."
+    answer: "A ChatGPT account for the business, access to the business phone or email ChatGPT has on file (or your website's domain settings), and a government-issued ID for the identity check. OpenAI may also ask for business registration details. Your business name, address and any registration or tax number need to match your official records."
+  - question: "What if my business isn't in Business Hub?"
+    answer: "OpenAI's help page says local stores and restaurants can currently claim only an existing U.S. listing. If yours isn't there yet, there's nothing to claim, and I'll tell you that plainly instead of selling you a setup."
+  - question: "Does OpenAI charge for a business profile?"
+    answer: "OpenAI's help page doesn't list a fee for claiming or managing a profile, and news coverage of the launch describes it as free. It's in beta, so that could change."
 ---
 
-ChatGPT now has a place for businesses to claim their own profile. It's called Business Hub, and it opened in November 2026. When someone asks ChatGPT for a plumber or a bakery in your town, the details it shows about your business can now come from you.
+In November 2026, OpenAI opened **Business Hub**, a place inside ChatGPT where business owners can claim their listing and manage the basic details ChatGPT shows about them. It's still in beta.
 
-**Most local businesses haven't claimed theirs yet.** I'll get yours claimed in your name, verified, filled out properly, and checked against what ChatGPT actually tells people.
+{{< figure src="/images/chatgpt-business/business-hub-search.webp" alt="ChatGPT Business Hub search box with a list of matching business listings, each showing a name and address" caption="Business Hub search. You look up your business by name and pick the matching listing." attr="Screenshot: Search Engine Roundtable, CC BY 3.0" attrlink="https://www.seroundtable.com/chatgpt-business-hub-42505.html" >}}
+
+**I'll get yours claimed in your name, verified, filled out, and checked against what ChatGPT actually tells people.** It's new, so I'll also be straight about what it does and doesn't do.
 
 **Price:** [PRICE TBD]
 
@@ -41,20 +43,20 @@ ChatGPT now has a place for businesses to claim their own profile. It's called B
 
 ## What you get
 
-- **Your listing found.** I search for it the way ChatGPT shows it, including under old names, old addresses and the phone number on file.
-- **The claim filed in your name.** On a ChatGPT account you control, with the verification method that works for your setup: business phone, business email, or your website's DNS.
-- **Help with the ID check.** OpenAI asks the owner to verify with Persona before you can edit anything. I'll tell you exactly what to have ready so it goes through the first time.
-- **A profile that's filled out.** Description, category, website, logo and cover photo, written so they match your Google profile and your website word for word.
-- **A before and after.** I ask ChatGPT the questions your customers ask, in the towns you serve, before and after the profile goes live, and send you what changed.
-- **Your first numbers explained.** Business Hub shows mentions, website clicks and discovery topics for the last 28 days. I'll tell you what they mean and what they don't.
+- **Your listing found.** I search Business Hub for your business and confirm it's the right listing before anything gets claimed.
+- **The claim filed in your name.** On a ChatGPT account you control, using whichever verification ChatGPT offers you: a text or call to the business phone, a code to the business email, or a record added to your website's DNS.
+- **Help with the ID check.** OpenAI asks for a government ID check through Persona before you can edit your profile. I'll tell you what to have ready.
+- **A profile that's filled out.** Description, category, website, logo and cover photo, written to match your Google profile and your website.
+- **A before and after.** I ask ChatGPT the questions your customers ask, in the towns you serve, before and after, and send you what changed.
+- **Your first numbers explained.** Business Hub reports things like mentions and website clicks. Early on they're often blank, and OpenAI says blank doesn't mean zero.
 
 ---
 
 ## What it won't do
 
-I'd rather say this up front. **Claiming your profile doesn't push you up in ChatGPT's answers.** OpenAI says so directly. It makes sure the facts are right and lets you see how often you come up.
+I'd rather say this up front. **OpenAI says claiming doesn't guarantee more visibility.** It makes sure the details are yours and lets you see how often you come up.
 
-Who ChatGPT recommends still comes down to the same things as Google: your reviews, your listings, and a website that says clearly what you do and where. That's why I usually pair this with a look at your [Google Business Profile and website](/services/). If the profile is the only thing that's off, this is a small job. If more is off, I'll show you.
+Who ChatGPT recommends still comes from what it can read about you elsewhere: your reviews, your listings, and a website that says clearly what you do and where. That's why I usually pair this with a look at your [Google Business Profile and website](/services/). If the profile is the only thing that's off, this is a small job. If more is off, I'll show you.
 
 ---
 
@@ -62,9 +64,11 @@ Who ChatGPT recommends still comes down to the same things as Google: your revie
 
 **1. Free check.** I look up how ChatGPT and Google describe your business today. [Get your free presence check](/audit/).
 
-**2. Claim and verify.** We set up the account together. You handle the ID check, I handle the rest. OpenAI reviews each claim and emails a decision. Review times vary.
+**2. Claim and verify.** We set up the account together. You handle the ID check, I handle the rest. OpenAI reviews each claim and emails a decision.
 
-**3. Fill it out.** Once you're approved, I write and submit your profile details. OpenAI reviews changes before they show, so it can take a little while to appear.
+{{< figure src="/images/chatgpt-business/business-hub-claim-review.webp" alt="Business Hub screen reading We're reviewing your claim, with steps for claim received, review in progress and decision reached" caption="After you claim, OpenAI reviews it before you get access." attr="Screenshot: Search Engine Roundtable, CC BY 3.0" attrlink="https://www.seroundtable.com/chatgpt-business-hub-42505.html" >}}
+
+**3. Fill it out.** Once you're approved and verified, I write and submit your profile details. OpenAI reviews changes before they show, so it can take a little while.
 
 **4. Check it.** I ask ChatGPT about your business from a few towns and send you what it says now.
 
@@ -72,9 +76,13 @@ Who ChatGPT recommends still comes down to the same things as Google: your revie
 
 ## Good to know
 
-- **It's a U.S. thing for now.** Local stores and restaurants can only claim a listing that already exists, and only in the U.S.
-- **Each location is separate.** If you have two shops, each gets its own claim. Claiming one doesn't claim the other.
-- **Published profiles stay published.** OpenAI's support team can't delete or hide one. Only drafts can be removed, so it's worth getting it right before it goes live.
-- **The ChatGPT sales agent isn't for most local businesses.** OpenAI's business agent is only for U.S. online stores and online service businesses for now. It also can't take bookings.
+These come from OpenAI's own help page, and they may change while it's in beta.
 
-Want the details first? I wrote up [how to claim your business on ChatGPT](/blog/how-to-claim-your-business-on-chatgpt/) step by step, and [what to do if you can't find your listing](/blog/cant-find-business-chatgpt-business-hub/).
+- **Existing U.S. listings only, for now.** Local stores and restaurants can claim only a listing ChatGPT already has, in the U.S.
+- **Each location is separate.** If you have two shops, each one is claimed on its own.
+- **Published profiles stay published.** OpenAI's support team can't delete or hide one, so it's worth getting right before it goes live.
+- **The ChatGPT sales agent isn't for most local businesses.** OpenAI's business agent is for U.S. online stores and online service businesses, and it can't take bookings.
+
+{{< figure src="/images/chatgpt-business/business-hub-overview.webp" alt="Business Hub dashboard with a banner asking to verify identity with a government-issued ID, and blank tiles for mentions, profile views and website clicks" caption="The Business Hub dashboard. The ID check banner sits on top, and the numbers start out blank." attr="Screenshot: Search Engine Roundtable, CC BY 3.0" attrlink="https://www.seroundtable.com/chatgpt-business-hub-42505.html" >}}
+
+Wondering whether it's worth it for you? I wrote up [does your local business need a ChatGPT business profile?](/blog/chatgpt-business-profile-local-business/)
