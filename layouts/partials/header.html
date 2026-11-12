@@ -1,6 +1,13 @@
 {{- $here := .RelPermalink }}
+{{- $v := site.Params.ssdgVariant }}
+{{- if and (eq $v "b") .IsHome }}
+<div class="ssdg-strip wrap">
+  <p><span class="long">AI Local Business is run by <b>Spencer Scott Digital</b>, here in Glen Rock. Follow along</span><span class="short">A <b>Spencer Scott Digital</b> business</span></p>
+  {{ partial "ssdg/social.html" (dict "labels" true) }}
+</div>
+{{- end }}
 <header class="wrap ax site-top">
-  <a class="word" href="{{ "" | absLangURL }}" accesskey="h">AI Local Business<i>.</i></a>
+  <a class="word" href="{{ "" | absLangURL }}" accesskey="h">AI Local Business<i>.</i>{{ if and (eq $v "a") .IsHome }}<small class="ssdg-by">by Spencer Scott Digital</small>{{ end }}</a>
   <nav aria-label="Main">
     <ul id="site-menu">
       <li><a href="/services/"{{ if eq $here "/services/" }} aria-current="page"{{ end }}>Services</a></li>
@@ -8,6 +15,7 @@
       <li><a href="/about/"{{ if eq $here "/about/" }} aria-current="page"{{ end }}>About</a></li>
       <li><a href="/search/"{{ if eq $here "/search/" }} aria-current="page"{{ end }}>Search</a></li>
     </ul>
+    {{- if and (eq $v "a") .IsHome }}{{ partial "ssdg/social.html" (dict) }}{{ end }}
     <a class="button" href="/audit/" onclick="return gtag_report_conversion('/audit/');">Free presence check</a>
     <button class="menu-btn" type="button" aria-expanded="false" aria-controls="site-menu">Menu</button>
   </nav>
