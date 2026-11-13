@@ -32,6 +32,8 @@ When someone asks ChatGPT for a roofer in Ridgewood or a bakery in Fair Lawn, it
 
 It's the same idea as Google Business Profile, much earlier in its life.
 
+{{< figure src="/images/chatgpt-business/openai-introducing-businesses.webp" alt="OpenAI's announcement graphic reading Introducing Businesses in ChatGPT, with a blue checkmark" caption="OpenAI's announcement graphic for businesses in ChatGPT." attr="Image: OpenAI" >}}
+
 ## What it does for a local business
 
 - **The details come from you.** Your description, your website, your category.
@@ -39,7 +41,7 @@ It's the same idea as Google Business Profile, much earlier in its life.
 - **You see how often you come up.** Business Hub reports mentions, website clicks and the general topics you came up for. You see topics, not what people actually typed.
 - **You hold the claim.** If someone else claims it first, you'd have to dispute it.
 
-{{< figure src="/images/chatgpt-business/business-hub-overview.webp" alt="Business Hub dashboard with a banner asking to verify identity with a government-issued ID, and blank tiles for mentions, profile views and website clicks" caption="What an owner sees after claiming: an ID check banner, then numbers that start out blank." attr="Screenshot: Search Engine Roundtable, CC BY 3.0" attrlink="https://www.seroundtable.com/chatgpt-business-hub-42505.html" >}}
+{{< figure src="/images/chatgpt-business/openai-insights-dashboard.webp" alt="Business Hub insights for an example toy shop, showing mentions, profile views, website clicks and a mentions chart over time" caption="What the numbers look like, on OpenAI's example business. A new local profile often starts out blank." attr="Image: OpenAI" >}}
 
 ## What it doesn't do
 

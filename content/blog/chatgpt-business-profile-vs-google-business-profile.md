@@ -23,7 +23,7 @@ faq:
 
 ChatGPT now lets businesses claim a profile, and the first question I get is whether it's the same thing as Google Business Profile. **It's the same idea, for a different place. You want both, and Google still comes first.**
 
-{{< figure src="/images/chatgpt-business/business-hub-search.webp" alt="ChatGPT Business Hub search box with a list of matching business listings, each showing a name and address" caption="ChatGPT's Business Hub search, where owners look up and claim their listing." attr="Screenshot: Search Engine Roundtable, CC BY 3.0" attrlink="https://www.seroundtable.com/chatgpt-business-hub-42505.html" >}}
+{{< figure src="/images/chatgpt-business/ailb-business-hub-search.webp" alt="ChatGPT Business Hub search box with ailocalbusiness.biz typed in and the AI Local Business listing in the results" caption="ChatGPT's Business Hub search, where owners look up and claim their listing. This is my own business." attr="Screenshot: AI Local Business" >}}
 
 ## Side by side
 

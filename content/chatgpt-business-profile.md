@@ -33,7 +33,7 @@ faq:
 
 In November 2026, OpenAI opened **Business Hub**, a place inside ChatGPT where business owners can claim their listing and manage the basic details ChatGPT shows about them. It's still in beta.
 
-{{< figure src="/images/chatgpt-business/business-hub-search.webp" alt="ChatGPT Business Hub search box with a list of matching business listings, each showing a name and address" caption="Business Hub search. You look up your business by name and pick the matching listing." attr="Screenshot: Search Engine Roundtable, CC BY 3.0" attrlink="https://www.seroundtable.com/chatgpt-business-hub-42505.html" >}}
+{{< figure src="/images/chatgpt-business/openai-claim-profile.webp" alt="ChatGPT screen titled Claim Colorful Clatter's profile on ChatGPT, listing see how customers engage, help customers discover what you offer, and get a blue checkmark, with a Claim profile button" caption="The claim screen, shown on OpenAI's example business." attr="Image: OpenAI" >}}
 
 **I'll get yours claimed in your name, verified, filled out, and checked against what ChatGPT actually tells people.** It's new, so I'll also be straight about what it does and doesn't do.
 
@@ -64,9 +64,9 @@ Who ChatGPT recommends still comes from what it can read about you elsewhere: yo
 
 **1. Free check.** I look up how ChatGPT and Google describe your business today. [Get your free presence check](/audit/).
 
-**2. Claim and verify.** We set up the account together. You handle the ID check, I handle the rest. OpenAI reviews each claim and emails a decision.
+**2. Claim and verify.** We set up the account together and find your listing. You handle the ID check, I handle the rest. OpenAI reviews each claim and emails a decision.
 
-{{< figure src="/images/chatgpt-business/business-hub-claim-review.webp" alt="Business Hub screen reading We're reviewing your claim, with steps for claim received, review in progress and decision reached" caption="After you claim, OpenAI reviews it before you get access." attr="Screenshot: Search Engine Roundtable, CC BY 3.0" attrlink="https://www.seroundtable.com/chatgpt-business-hub-42505.html" >}}
+{{< figure src="/images/chatgpt-business/ailb-business-hub-search.webp" alt="ChatGPT Business Hub search box with ailocalbusiness.biz typed in and the AI Local Business listing in the results" caption="Business Hub search. I typed in my own site, and the AI Local Business listing came up." attr="Screenshot: AI Local Business" >}}
 
 **3. Fill it out.** Once you're approved and verified, I write and submit your profile details. OpenAI reviews changes before they show, so it can take a little while.
 
@@ -83,6 +83,6 @@ These come from OpenAI's own help page, and they may change while it's in beta.
 - **Published profiles stay published.** OpenAI's support team can't delete or hide one, so it's worth getting right before it goes live.
 - **The ChatGPT sales agent isn't for most local businesses.** OpenAI's business agent is for U.S. online stores and online service businesses, and it can't take bookings.
 
-{{< figure src="/images/chatgpt-business/business-hub-overview.webp" alt="Business Hub dashboard with a banner asking to verify identity with a government-issued ID, and blank tiles for mentions, profile views and website clicks" caption="The Business Hub dashboard. The ID check banner sits on top, and the numbers start out blank." attr="Screenshot: Search Engine Roundtable, CC BY 3.0" attrlink="https://www.seroundtable.com/chatgpt-business-hub-42505.html" >}}
+{{< figure src="/images/chatgpt-business/ailb-business-hub.webp" alt="AI Local Business page in ChatGPT Business Hub, with a banner to verify identity with a government-issued ID and blank tiles for mentions, profile views and website clicks" caption="My own business in Business Hub. The ID check comes first, and the numbers start out blank." attr="Screenshot: AI Local Business" >}}
 
 Wondering whether it's worth it for you? I wrote up [does your local business need a ChatGPT business profile?](/blog/chatgpt-business-profile-local-business/)
