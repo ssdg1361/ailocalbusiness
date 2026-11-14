@@ -68,7 +68,7 @@ More of your potential customers are using Google's AI results, ChatGPT, and Gem
 </div>
 {{< /rawhtml >}}
 
-## Request your free check
+## Request your free check {#form}
 
 {{< rawhtml >}}
 <div class="ask-box">

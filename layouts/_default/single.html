@@ -14,6 +14,10 @@
         <span>By Spencer, Glen Rock NJ</span>
       </p>
       <a class="button" href="/audit/" onclick="return gtag_report_conversion('/audit/');">Free presence check</a>
+      {{- else if eq .RelPermalink "/audit/" }}
+      {{- /* On the free check page itself, the button goes down to the form instead of reloading the page. */}}
+      <a class="button" href="#form">Free presence check</a>
+      <a class="tl" href="tel:+12019033491" onclick="return gtag_report_conversion('tel:+12019033491');">or call (201) 903-3491</a>
       {{- else }}
       <a class="button" href="/audit/" onclick="return gtag_report_conversion('/audit/');">Free presence check</a>
       <a class="tl" href="tel:+12019033491" onclick="return gtag_report_conversion('tel:+12019033491');">or call (201) 903-3491</a>
