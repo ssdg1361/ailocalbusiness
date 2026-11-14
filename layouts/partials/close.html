@@ -10,7 +10,7 @@
     <div class="wrap grid">
       <div class="lhs">
         <h2 id="h-close" data-reveal>{{ $h }}</h2>
-        <p class="say" data-reveal style="--i:1">I&rsquo;ll check Google, your website and what AI says about you, then send you what I find. <a href="/audit/" onclick="return gtag_report_conversion('/audit/');">Ask for your free check.</a></p>
+        <p class="say" data-reveal style="--i:1">I&rsquo;ll check Google, your website and what AI says about you, then send you what I find. {{ if .onAudit }}<a href="#form">Ask for your free check.</a>{{ else }}<a href="/audit/" onclick="return gtag_report_conversion('/audit/');">Ask for your free check.</a>{{ end }}</p>
         <p class="small-lines" data-reveal style="--i:2">No pitch and no obligation to do anything about it. Most checks are back to you in two or three business days.</p>
       </div>
       <div class="rhs" data-reveal style="--i:3">

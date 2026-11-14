@@ -118,6 +118,6 @@
 {{- end }}
 {{- end }}
 
-{{ partial "close.html" (dict "heading" (cond $isPost "Want this looked at for your business?" "Find out where you stand.")) }}
+{{ partial "close.html" (dict "heading" (cond $isPost "Want this looked at for your business?" "Find out where you stand.") "onAudit" (eq .RelPermalink "/audit/")) }}
 
 {{- end }}
