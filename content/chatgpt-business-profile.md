@@ -1,6 +1,6 @@
 ---
 title: "ChatGPT Business Profile Setup for Local Businesses | Bergen County, NJ"
-description: "ChatGPT now lets businesses claim their own profile and see how it performs. It's quickly becoming as important as your Google listing, and I help you get it right."
+description: "ChatGPT now lets businesses claim their own profile and see how it performs. I help local businesses get theirs claimed, set up right, and ready for customers asking ChatGPT who to call."
 url: /chatgpt-business-profile/
 layout: "single"
 hidemeta: true
