@@ -1,7 +1,9 @@
 ---
 title: "Free Online Presence Check for Your Business"
-description: "Find out exactly how your business shows up on Google, ChatGPT, Gemini, and AI search — completely free. For Bergen County and northern NJ businesses."
+description: "Find out exactly how your business shows up on Google, ChatGPT, Gemini, and AI search, completely free. For Bergen County and northern NJ businesses."
 url: /audit/
+ogImage: "images/og/ailb-share-free-check.jpg"
+ogImageAlt: "Is your business showing up? Google, ChatGPT, your website. Get the free check from AI Local Business."
 layout: "single"
 hidemeta: true
 showtoc: false
