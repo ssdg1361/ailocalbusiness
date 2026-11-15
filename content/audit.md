@@ -88,11 +88,14 @@ More of your potential customers are using Google's AI results, ChatGPT, and Gem
   <p class="note">No credit card, no contract, no pitch meeting. Just useful information about where your business stands online.</p>
 </div>
 <script>
-// Carry any UTMs into the Tally hidden fields, tag the source page, then load the embed.
+// Carry UTMs into the Tally hidden fields (from this URL, or saved from the page they landed on), tag the source page, then load the embed.
 (function(){
   var f=document.getElementById('tally'); if(!f) return;
   var p=new URLSearchParams(location.search), q=[];
-  ['utm_source','utm_medium','utm_campaign','utm_content','utm_term'].forEach(function(k){ if(p.get(k)) q.push(k+'='+encodeURIComponent(p.get(k))); });
+  var k=['utm_source','utm_medium','utm_campaign','utm_content','utm_term'],s={};
+  var fromUrl=k.some(function(x){return p.get(x);});
+  if(!fromUrl){try{var j=JSON.parse(localStorage.getItem('ailb_utm')||'null');if(j){if(Date.now()-j.t<2592e6){s=j;}}}catch(e){}}
+  k.forEach(function(x){var v=fromUrl?p.get(x):s[x];if(v) q.push(x+'='+encodeURIComponent(v));});
   q.push('page=audit');
   f.src=f.getAttribute('data-src')+'&'+q.join('&');
 })();

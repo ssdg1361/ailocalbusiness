@@ -66,6 +66,16 @@ fbq('track', 'PageView');
 </script>
 <noscript><img height="1" width="1" style="display:none" alt="" src="https://www.facebook.com/tr?id=1533221338488352&ev=PageView&noscript=1"></noscript>
 
+{{/* Keep UTMs from the page someone lands on (30 days, this browser only), so the
+     free check form on /audit/ or /ai-check/ still gets them after they click around */}}
+<script>
+(function(){try{
+  var p=new URLSearchParams(location.search),o={},n=0;
+  ['utm_source','utm_medium','utm_campaign','utm_content','utm_term'].forEach(function(k){var v=p.get(k);if(v){o[k]=v;n++;}});
+  if(n){o.t=Date.now();localStorage.setItem('ailb_utm',JSON.stringify(o));}
+}catch(e){}})();
+</script>
+
 {{/* Local Business Schema.org structured data - homepage only */}}
 {{ if .IsHome }}
 <script type="application/ld+json">
