@@ -1,29 +1,28 @@
 {{- define "main" }}
 
-  <section aria-labelledby="h-hero">
+  <section class="hero-b wrap" aria-labelledby="h-hero">
     <div class="mast">
-      <figure class="m-rock" style="--i:0"><picture><source srcset="/images/bergen/glen-rock-boulder.avif" type="image/avif"><img src="/images/bergen/glen-rock-boulder.jpg" width="1600" height="1067" fetchpriority="high" alt="The Glen Rock, a house-sized boulder on a traffic island at Doremus Avenue and Rock Road, Glen Rock, New Jersey"></picture></figure>
-      <figure class="m-station" style="--i:1"><picture><source srcset="/images/bergen/glen-rock-station.avif" type="image/avif"><img src="/images/bergen/glen-rock-station.jpg" width="1600" height="1220" alt="Glen Rock railroad station, a small stone depot with its name over the door, around 1910"></picture></figure>
-      <figure class="m-card" style="--i:2"><picture><source srcset="/images/bergen/bergen-motors-postcard.avif" type="image/avif"><img src="/images/bergen/bergen-motors-postcard.jpg" width="1500" height="953" alt="Postcard of Bergen Motors, a 1950s Dodge and Plymouth dealership in Bergenfield, New Jersey"></picture></figure>
-      <figure class="m-clip" style="--i:3"><video autoplay muted loop playsinline preload="metadata" poster="/media/solari-board-poster.jpg" width="854" height="480" aria-hidden="true"><source src="/media/solari-board.webm" type="video/webm"></video></figure>
-      <div class="m-yellow" style="--i:4"></div>
-      <div class="m-note" style="--i:5"><p>The Glen Rock, Doremus Avenue at Rock Road. 570 tons, and a Lenape trail marker long before there were roads.</p></div>
+      <figure class="m-station" style="--i:0"><picture><source srcset="/images/bergen/glen-rock-station.avif" type="image/avif"><img src="/images/bergen/glen-rock-station.jpg" width="1600" height="1220" alt="Glen Rock railroad station, a small stone depot with its name over the door, around 1910"></picture></figure>
+      <div class="m-yellow" style="--i:1"></div>
+      <figure class="m-clip" style="--i:2"><video autoplay muted loop playsinline preload="metadata" poster="/media/solari-board-poster.jpg" width="854" height="480" aria-hidden="true"><source src="/media/solari-board.webm" type="video/webm"></video></figure>
+      <figure class="m-rock" style="--i:3"><picture><source srcset="/images/bergen/glen-rock-boulder.avif" type="image/avif"><img src="/images/bergen/glen-rock-boulder.jpg" width="1600" height="1067" fetchpriority="high" alt="The Glen Rock, a house-sized boulder on a traffic island at Doremus Avenue and Rock Road, Glen Rock, New Jersey"></picture></figure>
     </div>
 
-    <div class="wrap ax hero">
-      <div class="hero-side">
-        <div class="ssdg-hero" data-rise style="--i:0">{{ partial "ssdg/stamp.html" . }}<p>AI Local Business is how <b>Spencer Scott Digital</b> helps the businesses around Glen Rock.</p></div>
-        <p class="stand" data-rise style="--i:0">I get Bergen County businesses found on Google and in ChatGPT answers, and build websites that turn those searches into calls.</p>
-        <div class="hero-act" data-rise style="--i:1">
-          <a class="button" href="/audit/" onclick="return gtag_report_conversion('/audit/');">Get your free presence check</a>
-          <a class="tl" href="tel:+12019033491" onclick="return gtag_report_conversion('tel:+12019033491');">or call (201) 903-3491</a>
-        </div>
-        <p class="ssdg-follow" data-rise style="--i:2">Follow along {{ partial "ssdg/social.html" (dict "labels" true) }}</p>
-      </div>
+    <div class="hero-panel">
+      <div class="hero-card">
       <h1 id="h-hero" class="lines">
-        <span class="line"><span data-line style="--i:0">Get found in</span></span>
+        <span class="line"><span data-line style="--i:0"><mark>Get found</mark> in</span></span>
         <span class="line"><span data-line style="--i:1">Bergen County.</span></span>
       </h1>
+      <p class="stand" data-rise style="--i:0">I get <span class="wide-only">Bergen County </span>businesses found on Google and in ChatGPT answers, and build websites that turn those searches into calls.</p>
+      </div>
+      <div class="hero-more">
+      <div class="hero-act" data-rise style="--i:1">
+        <a class="button" href="/audit/" onclick="return gtag_report_conversion('/audit/');">Get your free presence check</a>
+        <a class="tl" href="tel:+12019033491" onclick="return gtag_report_conversion('tel:+12019033491');">or call (201) 903-3491</a>
+      </div>
+      <p class="hero-by" data-rise style="--i:2"><i aria-hidden="true"></i>AI Local Business by <b>Spencer Scott Digital</b>, Glen Rock, NJ</p>
+      </div>
     </div>
   </section>
 
