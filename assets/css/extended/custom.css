@@ -138,7 +138,6 @@ button { font: inherit; color: inherit; background: none; border: 0; padding: 0;
   .hero-b h1 .line { margin-left: 0; padding-left: 0; }
   .hero-b h1 mark { background: none; padding: 0; margin: 0; }
   .hero-b .stand { margin-top: 14px; font-size: 1.0625rem; max-width: 34em; }
-  .wide-only { display: none; }
   .hero-more { margin-top: 26px; padding-inline: var(--m); }
   .hero-b .hero-act { gap: 12px; }
   .hero-b .hero-act .tl { font-size: 1rem; }
