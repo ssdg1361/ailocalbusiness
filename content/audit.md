@@ -4,7 +4,7 @@ description: "Find out exactly how your business shows up on Google, ChatGPT, Ge
 url: /audit/
 ogImage: "images/og/ailb-share-free-check.jpg"
 ogImageAlt: "Is your business showing up? Google, ChatGPT, your website. Get the free check from AI Local Business."
-layout: "single"
+layout: "audit"
 hidemeta: true
 showtoc: false
 keywords:
@@ -23,15 +23,13 @@ faq:
     answer: "You'll receive your completed audit within 2-3 business days of submitting your information. The audit itself is a detailed document covering your presence across Google and multiple AI search platforms."
   - question: "What businesses qualify for a free audit?"
     answer: "Any local service business in Bergen County or northern New Jersey. This includes contractors, restaurants, professional services, medical practices, home services, and more."
-h1: "Your free presence check"
+h1: "Is your business on ChatGPT?"
+promise: "Find out free. I check Google, your website and AI search like ChatGPT, then send you what I find and three fixes, in two or three business days."
+claim: "<b>Includes your ChatGPT business profile.</b> ChatGPT just launched them, and I&rsquo;ll help you claim yours and set it up right."
 photo:
   src: "/images/bergen/ridgewood-nj-downtown.jpg"
   alt: "Corner of downtown Ridgewood with a white three-storey building and shops at street level"
 ---
-
-## What happens when someone searches for your business?
-
-More of your potential customers are using Google's AI results, ChatGPT, and Gemini to pick a local business. Most owners have no idea what those tools say about them. This check answers that, free.
 
 ## What you get
 
@@ -66,39 +64,4 @@ More of your potential customers are using Google's AI results, ChatGPT, and Gem
     </ul>
   </div>
 </div>
-{{< /rawhtml >}}
-
-## Request your free check {#form}
-
-{{< rawhtml >}}
-<div class="ask-box">
-  <p>Back to you in two or three business days.</p>
-  <iframe id="tally" data-src="https://tally.so/embed/EkRdOA?alignLeft=1&amp;hideTitle=1&amp;transparentBackground=1&amp;dynamicHeight=1" title="Free online presence check request" loading="lazy"></iframe>
-  <p>Prefer not to use a form? Email or text me these four things:</p>
-  <ol>
-    <li>Your business name</li>
-    <li>Your website, if you have one</li>
-    <li>The towns you serve</li>
-    <li>Two or three services you most want to be found for</li>
-  </ol>
-  <div class="actions">
-    <a href="mailto:spencerscottdigital@gmail.com" class="button" onclick="return gtag_report_conversion('mailto:spencerscottdigital@gmail.com');">Email Spencer</a>
-    <a href="tel:+12019033491" class="tl" onclick="return gtag_report_conversion('tel:+12019033491');">or call or text (201) 903-3491</a>
-  </div>
-  <p class="note">No credit card, no contract, no pitch meeting. Just useful information about where your business stands online.</p>
-</div>
-<script>
-// Carry UTMs into the Tally hidden fields (from this URL, or saved from the page they landed on), tag the source page, then load the embed.
-(function(){
-  var f=document.getElementById('tally'); if(!f) return;
-  var p=new URLSearchParams(location.search), q=[];
-  var k=['utm_source','utm_medium','utm_campaign','utm_content','utm_term'],s={};
-  var fromUrl=k.some(function(x){return p.get(x);});
-  if(!fromUrl){try{var j=JSON.parse(localStorage.getItem('ailb_utm')||'null');if(j){if(Date.now()-j.t<2592e6){s=j;}}}catch(e){}}
-  k.forEach(function(x){var v=fromUrl?p.get(x):s[x];if(v) q.push(x+'='+encodeURIComponent(v));});
-  q.push('page=audit');
-  f.src=f.getAttribute('data-src')+'&'+q.join('&');
-})();
-</script>
-<script async src="https://tally.so/widgets/embed.js"></script>
 {{< /rawhtml >}}

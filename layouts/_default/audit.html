@@ -1,0 +1,49 @@
+{{- define "main" }}
+{{- /* The free check page (/audit/). Phone-first: the question, one line on what you get, the ChatGPT profile line, then the form, all on the first screen. What you get and the FAQ follow below the form. */}}
+
+<header class="audit-top">
+  <h1>{{ .Params.h1 | default .Title }}</h1>
+  {{- with .Params.promise }}<p class="audit-promise">{{ . }}</p>{{ end }}
+  {{- with .Params.claim }}<p class="audit-claim"><span>{{ . | safeHTML }}</span></p>{{ end }}
+</header>
+
+<div class="audit-form" id="form">
+  <div class="audit-in">
+    <iframe id="tally" data-src="https://tally.so/embed/EkRdOA?alignLeft=1&amp;hideTitle=1&amp;transparentBackground=1&amp;dynamicHeight=1" title="Free online presence check request" loading="eager"></iframe>
+    <p class="audit-small">No cost, no contract, no pitch meeting. Prefer to talk? Call or text <a href="tel:+12019033491" onclick="return gtag_report_conversion('tel:+12019033491');">(201) 903-3491</a>.</p>
+  </div>
+</div>
+<script>
+// Carry UTMs into the Tally hidden fields (from this URL, or saved from the page they landed on), tag the source page, then load the embed.
+(function(){
+  var f=document.getElementById('tally'); if(!f) return;
+  var p=new URLSearchParams(location.search), q=[];
+  var k=['utm_source','utm_medium','utm_campaign','utm_content','utm_term'],s={};
+  var fromUrl=k.some(function(x){return p.get(x);});
+  if(!fromUrl){try{var j=JSON.parse(localStorage.getItem('ailb_utm')||'null');if(j){if(Date.now()-j.t<2592e6){s=j;}}}catch(e){}}
+  k.forEach(function(x){var v=fromUrl?p.get(x):s[x];if(v) q.push(x+'='+encodeURIComponent(v));});
+  q.push('page=audit');
+  f.src=f.getAttribute('data-src')+'&'+q.join('&');
+})();
+</script>
+<script async src="https://tally.so/widgets/embed.js"></script>
+
+<div class="audit-after">
+  <article class="prose">
+    {{ .Content }}
+    {{- with .Params.faq }}
+    <h2>Common questions</h2>
+    <div class="faq">
+      {{- range $i, $item := . }}
+      <details {{ if eq $i 0 }}open{{ end }}>
+        <summary>{{ $item.question }}</summary>
+        <div class="a"><p>{{ $item.answer }}</p></div>
+      </details>
+      {{- end }}
+    </div>
+    {{- end }}
+  </article>
+</div>
+
+{{ partial "close.html" (dict "heading" "Find out where you stand." "onAudit" true) }}
+{{- end }}

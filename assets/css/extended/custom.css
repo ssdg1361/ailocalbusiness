@@ -556,3 +556,24 @@ button { font: inherit; color: inherit; background: none; border: 0; padding: 0;
 @media (max-width: 760px) {
   .ssdg-stamp { width: 76px; height: 76px; }
 }
+
+/* ---------- the free check page, phone-first top (Nov 2026) ----------
+   The question, one line of promise, the ChatGPT profile line, then the form,
+   so the form starts on the first phone screen. */
+.audit-top { padding: 10px var(--m) 0; max-width: calc(760px + 2 * var(--m)); }
+.audit-top h1 { margin: 0; font-size: clamp(2.1rem, 9.4vw, 4rem); line-height: 1.04; letter-spacing: -0.01em; }
+.audit-promise { margin: 12px 0 0; font-size: 1.0625rem; line-height: 1.45; max-width: 34em; }
+.audit-claim { display: flex; gap: 12px; align-items: baseline; margin: 14px 0 0; padding: 12px 14px; background: var(--surface); font-size: 1rem; line-height: 1.4; max-width: 34em; }
+.audit-claim::before { content: ""; flex: 0 0 10px; height: 10px; background: var(--accent); transform: translateY(-1px); }
+.audit-claim b { font-weight: 600; }
+.audit-form { margin-top: 18px; padding: 20px var(--m) 24px; background: var(--sage); }
+.audit-in { max-width: 760px; }
+.audit-form iframe { display: block; width: 100%; min-height: 520px; border: 0; background: transparent; }
+.audit-small { margin-top: 10px; font-size: var(--s-small); }
+.audit-small a { text-decoration: underline; text-underline-offset: 0.2em; }
+.audit-after { padding: 8px var(--m) var(--pad); }
+.audit-after .prose { max-width: 1100px; }
+.audit-after .prose > h2:first-child { margin-top: 2em; }
+@media (max-width: 760px) {
+  body:has(.audit-top) .site-top { padding-top: 18px; padding-bottom: 14px; }
+}
