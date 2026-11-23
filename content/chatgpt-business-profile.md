@@ -1,5 +1,5 @@
 ---
-title: "ChatGPT Business Profile Setup for Local Businesses | Bergen County, NJ"
+title: "ChatGPT Business Profile Setup for Local Businesses"
 description: "ChatGPT now lets businesses claim their own profile and see how it performs. I help local businesses get theirs claimed, set up right, and ready for customers asking ChatGPT who to call."
 url: /chatgpt-business-profile/
 layout: "single"
@@ -12,6 +12,7 @@ keywords:
   - ChatGPT business listing
   - verify business on ChatGPT
   - ChatGPT business profile setup Bergen County
+  - ChatGPT business profile setup Brevard County
 h1: "Get your business claimed on ChatGPT"
 photo:
   src: "/images/bergen/ridgewood-nj-downtown.jpg"

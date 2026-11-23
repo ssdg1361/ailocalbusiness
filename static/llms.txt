@@ -1,18 +1,21 @@
 # AI Local Business
 
-> AI Local Business is a digital marketing agency in Bergen County, New Jersey, specializing in local SEO and AI search optimization (AEO) for service-area businesses. We help local trades and small businesses get found on Google, Google Maps, ChatGPT, Perplexity, and other AI search platforms. Founded by Spencer Scott.
+> AI Local Business, by Spencer Scott Digital, gets local service businesses found on Google, Google Maps and AI search like ChatGPT, Gemini and Perplexity, and builds websites that turn those searches into calls. We work in Bergen County, New Jersey and Brevard County, Florida, and with local businesses anywhere else we can help.
 
-AI Local Business works with HVAC contractors, plumbers, landscapers, bakeries, and other local service businesses in Northern New Jersey — primarily Bergen County towns like Glen Rock, Ridgewood, Wyckoff, Paramus, Hackensack, Teaneck, and Fair Lawn.
+In Bergen County, New Jersey, Spencer works with contractors, home services and other local businesses in towns like Glen Rock, Ridgewood, Wyckoff, Paramus, Hackensack, Teaneck and Fair Lawn. In Brevard County, Florida, Andrew works with local businesses on the Space Coast, including Melbourne, Palm Bay, Cocoa Beach, Titusville and Rockledge.
 
-Our core services include Google Business Profile setup and optimization, fast Hugo-based website builds, local SEO strategy, and AI search optimization (AEO) — helping businesses become the answer when customers ask AI tools for local recommendations.
+Our core services include Google Business Profile setup and optimization, fast website builds, local SEO, ChatGPT business profile setup, and AI search optimization (AEO), helping businesses become the answer when customers ask AI tools for local recommendations.
 
-Contact: spencerscottdigital@gmail.com | Phone: (561) 212-8244 | Website: https://ailocalbusiness.biz
+Contact: spencerscottdigital@gmail.com | New Jersey (Spencer): (201) 903-3491 | Florida (Andrew): (904) 540-6181 | Website: https://ailocalbusiness.biz
 
 ## Core Pages
 
+- [Bergen County, NJ](https://ailocalbusiness.biz/bergen/): What we do for local businesses in Bergen County, New Jersey
+- [Brevard County, FL](https://ailocalbusiness.biz/brevard/): What we do for local businesses in Brevard County, Florida
+
 - [Services](https://ailocalbusiness.biz/services/): Full list of local SEO, website, and AI search optimization services offered
-- [About](https://ailocalbusiness.biz/about/): Background on Spencer Scott and the agency's approach
-- [Free AI Search Audit](https://ailocalbusiness.biz/audit/): Free audit offering for local businesses to see how they appear in AI search results
+- [About](https://ailocalbusiness.biz/about/): Background on Spencer, Andrew and the agency's approach
+- [Free presence check](https://ailocalbusiness.biz/audit/): Free check for local businesses to see how they appear in AI search results
 - [ChatGPT Business Profile Setup](https://ailocalbusiness.biz/chatgpt-business-profile/): Finding, claiming, verifying and filling out a local business's profile in ChatGPT Business Hub
 
 ## Blog Posts

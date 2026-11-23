@@ -63,7 +63,7 @@ ignoreFiles = ["\\.DS_Store$"]
 
   [params.homeInfoParams]
     Title = "AI Local Business"
-    Content = "Local SEO, AI search optimization, and websites that actually perform — for Bergen County businesses."
+    Content = "Local SEO, AI search optimization, and websites that actually perform, for local businesses in Bergen County, NJ and Brevard County, FL."
 
   [[params.socialIcons]]
     name = "email"

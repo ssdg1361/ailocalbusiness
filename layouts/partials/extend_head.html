@@ -10,8 +10,8 @@
 
 {{/* Open Graph / Social Sharing */}}
 {{- $socialTitle := .Params.seoTitle | default (printf "%s | AI Local Business" .Title) }}
-{{- $ogImage := .Params.ogImage | default "images/og/ailb-share.jpg" | absURL }}
-{{- $ogImageAlt := .Params.ogImageAlt | default "Get found in Bergen County. AI Local Business by Spencer Scott Digital, beside the Glen Rock boulder." }}
+{{- $ogImage := .Params.ogImage | default "images/og/ailb-share-home.jpg" | absURL }}
+{{- $ogImageAlt := .Params.ogImageAlt | default "Found on Google. Named by AI. AI Local Business by Spencer Scott Digital, in Bergen County, NJ and Brevard County, FL." }}
 <meta property="og:title" content="{{ $socialTitle }}">
 <meta property="og:description" content="{{ with .Description }}{{ . }}{{ else }}Local SEO, AI search optimization, and websites that get calls, for local businesses in Bergen County, NJ and Brevard County, FL. Spencer Scott Digital.{{ end }}">
 <meta property="og:image" content="{{ $ogImage }}">
