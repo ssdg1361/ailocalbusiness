@@ -9,40 +9,55 @@
   btn.addEventListener('click', () => { const open = top.classList.toggle('open'); btn.setAttribute('aria-expanded', open); });
 })();
 
-// Homepage: the town finder. The same six searches, rewritten for the town you pick.
-(() => {
-  const list = document.getElementById('bands');
-  if (!list) return;
-  const trades = [
-    ['Plumber', 'emergency plumber {t} NJ', 'Who is the best emergency plumber in {t}, NJ?', 'Searched with water on the floor. Few people scroll past the map.'],
-    ['Heating &amp; cooling', 'AC repair {t} NJ', 'Who should I call for AC repair in {t}, NJ?', 'Half the town searches it on the same hot afternoon.'],
-    ['Electrician', 'electrician near {t} NJ', 'Can you recommend an electrician near {t}, NJ?', 'Panel upgrades, EV chargers, generator hookups.'],
-    ['Dryer vents', 'dryer vent cleaning {t} NJ', 'Who does dryer vent cleaning in {t}, NJ?', 'Vent Viper&rsquo;s trade, out of Wyckoff.'],
-    ['Landscaping', 'landscaper {t} NJ', 'Who is a good landscaper in {t}, NJ?', 'Spring cleanups get booked weeks ahead.'],
-    ['Water damage', 'water damage restoration {t} NJ', 'Who should I call for water damage restoration in {t}, NJ?', 'Now asked of ChatGPT by name: who should I call?'],
-  ];
-  const tabs = [...document.querySelectorAll('.tab')], enc = encodeURIComponent;
+// The town finder (county pages). The same searches, rewritten for the county and town you pick.
+// Towns and trades come from data/counties/<county>.yaml, printed by the page as window.AILB_FINDER.
+// A finder names its counties in data-counties ("bergen", "brevard", or both with a .county switch).
+document.querySelectorAll('.finder[data-counties]').forEach((root, n) => {
+  const DATA = window.AILB_FINDER || {};
+  const counties = root.dataset.counties.split(' ').filter((c) => DATA[c]);
+  const list = root.querySelector('.bands'), tablist = root.querySelector('.tabs');
+  if (!list || !tablist || !counties.length) return;
+  const enc = encodeURIComponent, uid = 'f' + n;
+  const plain = (s) => { const t = document.createElement('textarea'); t.innerHTML = s; return t.value; };
+  let county = counties[0], tabs = [];
+
   function show(tab, focus) {
     const t = tab.dataset.town;
     tabs.forEach((b) => { const on = b === tab; b.setAttribute('aria-selected', on); b.tabIndex = on ? 0 : -1; });
     list.setAttribute('aria-labelledby', tab.id);
-    list.innerHTML = trades.map(([name, q, ask, note], i) => {
+    list.innerHTML = DATA[county].trades.map(([name, q, ask, note], i) => {
       const query = q.replace('{t}', t), question = ask.replace('{t}', t);
-      return `<li class="band" style="--i:${i}"><span class="trade">${name}</span><span><span class="q">${query}</span><span class="note">${note}</span></span><span class="go"><a class="tl" target="_blank" rel="noopener" href="https://www.google.com/search?q=${enc(query)}">Google it</a><a class="tl" target="_blank" rel="noopener" href="https://chatgpt.com/?q=${enc(question)}">Ask ChatGPT</a></span></li>`;
+      return `<li class="band" style="--i:${i}"><span class="trade">${name}</span><span><span class="q">${query}</span><span class="note">${note}</span></span><span class="go"><a class="tl" target="_blank" rel="noopener" href="https://www.google.com/search?q=${enc(plain(query))}">Google it</a><a class="tl" target="_blank" rel="noopener" href="https://chatgpt.com/?q=${enc(plain(question))}">Ask ChatGPT</a></span></li>`;
     }).join('');
     list.classList.remove('swap'); void list.offsetWidth; list.classList.add('swap');
     if (focus) tab.focus();
   }
-  tabs.forEach((tab, i) => {
-    tab.addEventListener('click', () => show(tab));
-    tab.addEventListener('keydown', (e) => {
-      const d = { ArrowDown: 1, ArrowRight: 1, ArrowUp: -1, ArrowLeft: -1 }[e.key];
-      if (d) { e.preventDefault(); show(tabs[(i + d + tabs.length) % tabs.length], true); }
+  function build(first) {
+    list.id = uid + '-bands';
+    tablist.innerHTML = DATA[county].towns.map(([t, z], i) =>
+      `<button class="tab" role="tab" id="${uid}-t-${i}" aria-selected="${i === 0}" aria-controls="${uid}-bands" data-town="${t}"${i ? ' tabindex="-1"' : ''}><b>${t}</b><small>${z}</small></button>`).join(' ');
+    tabs = [...tablist.querySelectorAll('.tab')];
+    tabs.forEach((tab, i) => {
+      tab.addEventListener('click', () => show(tab));
+      tab.addEventListener('keydown', (e) => {
+        const d = { ArrowDown: 1, ArrowRight: 1, ArrowUp: -1, ArrowLeft: -1 }[e.key];
+        if (d) { e.preventDefault(); show(tabs[(i + d + tabs.length) % tabs.length], true); }
+      });
     });
-  });
-})();
+    if (first) { list.setAttribute('aria-labelledby', tabs[0].id); return; }  // the page already shows the first town
+    show(tabs[0]);
+  }
+  const switches = [...root.querySelectorAll('.county button')];
+  switches.forEach((b) => b.addEventListener('click', () => {
+    if (b.dataset.county === county) return;
+    county = b.dataset.county;
+    switches.forEach((x) => x.setAttribute('aria-pressed', x === b));
+    build();
+  }));
+  build(true);
+});
 
-// Homepage: client work filters
+// County pages: client work filters
 (() => {
   const btns = [...document.querySelectorAll('.filters button')], projs = [...document.querySelectorAll('.proj')];
   btns.forEach((b) => b.addEventListener('click', () => {

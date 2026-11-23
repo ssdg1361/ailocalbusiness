@@ -41,7 +41,7 @@
   ]
 }
 </script>
-{{- if .IsPage }}
+{{- if and .IsPage (ne .Layout "county") }}{{/* county pages carry their own business entity (extend_head.html), not a blog post */}}
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",

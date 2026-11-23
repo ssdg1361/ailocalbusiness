@@ -1,0 +1,6 @@
+{{- /* Phone lines under the button in a page head. A page that belongs to one county (front matter region) shows that county's line; shared pages show both. */ -}}
+{{- with .Params.region }}{{ with partial "ailb/data.html" (printf "counties/%s" .) }}
+<a class="tl" href="tel:{{ .phone.tel }}" {{ printf "onclick=\"return gtag_report_conversion('tel:%s');\"" .phone.tel | safeHTMLAttr }}>or call {{ .phone.display }}</a>
+{{- end }}{{ else }}
+<span class="phones"><a class="tl" href="tel:+12019033491" onclick="return gtag_report_conversion('tel:+12019033491');">or call (201) 903-3491 in NJ</a><a class="tl" href="tel:+19045406181" onclick="return gtag_report_conversion('tel:+19045406181');">(904) 540-6181 in FL</a></span>
+{{- end }}

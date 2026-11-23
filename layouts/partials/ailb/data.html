@@ -1,0 +1,6 @@
+{{- /* Returns one of the site's own data files, from assets/sitedata/<name>.yaml (for example "counties/bergen" or "work").
+       They live in assets/ rather than data/ because data/ also holds research exports (CSV, ZIP, DOCX) that newer
+       Hugo versions refuse to load; reading these files directly keeps the build the same on every Hugo version. */ -}}
+{{- $d := dict }}
+{{- with resources.Get (printf "sitedata/%s.yaml" .) }}{{ $d = . | transform.Unmarshal }}{{ else }}{{ errorf "missing data file assets/sitedata/%s.yaml" . }}{{ end }}
+{{- return $d }}

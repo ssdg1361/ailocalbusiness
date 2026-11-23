@@ -10,11 +10,12 @@
 <div class="audit-form" id="form">
   <div class="audit-in">
     <iframe id="tally" data-src="https://tally.so/embed/EkRdOA?alignLeft=1&amp;hideTitle=1&amp;transparentBackground=1&amp;dynamicHeight=1" title="Free online presence check request" loading="eager"></iframe>
-    <p class="audit-small">No cost, no contract, no pitch meeting. Prefer to talk? Call or text <a href="tel:+12019033491" onclick="return gtag_report_conversion('tel:+12019033491');">(201) 903-3491</a>.</p>
+    <p class="audit-small">No cost, no contract, no pitch meeting. Prefer to talk? Call or text <a href="tel:+12019033491" onclick="return gtag_report_conversion('tel:+12019033491');">(201) 903-3491</a> in New Jersey or <a href="tel:+19045406181" onclick="return gtag_report_conversion('tel:+19045406181');">(904) 540-6181</a> in Florida.</p>
   </div>
 </div>
 <script>
-// Carry UTMs into the Tally hidden fields (from this URL, or saved from the page they landed on), tag the source page, then load the embed.
+// Carry UTMs into the Tally hidden fields (from this URL, or saved from the page they landed on), tag the source page,
+// pass the county (?county=bergen or brevard, set by links from the county pages) to the hidden field "county", then load the embed.
 (function(){
   var f=document.getElementById('tally'); if(!f) return;
   var p=new URLSearchParams(location.search), q=[];
@@ -22,6 +23,7 @@
   var fromUrl=k.some(function(x){return p.get(x);});
   if(!fromUrl){try{var j=JSON.parse(localStorage.getItem('ailb_utm')||'null');if(j){if(Date.now()-j.t<2592e6){s=j;}}}catch(e){}}
   k.forEach(function(x){var v=fromUrl?p.get(x):s[x];if(v) q.push(x+'='+encodeURIComponent(v));});
+  var c=(p.get('county')||'').toLowerCase(); if(c==='bergen'||c==='brevard') q.push('county='+c);
   q.push('page=audit');
   f.src=f.getAttribute('data-src')+'&'+q.join('&');
 })();

@@ -23,8 +23,8 @@ ignoreFiles = ["\\.DS_Store$"]
 [params]
   env = "production"
   author = "Spencer"
-  description = "We get local businesses found on Google and AI search (ChatGPT, Gemini, etc.), build websites that get calls, and run Google and Meta ads. Bergen County, NJ."
-  keywords = ["local SEO", "AI search optimization", "website design", "Bergen County", "digital marketing", "Glen Rock NJ", "AEO", "ChatGPT optimization", "local business marketing"]
+  description = "We get local businesses found on Google and AI search (ChatGPT, Gemini, etc.), build websites that get calls, and run Google and Meta ads. Bergen County, NJ and Brevard County, FL."
+  keywords = ["local SEO", "AI search optimization", "website design", "Bergen County", "digital marketing", "Glen Rock NJ", "AEO", "ChatGPT optimization", "local business marketing", "Brevard County", "Melbourne FL", "Space Coast"]
   defaultTheme = "light"
   disableThemeToggle = true
   ShowReadingTime = true

@@ -1,6 +1,6 @@
 ---
 title: "Free Online Presence Check for Your Business"
-description: "Find out exactly how your business shows up on Google, ChatGPT, Gemini, and AI search, completely free. For Bergen County and northern NJ businesses."
+description: "Find out exactly how your business shows up on Google, ChatGPT, Gemini and AI search, completely free. For local businesses in Bergen County, NJ and Brevard County, FL."
 url: /audit/
 ogImage: "images/og/ailb-share-free-check.jpg"
 ogImageAlt: "Is your business showing up? Google, ChatGPT, your website. Get the free check from AI Local Business."
@@ -22,10 +22,10 @@ faq:
   - question: "How long does the audit take?"
     answer: "You'll receive your completed audit within 2-3 business days of submitting your information. The audit itself is a detailed document covering your presence across Google and multiple AI search platforms."
   - question: "What businesses qualify for a free audit?"
-    answer: "Any local service business in Bergen County or northern New Jersey. This includes contractors, restaurants, professional services, medical practices, home services, and more."
+    answer: "Any local service business in Bergen County, New Jersey or Brevard County, Florida, and anywhere else we can help. That includes contractors, home services, restaurants, professional services, medical practices and more."
 h1: "Is your business on ChatGPT?"
-promise: "Find out free. I check Google, your website and AI search like ChatGPT, then send you what I find and three fixes, in two or three business days."
-claim: "<b>Includes your ChatGPT business profile.</b> ChatGPT just launched them, and I&rsquo;ll help you claim yours and set it up right."
+promise: "Find out free. We check Google, your website and AI search like ChatGPT, then send you what we find and three fixes, in two or three business days."
+claim: "<b>Includes your ChatGPT business profile.</b> ChatGPT just launched them, and we&rsquo;ll help you claim yours and set it up right."
 photo:
   src: "/images/bergen/ridgewood-nj-downtown.jpg"
   alt: "Corner of downtown Ridgewood with a white three-storey building and shops at street level"

@@ -1,14 +1,19 @@
 {{- $here := .RelPermalink }}
+{{- /* Four links, as in the Nov 22 mockup: six (with Blog and Search) do not fit beside the button.
+       Blog stays in the footer's Writing column on every page. On a county page, the free check
+       button carries the county for the form's hidden field. */}}
+{{- $audit := "/audit/" }}
+{{- with .Params.county }}{{ $audit = printf "/audit/?county=%s" . }}{{ end }}
 <header class="wrap ax site-top">
   <a class="word" href="{{ "" | absLangURL }}" accesskey="h">AI Local Business<i>.</i></a>
   <nav aria-label="Main">
     <ul id="site-menu">
+      <li><a href="/bergen/"{{ if eq $here "/bergen/" }} aria-current="page"{{ end }}>Bergen County</a></li>
+      <li><a href="/brevard/"{{ if eq $here "/brevard/" }} aria-current="page"{{ end }}>Brevard County</a></li>
       <li><a href="/services/"{{ if eq $here "/services/" }} aria-current="page"{{ end }}>Services</a></li>
-      <li><a href="/blog/"{{ if hasPrefix $here "/blog/" }} aria-current="page"{{ end }}>Blog</a></li>
       <li><a href="/about/"{{ if eq $here "/about/" }} aria-current="page"{{ end }}>About</a></li>
-      <li><a href="/search/"{{ if eq $here "/search/" }} aria-current="page"{{ end }}>Search</a></li>
     </ul>
-    <a class="button" href="/audit/" onclick="return gtag_report_conversion('/audit/');">Free presence check</a>
+    <a class="button" href="{{ $audit }}" {{ printf "onclick=\"return gtag_report_conversion('%s');\"" $audit | safeHTMLAttr }}>Free presence check</a>
     <button class="menu-btn" type="button" aria-expanded="false" aria-controls="site-menu">Menu</button>
   </nav>
 </header>

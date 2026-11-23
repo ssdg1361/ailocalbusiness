@@ -13,18 +13,18 @@
 {{- $ogImage := .Params.ogImage | default "images/og/ailb-share.jpg" | absURL }}
 {{- $ogImageAlt := .Params.ogImageAlt | default "Get found in Bergen County. AI Local Business by Spencer Scott Digital, beside the Glen Rock boulder." }}
 <meta property="og:title" content="{{ $socialTitle }}">
-<meta property="og:description" content="{{ with .Description }}{{ . }}{{ else }}Local SEO, AI search optimization, and websites that actually perform, for Bergen County and northern NJ businesses. Spencer Scott Digital.{{ end }}">
+<meta property="og:description" content="{{ with .Description }}{{ . }}{{ else }}Local SEO, AI search optimization, and websites that get calls, for local businesses in Bergen County, NJ and Brevard County, FL. Spencer Scott Digital.{{ end }}">
 <meta property="og:image" content="{{ $ogImage }}">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 <meta property="og:image:alt" content="{{ $ogImageAlt }}">
 <meta property="og:url" content="{{ .Permalink }}">
-<meta property="og:type" content="{{ if .IsPage }}article{{ else }}website{{ end }}">
+<meta property="og:type" content="{{ if and .IsPage (ne .Layout "county") }}article{{ else }}website{{ end }}">
 <meta property="og:site_name" content="AI Local Business">
 <meta property="og:locale" content="en_US">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="{{ $socialTitle }}">
-<meta name="twitter:description" content="{{ with .Description }}{{ . }}{{ else }}Local SEO, AI search optimization, and websites for Bergen County businesses.{{ end }}">
+<meta name="twitter:description" content="{{ with .Description }}{{ . }}{{ else }}Local SEO, AI search optimization, and websites for businesses in Bergen County, NJ and Brevard County, FL.{{ end }}">
 <meta name="twitter:image" content="{{ $ogImage }}">
 <meta name="twitter:image:alt" content="{{ $ogImageAlt }}">
 
@@ -85,7 +85,7 @@ fbq('track', 'PageView');
   "@id": "{{ .Site.BaseURL }}#business",
   "name": "AI Local Business",
   "alternateName": "Spencer Scott Digital",
-  "description": "Local SEO, AI search optimization, and website design for Bergen County and northern New Jersey businesses",
+  "description": "Local SEO, AI search optimization, website design and ads for local businesses in Bergen County, New Jersey and Brevard County, Florida",
   "url": "{{ .Site.BaseURL }}",
   "logo": "{{ "images/brand/ailb-signature-mark-2x.png" | absURL }}",
   "image": "{{ "images/og/ailb-share.jpg" | absURL }}",
@@ -99,19 +99,25 @@ fbq('track', 'PageView');
     "addressCountry": "US"
   },
   "sameAs": [{{ range $i, $e := site.Params.schema.sameAs }}{{ if $i }}, {{ end }}{{ $e }}{{ end }}],
+  "contactPoint": [
+    { "@type": "ContactPoint", "telephone": "+1-201-903-3491", "contactType": "sales", "areaServed": "Bergen County, NJ", "name": "Spencer Stein" },
+    { "@type": "ContactPoint", "telephone": "+1-904-540-6181", "contactType": "sales", "areaServed": "Brevard County, FL", "name": "Andrew Herrero" }
+  ],
   "areaServed": [
     {
-      "@type": "City",
-      "name": "Glen Rock",
-      "containedInPlace": {
-        "@type": "State",
-        "name": "New Jersey"
-      }
+      "@type": "AdministrativeArea",
+      "name": "Bergen County, New Jersey",
+      "containedInPlace": { "@type": "State", "name": "New Jersey" }
     },
     {
       "@type": "AdministrativeArea",
-      "name": "Bergen County"
+      "name": "Brevard County, Florida",
+      "containedInPlace": { "@type": "State", "name": "Florida" }
     }
+  ],
+  "department": [
+    { "@id": "{{ "bergen/" | absURL }}#business" },
+    { "@id": "{{ "brevard/" | absURL }}#business" }
   ],
   "serviceType": [
     "Search Engine Optimization",
@@ -176,6 +182,34 @@ fbq('track', 'PageView');
 }
 </script>
 {{ end }}
+
+{{/* County pages: the business as it serves that county, tied to the home entity.
+     Brevard has no street address, so it carries areaServed only. */}}
+{{- if eq .Layout "county" }}
+{{- with partial "ailb/data.html" (printf "counties/%s" .Params.county) }}
+{{- $c := . }}
+{{- $areas := slice }}
+{{- range $c.schema.areaServed }}{{ $areas = $areas | append (dict "@type" .type "name" .name) }}{{ end }}
+{{- $e := dict
+    "@context" "https://schema.org"
+    "@type" "ProfessionalService"
+    "@id" (printf "%s#business" $.Permalink)
+    "name" (printf "AI Local Business, %s" $c.label)
+    "description" $.Description
+    "url" $.Permalink
+    "telephone" $c.schema.telephone
+    "email" "spencerscottdigital@gmail.com"
+    "image" (absURL ($.Params.ogImage | default "images/og/ailb-share.jpg"))
+    "logo" (absURL "images/brand/ailb-signature-mark-2x.png")
+    "areaServed" $areas
+    "parentOrganization" (dict "@id" (printf "%s#business" site.BaseURL))
+}}
+{{- with $c.schema.address }}
+{{- $e = merge $e (dict "address" (dict "@type" "PostalAddress" "addressLocality" .locality "addressRegion" .region "postalCode" .postalCode "addressCountry" "US")) }}
+{{- end }}
+<script type="application/ld+json">{{ $e | jsonify (dict "indent" "  ") | safeJS }}</script>
+{{- end }}
+{{- end }}
 
 {{/* Article Schema for blog posts */}}
 {{ if and (eq .Section "blog") (not .IsSection) }}

@@ -1,0 +1,119 @@
+# Bergen County page (/bergen/). Rendered by layouts/_default/county.html (loaded with partial "ailb/data.html").
+# This page carries today's (pre-Nov 2026) home page word for word, in Spencer's own voice ("I"),
+# so Google can follow the Bergen searches the old home page earned.
+# Strings may hold HTML entities and simple tags; the layout prints them as HTML.
+
+key: bergen
+label: "Bergen County, NJ"
+name: "Bergen County"
+long: "Bergen County, New Jersey"
+region: nj
+
+# Hero
+h1:
+  - '<mark>Get found</mark> in'
+  - 'Bergen County.'
+stand: "I get businesses found on Google and in ChatGPT answers, and build websites that turn those searches into calls."
+phone:
+  display: "(201) 903-3491"
+  tel: "+12019033491"
+byline: 'AI Local Business by <b>Spencer Scott Digital</b>, Glen Rock, NJ'
+mast:
+  station:
+    src: /images/bergen/glen-rock-station.jpg
+    avif: /images/bergen/glen-rock-station.avif
+    w: 1600
+    h: 1220
+    alt: "Glen Rock railroad station, a small stone depot with its name over the door, around 1910"
+  clip:
+    poster: /media/solari-board-poster.jpg
+    src: /media/solari-board.webm
+  rock:
+    src: /images/bergen/glen-rock-boulder.jpg
+    avif: /images/bergen/glen-rock-boulder.avif
+    w: 1600
+    h: 1067
+    alt: "The Glen Rock, a house-sized boulder on a traffic island at Doremus Avenue and Rock Road, Glen Rock, New Jersey"
+
+# Client work, in order (projects live in data/work.yaml)
+work: [ventviper, pureshield]
+
+# Three places they look
+places:
+  intro: "Most businesses need all three. Here&rsquo;s what each one takes, and what I do about it."
+  sitePic:
+    src: /images/work/vv-phone.jpg
+    w: 390
+    h: 844
+    alt: "Vent Viper's website on a phone, with a red Call Danny button near the thumb"
+    caption: "Vent Viper, Wyckoff"
+  mapTown: "Glen Rock"
+  aiAsk: "Who&rsquo;s a good plumber in Glen Rock?"
+  aiList:
+    - "I ask ChatGPT, Gemini and Google&rsquo;s AI what your customers ask"
+    - "Fix the facts they read about you"
+    - '<a class="tl" href="/chatgpt-business-profile/">Claim your new ChatGPT business profile</a>'
+    - "Ask again every month and show you what changed"
+    - "Almost nobody in your market shows up here yet"
+  endWho: "I also run"
+
+# Scattered, then found
+how:
+  intro: "Your business is already all over the internet: a half-filled profile, an old listing, reviews nobody answered, a site AI can&rsquo;t read. I pull it into one plan, then into the places your customers look."
+  fix: "A plan in plain English: what&rsquo;s broken, what it costs, what to skip. Then I do the work while you run your business."
+
+# The people section
+about:
+  facts:
+    - { b: "Based in", t: "Glen Rock, NJ" }
+    - { b: "Doing this", t: "Over ten years" }
+    - { b: "Reach me", phone: true }
+  h2: "Spencer, in Glen Rock."
+  paras:
+    - '<img class="cap-img person" src="/images/spencer/spencer-and-son-square.jpg" width="600" height="600" loading="lazy" alt="Spencer and his young son sweeping a basketball court at a park in Glen Rock">That&rsquo;s me and my son, sweeping off a court at one of our parks. Glen Rock is named after a 570-ton boulder a glacier left where Doremus Avenue meets Rock Road; the Lenape used it to mark the trail, and for a few thousand years it was how people found their way. I spent over a decade in SEO and digital marketing for big brands. Now I do that work for the businesses I drive past.'
+    - 'No guarantees, and be wary of anyone who offers one: nobody can promise the top spot on Google. What I promise is solid work, straight answers, and that you&rsquo;ll understand every move I make. Where something can run on its own, I build it that way and <a class="tl" href="/about/">hand you the keys</a>.'
+
+# Three pictures above the closing section
+trio:
+  - { src: /images/bergen/ridgewood-nj-downtown.jpg, w: 1600, h: 1200, alt: "Corner of downtown Ridgewood with a white three-storey building and shops at street level" }
+  - { src: /images/bergen/ridgewood-trolley.jpg, w: 1600, h: 1125, alt: "Paterson, Ridgewood and Suffern trolley car on the North Jersey Rapid Transit line, around 1910" }
+  - { src: /images/bergen/ridgewood-sanborn-map-1928.jpg, w: 1349, h: 1600, alt: "1928 Sanborn insurance map of Ridgewood, Bergen County, showing the town's numbered blocks" }
+
+# Closing section
+close:
+  say: "I&rsquo;ll check Google, your website and what AI says about you, then send you what I find."
+  who: "Call or text. Spencer picks up."
+
+# Overview page tile (/)
+tile:
+  text: "Glen Rock, Ridgewood, Paramus and the towns around them."
+  img: { src: /images/bergen/glen-rock-boulder.jpg, avif: /images/bergen/glen-rock-boulder.avif, w: 1600, h: 1067, alt: "The Glen Rock, a house-sized boulder on a traffic island in Glen Rock, New Jersey" }
+
+# Town finder: towns are [name, ZIP]; trades are [label, Google search, ChatGPT question, note]. {t} is the town.
+finder:
+  towns:
+    - ["Glen Rock", "07452"]
+    - ["Ridgewood", "07450"]
+    - ["Fair Lawn", "07410"]
+    - ["Paramus", "07652"]
+    - ["Wyckoff", "07481"]
+    - ["Hackensack", "07601"]
+  trades:
+    - ["Plumber", "emergency plumber {t} NJ", "Who is the best emergency plumber in {t}, NJ?", "Searched with water on the floor. Few people scroll past the map."]
+    - ["Heating &amp; cooling", "AC repair {t} NJ", "Who should I call for AC repair in {t}, NJ?", "Half the town searches it on the same hot afternoon."]
+    - ["Electrician", "electrician near {t} NJ", "Can you recommend an electrician near {t}, NJ?", "Panel upgrades, EV chargers, generator hookups."]
+    - ["Dryer vents", "dryer vent cleaning {t} NJ", "Who does dryer vent cleaning in {t}, NJ?", "Vent Viper&rsquo;s trade, out of Wyckoff."]
+    - ["Landscaping", "landscaper {t} NJ", "Who is a good landscaper in {t}, NJ?", "Spring cleanups get booked weeks ahead."]
+    - ["Water damage", "water damage restoration {t} NJ", "Who should I call for water damage restoration in {t}, NJ?", "Now asked of ChatGPT by name: who should I call?"]
+
+# Structured data for this page (the business, as it serves this county)
+schema:
+  telephone: "+1-201-903-3491"
+  address:
+    locality: "Glen Rock"
+    region: "NJ"
+    postalCode: "07452"
+  areaServed:
+    - { type: AdministrativeArea, name: "Bergen County, New Jersey" }
+    - { type: City, name: "Glen Rock, New Jersey" }
+

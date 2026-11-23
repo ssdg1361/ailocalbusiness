@@ -1,0 +1,205 @@
+{{- define "main" }}
+{{- /* One county home page (/bergen/, /brevard/), fed by assets/sitedata/counties/<county>.yaml.
+       The markup is the old home page's, so /bergen/ keeps that page's words and structure.
+       Every link to the free check carries ?county=<key> for the Tally form's hidden field. */}}
+{{- $c := partial "ailb/data.html" (printf "counties/%s" .Params.county) }}
+{{- $work := partial "ailb/data.html" "work" }}
+{{- $audit := printf "/audit/?county=%s" $c.key }}
+{{- $auditClick := printf "onclick=\"return gtag_report_conversion('%s');\"" $audit | safeHTMLAttr }}
+{{- $telClick := printf "onclick=\"return gtag_report_conversion('tel:%s');\"" $c.phone.tel | safeHTMLAttr }}
+{{- $first := index $c.finder.towns 0 }}
+{{- $town := index $first 0 }}
+
+  <section class="hero-b wrap{{ if eq $c.region "fl" }} hero-fl{{ end }}" aria-labelledby="h-hero">
+    <div class="mast">
+      {{- with $c.mast.station }}
+      <figure class="m-station" style="--i:0"><picture>{{ with .avif }}<source srcset="{{ . }}" type="image/avif">{{ end }}<img src="{{ .src }}" width="{{ .w }}" height="{{ .h }}" alt="{{ .alt | htmlUnescape }}"></picture></figure>
+      {{- end }}
+      <div class="m-yellow" style="--i:1"></div>
+      {{- with $c.mast.clip }}
+      <figure class="m-clip" style="--i:2"><video autoplay muted loop playsinline preload="metadata" poster="{{ .poster }}" width="854" height="480" aria-hidden="true"><source src="{{ .src }}" type="video/webm"></video></figure>
+      {{- end }}
+      {{- with $c.mast.rock }}
+      <figure class="m-rock" style="--i:3"><picture>{{ with .avif }}<source srcset="{{ . }}" type="image/avif">{{ end }}<img src="{{ .src }}" width="{{ .w }}" height="{{ .h }}" fetchpriority="high" alt="{{ .alt | htmlUnescape }}"></picture></figure>
+      {{- end }}
+    </div>
+
+    <div class="hero-panel">
+      <div class="hero-card">
+      <h1 id="h-hero" class="lines">
+        {{- range $i, $l := $c.h1 }}
+        <span class="line"><span data-line style="--i:{{ $i }}">{{ $l | safeHTML }}</span></span>
+        {{- end }}
+      </h1>
+      <p class="stand" data-rise style="--i:0">{{ $c.stand | safeHTML }}</p>
+      </div>
+      <div class="hero-more">
+      <div class="hero-act" data-rise style="--i:1">
+        <a class="button" href="{{ $audit }}" {{ $auditClick }}>Get your free presence check</a>
+        <a class="tl" href="tel:{{ $c.phone.tel }}" {{ $telClick }}>or call {{ $c.phone.display }}</a>
+      </div>
+      <p class="hero-by" data-rise style="--i:2"><i aria-hidden="true"></i>{{ $c.byline | safeHTML }}</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="finder wrap" aria-labelledby="h-find" data-counties="{{ $c.key }}">
+    <div class="fh">
+      <h2 id="h-find" data-reveal><span class="soft">Pick your town.</span><span>See who gets the call.</span></h2>
+      <a class="button" href="{{ $audit }}" {{ $auditClick }} data-reveal style="--i:1">Ask why it isn&rsquo;t you</a>
+    </div>
+    <p class="fintro" data-reveal style="--i:2">Each row opens the real Google results for that search, or asks ChatGPT the same question, in the town you pick. Whoever comes up first is who your customer calls.</p>
+    <div class="fgrid" data-reveal style="--i:3">
+      <div class="tabs" role="tablist" aria-label="Town">
+        {{- range $i, $t := $c.finder.towns }}
+        <button class="tab" role="tab" id="t-{{ $i }}" aria-selected="{{ if eq $i 0 }}true{{ else }}false{{ end }}" aria-controls="bands" data-town="{{ index $t 0 }}"{{ if $i }} tabindex="-1"{{ end }}><b>{{ index $t 0 }}</b><small>{{ index $t 1 }}</small></button>
+        {{- end }}
+      </div>
+      {{- /* Rows for the first town, so the finder reads without script; site.js rebuilds them for the town picked. */}}
+      <ul class="bands" id="bands" role="tabpanel" aria-labelledby="t-0" aria-live="polite">
+        {{- range $c.finder.trades }}
+        {{- $q := replace (index . 1) "{t}" $town }}
+        {{- $ask := replace (index . 2) "{t}" $town }}
+        <li class="band"><span class="trade">{{ index . 0 | safeHTML }}</span><span><span class="q">{{ $q | safeHTML }}</span><span class="note">{{ index . 3 | safeHTML }}</span></span><span class="go"><a class="tl" target="_blank" rel="noopener" href="https://www.google.com/search?{{ querify "q" ($q | htmlUnescape) | replaceRE `\+` `%20` | safeURL }}">Google it</a><a class="tl" target="_blank" rel="noopener" href="https://chatgpt.com/?{{ querify "q" ($ask | htmlUnescape) | replaceRE `\+` `%20` | safeURL }}">Ask ChatGPT</a></span></li>
+        {{- end }}
+      </ul>
+    </div>
+  </section>
+
+  <section class="work" id="work" aria-labelledby="h-work">
+    <div class="wrap">
+      <div class="rail">
+        <h2 id="h-work">Client work</h2>
+        <div class="filters" role="group" aria-label="Filter projects">
+          <button type="button" aria-pressed="true" data-f="all">All</button>
+          <button type="button" aria-pressed="false" data-f="nj">New Jersey</button>
+          <button type="button" aria-pressed="false" data-f="fl">Florida</button>
+        </div>
+      </div>
+      <div class="strips">
+        {{- range $i, $k := $c.work }}
+        {{- with index $work $k }}
+        <article class="proj" data-region="{{ .region }}" data-reveal{{ if $i }} style="--i:{{ $i }}"{{ end }}>
+          <div class="strip">
+            {{- range .shots }}
+            <img src="{{ .src }}" width="{{ .w }}" height="{{ .h }}" loading="lazy" alt="{{ .alt }}">
+            {{- end }}
+          </div>
+          <div class="cap"><a class="tl" href="{{ .url }}" target="_blank" rel="noopener">{{ .name }}</a><span>{{ .what }}</span><span>{{ .year }}</span></div>
+          <p>{{ .text }}</p>
+        </article>
+        {{- end }}
+        {{- end }}
+      </div>
+    </div>
+  </section>
+
+  <section class="places-sec" id="services" aria-labelledby="h-places">
+    <div class="wrap places-grid">
+      <div class="places-head">
+        <h2 id="h-places">Three places they look.</h2>
+        <p>{{ $c.places.intro | safeHTML }}</p>
+      </div>
+
+      <div class="places-list">
+        <article class="place" data-reveal>
+          <h3>Your website</h3>
+          <div class="place-row">
+            {{- with $c.places.sitePic }}
+            <figure class="place-pic"><img src="{{ .src }}" width="{{ .w }}" height="{{ .h }}" loading="lazy" alt="{{ .alt | htmlUnescape }}"><figcaption>{{ .caption }}</figcaption></figure>
+            {{- end }}
+            <ul>
+              <li>Built from scratch, not a template</li>
+              <li>Fast on a phone in someone&rsquo;s driveway</li>
+              <li>The call button sits where a thumb lands</li>
+              <li>Live in about three weeks</li>
+              <li>You own the code and the domain</li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="place flip" data-reveal>
+          <h3>The Google map</h3>
+          <div class="place-row">
+            <figure class="place-pic">
+              <div data-ui class="map-pack" role="img" aria-label="Sample Google map results with your business listed first">
+                <div class="mp-q">plumber near me</div>
+                <div class="mp-row win"><b>Your Business</b><span>4.9 &middot; 87 reviews &middot; {{ $c.places.mapTown }}</span></div>
+                <div class="mp-row"><b>Another Plumbing Co.</b><span>4.2 &middot; 31 reviews</span></div>
+                <div class="mp-row"><b>Some Guy Services</b><span>3.9 &middot; 12 reviews</span></div>
+              </div>
+              <figcaption>Sample: the top of the map is the goal</figcaption>
+            </figure>
+            <ul>
+              <li>Your Google Business Profile, finished and right</li>
+              <li>A steady flow of real reviews</li>
+              <li>A page for every town you serve</li>
+              <li>Often fixable in a week</li>
+              <li>Your profile and your reviews stay yours</li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="place" data-reveal>
+          <h3>AI answers</h3>
+          <div class="place-row">
+            <figure class="place-pic">
+              <div data-ui class="ai-chat" role="img" aria-label="Sample ChatGPT conversation recommending your business">
+                <p class="you">{{ $c.places.aiAsk | safeHTML }}</p>
+                <p class="bot">Based on reviews and recent work nearby, <b>Your Business</b> is a solid choice. They&rsquo;re local, answer the phone, and&hellip;</p>
+              </div>
+              <figcaption>Sample: being the name it gives</figcaption>
+            </figure>
+            <ul>
+              {{- range $c.places.aiList }}
+              <li>{{ . | safeHTML }}</li>
+              {{- end }}
+            </ul>
+          </div>
+        </article>
+
+        <p class="places-end" data-reveal>All three end the same way: your phone rings. {{ $c.places.endWho }} Google and Meta ads when the numbers say they&rsquo;ll pay for themselves; the <a class="tl" href="{{ $audit }}" {{ $auditClick }}>free check</a> tells us whether they will.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="how" aria-labelledby="h-how">
+    <div class="wrap">
+      <div class="grid">
+        <h2 id="h-how" data-reveal>Scattered, then found.</h2>
+        <p class="intro" data-reveal style="--i:1">{{ $c.how.intro | safeHTML }}</p>
+      </div>
+      <div class="flowbox">
+        {{ partial "ailb/flow.html" . }}
+        <div class="grid steps">
+          <div data-reveal><h3>Look</h3><p>Free. Where you show up on Google, the map and AI answers, and where your competitors do. A typical finding: seventh on the map, eleven reviews, no AI mentions.</p></div>
+          <div data-reveal style="--i:1"><h3>Fix</h3><p>{{ $c.how.fix | safeHTML }}</p></div>
+          <div data-reveal style="--i:2"><h3>Report</h3><p>A short recap every month: calls, rank on the map, what AI now says, what&rsquo;s next. Walk away whenever you like, with everything.</p></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="about wrap grid" id="about" aria-labelledby="h-about">
+    <div class="facts" data-reveal>
+      {{- range $c.about.facts }}
+      {{- if .phone }}
+      <span><b>{{ .b }}</b><a class="tl" href="tel:{{ $c.phone.tel }}" {{ $telClick }}>{{ $c.phone.display }}</a></span>
+      {{- else }}
+      <span><b>{{ .b }}</b>{{ .t }}</span>
+      {{- end }}
+      {{- end }}
+    </div>
+    <div class="bio">
+      <h2 id="h-about" data-reveal>{{ $c.about.h2 }}</h2>
+      {{- range $i, $p := $c.about.paras }}
+      <p data-reveal style="--i:{{ add $i 1 }}">{{ $p | safeHTML }}</p>
+      {{- end }}
+    </div>
+  </section>
+
+{{ partial "close.html" (dict "heading" "Find out where you stand." "county" $c) }}
+
+{{- /* Towns and trades for the finder script (static/js/site.js), from this county's data file. */}}
+<script>window.AILB_FINDER = {{ dict $c.key (dict "label" $c.label "towns" $c.finder.towns "trades" $c.finder.trades) | jsonify | safeJS }};</script>
+{{- end }}

@@ -1,22 +1,37 @@
-{{- /* The closing section on every page: three Bergen County photographs, then the yellow field with the one action. */ -}}
+{{- /* The closing section: three photographs, then the yellow field with the one action.
+       With "county" (a county data map, assets/sitedata/counties/) it speaks for that county: its pictures, its phone, its voice.
+       Without it, it is the shared closing block: "we", and both phone lines.
+       "onAudit" points the link at the form on the same page instead of reloading it. */ -}}
 {{- $h := .heading | default "Find out where you stand." }}
+{{- $c := .county }}
+{{- $audit := "/audit/" }}
+{{- with $c }}{{ $audit = printf "/audit/?county=%s" .key }}{{ end }}
+{{- $trio := (partial "ailb/data.html" "counties/bergen").trio }}
+{{- with $c }}{{ $trio = .trio }}{{ end }}
 <section aria-labelledby="h-close">
   <div class="trio">
-    <img src="/images/bergen/ridgewood-nj-downtown.jpg" width="1600" height="1200" loading="lazy" alt="Corner of downtown Ridgewood with a white three-storey building and shops at street level">
-    <img src="/images/bergen/ridgewood-trolley.jpg" width="1600" height="1125" loading="lazy" alt="Paterson, Ridgewood and Suffern trolley car on the North Jersey Rapid Transit line, around 1910">
-    <img src="/images/bergen/ridgewood-sanborn-map-1928.jpg" width="1349" height="1600" loading="lazy" alt="1928 Sanborn insurance map of Ridgewood, Bergen County, showing the town's numbered blocks">
+    {{- range $trio }}
+    <img src="{{ .src }}" width="{{ .w }}" height="{{ .h }}" loading="lazy" alt="{{ .alt | htmlUnescape }}">
+    {{- end }}
   </div>
   <div class="close">
     <div class="wrap grid">
       <div class="lhs">
         <h2 id="h-close" data-reveal>{{ $h }}</h2>
-        <p class="say" data-reveal style="--i:1">I&rsquo;ll check Google, your website and what AI says about you, then send you what I find. {{ if .onAudit }}<a href="#form">Ask for your free check.</a>{{ else }}<a href="/audit/" onclick="return gtag_report_conversion('/audit/');">Ask for your free check.</a>{{ end }}</p>
+        <p class="say" data-reveal style="--i:1">{{ with $c }}{{ .close.say | safeHTML }}{{ else }}We&rsquo;ll check Google, your website and what AI says about you, then send you what we find.{{ end }} {{ if $.onAudit }}<a href="#form">Ask for your free check.</a>{{ else }}<a href="{{ $audit }}" {{ printf "onclick=\"return gtag_report_conversion('%s');\"" $audit | safeHTMLAttr }}>Ask for your free check.</a>{{ end }}</p>
         <p class="small-lines" data-reveal style="--i:2">No pitch and no obligation to do anything about it. Most checks are back to you in two or three business days.</p>
       </div>
+      {{- with $c }}
       <div class="rhs" data-reveal style="--i:3">
-        <a href="tel:+12019033491" onclick="return gtag_report_conversion('tel:+12019033491');">(201) 903-3491</a>
-        <p>Call or text. Spencer picks up.</p>
+        <a href="tel:{{ .phone.tel }}" {{ printf "onclick=\"return gtag_report_conversion('tel:%s');\"" .phone.tel | safeHTMLAttr }}>{{ .phone.display }}</a>
+        <p>{{ .close.who }}</p>
       </div>
+      {{- else }}
+      <div class="rhs two" data-reveal style="--i:3">
+        <div><a href="tel:+12019033491" onclick="return gtag_report_conversion('tel:+12019033491');">(201) 903-3491</a><p>New Jersey: call or text Spencer.</p></div>
+        <div><a href="tel:+19045406181" onclick="return gtag_report_conversion('tel:+19045406181');">(904) 540-6181</a><p>Florida: call or text Andrew.</p></div>
+      </div>
+      {{- end }}
     </div>
   </div>
 </section>

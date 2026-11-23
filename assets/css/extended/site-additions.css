@@ -1,0 +1,50 @@
+/* ==========================================================================
+   Additions for the county pages (/bergen/, /brevard/) and the shared pages, Nov 2026.
+   Loads after custom.css (files in this folder load in name order) and uses only its
+   tokens: no new colours, faces or sizes. Ported from the Nov 22 mockup's additions.css,
+   minus rules for layouts that were not chosen.
+   ========================================================================== */
+
+/* Brevard's headline is a little longer than Bergen's */
+@media (min-width: 761px) {
+  .hero-fl h1 { font-size: clamp(2.6rem, 5.7vw, 5.6rem); }
+}
+
+/* Finder: a county switch, for a finder that serves two counties (data-counties="bergen brevard").
+   No page uses one yet; site.js supports it. */
+.county { display: flex; gap: 6px; margin-top: 48px; }
+.county button { min-height: 52px; padding: 0 20px; border: 0; background: var(--surface); color: var(--ink); font-family: var(--f-text); font-size: var(--s-body); font-weight: 600; cursor: pointer; transition: background-color 180ms ease, color 180ms ease, transform 140ms var(--ease-out); }
+.county button:hover { background: var(--surface-2); }
+.county button:active { transform: scale(.98); }
+.county button[aria-pressed=true] { background: var(--ink); color: var(--bg); }
+.county + .fgrid { margin-top: 12px; }
+@media (max-width: 760px) {
+  .county { display: grid; grid-template-columns: 1fr 1fr; margin-top: 28px; }
+  .county button { padding: 0 10px; font-size: 1rem; }
+}
+
+/* Navigation: two more links than before, so the menu folds earlier */
+@media (max-width: 900px) {
+  .site-top { display: flex; }
+  .site-top nav ul { display: none; }
+  .site-top nav .button { display: none; }
+  .menu-btn { display: inline-flex; align-items: center; }
+  .site-top.open nav ul { display: flex; flex-direction: column; gap: 8px; position: absolute; left: var(--m); right: var(--m); top: 84px; background: var(--bg); padding: 16px 0 24px; z-index: 5; }
+}
+
+/* Shared closing block: both phone lines, one under the other */
+.close .rhs.two { display: flex; flex-direction: column; gap: 16px; }
+
+/* Shared page heads: both phone lines under the button */
+.ph-side .phones { display: flex; flex-direction: column; gap: 4px; }
+
+/* About: the two people, side by side on desktop */
+.people { display: grid; grid-template-columns: 1fr 1fr; gap: var(--gap); margin: 32px 0 8px; }
+.people figure { margin: 0; }
+.people img { display: block; width: 100%; height: auto; aspect-ratio: 1; object-fit: cover; filter: grayscale(1) contrast(1.05); }
+.people figcaption { margin-top: 14px; font-size: var(--s-body); line-height: 1.5; }
+.people figcaption b { display: block; font-family: var(--f-display); font-weight: 400; font-size: var(--s-lead); line-height: 1.2; margin-bottom: 6px; }
+.people figcaption a { white-space: nowrap; }
+@media (max-width: 760px) {
+  .people { grid-template-columns: 1fr; gap: 36px; }
+}

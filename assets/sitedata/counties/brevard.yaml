@@ -1,0 +1,119 @@
+# Brevard County page (/brevard/). Rendered by layouts/_default/county.html (loaded with partial "ailb/data.html").
+# Voice: "we". Andrew Herrero is the person on the ground; Spencer does the search work.
+# No AI index numbers for Brevard anywhere until a run exists and Spencer approves the wording.
+
+key: brevard
+label: "Brevard County, FL"
+name: "Brevard County"
+long: "Brevard County, Florida"
+region: fl
+
+# Hero
+h1:
+  - '<mark>Get found</mark> in'
+  - 'Brevard County.'
+stand: "We get Space Coast businesses found on Google and in ChatGPT answers, and build websites that turn those searches into calls."
+phone:
+  display: "(904) 540-6181"
+  tel: "+19045406181"
+byline: 'AI Local Business by <b>Spencer Scott Digital</b>, with Andrew Herrero in Melbourne, FL'
+mast:
+  station:
+    src: /images/brevard/historic-downtown-melbourne.jpg
+    avif: /images/brevard/historic-downtown-melbourne.avif
+    w: 1504
+    h: 1000
+    alt: "A street in historic downtown Melbourne, Florida, lined with palms, parked cars and shopfronts"
+  clip:
+    poster: /media/brevard-launch-poster.jpg
+    src: /media/brevard-launch.webm
+  rock:
+    src: /images/brevard/rocket-launch-viewed-from-the-beach-31589086402.jpg
+    avif: /images/brevard/rocket-launch-viewed-from-the-beach-31589086402.avif
+    w: 1920
+    h: 1080
+    alt: "A rocket&rsquo;s smoke trail arcs over a Brevard County beach while people watch from the sand"
+
+# Client work, in order: Brevard leads with Pure Shield
+work: [pureshield, ventviper]
+
+# Three places they look
+places:
+  intro: "Most businesses need all three. Here&rsquo;s what each one takes, and what we do about it."
+  sitePic:
+    src: /images/work/ps-phone-home.jpg
+    w: 390
+    h: 844
+    alt: "Pure Shield Restoration&rsquo;s website on a phone: Mold and water damage, handled, with a call button at the top"
+    caption: "Pure Shield Restoration, South Florida"
+  mapTown: "Melbourne"
+  aiAsk: "Who&rsquo;s a good roofer in Melbourne?"
+  aiList:
+    - "We ask ChatGPT, Gemini and Google&rsquo;s AI what your customers ask"
+    - "Fix the facts they read about you"
+    - '<a class="tl" href="/chatgpt-business-profile/">Claim your new ChatGPT business profile</a>'
+    - "Ask again every month and show you what changed"
+  endWho: "We also run"
+
+# Scattered, then found
+how:
+  intro: "Your business is already all over the internet: a half-filled profile, an old listing, reviews nobody answered, a site AI can&rsquo;t read. We pull it into one plan, then into the places your customers look."
+  fix: "A plan in plain English: what&rsquo;s broken, what it costs, what to skip. Then we do the work while you run your business."
+
+# The people section
+about:
+  facts:
+    - { b: "Based in", t: "Melbourne, FL" }
+    - { b: "Search work by", t: "Spencer Stein, over ten years" }
+    - { b: "Reach us", phone: true }
+  h2: "Andrew, in Melbourne."
+  paras:
+    - '<img class="cap-img person" src="/images/andrew/andrew-walking.jpg" width="600" height="600" loading="lazy" alt="Andrew walking down a neighborhood sidewalk, holding a small child&rsquo;s hand, seen from behind">That&rsquo;s Andrew Herrero, who lives in Melbourne and is our person on the Space Coast. He&rsquo;s a lifelong Floridian, as comfortable on his farm as he is helping clients use technology to get found and improve their business.'
+    - "Brevard&rsquo;s area code is 321. It was picked for the countdown, because the rockets go up from here. When someone in the 321 needs a roofer or an AC repair, they ask Google, the map or ChatGPT, and one business gets the call."
+    - "Spencer Stein does the search work: over a decade in SEO and digital marketing for big brands, now for local businesses in New Jersey and Florida. No guarantees, and be wary of anyone who offers one: nobody can promise the top spot on Google. What we promise is solid work, straight answers, and that you&rsquo;ll understand every move we make."
+
+# Three pictures above the closing section
+trio:
+  - { src: /images/brevard/cocoa-beach-pier-from-the-beach-2023.jpg, w: 1600, h: 1200, alt: "Cocoa Beach Pier seen from the sand, with people wading in the surf" }
+  - { src: /images/brevard/downtown-melbourne-new-haven-ave.jpg, w: 1600, h: 1200, alt: "New Haven Avenue in downtown Melbourne, Florida, early in the morning, with palms and shopfronts" }
+  - { src: /images/brevard/melbourne-beach-from-the-air.jpg, w: 1600, h: 899, alt: "Melbourne Beach, Florida, from the air: surf rolling onto the sand beside a beached sailboat" }
+
+# Closing section
+close:
+  say: "We&rsquo;ll check Google, your website and what AI says about you, then send you what we find."
+  who: "Call or text Andrew."
+
+# Overview page tile (/)
+tile:
+  text: "Melbourne, Palm Bay, Cocoa Beach and the Space Coast."
+  img: { src: /images/brevard/historic-downtown-melbourne.jpg, avif: /images/brevard/historic-downtown-melbourne.avif, w: 1504, h: 1000, alt: "A street in historic downtown Melbourne, Florida, lined with palms, parked cars and shopfronts" }
+
+# Town finder: towns are [name, ZIP]; trades are [label, Google search, ChatGPT question, note]. {t} is the town.
+finder:
+  towns:
+    - ["Melbourne", "32901"]
+    - ["Palm Bay", "32905"]
+    - ["Cocoa Beach", "32931"]
+    - ["Titusville", "32780"]
+    - ["Rockledge", "32955"]
+    - ["Satellite Beach", "32937"]
+  trades:
+    - ["AC repair", "AC repair {t} FL", "Who should I call for AC repair in {t}, FL?", "Searched from a hot living room. Few people scroll past the map."]
+    - ["Pool service", "pool service {t} FL", "Who is a good weekly pool service in {t}, FL?", "A green pool gets searched the day it turns."]
+    - ["Roofing", "roofer {t} FL", "Can you recommend a roofer in {t}, FL?", "Leaks, storm repairs, full replacements."]
+    - ["Pest control", "pest control {t} FL", "Who does pest control in {t}, FL?", "Ants, palmetto bugs, termites. Year-round work here."]
+    - ["Plumber", "emergency plumber {t} FL", "Who is the best emergency plumber in {t}, FL?", "Searched with water on the floor."]
+    - ["Water damage", "water damage restoration {t} FL", "Who should I call for water damage restoration in {t}, FL?", "Now asked of ChatGPT by name: who should I call?"]
+
+# Structured data for this page. No street address in Brevard, so areaServed only.
+schema:
+  telephone: "+1-904-540-6181"
+  areaServed:
+    - { type: AdministrativeArea, name: "Brevard County, Florida" }
+    - { type: City, name: "Melbourne, Florida" }
+    - { type: City, name: "Palm Bay, Florida" }
+    - { type: City, name: "Cocoa Beach, Florida" }
+    - { type: City, name: "Titusville, Florida" }
+    - { type: City, name: "Rockledge, Florida" }
+    - { type: City, name: "Satellite Beach, Florida" }
+

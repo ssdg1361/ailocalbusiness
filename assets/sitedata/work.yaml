@@ -1,0 +1,28 @@
+# Client work shown on the county pages. Each county file (assets/sitedata/counties/) sets the order.
+ventviper:
+  region: nj
+  name: "Vent Viper"
+  url: "https://ventviperenterprises.com/"
+  what: "Dryer vents, ducts and gutters, Wyckoff"
+  year: 2026
+  text: "New site, Google presence set up, reviews coming in. A one-truck operation getting found like a bigger one."
+  shots:
+    - { src: /images/work/vv-home.jpg, w: 1440, h: 900, alt: "Vent Viper home page: a dark site with the headline Tight ducts, clean lines, one local guy" }
+    - { src: /images/work/vv-phone-row.jpg, w: 1560, h: 844, alt: "Four phone screens of the Vent Viper site, with the call button near the thumb" }
+    - { src: /images/work/vv-about.jpg, w: 1440, h: 900, alt: "Vent Viper about page introducing owner Danny Dooner of Wyckoff" }
+    - { src: /images/work/vv-phone.jpg, w: 390, h: 844, alt: "Vent Viper home page on a phone" }
+
+pureshield:
+  region: fl
+  name: "Pure Shield Restoration"
+  url: "https://pureshieldrestoration.com/"
+  what: "Mold and water damage, South Florida"
+  year: 2026
+  text: "Site built from scratch, Google set up, a page for every town they serve, visibility growing month by month."
+  shots:
+    - { src: /images/work/ps-home.jpg, w: 1440, h: 900, alt: "Pure Shield Restoration home page: Mold and water damage, handled." }
+    - { src: /images/work/ps-phone-home.jpg, w: 390, h: 844, alt: "Pure Shield home page on a phone, with a photo of mold on a wall" }
+    - { src: /images/work/ps-mold.jpg, w: 1440, h: 900, alt: "Pure Shield mold remediation page: Mold Remediation in South Florida" }
+    - { src: /images/work/ps-phone-jobs.jpg, w: 390, h: 844, alt: "Pure Shield home page on a phone, showing a Parkland ceiling mold job" }
+    - { src: /images/work/ps-boca-desk.jpg, w: 1440, h: 900, alt: "Pure Shield Boca Raton page with a thermal camera photo" }
+    - { src: /images/work/ps-boca.jpg, w: 390, h: 844, alt: "Pure Shield Boca Raton page on a phone" }

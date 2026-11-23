@@ -17,13 +17,13 @@
       {{- else if eq .RelPermalink "/audit/" }}
       {{- /* On the free check page itself, the button goes down to the form instead of reloading the page. */}}
       <a class="button" href="#form">Free presence check</a>
-      <a class="tl" href="tel:+12019033491" onclick="return gtag_report_conversion('tel:+12019033491');">or call (201) 903-3491</a>
+      {{ partial "ailb/phones.html" . }}
       {{- else }}
       <a class="button" href="/audit/" onclick="return gtag_report_conversion('/audit/');">Free presence check</a>
-      <a class="tl" href="tel:+12019033491" onclick="return gtag_report_conversion('tel:+12019033491');">or call (201) 903-3491</a>
+      {{ partial "ailb/phones.html" . }}
       {{- end }}
     </div>
-    {{- with .Description }}<p class="dek" data-rise style="--i:2">{{ . }}</p>{{ end }}
+    {{- with (.Params.lead | default .Description) }}<p class="dek" data-rise style="--i:2">{{ . }}</p>{{ end }}
   </div>
 </header>
 
@@ -58,6 +58,7 @@
     {{- end }}
 
     {{- if not $isPost }}
+    {{- if eq .Params.region "bergen" }}
     <div>
       <h2>Talk to Spencer</h2>
       <ol>
@@ -66,6 +67,16 @@
         <li>Glen Rock, NJ</li>
       </ol>
     </div>
+    {{- else }}
+    <div>
+      <h2>Talk to us</h2>
+      <ol>
+        <li>New Jersey: <a href="tel:+12019033491" onclick="return gtag_report_conversion('tel:+12019033491');">(201) 903-3491</a>, Spencer</li>
+        <li>Florida: <a href="tel:+19045406181" onclick="return gtag_report_conversion('tel:+19045406181');">(904) 540-6181</a>, Andrew</li>
+        <li><a href="mailto:spencerscottdigital@gmail.com">spencerscottdigital@gmail.com</a></li>
+      </ol>
+    </div>
+    {{- end }}
     {{- end }}
   </aside>
 
@@ -118,6 +129,9 @@
 {{- end }}
 {{- end }}
 
-{{ partial "close.html" (dict "heading" (cond $isPost "Want this looked at for your business?" "Find out where you stand.") "onAudit" (eq .RelPermalink "/audit/")) }}
+{{- /* Pages that belong to one county (front matter region: bergen) close with that county's block; the rest close with the shared one. */}}
+{{- $closeCounty := "" }}
+{{- with .Params.region }}{{ $closeCounty = partial "ailb/data.html" (printf "counties/%s" .) }}{{ end }}
+{{ partial "close.html" (dict "heading" (cond $isPost "Want this looked at for your business?" "Find out where you stand.") "onAudit" (eq .RelPermalink "/audit/") "county" $closeCounty) }}
 
 {{- end }}

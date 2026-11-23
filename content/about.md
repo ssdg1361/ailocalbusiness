@@ -1,6 +1,8 @@
 ---
 title: "About AI Local Business"
-description: "AI Local Business is a Bergen County based digital marketing agency helping businesses in Paramus, Fair Lawn, Hackensack and all of North Jersey get found on Google and AI search platforms — and back it with websites that perform."
+seoTitle: "About AI Local Business"
+description: "AI Local Business gets local service businesses found on Google, the map and AI answers like ChatGPT, and builds websites that turn those searches into calls. Bergen County, NJ and Brevard County, FL."
+lead: "AI Local Business gets local service businesses found on Google, on the map and in AI answers like ChatGPT, and builds the websites that turn those searches into calls. We work in Bergen County, New Jersey and Brevard County, Florida."
 url: /about/
 layout: "single"
 hidemeta: true
@@ -9,43 +11,50 @@ keywords:
   - AI Local Business
   - Spencer Scott Digital
   - digital marketing Bergen County NJ
+  - digital marketing Brevard County FL
+  - local SEO Melbourne FL
   - Bergen County SEO expert
   - local SEO consultant
-  - Paramus digital marketing
-  - Fair Lawn SEO
-  - Hackensack digital marketing
   - website design Bergen County
-h1: "Hi, I'm Spencer. I live here too."
-photo:
-  src: "/images/spencer/spencer-and-son-wide.jpg"
-  alt: "Spencer and his young son sweeping a basketball court at a park in Glen Rock, New Jersey"
-  tall: true
+  - website design Brevard County
+h1: "We live where our clients work."
 ---
 
-AI Local Business is a Bergen County based digital marketing studio helping businesses in Paramus, Fair Lawn, Hackensack and all of North Jersey get found on Google and AI search platforms like ChatGPT and Perplexity — and back it with websites built to actually perform.
+## How it started
 
-## Hi, I'm Spencer.
+Spencer Stein spent over a decade in SEO and performance marketing for big brands. Living in Glen Rock, New Jersey, he kept seeing the same thing: great local businesses that were invisible online, getting by on word of mouth and a Google listing set up years ago. He started AI Local Business to fix that for the businesses he drives past every day.
 
-I'm a digital marketer with over a decade of experience in SEO and performance marketing, living in Bergen County, New Jersey. I started *AI Local Business* to solve a problem I kept seeing in my own community: great local businesses that were invisible online.
+## Why now
 
-The Bergen County area is home to some of the best service professionals, restaurants, and small businesses in the state. But most of them are relying on word of mouth and a Google listing they set up years ago — if they have a website or digital presence at all.
+The way people find a local business is changing. Someone asks ChatGPT "who's the best AC company near Melbourne?" and Google answers with AI before anyone clicks a link. For most local businesses, they aren't part of that answer yet.
 
-Meanwhile, the way people find local businesses is changing fast — and it's not just Google anymore. When someone asks ChatGPT "who's the best HVAC company near Ridgewood?" or asks Perplexity about "top-rated plumbers in Teaneck," your business should be part of that answer. Right now, for most local businesses, it isn't.
+That's what we fix: Google (your Business Profile, your reviews and the searches people in your town actually make), AI answers, a website built to get calls, and ads on Google and Meta when they make sense. Each part makes the others stronger. A good site makes your Google profile stronger, and both make AI more likely to recommend you.
 
-**That's what I fix.**
+## Who you're dealing with
 
-The work covers whatever a local business needs digitally: **showing up on Google** (your Business Profile, reviews, and the searches people in your town actually make), **showing up in AI answers** (when someone asks ChatGPT or Gemini for a recommendation), **a website built to get calls**, and **ads on Google and Meta** when they make sense. It all reinforces itself. A good site makes your Google profile stronger, and both make AI more likely to recommend you.
+Two people, one in each county.
 
-The way I work: AI efficiency with a real human behind it. I use the same AI tools that are reshaping search to do the work faster than an agency with a big payroll, and I'm the human who checks it, explains it, and answers the phone.
+{{< rawhtml >}}
+<div class="people">
+  <figure>
+    <img src="/images/spencer/spencer-and-son-square.jpg" width="600" height="600" loading="lazy" alt="Spencer and his young son sweeping a basketball court at a park in Glen Rock, New Jersey">
+    <figcaption><b>Spencer Stein, Glen Rock, NJ.</b> Does the search work and builds the sites, and picks up his own phone. <a href="tel:+12019033491" onclick="return gtag_report_conversion('tel:+12019033491');">(201) 903-3491</a>.</figcaption>
+  </figure>
+  <figure>
+    <img src="/images/andrew/andrew-walking.jpg" width="600" height="600" loading="lazy" alt="Andrew walking down a neighborhood sidewalk, holding a small child&rsquo;s hand, seen from behind">
+    <figcaption><b>Andrew Herrero, Melbourne, FL.</b> A lifelong Floridian, as comfortable on his farm as he is helping clients use technology to get found and improve their business. Our person on the Space Coast. <a href="tel:+19045406181" onclick="return gtag_report_conversion('tel:+19045406181');">(904) 540-6181</a>.</figcaption>
+  </figure>
+</div>
+{{< /rawhtml >}}
 
-The goal is simple: when a potential customer searches for what you do, in any way they search for it, they find you.
+## How we work
 
-## Why local?
+AI efficiency with real people behind it. We use the same AI tools that are reshaping search to do the work faster than an agency with a big payroll, and a person checks it, explains it and answers the phone.
 
-I live here. I shop at the same stores, eat at the same restaurants, and hire the same service providers as your customers. When I help a local business get found online, I'm improving my own community. That matters to me more than working with a faceless company three states away.
+No guarantees, and be wary of anyone who offers one: nobody can promise the top spot on Google. What we promise is solid work, straight answers, and that you'll understand every move we make.
 
-## Let's talk
+## Why local
 
-If you're a Bergen County business owner curious about where you stand online, I'd love to show you. The check is free, the conversation is casual, and there's zero pressure.
+We live in the towns we work in. We shop at the same stores and hire the same service providers as your customers. Helping a local business get found makes our own community better, and that matters more to us than working for a faceless company three states away.
 
-**[Get your free online presence check →](/audit/)**, email me at [spencerscottdigital@gmail.com](mailto:spencerscottdigital@gmail.com), or call or text **[(201) 903-3491](tel:+12019033491)**.
+See what we do in [Bergen County](/bergen/) and [Brevard County](/brevard/), or [ask for your free check](/audit/).

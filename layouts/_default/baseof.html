@@ -1,0 +1,32 @@
+{{- /* Site override of PaperMod's baseof.html (theme 3bb0ca2). Two changes:
+       1. bodyClass front matter sets the <body> class (home: "list ova"; county pages: "list cty nj" / "list cty fl in-color").
+       2. The footer cache also keys on the county, so links to the free check from a county page carry ?county=. */ -}}
+{{- if lt hugo.Version "0.146.0" }}
+{{- errorf "=> hugo v0.146.0 or greater is required for hugo-PaperMod to build " }}
+{{- end -}}
+
+<!DOCTYPE html>
+{{- $theme := site.Params.defaultTheme | default "auto" }}
+{{- if eq $theme "dark" }}
+<html lang="{{ site.Language }}" dir="{{ .Language.LanguageDirection | default "auto" }}" data-theme="dark">
+{{- else if eq $theme "light" }}
+<html lang="{{ site.Language }}" dir="{{ .Language.LanguageDirection | default "auto" }}" data-theme="light">
+{{- else }}
+<html lang="{{ site.Language }}" dir="{{ .Language.LanguageDirection | default "auto" }}" data-theme="auto">
+{{- end }}
+
+<head>
+    {{- partial "head.html" . }}
+</head>
+
+{{- $bodyClass := .Params.bodyClass }}
+{{- if and (not $bodyClass) (or (ne .Kind `page` ) (eq .Layout `archives`) (eq .Layout `search`)) }}{{ $bodyClass = "list" }}{{ end }}
+<body{{ with $bodyClass }} class="{{ . }}"{{ end }} id="top">
+    {{ partialCached "header.html" . .Page -}}
+    <main class="main">
+        {{- block "main" . }}{{ end }}
+    </main>
+    {{ partialCached "footer.html" . .Layout .Kind (.Param "hideFooter") (.Param "ShowCodeCopyButtons") (.Params.county | default "") -}}
+</body>
+
+</html>

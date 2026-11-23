@@ -7,6 +7,7 @@ hidemeta: true
 showtoc: true
 tags: ["bergen-county", "local-seo", "aeo"]
 categories: ["Services"]
+region: bergen
 faq:
   - question: "How much does SEO cost in Bergen County?"
     answer: "Local SEO for a Bergen County small business typically runs from $500 to $2,000 per month depending on how competitive your service and town are. Some of the highest-impact work — like Google Business Profile optimization — has a one-time setup cost. I scope every engagement to the specific market, so you only pay for work that moves your rankings."
@@ -56,7 +57,7 @@ Everything here points at one outcome: more booked work.
 
 ## Where I work
 
-I'm based in Bergen County and build visibility across it and the surrounding North Jersey towns — with deep roots right here in Glen Rock, Ridgewood, and Paramus. Wherever your customers are in the county, I can help them find you.
+I'm based in Bergen County and build visibility across it and the surrounding North Jersey towns — with deep roots right here in Glen Rock, Ridgewood, and Paramus. Wherever your customers are in the county, I can help them find you. To see who gets the call in your town right now, try the town finder on the [Bergen County page](/bergen/).
 
 ---
 
@@ -72,7 +73,7 @@ You also deal directly with me: the person writing the copy, checking the schema
 
 The first step costs nothing. Let's find out exactly what happens when your customers search for you — on Google, in the Map Pack, and in ChatGPT.
 
-**[Get your free AI search audit →](/audit/)** or call or text **[(201) 903-3491](tel:+12019033491)**.
+**[Get your free AI search audit →](/audit/?county=bergen)** or call or text **[(201) 903-3491](tel:+12019033491)**.
 
 No pitch, no pressure — just a clear picture of where you're winning and where you're missing calls.
 
