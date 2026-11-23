@@ -7,9 +7,13 @@
     <h2 id="h-foot" class="fword">AI Local Business<i>.</i></h2>
     <div class="grid frow">
       <div class="places">
+        {{- if .IsHome }}{{/* Home page: both people, then the one (NJ) number for now. */}}
+        <span>Spencer, Glen Rock, NJ</span>
+        <span>Andrew, Melbourne, FL</span>
+        <a href="tel:+12019033491" onclick="return gtag_report_conversion('tel:+12019033491');">(201) 903-3491</a>
+        {{- else }}
         <a href="tel:+12019033491" onclick="return gtag_report_conversion('tel:+12019033491');">(201) 903-3491</a>
         <span>Spencer, Glen Rock, New Jersey</span>
-        {{- if not .IsHome }}{{/* Home page shows only the NJ number for now. */}}
         <a href="tel:+19045406181" onclick="return gtag_report_conversion('tel:+19045406181');">(904) 540-6181</a>
         <span>Andrew, Melbourne, Florida</span>
         {{- end }}
