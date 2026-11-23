@@ -1,5 +1,5 @@
 # Brevard County page (/brevard/). Rendered by layouts/_default/county.html (loaded with partial "ailb/data.html").
-# Voice: "we". Andrew Herrero is the person on the ground; Spencer does the search work.
+# Voice: "we". Andrew is the person on the ground; Spencer does the search work.
 # No AI index numbers for Brevard anywhere until a run exists and Spencer approves the wording.
 
 key: brevard
@@ -16,7 +16,7 @@ stand: "We get Space Coast businesses found on Google and in ChatGPT answers, an
 phone:
   display: "(904) 540-6181"
   tel: "+19045406181"
-byline: 'AI Local Business by <b>Spencer Scott Digital</b>, with Andrew Herrero in Melbourne, FL'
+byline: 'AI Local Business by <b>Spencer Scott Digital</b>, with Andrew in Melbourne, FL'
 mast:
   station:
     src: /images/brevard/historic-downtown-melbourne.jpg
@@ -64,13 +64,13 @@ how:
 about:
   facts:
     - { b: "Based in", t: "Melbourne, FL" }
-    - { b: "Search work by", t: "Spencer Stein, over ten years" }
+    - { b: "Search work by", t: "Spencer, over ten years" }
     - { b: "Reach us", phone: true }
   h2: "Andrew, in Melbourne."
   paras:
-    - '<img class="cap-img person" src="/images/andrew/andrew-walking.jpg" width="600" height="600" loading="lazy" alt="Andrew walking down a neighborhood sidewalk, holding a small child&rsquo;s hand, seen from behind">That&rsquo;s Andrew Herrero, who lives in Melbourne and is our person on the Space Coast. He&rsquo;s a lifelong Floridian, as comfortable on his farm as he is helping clients use technology to get found and improve their business.'
+    - '<img class="cap-img person" src="/images/andrew/andrew-walking.jpg" width="600" height="600" loading="lazy" alt="Andrew walking down a neighborhood sidewalk, holding a small child&rsquo;s hand, seen from behind">That&rsquo;s Andrew, who lives in Melbourne and is our person on the Space Coast. He&rsquo;s a lifelong Floridian, as comfortable on his farm as he is helping clients use technology to get found and improve their business.'
     - "Brevard&rsquo;s area code is 321. It was picked for the countdown, because the rockets go up from here. When someone in the 321 needs a roofer or an AC repair, they ask Google, the map or ChatGPT, and one business gets the call."
-    - "Spencer Stein does the search work: over a decade in SEO and digital marketing for big brands, now for local businesses in New Jersey and Florida. No guarantees, and be wary of anyone who offers one: nobody can promise the top spot on Google. What we promise is solid work, straight answers, and that you&rsquo;ll understand every move we make."
+    - "Spencer does the search work: over a decade in SEO and digital marketing for big brands, now for local businesses in New Jersey and Florida. No guarantees, and be wary of anyone who offers one: nobody can promise the top spot on Google. What we promise is solid work, straight answers, and that you&rsquo;ll understand every move we make."
 
 # Three pictures above the closing section
 trio:

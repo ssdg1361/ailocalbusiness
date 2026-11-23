@@ -9,8 +9,10 @@
       <div class="places">
         <a href="tel:+12019033491" onclick="return gtag_report_conversion('tel:+12019033491');">(201) 903-3491</a>
         <span>Spencer, Glen Rock, New Jersey</span>
+        {{- if not .IsHome }}{{/* Home page shows only the NJ number for now. */}}
         <a href="tel:+19045406181" onclick="return gtag_report_conversion('tel:+19045406181');">(904) 540-6181</a>
         <span>Andrew, Melbourne, Florida</span>
+        {{- end }}
         <a href="mailto:spencerscottdigital@gmail.com">spencerscottdigital@gmail.com</a>
       </div>
       <div class="fcols">

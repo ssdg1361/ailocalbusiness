@@ -22,7 +22,7 @@ h1: "We live where our clients work."
 
 ## How it started
 
-Spencer Stein spent over a decade in SEO and performance marketing for big brands. Living in Glen Rock, New Jersey, he kept seeing the same thing: great local businesses that were invisible online, getting by on word of mouth and a Google listing set up years ago. He started AI Local Business to fix that for the businesses he drives past every day.
+Spencer spent over a decade in SEO and performance marketing for big brands. Living in Glen Rock, New Jersey, he kept seeing the same thing: great local businesses that were invisible online, getting by on word of mouth and a Google listing set up years ago. He started AI Local Business to fix that for the businesses he drives past every day.
 
 ## Why now
 
@@ -38,11 +38,11 @@ Two people, one in each county.
 <div class="people">
   <figure>
     <img src="/images/spencer/spencer-and-son-square.jpg" width="600" height="600" loading="lazy" alt="Spencer and his young son sweeping a basketball court at a park in Glen Rock, New Jersey">
-    <figcaption><b>Spencer Stein, Glen Rock, NJ.</b> Does the search work and builds the sites, and picks up his own phone. <a href="tel:+12019033491" onclick="return gtag_report_conversion('tel:+12019033491');">(201) 903-3491</a>.</figcaption>
+    <figcaption><b>Spencer, Glen Rock, NJ.</b> Does the search work and builds the sites, and picks up his own phone. <a href="tel:+12019033491" onclick="return gtag_report_conversion('tel:+12019033491');">(201) 903-3491</a>.</figcaption>
   </figure>
   <figure>
     <img src="/images/andrew/andrew-walking.jpg" width="600" height="600" loading="lazy" alt="Andrew walking down a neighborhood sidewalk, holding a small child&rsquo;s hand, seen from behind">
-    <figcaption><b>Andrew Herrero, Melbourne, FL.</b> A lifelong Floridian, as comfortable on his farm as he is helping clients use technology to get found and improve their business. Our person on the Space Coast. <a href="tel:+19045406181" onclick="return gtag_report_conversion('tel:+19045406181');">(904) 540-6181</a>.</figcaption>
+    <figcaption><b>Andrew, Melbourne, FL.</b> A lifelong Floridian, as comfortable on his farm as he is helping clients use technology to get found and improve their business. Our person on the Space Coast. <a href="tel:+19045406181" onclick="return gtag_report_conversion('tel:+19045406181');">(904) 540-6181</a>.</figcaption>
   </figure>
 </div>
 {{< /rawhtml >}}
